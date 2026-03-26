@@ -1,1 +1,92 @@
 
+{
+  "id": "MA-1",
+  "title": "UAV Structural Components Manufacturing",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$18M – $38M",
+  "entry_mechanism": "Turkish-Saudi JV under Baykar co-production framework",
+  "executive_summary": "Saudi Arabia's most visible near-term UAV co-production commitment centres on the Baykar Akinci MALE-class twin-turboprop system. SAMI CEO Walid Abukhaled has publicly committed to building the Akinci airframe in-Kingdom — a statement that directly defines this node's mandate. MA-1 is the structural manufacturing capability that makes that commitment real: composite and aluminium sub-assemblies, including wing structural elements, fuselage panels, control surfaces, and structural fittings, produced in Saudi Arabia to Baykar's technical acceptance standard.\n\nThe global composite UAV airframe market was valued at $1.85 billion in 2024 and is projected to reach $4.81 billion by 2031 at a CAGR of 16.5%. Saudi Arabia's own UAV demand — anchored by the Akinci programme and future sovereign MALE requirements under GADD — provides a captive domestic demand base that de-risks the investment.\n\nThis node is Phase I priority because it directly enables the Akinci co-production timeline, builds composite manufacturing capability that transfers to commercial aerospace (Node CA-2) and future military aircraft programmes, and establishes Saudi Arabia's first credible Tier 2 aerostructures position.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Baykar",
+      "country": "Turkey",
+      "type": "JV Manufacturing Partner",
+      "rationale": "Mandatory partner holding the Akinci TDP and existing MOU with SAMI.",
+      "contact": "SAMI VP Programmes → Baykar Head of International Co-production"
+    },
+    {
+      "rank": 2,
+      "name": "Sonaca",
+      "country": "Belgium",
+      "type": "Technology Transfer Partner",
+      "rationale": "Tier 1/2 aerostructures with active Gulf interest; interim partner if Baykar MLA delayed.",
+      "contact": "Sonaca VP Business Development, Middle East & Africa"
+    },
+    {
+      "rank": 3,
+      "name": "GKN Aerospace",
+      "country": "UK",
+      "type": "Phase II Partner",
+      "rationale": "World's largest independent aerostructures Tier 1; F-35, A350, 787 pedigree; existing Saudi engagement.",
+      "contact": "GKN Aerospace VP Strategy and M&A"
+    },
+    {
+      "rank": 4,
+      "name": "Daher",
+      "country": "France",
+      "type": "Composite SME / Technology Transfer",
+      "rationale": "French Tier 2 with strong technology transfer track record; more agile JV partner than large primes.",
+      "contact": "Daher VP Aerostructures, International Programmes"
+    },
+    {
+      "rank": 5,
+      "name": "Turkish Aerospace Industries (TAI)",
+      "country": "Turkey",
+      "type": "Co-production Partner",
+      "rationale": "Direct insight into Baykar supply chain standards; existing SAMI relationship through T129 programme.",
+      "contact": "TAI VP International Co-operation"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Composites LLC",
+      "track": "Track 2",
+      "current": "Basic composite fabrication, limited autoclave access",
+      "upgrade": "AS9100 programme + autoclave investment + Baykar secondment + 25 Saudi operator training",
+      "timeline": "18–24 months",
+      "anchor": "SAMI"
+    },
+    {
+      "rank": 2,
+      "name": "SABIC Composites",
+      "track": "Track 7",
+      "current": "Carbon fibre precursor and polymer matrix R&D, materials supply",
+      "upgrade": "Local prepreg supply agreement + embedded R&D team in JV + Baykar material qualification",
+      "timeline": "24–36 months for prepreg qualification",
+      "anchor": "Aramco + SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Materials Engineering",
+      "track": "Track 8",
+      "current": "Composite fabrication research, NDT lab, materials testing",
+      "upgrade": "GADD-KFUPM training programme + industrial placement + NDT lab certification",
+      "timeline": "18 months to first qualified graduates",
+      "anchor": "GADD + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "Al-Rushaid Group",
+      "track": "Track 3",
+      "current": "Heavy fabrication, CNC machining for oil and gas",
+      "upgrade": "5-axis CNC upgrade + AS9100 Tier 3 qualification + chemical processing line",
+      "timeline": "18–24 months",
+      "anchor": "SAMI + GAMI"
+    }
+  ]
+}
