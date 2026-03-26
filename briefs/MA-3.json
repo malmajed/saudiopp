@@ -1,0 +1,91 @@
+{
+  "id": "MA-3",
+  "title": "Ground Support Equipment Manufacturing",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$8M – $18M",
+  "entry_mechanism": "PSAP Track 3 Supplier Development — Saudi manufacturer with European GSE licensor",
+  "executive_summary": "Node MA-3 targets Saudi manufacturing of non-ITAR aviation Ground Support Equipment — the most accessible manufacturing entry point in the military aerospace node set. Power carts, hydraulic test units, jacks, and tow bars are manufactured using standard industrial engineering processes that Saudi Arabia already has in its industrial base. This is the ideal Phase I confidence-builder: achievable within 12–18 months, verifiable by GAMI, and creating the first Saudi aerospace supplier genuinely independent of ITAR restrictions or OEM licensing.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "TLD Group",
+      "country": "France/USA",
+      "type": "Technology Licensor",
+      "rationale": "World's largest independent GSE manufacturer; licensing track record; 400Hz GPU and tow tractor designs.",
+      "contact": "TLD VP International Licensing and OEM Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Tronair",
+      "country": "USA",
+      "type": "Technical Partner / Licensor",
+      "rationale": "Military GSE specialist with QPL listings; existing RSAF contract familiarity.",
+      "contact": "Tronair VP Government Sales and International Business"
+    },
+    {
+      "rank": 3,
+      "name": "Textron GSE",
+      "country": "USA",
+      "type": "Military GSE Supplier",
+      "rationale": "US military GPU and maintenance equipment supply; existing Saudi Bell helicopter relationship.",
+      "contact": "Textron GSE VP International Sales"
+    },
+    {
+      "rank": 4,
+      "name": "Mallaghan",
+      "country": "Ireland",
+      "type": "Accessible Licensing Partner",
+      "rationale": "Growing GSE manufacturer; fewer ITAR complications; open to international manufacturing partnerships.",
+      "contact": "Mallaghan CEO / VP Sales, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Absolute Hydraulics",
+      "country": "UK",
+      "type": "Hydraulic Test Stand Specialist",
+      "rationale": "Aerospace-grade hydraulic test equipment; no ITAR/EAR complications; licensable designs.",
+      "contact": "Commercial Director, International OEM"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "ARASCO Engineering",
+      "track": "Track 3",
+      "current": "CNC machining, hydraulic assembly for oil and gas",
+      "upgrade": "AS9100 programme + TLD/Tronair licensing + dedicated aerospace GSE production line",
+      "timeline": "15–18 months",
+      "anchor": "SAMI + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "Al-Babtain Group",
+      "track": "Track 3",
+      "current": "Industrial electrical assembly, switchgear, power distribution",
+      "upgrade": "400Hz GPU assembly line (TLD licensed) + IPC-A-610 + AS9100 for GPU product line",
+      "timeline": "12–18 months",
+      "anchor": "Alsalam + GACO"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco Industrial Services (AMSCO)",
+      "track": "Track 7",
+      "current": "Pressure vessel fabrication, precision machining, electrical panels",
+      "upgrade": "AS9100 qualification + GSE structural components as Tier 2 supplier",
+      "timeline": "18 months",
+      "anchor": "Aramco + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "KAEC Industrial Valley",
+      "track": "Track 5",
+      "current": "Industrial real estate and shared utilities",
+      "upgrade": "Attract dedicated GSE startup with PSAP regulatory sandbox support",
+      "timeline": "24–30 months from company formation",
+      "anchor": "KAEC Authority + SAMI + GAMI"
+    }
+  ]
+}

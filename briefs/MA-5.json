@@ -1,0 +1,91 @@
+{
+  "id": "MA-5",
+  "title": "Aerostructures Manufacturing (Tier 2)",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$85M – $160M",
+  "entry_mechanism": "PSAP Track 1/2 — attract international Tier 2 aerostructures manufacturer to Saudi JV at KAEC",
+  "executive_summary": "Node MA-5 is the Phase II aerostructures step-change: from UAV sub-assemblies (MA-1) to full Tier 2 structural assembly manufacturing with NADCAP accreditation for fixed-wing military aircraft. A NADCAP-accredited Saudi Tier 2 manufacturer can compete for work packages on technical merit alongside established global suppliers. Without NADCAP, Saudi manufacturers are permanently limited to Tier 3 component supply. MA-5 is the credentialisation step that opens the door to the global aerospace supply chain — dependent on Phase I foundations from MA-1 and MA-3.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Sonaca",
+      "country": "Belgium",
+      "type": "JV Manufacturing Partner",
+      "rationale": "Tier 1/2 aerostructures with Airbus/Boeing supply chain pedigree; active Gulf manufacturing interest; non-ITAR.",
+      "contact": "Sonaca VP Business Development, Middle East & Africa"
+    },
+    {
+      "rank": 2,
+      "name": "Daher",
+      "country": "France",
+      "type": "JV Partner / Technology Transfer",
+      "rationale": "French Tier 2 with composite and metallic aerostructures; more agile JV partner; non-ITAR.",
+      "contact": "Daher VP Aerostructures, International Programmes"
+    },
+    {
+      "rank": 3,
+      "name": "Ducommun",
+      "country": "USA",
+      "type": "Tier 2 Aerostructures Partner",
+      "rationale": "US Tier 2 with aluminium and titanium structural assemblies; F-35 supply chain; IPP leverage available.",
+      "contact": "Ducommun VP International Business Development"
+    },
+    {
+      "rank": 4,
+      "name": "Triumph Group",
+      "country": "USA",
+      "type": "Aerostructures / MRO Tier 2",
+      "rationale": "Tier 2 with metallic aerostructures and component repair; prior Saudi engagement; IPP candidates.",
+      "contact": "Triumph Group VP International Programmes"
+    },
+    {
+      "rank": 5,
+      "name": "GKN Aerospace",
+      "country": "UK",
+      "type": "Tier 1 Technology Partner",
+      "rationale": "F-35 and A350 aerostructures pedigree; Saudi Arabia Vision 2030 engagement; Phase II–III partner.",
+      "contact": "GKN Aerospace VP Strategy and M&A"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI / SAMI Engineering",
+      "track": "Track 2",
+      "current": "Final assembly experience, growing composite and machining base from Phase I",
+      "upgrade": "Phase II JV with international Tier 2 + NADCAP accreditation programme + 30 structural engineers",
+      "timeline": "36 months to NADCAP full suite",
+      "anchor": "SAMI + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "KAEC Precision Machining Platform",
+      "track": "Track 5",
+      "current": "Phase I machining infrastructure established by MA-3 and MA-1",
+      "upgrade": "Scale to 5-axis large-format machining + chemical processing expansion + aerospace-grade quality system",
+      "timeline": "Depends on Phase I completion (MA-1, MA-3)",
+      "anchor": "KAEC + SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM / KAUST Aerospace Graduate Pipeline",
+      "track": "Track 8",
+      "current": "Phase I technical graduates feeding MA-1 and MA-3 roles",
+      "upgrade": "Phase II 15-engineer cohort for 12-month Tier 2 immersion at partner facility (Sonaca/Daher Europe)",
+      "timeline": "Ready for Phase II roles after 12-month immersion",
+      "anchor": "GADD + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Standards Authority (SASO) / SASO NADCAP Office",
+      "track": "Track 6",
+      "current": "Standards body with aerospace certification oversight",
+      "upgrade": "Establish a SASO-NADCAP liaison office to streamline NADCAP audit coordination for Saudi facilities",
+      "timeline": "12 months to office establishment",
+      "anchor": "GAMI + SASO"
+    }
+  ]
+}

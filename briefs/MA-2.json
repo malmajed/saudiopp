@@ -1,0 +1,91 @@
+{
+  "id": "MA-2",
+  "title": "Military Aviation MRO Expansion",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$280M – $520M (Phases I and II combined)",
+  "entry_mechanism": "Alsalam expansion as primary vehicle + PSAP-attracted international MRO specialists",
+  "executive_summary": "Saudi Arabia operates one of the largest military aviation fleets in the world — approximately 850 aircraft — with the majority of heavy maintenance and engine overhaul performed outside the Kingdom. Node MA-2 targets full-spectrum in-Kingdom MRO capability across heavy maintenance, engine shop overhaul, and component repair. The strategic case is existential: operational sovereignty requires the ability to maintain the fleet without foreign permission. The economic case is equally compelling: $1.8–2.4 billion per year in MRO spending currently leaving the Kingdom represents a massive import substitution and high-skill employment opportunity.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "BAE Systems",
+      "country": "UK",
+      "type": "JV Expansion Partner / IPP Converter",
+      "rationale": "Alsalam JV partner with largest active IPP obligation in Saudi Arabia; Typhoon MRO benchmark.",
+      "contact": "BAE Systems KSA Managing Director → BAE VP International Programmes"
+    },
+    {
+      "rank": 2,
+      "name": "StandardAero",
+      "country": "USA/Canada",
+      "type": "Engine Shop Partner",
+      "rationale": "World's largest independent engine MRO; GE F110 and T700 capability; active Gulf interest.",
+      "contact": "StandardAero VP Business Development, Government & Defence"
+    },
+    {
+      "rank": 3,
+      "name": "Lufthansa Technik",
+      "country": "Germany",
+      "type": "Full MRO Capability Partner",
+      "rationale": "World's leading independent MRO; track record of international JVs; existing Saudi Technic relationships.",
+      "contact": "LHT VP MRO Joint Ventures and International"
+    },
+    {
+      "rank": 4,
+      "name": "ST Engineering Aerospace",
+      "country": "Singapore",
+      "type": "Airframe MRO Partner",
+      "rationale": "F-15 and helicopter heavy maintenance experience; sovereign military MRO benchmark.",
+      "contact": "ST Engineering VP Defence Aerospace, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Rolls-Royce",
+      "country": "UK",
+      "type": "Engine Licensor",
+      "rationale": "IPP obligations through Tornado/Typhoon; commercial interest in Saudi licensed engine overhaul.",
+      "contact": "Rolls-Royce KSA Country Director → VP Defence Aftermarket"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Alsalam Aircraft Company",
+      "track": "Track 2",
+      "current": "F-15 heavy maintenance, line maintenance, some component repair",
+      "upgrade": "Expanded F-15SA scope + Typhoon capability + 2 engine test cells + 200 additional Saudi technicians",
+      "timeline": "24–30 months for Phase I expansion",
+      "anchor": "SAMI + RSAF"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco Aviation",
+      "track": "Track 3",
+      "current": "Bell/Sikorsky/Airbus helicopter line and base maintenance",
+      "upgrade": "Military Black Hawk/Chinook qualification + GE T700 engine shop + dual-use civil-military operation",
+      "timeline": "18–24 months",
+      "anchor": "Aramco + RSAF"
+    },
+    {
+      "rank": 3,
+      "name": "Saudia Technic",
+      "track": "Track 3",
+      "current": "EASA Part 145 for commercial aircraft; Airbus/Boeing heavy maintenance",
+      "upgrade": "Extend Part 145 to military configurations + QMS documentation support to Alsalam",
+      "timeline": "12 months to meaningful support role",
+      "anchor": "GACA + Alsalam"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Aerospace Engineering",
+      "track": "Track 8",
+      "current": "Academic aerospace engineering; limited workshop experience",
+      "upgrade": "Alsalam industrial placement (50 students/year) + AME licence programme + avionics lab upgrade",
+      "timeline": "24 months to first AME-licensed graduates",
+      "anchor": "GACA + GADD + Alsalam"
+    }
+  ]
+}

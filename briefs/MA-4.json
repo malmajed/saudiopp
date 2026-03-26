@@ -1,0 +1,91 @@
+{
+  "id": "MA-4",
+  "title": "UAV Software Integration",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$12M – $25M",
+  "entry_mechanism": "PSAP Track 6 GADD co-development + Track 1 defence software company attraction",
+  "executive_summary": "Software sovereignty in military UAV systems is more strategically significant than hardware sovereignty. A UAV whose mission planning, ground control, and navigation software is foreign-owned is a foreign-controlled system regardless of where its airframe was built. Node MA-4 establishes Saudi software engineering capability for UAV ground and mission systems, starting with the Akinci programme and building the engineering foundation for GADD's future sovereign UAV development. Source code ownership in a Saudi legal entity is the non-negotiable SAEL condition.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Baykar",
+      "country": "Turkey",
+      "type": "SDK Provider / Technical Partner",
+      "rationale": "Must provide SDK as condition of co-production programme; engagement through SAMI-Baykar MOU.",
+      "contact": "Baykar Software VP → SAMI Digital Programmes Director"
+    },
+    {
+      "rank": 2,
+      "name": "Systematic",
+      "country": "Denmark",
+      "type": "GCS Software Partner",
+      "rationale": "NATO C2 and UAV ground systems; no ITAR; strong international partnership track record.",
+      "contact": "Systematic VP International Defence, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "UAV Navigation",
+      "country": "Spain",
+      "type": "Flight Management Software",
+      "rationale": "Military UAV autopilot and FMS specialist; existing Middle East customers; no ITAR.",
+      "contact": "UAV Navigation Business Development Director, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Indra",
+      "country": "Spain",
+      "type": "Ground Systems Integration",
+      "rationale": "UAV ground systems for European military programmes; existing Saudi presence.",
+      "contact": "Indra VP Defence Systems, Gulf Region"
+    },
+    {
+      "rank": 5,
+      "name": "QinetiQ",
+      "country": "UK",
+      "type": "Defence Software SME Broker",
+      "rationale": "UK defence software ecosystem; existing RSAF training relationship; can broker portfolio SME introductions.",
+      "contact": "QinetiQ VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "STC Solutions",
+      "track": "Track 7",
+      "current": "Enterprise software, cybersecurity, government systems, cleared infrastructure",
+      "upgrade": "Defence-cleared software division + GADD UAV data platform partnership + MOD clearance framework",
+      "timeline": "12 months to functioning defence division",
+      "anchor": "GADD + SAMI + MOD"
+    },
+    {
+      "rank": 2,
+      "name": "Elm Company",
+      "track": "Track 7",
+      "current": "Government digital platforms, Arabic NLP, large-scale data systems",
+      "upgrade": "Defence division + NSCS clearance + UAV ISR data management platform as first product",
+      "timeline": "18 months to first cleared product",
+      "anchor": "PIF + GADD + SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST AI Research Centre",
+      "track": "Track 6",
+      "current": "Computer vision, sensor fusion, robotics, reinforcement learning research",
+      "upgrade": "GADD-KAUST co-funded UAV perception programme + PhD student embedding + TTA to production",
+      "timeline": "24–36 months from research to production-ready",
+      "anchor": "GADD + KAUST"
+    },
+    {
+      "rank": 4,
+      "name": "Thiqah Business Services",
+      "track": "Track 3",
+      "current": "Enterprise software development, Arabic interfaces, government systems",
+      "upgrade": "NSCS security clearance + Baykar GCS localisation assignment + 24-month UAV competency build",
+      "timeline": "15–18 months",
+      "anchor": "Elm/PIF + GADD"
+    }
+  ]
+}
