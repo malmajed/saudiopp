@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>SaudiOpp — Startup & SME Scout</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=IBM+Plex+Sans:wght@300;400;500;600&display=swap');
+:root{
+  --bg:#090b0e;--surf:#10141a;--surf2:#171c25;--bdr:#232b3a;
+  --txt:#e8ecf4;--dim:#8896aa;--muted:#4a5568;
+  --accent:#c8a96e;--accent2:#e8d5a3;
+  --fill:#2ecc71;--acc:#f39c12;--derisk:#3b82f6;
+  --av:#e74c3c;--pif:#8E44AD;--sanabil:#2980B9;--tali:#16A085;--global:#4a5568;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--txt);font-family:'IBM Plex Sans',sans-serif;font-size:13px;min-height:100vh;display:flex;flex-direction:column}
+
+/* ── Header ── */
+header{display:flex;align-items:center;padding:0 20px;height:52px;border-bottom:1px solid var(--bdr);background:var(--surf);flex-shrink:0;gap:16px}
+.logo{font-family:'IBM Plex Mono',monospace;font-size:13px;font-weight:600;color:var(--accent);white-space:nowrap;letter-spacing:.04em}
+.logo span{color:var(--dim);font-weight:400}
+.back-link{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dim);text-decoration:none;margin-left:auto;transition:color .15s}
+.back-link:hover{color:var(--accent)}
+.header-kpis{display:flex;gap:24px}
+.hkpi{text-align:right}
+.hkpi-val{font-family:'IBM Plex Mono',monospace;font-size:14px;font-weight:600;color:var(--accent2)}
+.hkpi-lbl{font-family:'IBM Plex Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:var(--muted)}
+
+/* ── Search bar ── */
+.search-wrap{padding:20px 20px 0;display:flex;gap:10px;align-items:flex-start;max-width:1400px;margin:0 auto;width:100%}
+.search-box{flex:1;position:relative}
+.search-box input{width:100%;background:var(--surf);border:1px solid var(--bdr);color:var(--txt);font-family:'IBM Plex Sans',sans-serif;font-size:14px;padding:10px 44px 10px 14px;border-radius:4px;outline:none;transition:border-color .15s}
+.search-box input:focus{border-color:var(--accent)}
+.search-box input::placeholder{color:var(--muted)}
+.search-icon{position:absolute;right:14px;top:50%;transform:translateY(-50%);color:var(--dim);font-size:16px;pointer-events:none}
+.ai-btn{background:var(--accent);color:#000;border:none;font-family:'IBM Plex Mono',monospace;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.08em;padding:10px 16px;border-radius:4px;cursor:pointer;white-space:nowrap;transition:all .15s;display:flex;align-items:center;gap:6px}
+.ai-btn:hover{background:var(--accent2)}
+.ai-btn:disabled{opacity:.5;cursor:not-allowed}
+
+/* ── Filters ── */
+.filters{padding:12px 20px 0;display:flex;gap:8px;flex-wrap:wrap;max-width:1400px;margin:0 auto;width:100%}
+.filter-group{display:flex;align-items:center;gap:6px}
+label.f{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.1em;color:var(--dim);white-space:nowrap}
+select.f{background:var(--surf2);border:1px solid var(--bdr);color:var(--txt);font-family:'IBM Plex Sans',sans-serif;font-size:12px;padding:4px 8px;border-radius:3px;cursor:pointer;height:28px}
+select.f:focus{outline:none;border-color:var(--accent)}
+.chip{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:12px;font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:600;text-transform:uppercase;letter-spacing:.06em;cursor:pointer;border:1px solid;transition:all .15s}
+.chip.active{opacity:1}.chip:not(.active){opacity:.4}
+.chip-fill{color:var(--fill);border-color:var(--fill)}
+.chip-fill.active{background:rgba(46,204,113,.12)}
+.chip-acc{color:var(--acc);border-color:var(--acc)}
+.chip-acc.active{background:rgba(243,156,18,.12)}
+.chip-derisk{color:var(--derisk);border-color:var(--derisk)}
+.chip-derisk.active{background:rgba(59,130,246,.12)}
+.sep{color:var(--bdr);font-size:16px;margin:0 2px}
+
+/* Investor chips */
+.chip-av{color:var(--av);border-color:var(--av)}
+.chip-av.active{background:rgba(231,76,60,.12)}
+.chip-pif{color:var(--pif);border-color:var(--pif)}
+.chip-pif.active{background:rgba(142,68,173,.12)}
+.chip-sanabil{color:var(--sanabil);border-color:var(--sanabil)}
+.chip-sanabil.active{background:rgba(41,128,185,.12)}
+.chip-tali{color:var(--tali);border-color:var(--tali)}
+.chip-tali.active{background:rgba(22,160,133,.12)}
+.chip-global{color:var(--dim);border-color:var(--dim)}
+.chip-global.active{background:rgba(74,85,104,.15)}
+
+/* ── Results count ── */
+.results-meta{padding:10px 20px 0;max-width:1400px;margin:0 auto;width:100%;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--dim);display:flex;align-items:center;gap:12px}
+.results-meta em{color:var(--accent2);font-style:normal}
+
+/* ── Grid ── */
+.grid{padding:14px 20px 40px;display:grid;grid-template-columns:repeat(auto-fill,minmax(340px,1fr));gap:14px;max-width:1400px;margin:0 auto;width:100%;flex:1}
+
+/* ── Card ── */
+.card{background:var(--surf);border:1px solid var(--bdr);border-radius:5px;overflow:hidden;transition:border-color .15s,transform .1s;cursor:pointer}
+.card:hover{border-color:#3a4558;transform:translateY(-1px)}
+.card.ai-result{border-color:rgba(200,169,110,.3);background:linear-gradient(180deg,rgba(200,169,110,.04) 0%,var(--surf) 60px)}
+
+.card-head{padding:12px 14px 10px;border-bottom:1px solid var(--bdr);display:flex;align-items:flex-start;gap:10px}
+.card-icon{width:36px;height:36px;border-radius:6px;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:600;font-family:'IBM Plex Mono',monospace}
+.card-meta{flex:1;min-width:0}
+.card-name{font-size:13px;font-weight:600;color:var(--txt);margin-bottom:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.card-sub{font-size:11px;color:var(--dim);display:flex;align-items:center;gap:6px}
+.card-hq{font-family:'IBM Plex Mono',monospace;font-size:9px}
+.card-stage{font-family:'IBM Plex Mono',monospace;font-size:9px}
+
+.card-body{padding:10px 14px}
+.card-tech{font-size:11px;color:#9aa8bc;margin-bottom:8px;line-height:1.5}
+.card-reason{font-size:11px;color:#b8c2d0;line-height:1.55;margin-bottom:10px}
+
+.card-footer{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.badge-investor{font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:600;padding:2px 7px;border-radius:2px}
+.bi-av{background:rgba(231,76,60,.12);color:var(--av);border:1px solid rgba(231,76,60,.25)}
+.bi-pif{background:rgba(142,68,173,.12);color:var(--pif);border:1px solid rgba(142,68,173,.25)}
+.bi-sanabil{background:rgba(41,128,185,.12);color:var(--sanabil);border:1px solid rgba(41,128,185,.25)}
+.bi-tali{background:rgba(22,160,133,.12);color:var(--tali);border:1px solid rgba(22,160,133,.25)}
+.bi-global{background:rgba(74,85,104,.15);color:var(--dim);border:1px solid var(--bdr)}
+.bi-ai{background:rgba(200,169,110,.1);color:var(--accent);border:1px solid rgba(200,169,110,.25)}
+.badge-fit{font-family:'IBM Plex Mono',monospace;font-size:9px;font-weight:600;padding:2px 7px;border-radius:2px}
+.bf-fill{background:rgba(46,204,113,.1);color:var(--fill);border:1px solid rgba(46,204,113,.2)}
+.bf-accelerate{background:rgba(243,156,18,.1);color:var(--acc);border:1px solid rgba(243,156,18,.2)}
+.bf-de-risk{background:rgba(59,130,246,.1);color:var(--derisk);border:1px solid rgba(59,130,246,.2)}
+
+.node-tags{display:flex;flex-wrap:wrap;gap:3px;margin-top:8px}
+.node-tag{font-family:'IBM Plex Mono',monospace;font-size:9px;padding:1px 5px;border-radius:2px;background:var(--surf2);border:1px solid var(--bdr);color:var(--accent);cursor:pointer}
+.node-tag:hover{border-color:var(--accent)}
+
+.presence-dot{width:7px;height:7px;border-radius:50%;flex-shrink:0}
+.p-none{background:var(--bdr)}
+.p-pilot{background:#f39c12}
+.p-active{background:#2ecc71}
+.p-hq{background:#2ecc71;box-shadow:0 0 0 2px rgba(46,204,113,.3)}
+.presence-lbl{font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--dim)}
+
+.card-actions{padding:8px 14px;border-top:1px solid var(--bdr);display:flex;gap:8px}
+.action-btn{font-family:'IBM Plex Mono',monospace;font-size:9px;text-transform:uppercase;letter-spacing:.06em;padding:4px 8px;border-radius:2px;cursor:pointer;transition:all .15s;text-decoration:none;display:flex;align-items:center;gap:4px}
+.ab-primary{background:rgba(200,169,110,.12);color:var(--accent);border:1px solid rgba(200,169,110,.25)}
+.ab-primary:hover{background:rgba(200,169,110,.2)}
+.ab-secondary{background:var(--surf2);color:var(--dim);border:1px solid var(--bdr)}
+.ab-secondary:hover{border-color:var(--accent);color:var(--accent)}
+
+/* ── AI search result card ── */
+.ai-thinking{grid-column:1/-1;display:flex;align-items:center;gap:12px;padding:20px;background:var(--surf);border:1px solid rgba(200,169,110,.2);border-radius:5px}
+.ai-spinner{width:20px;height:20px;border:2px solid var(--bdr);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;flex-shrink:0}
+@keyframes spin{to{transform:rotate(360deg)}}
+.ai-thinking-txt{font-size:12px;color:var(--dim)}
+.ai-thinking-txt em{color:var(--accent);font-style:normal}
+
+/* ── Empty state ── */
+.empty-state{grid-column:1/-1;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:60px 20px;gap:12px;text-align:center}
+.empty-state .ico{font-size:36px;opacity:.2}
+.empty-state p{font-size:13px;color:#8896aa;max-width:300px;line-height:1.6}
+.empty-state .hint{font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--accent);opacity:.6}
+
+/* ── Node detail panel (right slide-in) ── */
+#detail-panel{position:fixed;top:0;right:-420px;width:420px;height:100vh;background:var(--surf);border-left:1px solid var(--bdr);z-index:100;transition:right .25s ease;display:flex;flex-direction:column;overflow:hidden}
+#detail-panel.open{right:0}
+.dp-head{padding:16px 18px 12px;border-bottom:1px solid var(--bdr);display:flex;align-items:flex-start;gap:12px}
+.dp-close{margin-left:auto;cursor:pointer;color:var(--dim);font-size:18px;line-height:1;flex-shrink:0}.dp-close:hover{color:var(--txt)}
+.dp-body{flex:1;overflow-y:auto;padding:0}
+.dp-body::-webkit-scrollbar{width:3px}
+.dp-body::-webkit-scrollbar-thumb{background:var(--bdr)}
+.dp-name{font-size:17px;font-weight:600;color:var(--txt);line-height:1.3}
+.dp-meta{font-size:11px;color:var(--dim);margin-top:3px;display:flex;flex-wrap:wrap;gap:6px}
+.dp-sec{padding:12px 18px;border-bottom:1px solid var(--bdr)}
+.dp-sec-t{font-family:'IBM Plex Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.12em;color:#4a5568;margin-bottom:6px}
+.dp-row{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--bdr);margin-bottom:1px}
+.dp-cell{padding:8px 12px;background:var(--surf2)}
+.dp-cell-k{font-family:'IBM Plex Mono',monospace;font-size:8px;text-transform:uppercase;letter-spacing:.1em;color:#4a5568;margin-bottom:2px}
+.dp-cell-v{font-size:12px;color:var(--accent2);font-weight:500}
+.dp-txt{font-size:11px;color:#b8c2d0;line-height:1.65}
+.dp-link{color:var(--accent);text-decoration:none;font-size:11px}.dp-link:hover{text-decoration:underline}
+.dp-investor-badge{display:inline-flex;align-items:center;gap:5px;padding:5px 10px;border-radius:3px;font-size:11px;font-weight:600}
+.dp-nodes{display:flex;flex-wrap:wrap;gap:4px;margin-top:4px}
+.dp-node{font-family:'IBM Plex Mono',monospace;font-size:10px;padding:3px 8px;border-radius:3px;background:var(--surf2);border:1px solid var(--bdr);color:var(--accent)}
+
+/* Overlay */
+#overlay{display:none;position:fixed;inset:0;background:rgba(0,0,0,.4);z-index:99}
+#overlay.open{display:block}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">SaudiOpp <span>/ Startup & SME Scout</span></div>
+  <div class="header-kpis">
+    <div class="hkpi"><div class="hkpi-val" id="hkpi-total">48</div><div class="hkpi-lbl">Curated</div></div>
+    <div class="hkpi"><div class="hkpi-val" id="hkpi-saudi" style="color:#e74c3c">26</div><div class="hkpi-lbl">Saudi-Backed</div></div>
+    <div class="hkpi"><div class="hkpi-val" id="hkpi-nodes" style="color:#8896aa">63</div><div class="hkpi-lbl">Nodes Covered</div></div>
+  </div>
+  
+  <!-- API key for AI Scout -->
+  <div id="api-key-wrap" style="display:flex;align-items:center;gap:8px;margin-left:16px;flex-shrink:0">
+    <span style="font-family:'IBM Plex Mono',monospace;font-size:9px;color:var(--dim);white-space:nowrap;text-transform:uppercase;letter-spacing:.08em">API Key</span>
+    <input id="api-key-input" type="password" placeholder="sk-ant-..." 
+      style="background:var(--surf2);border:1px solid var(--bdr);color:var(--txt);font-family:'IBM Plex Mono',monospace;font-size:11px;padding:3px 8px;border-radius:3px;width:180px;outline:none"
+      title="Enter your Anthropic API key to use AI Scout"/>
+  </div>
+  <a class="back-link" href="saudiopp_product_space_final.html">← Product Space</a>
+</header>
+
+<div class="search-wrap">
+  <div class="search-box">
+    <input type="text" id="search-input" placeholder="Search by company name, technology, node (e.g. DG-1), or keyword (e.g. 'carbon fibre', 'radar', 'water treatment')..." autocomplete="off"/>
+    <span class="search-icon">⌕</span>
+  </div>
+  <button class="ai-btn" id="ai-btn" onclick="runAISearch()">
+    <span>⟡</span> AI Scout
+  </button>
+</div>
+
+<div class="filters">
+  <div class="filter-group">
+    <label class="f">Node</label>
+    <select class="f" id="f-node"><option value="">All Nodes</option></select>
+  </div>
+  <div class="filter-group">
+    <label class="f">Sector</label>
+    <select class="f" id="f-sector"><option value="">All Sectors</option></select>
+  </div>
+  <div class="filter-group">
+    <label class="f">Stage</label>
+    <select class="f" id="f-stage">
+      <option value="">All Stages</option>
+      <option>Seed</option><option>Series A</option><option>Series B</option>
+      <option>Series C</option><option>Growth</option><option>Public</option><option>SME</option>
+    </select>
+  </div>
+  <div class="sep">|</div>
+  <label class="f">Fit</label>
+  <div class="chip chip-fill active" id="chip-fill" onclick="toggleChip('fill')">● Fill</div>
+  <div class="chip chip-acc active" id="chip-acc" onclick="toggleChip('accelerate')">◎ Accelerate</div>
+  <div class="chip chip-derisk active" id="chip-derisk" onclick="toggleChip('de-risk')">○ De-risk</div>
+  <div class="sep">|</div>
+  <label class="f">Investor</label>
+  <div class="chip chip-av active" id="chip-av" onclick="toggleInvChip('Aramco Ventures')">Aramco Ventures</div>
+  <div class="chip chip-pif active" id="chip-pif" onclick="toggleInvChip('PIF')">PIF</div>
+  <div class="chip chip-sanabil active" id="chip-sanabil" onclick="toggleInvChip('Sanabil')">Sanabil</div>
+  <div class="chip chip-tali active" id="chip-tali" onclick="toggleInvChip('Tali')">Tali/stc</div>
+  <div class="chip chip-global active" id="chip-global" onclick="toggleInvChip('Global')">Global</div>
+</div>
+
+<div class="results-meta">
+  <span><em id="res-count">48</em> companies shown</span>
+  <span id="ai-badge" style="display:none;color:var(--accent);font-size:9px">⟡ AI results included</span>
+</div>
+
+<div class="grid" id="grid"></div>
+
+<!-- Detail Panel -->
+<div id="overlay" onclick="closeDetail()"></div>
+<div id="detail-panel">
+  <div class="dp-head">
+    <div>
+      <div class="dp-name" id="dp-name">—</div>
+      <div class="dp-meta" id="dp-meta"></div>
+    </div>
+    <div class="dp-close" onclick="closeDetail()">✕</div>
+  </div>
+  <div class="dp-body" id="dp-body"></div>
+</div>
+
+<script>
+const DB=[{"id":"SU-001","name":"Joby Aviation","hq":"USA","city":"Santa Cruz","stage":"Public","employees":"1000+","website":"joby.com","description":"Electric vertical take-off and landing (eVTOL) aircraft for urban air mobility","technology":"eVTOL electric aviation","nodes":["MA-1","AU-12","SC-4"],"fit_type":"accelerate","fit_reason":"Joby's composite airframe and electric drivetrain directly map to MA-1 composite manufacturing and AU-12 battery thermal management. Saudi Arabia is a target market for UAM.","saudi_investor":"PIF","saudi_investor_type":"direct_investment","other_investors":["Toyota","Delta","Uber Elevate"],"total_raised":"$2.3B","last_round":"IPO 2024","revenue_stage":"Pre-revenue","saudi_presence":"Pilot","contact":"BD via joby.com","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-002","name":"Shield AI","hq":"USA","city":"San Diego","stage":"Series F","employees":"500+","website":"shield.ai","description":"AI pilot for autonomous military aircraft and drones","technology":"Autonomous military AI software","nodes":["MA-4","DE-1","SP-2"],"fit_type":"accelerate","fit_reason":"Shield AI's Hivemind autonomous drone software directly maps to MA-4 UAV Software Integration. Already operates with allied air forces.","saudi_investor":"PIF","saudi_investor_type":"direct_investment","other_investors":["Point72","Andreessen Horowitz"],"total_raised":"$2.3B","last_round":"Series F 2024 $500M","revenue_stage":"Early revenue","saudi_presence":"Pilot","contact":"government@shield.ai","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-003","name":"Hermeus","hq":"USA","city":"Atlanta","stage":"Series C","employees":"200-500","website":"hermeus.com","description":"Hypersonic aircraft \u2014 Mach 5 commercial and government aircraft","technology":"Hypersonic turbine propulsion","nodes":["MA-7","MS-3","AM-1"],"fit_type":"de-risk","fit_reason":"Hermeus propulsion technology and carbon composite airframe research is directly relevant to Saudi solid-fuel and UAV propulsion programmes.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["DARPA","USAF","Founders Fund"],"total_raised":"$140M","last_round":"Series C 2023","revenue_stage":"Pre-revenue","saudi_presence":"None","contact":"info@hermeus.com","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-005","name":"ANYbotics","hq":"Switzerland","city":"Zurich","stage":"Series B","employees":"200-500","website":"anybotics.com","description":"Robotic solution automating industrial inspections in complex environments","technology":"Quadruped inspection robots","nodes":["MA-6","NV-2","MR-6","DE-3"],"fit_type":"accelerate","fit_reason":"ANYbotics robots directly accelerate MRO inspection capability in aircraft hangars and naval facilities \u2014 the inspection automation that MA-6 avionics MRO and NV-2 naval MRO need for quality control.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Swisscom Ventures","SBI Investment"],"total_raised":"$50M+","last_round":"Series B 2023","revenue_stage":"Early revenue","saudi_presence":"Pilot","contact":"info@anybotics.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-006","name":"Arktis Radiation Detectors","hq":"Switzerland","city":"Zurich","stage":"SME Growth","employees":"51-200","website":"arktis.ch","description":"Advanced radiation detection systems for nuclear security, border control, and defence applications","technology":"He-3 free neutron & gamma detectors","nodes":["DE-2","MS-1","SP-2"],"fit_type":"fill","fit_reason":"Arktis detectors are critical for munitions assembly safety (MS-1), classified facility security (DE-2), and ISR payload integration (SP-2). Swiss SME \u2014 non-ITAR, no US export restrictions.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Swiss CTI","EU Horizon"],"total_raised":"$15M est.","last_round":"Growth 2022","revenue_stage":"Growth","saudi_presence":"None","contact":"info@arktis.ch","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-007","name":"Elroy Air","hq":"USA","city":"San Francisco","stage":"Series B","employees":"100-200","website":"elroyair.com","description":"Autonomous cargo air vehicle \u2014 VTOL unmanned aerial systems for logistics","technology":"Hybrid-electric cargo UAV","nodes":["MA-4","MA-7","LG-5"],"fit_type":"accelerate","fit_reason":"Elroy Air's autonomous UAV platform directly feeds Saudi UAV software (MA-4) and propulsion (MA-7) capability development. Cargo UAV market aligns with LG-5 last-mile routing.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Lockheed Martin","FedEx","US Army"],"total_raised":"$77M","last_round":"Series B 2022","revenue_stage":"Pre-revenue","saudi_presence":"None","contact":"info@elroyair.com","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-008","name":"Wisk Aero","hq":"USA","city":"Mountain View","stage":"Late","employees":"500+","website":"wisk.aero","description":"Autonomous air taxi \u2014 self-flying air taxi for urban air mobility","technology":"Autonomous eVTOL","nodes":["MA-4","DG-1"],"fit_type":"de-risk","fit_reason":"Boeing-backed Wisk's autonomous aviation AI technology is directly relevant to Saudi UAV autonomy programmes (MA-4).","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Boeing"],"total_raised":"$450M","last_round":"Growth 2023","revenue_stage":"Pre-revenue","saudi_presence":"None","contact":"via Boeing","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-010","name":"Orbital Sidekick","hq":"USA","city":"San Francisco","stage":"Series B","employees":"51-200","website":"orbitalsidekick.com","description":"Hyperspectral satellite analytics for oil & gas, environmental monitoring","technology":"Hyperspectral EO analytics","nodes":["SS-4","SP-2"],"fit_type":"fill","fit_reason":"Orbital Sidekick provides hyperspectral analytics directly relevant to SS-4 Earth Observation Data Analytics \u2014 particularly for Aramco pipeline monitoring. Aramco Ventures portfolio company.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["In-Q-Tel","Chevron"],"total_raised":"$65M","last_round":"Series B 2023","revenue_stage":"Early revenue","saudi_presence":"Active","contact":"info@orbitalsidekick.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-011","name":"Satellogic","hq":"Argentina/USA","city":"Buenos Aires","stage":"Public","employees":"500+","website":"satellogic.com","description":"Sub-meter resolution satellite imagery constellation and analytics","technology":"High-res EO satellite constellation","nodes":["SS-1","SS-5","SP-2","SS-4"],"fit_type":"accelerate","fit_reason":"Satellogic's small satellite manufacturing and EO analytics experience directly accelerates Saudi SS-1 structural manufacturing and SS-4 analytics \u2014 they've built 30+ satellites.","saudi_investor":"SoftBank (via Vision Fund)","saudi_investor_type":null,"other_investors":["Vista Global","SoftBank"],"total_raised":"$250M","last_round":"SPAC IPO 2022","revenue_stage":"Early revenue","saudi_presence":"None","contact":"partnerships@satellogic.com","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-012","name":"Pixxel","hq":"India","city":"Bengaluru","stage":"Series B","employees":"100-200","website":"pixxel.space","description":"Hyperspectral Earth observation satellite constellation","technology":"Hyperspectral EO constellation","nodes":["SS-6","SS-4","SP-2"],"fit_type":"fill","fit_reason":"Pixxel's EO optical payload and analytics expertise maps directly to SS-6 optical payload sub-assembly. Non-US Indian company avoids ITAR complications.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Google","Radical Ventures","Blume Ventures"],"total_raised":"$95M","last_round":"Series B 2024","revenue_stage":"Early revenue","saudi_presence":"None","contact":"info@pixxel.space","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-013","name":"D-Orbit","hq":"Italy","city":"Como","stage":"Series C","employees":"200-500","website":"dorbit.space","description":"Space logistics and in-orbit services \u2014 orbital transfer vehicles","technology":"In-orbit transportation & services","nodes":["SS-5","SS-7","SP-3"],"fit_type":"accelerate","fit_reason":"D-Orbit's orbital transfer vehicles and in-space logistics directly accelerate SS-5 satellite bus integration and SS-7 electric propulsion development. Non-ITAR Italian company.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["CDP Venture Capital","Seraphim Capital"],"total_raised":"$130M","last_round":"Series C 2022","revenue_stage":"Early revenue","saudi_presence":"None","contact":"info@dorbit.space","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-014","name":"Exolaunch","hq":"Germany","city":"Berlin","stage":"SME Growth","employees":"100-200","website":"exolaunch.com","description":"Small satellite deployment and mission management services","technology":"SmallSat deployment hardware","nodes":["SS-5","SS-1","SP-3"],"fit_type":"de-risk","fit_reason":"Exolaunch's deployment hardware and mission management de-risks Saudi satellite bus integration (SS-5). German company \u2014 no ITAR.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Airbus","OHB"],"total_raised":"$40M est.","last_round":"Growth 2022","revenue_stage":"Growth","saudi_presence":"None","contact":"info@exolaunch.com","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-020","name":"Nuxera AI","hq":"Saudi Arabia","city":"Riyadh","stage":"Seed","employees":"11-50","website":"nuxera.ai","description":"Saudi health-tech AI startup for clinical decision support","technology":"Clinical AI / Arabic health NLP","nodes":["MD-4","DG-1"],"fit_type":"fill","fit_reason":"Nuxera is a Sanabil-backed Saudi health AI company directly building Arabic clinical AI \u2014 aligns precisely with MD-4 Radiology AI Platform and DG-1 Arabic LLM.","saudi_investor":"Sanabil","saudi_investor_type":"portfolio_company","other_investors":[],"total_raised":"Seed 2025","last_round":"Seed Oct 2025","revenue_stage":"Pre-revenue","saudi_presence":"HQ","contact":"via sanabil.com","confidence":"high","source":"sanabil_portfolio","last_verified":"2026-03-27"},{"id":"SU-021","name":"Redesign Health","hq":"USA","city":"New York","stage":"Growth","employees":"200-500","website":"redesignhealth.com","description":"Healthcare company creation platform \u2014 builds and launches digital health companies","technology":"Healthcare venture studio","nodes":["MD-3","MD-4","MD-6"],"fit_type":"accelerate","fit_reason":"Sanabil-Redesign Health partnership announced Jan 2025 specifically to accelerate healthcare innovation in Saudi Arabia \u2014 directly relevant to MD-3 patient monitor and MD-4 radiology AI.","saudi_investor":"Sanabil","saudi_investor_type":"portfolio_company","other_investors":["General Atlantic","Bain Capital"],"total_raised":"$1.8B","last_round":"Partnership 2025","revenue_stage":"Growth","saudi_presence":"Active","contact":"via sanabil.com","confidence":"high","source":"sanabil_portfolio","last_verified":"2026-03-27"},{"id":"SU-022","name":"Endiatx","hq":"USA","city":"Hayward","stage":"Series A","employees":"11-50","website":"endiatx.com","description":"Pill-sized robots for non-invasive internal medicine","technology":"Swallowable diagnostic robots","nodes":["MD-3","MD-5"],"fit_type":"de-risk","fit_reason":"Endiatx's miniaturised robotics directly de-risks Saudi medical device manufacturing ambitions (MD-3/MD-5) by showing the technology frontier Saudi manufacturers should aspire to serve.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Y Combinator","Jeff Bezos"],"total_raised":"$25M","last_round":"Series A 2024","revenue_stage":"Pre-revenue","saudi_presence":"None","contact":"via website","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-023","name":"Insulet Corporation","hq":"USA","city":"Acton","stage":"Public","employees":"3000+","website":"omnipod.com","description":"Omnipod insulin delivery system \u2014 tubeless patch pump for diabetes","technology":"Wearable insulin delivery patch","nodes":["MD-6"],"fit_type":"de-risk","fit_reason":"Insulet's Omnipod patch pump technology is the benchmark for Saudi CGM sensor (MD-6) wearable assembly \u2014 similar housing, adhesive, and wireless electronics manufacturing.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Public"],"total_raised":"Public","last_round":"NASDAQ: PODD","revenue_stage":"Profitable","saudi_presence":"Active","contact":"mena@insulet.com","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-024","name":"Proximie","hq":"UK","city":"London","stage":"Series C","employees":"100-200","website":"proximie.com","description":"AR surgical collaboration platform \u2014 remote surgical guidance","technology":"AR surgical telepresence","nodes":["MD-4","MD-3"],"fit_type":"accelerate","fit_reason":"Proximie's platform enables remote surgical mentoring at Saudi hospitals \u2014 directly accelerates MD-4 radiology AI adoption by connecting Saudi practitioners with global specialists.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["8VC","DCVC"],"total_raised":"$80M","last_round":"Series C 2022","revenue_stage":"Early revenue","saudi_presence":"Pilot","contact":"partnerships@proximie.com","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-030","name":"Sea Machines Robotics","hq":"USA","city":"Boston","stage":"Series B","employees":"51-200","website":"sea-machines.com","description":"Autonomous vessel control systems for commercial shipping","technology":"Autonomous ship control AI","nodes":["MR-5","MR-4","MR-2"],"fit_type":"fill","fit_reason":"Sea Machines autonomous control directly fills MR-5 Maritime Digital Twin capability and accelerates MR-4 navigation systems integration.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Caterpillar","Yamaha"],"total_raised":"$40M","last_round":"Series B 2021","revenue_stage":"Early revenue","saudi_presence":"None","contact":"info@sea-machines.com","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-031","name":"Windward","hq":"Israel/UK","city":"Tel Aviv","stage":"Public","employees":"200-500","website":"windward.ai","description":"Maritime AI platform for vessel tracking, cargo risk, and sanctions compliance","technology":"Maritime AI intelligence platform","nodes":["MR-5","SP-2","LG-2"],"fit_type":"fill","fit_reason":"Windward's maritime AI maps directly to MR-5 Maritime Digital Twin and LG-2 National Freight Visibility Platform \u2014 vessel tracking and predictive analytics.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Horizon Capital","Aleph VC"],"total_raised":"$80M","last_round":"AIM IPO 2021","revenue_stage":"Growth","saudi_presence":"Active","contact":"partnerships@windward.ai","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-032","name":"ORCA AI","hq":"Israel","city":"Tel Aviv","stage":"Series B","employees":"51-200","website":"orca-ai.io","description":"AI-powered collision avoidance and situational awareness for ships","technology":"Computer vision collision avoidance","nodes":["MR-4","MR-5"],"fit_type":"accelerate","fit_reason":"Orca AI's computer vision for maritime navigation directly accelerates MR-4 navigation systems and MR-5 digital twin with real-time vessel awareness.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Square Peg","Aleph"],"total_raised":"$23M","last_round":"Series B 2023","revenue_stage":"Early revenue","saudi_presence":"None","contact":"contact@orca-ai.io","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-033","name":"Daphne Technology","hq":"Switzerland","city":"Zurich","stage":"Series A","employees":"11-50","website":"daphnetechnology.com","description":"Dry scrubber for marine emission control \u2014 decarbonising shipping","technology":"Marine exhaust gas cleaning","nodes":["MR-1","MR-2"],"fit_type":"accelerate","fit_reason":"Daphne Technology is an Aramco Ventures portfolio company \u2014 their marine emission control technology accelerates MR-1 dry dock capability and MR-2 Saudi-flagged vessel compliance.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Aramco Ventures"],"total_raised":"$15M","last_round":"Series A 2022","revenue_stage":"Early revenue","saudi_presence":"Pilot","contact":"info@daphnetechnology.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-040","name":"DexMat","hq":"USA","city":"Houston","stage":"Series A","employees":"11-50","website":"dexmat.com","description":"High-performance carbon materials \u2014 carbon nanotube fibres stronger than carbon fibre","technology":"Carbon nanotube fibre materials","nodes":["AM-1","AM-4","MA-1"],"fit_type":"de-risk","fit_reason":"DexMat is an Aramco Ventures portfolio company producing carbon nanotube materials \u2014 directly relevant to AM-1 carbon fibre production and AM-4 nanomaterial pilot.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Aramco Ventures","NSF"],"total_raised":"$20M","last_round":"Series A 2023","revenue_stage":"Pre-revenue","saudi_presence":"None","contact":"info@dexmat.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-041","name":"Boston Metal","hq":"USA","city":"Woburn","stage":"Series C","employees":"100-200","website":"bostonmetal.com","description":"Green steel production via molten oxide electrolysis","technology":"Electrochemical green steel","nodes":["AM-5","LS-3"],"fit_type":"de-risk","fit_reason":"Boston Metal is an Aramco Ventures portfolio company \u2014 their green steel technology is directly relevant to AM-5 aerospace aluminum alloy rolling (materials decarbonisation) and LS-3 armour steel fabrication.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Bill Gates (Breakthrough Energy)","ArcelorMittal"],"total_raised":"$300M","last_round":"Series C 2023","revenue_stage":"Pre-revenue","saudi_presence":"None","contact":"info@bostonmetal.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-042","name":"Strohm","hq":"Netherlands","city":"Kampen","stage":"SME Growth","employees":"200-500","website":"strohm.eu","description":"Non-metallic composite pipes for oil & gas and offshore applications","technology":"Thermoplastic composite pipe","nodes":["AM-3","MR-6"],"fit_type":"accelerate","fit_reason":"Strohm is an Aramco Ventures portfolio company producing composite pipes \u2014 directly relevant to AM-3 specialty polymer compounds and MR-6 subsea inspection applications.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Aramco Ventures"],"total_raised":"$50M est.","last_round":"Growth","revenue_stage":"Growth","saudi_presence":"Active","contact":"info@strohm.eu","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-043","name":"Nexwafe","hq":"Germany","city":"Freiberg","stage":"Series C","employees":"100-200","website":"nexwafe.com","description":"Epitaxial silicon wafer manufacturing for solar cells","technology":"Kerfless silicon wafer production","nodes":["SS-2","SC-2"],"fit_type":"accelerate","fit_reason":"Nexwafe is Aramco Ventures portfolio \u2014 silicon wafer manufacturing directly accelerates SS-2 solar array manufacturing and SC-2 semiconductor materials production.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Aramco Ventures","Bosch"],"total_raised":"$80M","last_round":"Series C 2022","revenue_stage":"Pre-revenue","saudi_presence":"None","contact":"info@nexwafe.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-050","name":"Dragos","hq":"USA","city":"Hanover MD","stage":"Series D","employees":"500+","website":"dragos.com","description":"Industrial cybersecurity for control systems \u2014 ICS/OT threat detection","technology":"ICS/OT cybersecurity platform","nodes":["DG-3","DE-2"],"fit_type":"fill","fit_reason":"Dragos is an Aramco Ventures portfolio company \u2014 their ICS/OT cybersecurity platform is the exact technology needed for DG-3 Saudi OT Cybersecurity Platform and DE-2 defence cybersecurity.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Koch Disruptive","Paladin Capital"],"total_raised":"$440M","last_round":"Series D 2022","revenue_stage":"Growth","saudi_presence":"Active","contact":"info@dragos.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-051","name":"Xage Security","hq":"USA","city":"Palo Alto","stage":"Series B","employees":"51-200","website":"xage.com","description":"Zero trust security for industrial, energy, and utility operations","technology":"Zero trust OT/IoT security","nodes":["DG-3","DG-2","DE-2"],"fit_type":"fill","fit_reason":"Xage is Aramco Ventures portfolio \u2014 zero trust OT security directly fills DG-3 Saudi OT Cybersecurity and DG-2 Sovereign Cloud security requirements.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["March Capital","Aramco Ventures"],"total_raised":"$36M","last_round":"Series B 2022","revenue_stage":"Early revenue","saudi_presence":"Active","contact":"info@xage.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-052","name":"AttackIQ","hq":"USA","city":"San Diego","stage":"Series C","employees":"200-500","website":"attackiq.com","description":"Automated breach and attack simulation for cybersecurity validation","technology":"Breach simulation platform","nodes":["DG-3","DE-2","DG-6"],"fit_type":"accelerate","fit_reason":"AttackIQ is Aramco Ventures portfolio \u2014 their breach simulation directly accelerates DG-3 OT security and DG-6 Arabic threat intelligence with continuous testing.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["General Atlantic","Salesforce Ventures"],"total_raised":"$96M","last_round":"Series C 2022","revenue_stage":"Early revenue","saudi_presence":"Active","contact":"info@attackiq.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-053","name":"Mozn","hq":"Saudi Arabia","city":"Riyadh","stage":"Series B","employees":"100-200","website":"mozn.ai","description":"Arabic AI platform \u2014 NLP, document understanding, and decision intelligence","technology":"Arabic NLP and enterprise AI","nodes":["DG-1","DG-6","MD-4"],"fit_type":"fill","fit_reason":"Mozn is a Saudi Arabic AI company backed by Sanabil \u2014 directly fills DG-1 Saudi Falcon Arabic LLM Programme and DG-6 Arabic cyber threat intelligence.","saudi_investor":"Sanabil","saudi_investor_type":"portfolio_company","other_investors":["STV","Wa'ed Ventures"],"total_raised":"$30M+","last_round":"Series B 2023","revenue_stage":"Growth","saudi_presence":"HQ","contact":"info@mozn.ai","confidence":"high","source":"sanabil_portfolio","last_verified":"2026-03-27"},{"id":"SU-054","name":"Seeq","hq":"USA","city":"Seattle","stage":"Growth","employees":"500+","website":"seeq.com","description":"Advanced analytics for process industries \u2014 industrial data historian","technology":"Process industry analytics","nodes":["DG-5","WT","MR-5"],"fit_type":"fill","fit_reason":"Seeq is Aramco Ventures portfolio \u2014 their process analytics directly powers DG-5 National Industrial IoT Platform and DT-5 Digital Water Operations Platform.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Aramco Ventures","Chevron","Saudi Aramco"],"total_raised":"$115M","last_round":"Growth 2022","revenue_stage":"Growth","saudi_presence":"Active","contact":"info@seeq.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-055","name":"Graphiant","hq":"USA","city":"Milpitas","stage":"Series B","employees":"51-200","website":"graphiant.com","description":"Network as a Service \u2014 SD-WAN technology for enterprise networks","technology":"SD-WAN networking platform","nodes":["DG-4","DG-2"],"fit_type":"accelerate","fit_reason":"Graphiant is a Tali Ventures portfolio company \u2014 their SD-WAN technology directly accelerates DG-4 Open RAN network management and DG-2 sovereign cloud networking.","saudi_investor":"Tali Ventures (stc)","saudi_investor_type":"portfolio_company","other_investors":["Bessemer","Tali Ventures"],"total_raised":"$29M","last_round":"Series B 2024","revenue_stage":"Early revenue","saudi_presence":"Active","contact":"info@graphiant.com","confidence":"high","source":"tali_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-060","name":"WaterBit","hq":"USA","city":"San Jose","stage":"Series B","employees":"51-200","website":"waterbit.com","description":"IoT-based water management and irrigation optimization","technology":"Water IoT sensors & analytics","nodes":["DT-5","DT-10"],"fit_type":"accelerate","fit_reason":"WaterBit IoT sensors and analytics directly accelerate DT-5 Digital Water Operations Platform with real-time field sensor integration.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["S2G Ventures","Pontifax"],"total_raised":"$30M","last_round":"Series B 2022","revenue_stage":"Early revenue","saudi_presence":"None","contact":"info@waterbit.com","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-061","name":"Gradiant","hq":"USA","city":"Boston","stage":"Series D","employees":"500+","website":"gradiant.com","description":"Water treatment technology \u2014 high-recovery desalination and brine management","technology":"Advanced brine treatment & minerals","nodes":["DT-4","DT-9","DT-6"],"fit_type":"fill","fit_reason":"Gradiant's brine treatment and mineral recovery technology maps directly to DT-4 brine mineral assessment and DT-9 commercial brine lithium extraction.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Temasek","Warburg Pincus"],"total_raised":"$325M","last_round":"Series D 2023","revenue_stage":"Growth","saudi_presence":"Pilot","contact":"info@gradiant.com","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-062","name":"Saltworks Technologies","hq":"Canada","city":"Richmond BC","stage":"SME Growth","employees":"100-200","website":"saltworktech.com","description":"Advanced brine concentration, water treatment, and lithium recovery","technology":"Selective lithium extraction","nodes":["DT-4","DT-9","DT-7"],"fit_type":"fill","fit_reason":"Saltworks has direct lithium extraction from brine \u2014 the exact technology needed for DT-9 Commercial Brine Lithium Extraction. Non-US company avoids complications.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Sustainable Development Tech Canada"],"total_raised":"$30M est.","last_round":"Growth 2022","revenue_stage":"Growth","saudi_presence":"Pilot","contact":"info@saltworktech.com","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-063","name":"HTMS","hq":"USA","city":"Houston","stage":"Series A","employees":"11-50","website":"htmaterialsscience.com","description":"Nanomaterial heat transfer fluid additives for industrial efficiency","technology":"Nanofluid heat transfer additives","nodes":["DT-7","AM-4","DT-10"],"fit_type":"accelerate","fit_reason":"HTMS is Aramco Ventures portfolio \u2014 nanomaterial heat transfer additives directly accelerate DT-7 energy recovery devices and DT-10 solar-variable RO efficiency.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Aramco Ventures"],"total_raised":"$12M est.","last_round":"Series A","revenue_stage":"Early revenue","saudi_presence":"Pilot","contact":"info@htmaterialsscience.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-070","name":"Arkestro","hq":"USA","city":"San Francisco","stage":"Series B","employees":"51-200","website":"arkestro.com","description":"Predictive procurement platform using ML and game theory","technology":"AI procurement optimization","nodes":["LG-4","DG-5"],"fit_type":"fill","fit_reason":"Arkestro is Aramco Ventures portfolio \u2014 their predictive procurement AI directly fills LG-4 Industrial Supply Chain Management Platform for Saudi industrial clusters.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Aramco Ventures","8VC"],"total_raised":"$30M","last_round":"Series B 2025","revenue_stage":"Early revenue","saudi_presence":"Active","contact":"info@arkestro.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-071","name":"Nile","hq":"Saudi Arabia","city":"Riyadh","stage":"Series C","employees":"200-500","website":"nile.com","description":"Network equipment and cloud infrastructure solutions","technology":"Enterprise networking as a service","nodes":["LG-2","DG-4","DG-2"],"fit_type":"accelerate","fit_reason":"Nile is a Tali Ventures portfolio company \u2014 their network infrastructure solutions directly accelerate LG-2 freight visibility and DG-4 Open RAN management.","saudi_investor":"Tali Ventures (stc)","saudi_investor_type":"portfolio_company","other_investors":["8VC","Tali Ventures"],"total_raised":"$175M","last_round":"Series C 2023","revenue_stage":"Growth","saudi_presence":"Active","contact":"via website","confidence":"high","source":"tali_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-072","name":"Cumulus Digital Systems","hq":"USA","city":"Houston","stage":"Series B","employees":"51-200","website":"cumulusds.com","description":"Digitizes mission-critical construction and maintenance activities","technology":"Field operations digitization","nodes":["LG-4","MR-1","MA-2"],"fit_type":"accelerate","fit_reason":"Cumulus is Aramco Ventures portfolio \u2014 their field operations digitization directly accelerates LG-4 industrial SCM platform and MR-1 dry dock maintenance workflows.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Aramco Ventures"],"total_raised":"$25M est.","last_round":"Series B 2024","revenue_stage":"Early revenue","saudi_presence":"Active","contact":"info@cumulusds.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-080","name":"ID Quantique","hq":"Switzerland","city":"Geneva","stage":"SME Growth","employees":"100-200","website":"idquantique.com","description":"World's leading commercial QKD company \u2014 quantum-safe networking","technology":"Quantum Key Distribution systems","nodes":["QT-3","SS-8","QT-1"],"fit_type":"fill","fit_reason":"ID Quantique is the direct technology provider for QT-3 Government Core QKD Network \u2014 they are the only company with deployed government QKD networks at scale. Swiss non-ITAR.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["SK Telecom","Quantonation"],"total_raised":"$60M est.","last_round":"Growth 2023","revenue_stage":"Growth","saudi_presence":"None","contact":"info@idquantique.com","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-081","name":"PQShield","hq":"UK","city":"Oxford","stage":"Series B","employees":"51-200","website":"pqshield.com","description":"Post-quantum cryptography hardware and software IP","technology":"Post-quantum cryptography IP","nodes":["QT-1","DG-2","DE-2"],"fit_type":"fill","fit_reason":"PQShield's PQC IP is the core technology for QT-1 Saudi PQC Implementation Programme \u2014 they provide hardware and software implementations of NIST PQC standards.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Addition","Chevron Technology Ventures"],"total_raised":"$37M","last_round":"Series B 2023","revenue_stage":"Early revenue","saudi_presence":"None","contact":"info@pqshield.com","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-082","name":"Orca Computing","hq":"UK","city":"London","stage":"Series A","employees":"11-50","website":"orcacomputing.com","description":"Room-temperature photonic quantum computers","technology":"Photonic quantum computing","nodes":["QT-4","SS-8"],"fit_type":"accelerate","fit_reason":"Orca's photonic quantum platform runs at room temperature \u2014 removing the cryogenic barrier for QT-4 Saudi Quantum Research Access and SS-8 QKD payload development.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["British Patient Capital","Octopus Ventures"],"total_raised":"$15M","last_round":"Series A 2022","revenue_stage":"Pre-revenue","saudi_presence":"None","contact":"info@orcacomputing.com","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-090","name":"Arm Holdings","hq":"UK","city":"Cambridge","stage":"Public","employees":"5000+","website":"arm.com","description":"Semiconductor IP \u2014 processor architectures used in 95% of smartphones","technology":"Processor architecture IP","nodes":["SC-1","SC-4","DG-1"],"fit_type":"fill","fit_reason":"PIF holds major stake in Arm Holdings via SoftBank. Arm architecture licensing is the foundational technology for Saudi chip design (SC-1). PIF-Arm relationship is the most direct Saudi semiconductor entry.","saudi_investor":"PIF (via SoftBank)","saudi_investor_type":"direct_investment","other_investors":["SoftBank","Apple","Intel"],"total_raised":"Public NASDAQ: ARM","last_round":"IPO 2023","revenue_stage":"Profitable","saudi_presence":"Active","contact":"partnerships@arm.com","confidence":"high","source":"pif_portfolio","last_verified":"2026-03-27"},{"id":"SU-091","name":"Lucid Motors","hq":"USA","city":"Newark CA","stage":"Public","employees":"5000+","website":"lucidmotors.com","description":"Luxury electric vehicles \u2014 world's longest range EV","technology":"EV drivetrain & battery technology","nodes":["AU-12","AU-13","SC-4"],"fit_type":"accelerate","fit_reason":"PIF is the majority owner of Lucid Motors. Lucid's battery thermal management and SiC power electronics directly accelerate AU-12 BTMS and AU-13 power electronics capability.","saudi_investor":"PIF","saudi_investor_type":"direct_investment","other_investors":["PIF majority shareholder"],"total_raised":"$10B+","last_round":"Public NASDAQ: LCID","revenue_stage":"Early revenue","saudi_presence":"Active","contact":"via PIF relationship","confidence":"high","source":"pif_portfolio","last_verified":"2026-03-27"},{"id":"SU-092","name":"Applied Silicon","hq":"Switzerland","city":"Berne","stage":"SME","employees":"11-50","website":"appliedsilicon.ch","description":"Semiconductor packaging and advanced materials for power electronics","technology":"SiC packaging materials","nodes":["SC-4","SC-3","AU-13"],"fit_type":"accelerate","fit_reason":"Swiss SME producing SiC packaging materials \u2014 directly accelerates SC-4 SiC device research and SC-3 HPA ceramic components. Non-ITAR.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["Innosuisse"],"total_raised":"$8M est.","last_round":"Growth","revenue_stage":"Growth","saudi_presence":"None","contact":"info@appliedsilicon.ch","confidence":"medium","source":"curated","last_verified":"2026-03-27"},{"id":"SU-100","name":"Lucid Motors","hq":"USA","city":"Newark CA","stage":"Public","employees":"5000+","website":"lucidmotors.com","description":"Luxury electric vehicles with world-leading range and efficiency","technology":"EV manufacturing & technology","nodes":["AU-12","AU-13","AU-11","AU-10"],"fit_type":"fill","fit_reason":"PIF majority-owned Lucid has its manufacturing operation in Saudi Arabia (AMP-2 in King Abdullah Economic City). Direct embodiment of the Saudi automotive programme across AU-10 through AU-13.","saudi_investor":"PIF","saudi_investor_type":"direct_investment","other_investors":["PIF majority"],"total_raised":"$10B+","last_round":"Public","revenue_stage":"Early revenue","saudi_presence":"HQ (manufacturing)","contact":"via PIF","confidence":"high","source":"pif_portfolio","last_verified":"2026-03-27"},{"id":"SU-101","name":"Sila Nanotechnologies","hq":"USA","city":"Alameda CA","stage":"Series F","employees":"500+","website":"silanano.com","description":"Silicon anode battery technology \u2014 20-40% more energy density","technology":"Silicon anode battery materials","nodes":["AU-12","SC-4","AM-4"],"fit_type":"accelerate","fit_reason":"Sila's silicon anode technology directly accelerates AU-12 battery thermal management by improving cell energy density. PIF has invested in EV battery ecosystem companies.","saudi_investor":null,"saudi_investor_type":null,"other_investors":["BMW","Panasonic","In-Q-Tel"],"total_raised":"$1B+","last_round":"Series F 2023","revenue_stage":"Early revenue","saudi_presence":"None","contact":"partnerships@silanano.com","confidence":"high","source":"curated","last_verified":"2026-03-27"},{"id":"SU-102","name":"Desktop Metal","hq":"USA","city":"Burlington MA","stage":"Public","employees":"500+","website":"desktopmetal.com","description":"3D printing of metals and other materials at scale","technology":"Metal additive manufacturing","nodes":["AU-7","MA-3","AM-5"],"fit_type":"accelerate","fit_reason":"Desktop Metal is Aramco Ventures portfolio \u2014 3D metal printing directly accelerates AU-7 Tooling and Die Center and MA-3 Ground Support Equipment manufacturing.","saudi_investor":"Aramco Ventures","saudi_investor_type":"portfolio_company","other_investors":["Ford","BMW","Aramco Ventures"],"total_raised":"$770M","last_round":"NYSE: DM","revenue_stage":"Early revenue","saudi_presence":"Active","contact":"info@desktopmetal.com","confidence":"high","source":"aramco_ventures_portfolio","last_verified":"2026-03-27"},{"id":"SU-103","name":"Waymo","hq":"USA","city":"San Francisco","stage":"Late","employees":"2500+","website":"waymo.com","description":"Autonomous vehicle technology \u2014 robotaxi and autonomous trucking","technology":"Full self-driving autonomy","nodes":["AU-12","AU-13","DG-1"],"fit_type":"de-risk","fit_reason":"PIF is a major Waymo investor. Waymo's autonomous vehicle technology de-risks Saudi EV powertrain (AU-12/13) by creating demand pull for Saudi-manufactured components.","saudi_investor":"PIF/Alphabet","saudi_investor_type":"indirect","other_investors":["Alphabet","AutoNation"],"total_raised":"$11B+","last_round":"Late 2024","revenue_stage":"Early revenue","saudi_presence":"None","contact":"via PIF","confidence":"medium","source":"pif_portfolio","last_verified":"2026-03-27"}];
+const NODES_META={"AM-1":{"title":"Carbon Fiber Production \u2014 Phase I","sector":"MT","phase":"I"},"AM-2":{"title":"Technical Ceramics from Saudi Alumina","sector":"MT","phase":"I"},"AM-3":{"title":"Specialty Polymer Compounds from SABIC","sector":"MT","phase":"I"},"AM-4":{"title":"Nanomaterial Pilot Production","sector":"MT","phase":"I"},"AM-5":{"title":"Aerospace Aluminum Alloy Rolling","sector":"MT","phase":"I"},"AM-6":{"title":"Shape Memory Alloy Production","sector":"MT","phase":"II"},"AU-1":{"title":"Alloy Wheel Manufacturing","sector":"AU","phase":"I"},"AU-10":{"title":"Metal Body Stampings","sector":"AU","phase":"II"},"AU-11":{"title":"HVAC Systems","sector":"AU","phase":"II"},"AU-12":{"title":"Battery Thermal Management Systems","sector":"AU","phase":"II-IV"},"AU-13":{"title":"Power Electronics Components","sector":"AU","phase":"II-IV"},"AU-14":{"title":"Industrial Quality Support Services","sector":"AU","phase":"II"},"AU-2":{"title":"Seating and Interior Assemblies","sector":"AU","phase":"I"},"AU-3":{"title":"Wire Harness and Electrical Systems","sector":"AU","phase":"I"},"AU-4":{"title":"Polymer and Plastic Body Parts","sector":"AU","phase":"I"},"AU-5":{"title":"Hot-Climate Vehicle Validation Lab","sector":"AU","phase":"I"},"AU-6":{"title":"Aftermarket Parts and Services","sector":"AU","phase":"I"},"AU-7":{"title":"Tooling and Die Center","sector":"AU","phase":"I-II"},"AU-8":{"title":"Industrial Testing and Metrology","sector":"AU","phase":"I-II"},"AU-9":{"title":"Logistics and Warehousing Services","sector":"AU","phase":"I"},"CA-1":{"title":"Commercial MRO Expansion","sector":"AD","phase":"I"},"CA-2":{"title":"Composite Panel Manufacturing","sector":"AD","phase":"I"},"CA-3":{"title":"Aircraft Interiors Manufacturing","sector":"AD","phase":"I"},"DE-1":{"title":"C4ISR Software Integration","sector":"AD","phase":"I"},"DE-2":{"title":"Cybersecurity Systems","sector":"AD","phase":"I"},"DE-3":{"title":"Communications Equipment Maintenance","sector":"AD","phase":"I"},"DE-4":{"title":"Radar Sub-System Manufacturing","sector":"AD","phase":"II"},"DE-5":{"title":"Electronic Warfare Signal Analysis","sector":"AD","phase":"II"},"DG-1":{"title":"Saudi Falcon Arabic LLM Program","sector":"DG","phase":"I"},"DG-2":{"title":"Government Sovereign Cloud","sector":"DG","phase":"I"},"DG-3":{"title":"Saudi OT Cybersecurity Platform","sector":"DG","phase":"I"},"DG-4":{"title":"Open RAN Network Management Software","sector":"DG","phase":"I"},"DG-5":{"title":"National Industrial IoT Platform","sector":"DG","phase":"I"},"DG-6":{"title":"Saudi Cybersecurity Operations Center \u2014 Arabic Threat Intelligence","sector":"DG","phase":"II"},"DT-1":{"title":"RO Membrane Manufacturing \u2014 Phase I","sector":"WT","phase":"I"},"DT-10":{"title":"Solar-Variable RO Control Systems","sector":"WT","phase":"I"},"DT-2":{"title":"High-Pressure Pump Component Manufacturing","sector":"WT","phase":"I"},"DT-3":{"title":"Desalination Control System Integration","sector":"WT","phase":"I"},"DT-4":{"title":"Brine Mineral Assessment and Pilot Extraction","sector":"WT","phase":"I"},"DT-5":{"title":"Digital Water Operations Platform","sector":"WT","phase":"II"},"DT-6":{"title":"Commercial Membrane Manufacturing Scale-Up","sector":"WT","phase":"I"},"DT-7":{"title":"Energy Recovery Device Manufacturing","sector":"WT","phase":"I"},"DT-8":{"title":"Desalination Process Engineering","sector":"WT","phase":"I"},"DT-9":{"title":"Commercial Brine Lithium Extraction","sector":"WT","phase":"I"},"LG-1":{"title":"Saudi Cold Chain Monitoring Platform","sector":"LG","phase":"I"},"LG-2":{"title":"National Freight Visibility Platform","sector":"LG","phase":"I"},"LG-3":{"title":"Port Terminal Operating System (Saudi-developed)","sector":"LG","phase":"I"},"LG-4":{"title":"Industrial Supply Chain Management Platform","sector":"LG","phase":"I"},"LG-5":{"title":"Last-Mile AI Routing Platform","sector":"LG","phase":"II"},"LS-1":{"title":"Turret Mechanical Component Manufacturing","sector":"AD","phase":"I"},"LS-2":{"title":"Wheeled Vehicle Maintenance Services","sector":"AD","phase":"I"},"LS-3":{"title":"Armor Steel Structural Fabrication","sector":"AD","phase":"I"},"LS-4":{"title":"Fire Control Electronics Assembly and Test","sector":"AD","phase":"II"},"LS-5":{"title":"Wheeled Armored Vehicle Variant Design","sector":"AD","phase":"II"},"MA-1":{"title":"UAV Structural Components Manufacturing","sector":"AD","phase":"I"},"MA-2":{"title":"Military Aviation MRO Expansion","sector":"AD","phase":"I"},"MA-3":{"title":"Ground Support Equipment Manufacturing","sector":"AD","phase":"I"},"MA-4":{"title":"UAV Software Integration","sector":"AD","phase":"I"},"MA-5":{"title":"Aerostructures Manufacturing (Tier 2)","sector":"AD","phase":"II"},"MA-6":{"title":"Avionics Sub-System Repair and Overhaul","sector":"AD","phase":"II"},"MA-7":{"title":"UAV Propulsion Maintenance and Assembly","sector":"AD","phase":"II"},"MD-1":{"title":"Examination Gloves and Basic Consumables","sector":"MD","phase":"I"},"MD-2":{"title":"IV Administration Sets and Syringes","sector":"MD","phase":"I"},"MD-3":{"title":"Patient Monitor Assembly","sector":"MD","phase":"I"},"MD-4":{"title":"Radiology AI Platform","sector":"MD","phase":"I"},"MD-5":{"title":"Dental Implant Manufacturing","sector":"MD","phase":"I"},"MD-6":{"title":"CGM Sensor Assembly","sector":"MD","phase":"II"},"MR-1":{"title":"VLCC and Large Vessel Dry Dock Repair","sector":"MR","phase":"I"},"MR-2":{"title":"Offshore Support Vessel Operations (Saudi-flagged)","sector":"MR","phase":"I"},"MR-3":{"title":"Port Equipment Structural Manufacturing","sector":"MR","phase":"I"},"MR-4":{"title":"Maritime Navigation and Bridge Systems Integration","sector":"MR","phase":"I"},"MR-5":{"title":"Maritime Digital Twin and AI Platform","sector":"MR","phase":"I"},"MR-6":{"title":"ROV Operations and Subsea Inspection","sector":"MR","phase":"II"},"MS-1":{"title":"Guided Munitions Final Assembly Under License","sector":"AD","phase":"I"},"MS-2":{"title":"Support Equipment and Handling Systems","sector":"AD","phase":"I"},"MS-3":{"title":"Solid-Fuel Propulsion Technology Development","sector":"AD","phase":"II-III"},"MS-4":{"title":"Loitering Munitions Design","sector":"AD","phase":"III"},"NV-1":{"title":"Ship Systems Outfitting","sector":"AD","phase":"I"},"NV-2":{"title":"Naval Platform MRO Base","sector":"AD","phase":"I"},"NV-3":{"title":"Deck Equipment and Fittings Manufacturing","sector":"AD","phase":"I"},"NV-4":{"title":"Combat Management System Software Integration","sector":"AD","phase":"II"},"NV-5":{"title":"Radar Sub-System Maintenance and Modification","sector":"AD","phase":"II"},"QT-1":{"title":"Saudi PQC Implementation Program","sector":"QT","phase":"I"},"QT-2":{"title":"Quantum Gravimetry Pilot for Saudi Geological Survey","sector":"QT","phase":"I"},"QT-3":{"title":"Government Core QKD Network in Riyadh","sector":"QT","phase":"I"},"QT-4":{"title":"Saudi Quantum Research Access Program","sector":"QT","phase":"II"},"SC-1":{"title":"Saudi Chip Design and SSIH","sector":"SC","phase":"I"},"SC-2":{"title":"Semiconductor Materials \u2014 Electronic Grade Chemicals","sector":"SC","phase":"I"},"SC-3":{"title":"High-Purity Alumina Ceramic Components from Ma'aden","sector":"SC","phase":"I"},"SC-4":{"title":"SiC Device Research and Pilot at KACST-SSIH","sector":"SC","phase":"II"},"SP-1":{"title":"Satellite Ground Segment Sovereignty","sector":"AD","phase":"I"},"SP-2":{"title":"ISR Data Analysis Center","sector":"AD","phase":"I"},"SP-3":{"title":"Small Satellite Platform Integration","sector":"AD","phase":"II-III"},"SP-4":{"title":"Military Communications Satellite Operations","sector":"AD","phase":"II-III"},"SS-1":{"title":"Satellite Structural Manufacturing","sector":"SP","phase":"I"},"SS-2":{"title":"Solar Array and Power Electronics Manufacturing","sector":"SP","phase":"I"},"SS-3":{"title":"Ground Segment Equipment Manufacturing","sector":"SP","phase":"I"},"SS-4":{"title":"Earth Observation Data Analytics Platform","sector":"SP","phase":"II"},"SS-5":{"title":"Satellite Bus Integration Capability","sector":"SP","phase":"II"},"SS-6":{"title":"EO Optical Payload Sub-Assembly","sector":"SP","phase":"I"},"SS-7":{"title":"Electric Propulsion Manufacturing","sector":"SP","phase":"I"},"SS-8":{"title":"QKD Payload Engineering","sector":"SP","phase":"II"}};
+
+const SECTORS={AD:'Aerospace & Defense',SP:'Space',MD:'Medical Devices',MR:'Maritime',
+  MT:'Advanced Materials',DG:'Digital Infra',WT:'Water & Desal',LG:'Logistics',
+  QT:'Quantum',SC:'Semiconductors',AU:'Automotive'};
+
+const INVESTOR_COLORS={
+  'Aramco Ventures':'av','PIF':'pif','Sanabil':'sanabil',
+  'Tali Ventures (stc)':'tali','PIF (via SoftBank)':'pif',
+  'PIF/Alphabet':'pif','SoftBank (via Vision Fund)':'global',null:'global'
+};
+
+// Populate node filter
+const nf=document.getElementById('f-node');
+Object.entries(NODES_META).sort((a,b)=>a[0].localeCompare(b[0])).forEach(([id,n])=>{
+  const o=document.createElement('option');o.value=id;
+  o.textContent=`${id} — ${n.title.slice(0,35)}`;nf.appendChild(o);
+});
+
+// Populate sector filter
+const sf=document.getElementById('f-sector');
+Object.entries(SECTORS).forEach(([c,l])=>{
+  const o=document.createElement('option');o.value=c;o.textContent=l;sf.appendChild(o);
+});
+
+// State
+let fitFilters=new Set(['fill','accelerate','de-risk']);
+let invFilters=new Set(['Aramco Ventures','PIF','Sanabil','Tali','Global']);
+let aiResults=[];
+
+function toggleChip(fit){
+  if(fitFilters.has(fit)) fitFilters.delete(fit); else fitFilters.add(fit);
+  const map={fill:'chip-fill',accelerate:'chip-acc','de-risk':'chip-derisk'};
+  document.getElementById('chip-'+{fill:'fill',accelerate:'acc','de-risk':'derisk'}[fit]).classList.toggle('active',fitFilters.has(fit));
+  render();
+}
+
+function toggleInvChip(inv){
+  const id='chip-'+inv.toLowerCase().split('/')[0].split(' ')[0];
+  if(invFilters.has(inv))invFilters.delete(inv);else invFilters.add(inv);
+  const el=document.getElementById(id);if(el)el.classList.toggle('active',invFilters.has(inv));
+  render();
+}
+
+function investorClass(s){
+  if(!s)return 'global';
+  if(s.includes('Aramco'))return 'av';
+  if(s.includes('Sanabil'))return 'sanabil';
+  if(s.includes('Tali'))return 'tali';
+  if(s.includes('PIF'))return 'pif';
+  return 'global';
+}
+
+function invFilterMatch(s){
+  if(!s) return invFilters.has('Global');
+  if(s.includes('Aramco')) return invFilters.has('Aramco Ventures');
+  if(s.includes('Sanabil')) return invFilters.has('Sanabil');
+  if(s.includes('Tali')) return invFilters.has('Tali');
+  if(s.includes('PIF')) return invFilters.has('PIF');
+  return invFilters.has('Global');
+}
+
+function filterData(){
+  const q=(document.getElementById('search-input').value||'').toLowerCase();
+  const fn=document.getElementById('f-node').value;
+  const fs=document.getElementById('f-sector').value;
+  const fst=document.getElementById('f-stage').value;
+
+  return DB.filter(c=>{
+    if(!fitFilters.has(c.fit_type)) return false;
+    if(!invFilterMatch(c.saudi_investor)) return false;
+    if(fn && !c.nodes.includes(fn)) return false;
+    if(fs && !c.nodes.some(n=>(NODES_META[n]?.sector||'')===fs)) return false;
+    if(fst && !c.stage.includes(fst)) return false;
+    if(q){
+      const haystack=`${c.name} ${c.description} ${c.technology} ${c.nodes.join(' ')} ${c.fit_reason} ${c.saudi_investor||''}`.toLowerCase();
+      if(!haystack.includes(q)) return false;
+    }
+    return true;
+  });
+}
+
+function cardHTML(c, isAI=false){
+  const ic=investorClass(c.saudi_investor);
+  const initials=c.name.split(' ').map(w=>w[0]).join('').slice(0,2).toUpperCase();
+  const colors={'av':'#e74c3c','pif':'#8E44AD','sanabil':'#2980B9','tali':'#16A085','global':'#4a5568'};
+  const bgColor=colors[ic]||'#4a5568';
+  const fitClass={'fill':'bf-fill','accelerate':'bf-accelerate','de-risk':'bf-de-risk'}[c.fit_type]||'bf-accelerate';
+  const fitLabel={'fill':'Fill','accelerate':'Accelerate','de-risk':'De-risk'}[c.fit_type]||c.fit_type;
+  const presenceClass={'None':'p-none','Pilot':'p-pilot','Active':'p-active','HQ':'p-hq','HQ (manufacturing)':'p-hq'}[c.saudi_presence]||'p-none';
+
+  const nodeTags=(c.nodes||[]).slice(0,5).map(n=>{
+    const nm=NODES_META[n];
+    return `<span class="node-tag" onclick="event.stopPropagation();filterByNode('${n}')" title="${nm?.title||n}">${n}</span>`;
+  }).join('');
+
+  const invBadge=c.saudi_investor
+    ?`<span class="badge-investor bi-${ic}">${c.saudi_investor}</span>`
+    :`<span class="badge-investor bi-global">Global</span>`;
+  const aiBadge=isAI?`<span class="badge-investor bi-ai">⟡ AI</span>`:'';
+
+  return `<div class="card${isAI?' ai-result':''}" data-id="${c.id}" style="cursor:pointer">
+    <div class="card-head">
+      <div class="card-icon" style="background:${bgColor}18;color:${bgColor};border:1px solid ${bgColor}33">${initials}</div>
+      <div class="card-meta">
+        <div class="card-name">${c.name}</div>
+        <div class="card-sub">
+          <span class="card-hq">${c.hq}</span>
+          <span style="color:var(--bdr)">·</span>
+          <span class="card-stage">${c.stage}</span>
+          ${c.total_raised&&c.total_raised!=='Public'?`<span style="color:var(--bdr)">·</span><span class="card-stage">${c.total_raised}</span>`:''}
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <div class="card-tech">${c.technology}</div>
+      <div class="card-reason">${c.fit_reason}</div>
+      <div class="card-footer">
+        ${invBadge}${aiBadge}
+        <span class="badge-fit ${fitClass}">${fitLabel}</span>
+        <span style="display:flex;align-items:center;gap:4px;margin-left:auto">
+          <span class="presence-dot ${presenceClass}"></span>
+          <span class="presence-lbl">Saudi: ${c.saudi_presence}</span>
+        </span>
+      </div>
+      <div class="node-tags">${nodeTags}</div>
+    </div>
+    <div class="card-actions">
+      <a class="action-btn ab-primary" href="https://${c.website}" target="_blank" onclick="event.stopPropagation()">↗ Website</a>
+      <a class="action-btn ab-secondary" href="mailto:?subject=SaudiOpp: ${encodeURIComponent(c.name)}&body=Company: ${encodeURIComponent(c.name)}%0AWebsite: ${encodeURIComponent('https://'+c.website)}%0AFit: ${encodeURIComponent(c.fit_reason)}" onclick="event.stopPropagation()">✉ Share</a>
+    </div>
+  </div>`;
+}
+
+function render(){
+  const filtered=filterData();
+  document.getElementById('res-count').textContent=filtered.length + aiResults.length;
+  document.getElementById('ai-badge').style.display=aiResults.length?'':'none';
+
+  if(!filtered.length && !aiResults.length){
+    document.getElementById('grid').innerHTML=`<div class="empty-state">
+      <div class="ico">⬡</div>
+      <p>No companies match your filters. Try broadening your search or click <strong style="color:var(--accent)">AI Scout</strong> to discover new matches.</p>
+      <div class="hint">AI Scout uses Claude to search for startups beyond the curated database</div>
+    </div>`;
+    return;
+  }
+
+  const cards=[...aiResults.map(c=>cardHTML(c,true)),...filtered.map(c=>cardHTML(c))];
+  document.getElementById('grid').innerHTML=cards.join('');
+}
+
+// Event delegation - handles clicks on all cards including dynamically added AI results
+document.getElementById('grid').addEventListener('click', function(e){
+  // Walk up to find the card
+  let el = e.target;
+  while(el && el !== this){
+    if(el.dataset && el.dataset.id){
+      // Don't trigger if clicking a link or node tag
+      if(e.target.tagName === 'A' || e.target.classList.contains('node-tag')) return;
+      openDetail(el.dataset.id);
+      return;
+    }
+    el = el.parentElement;
+  }
+});
+
+function filterByNode(nid){
+  document.getElementById('f-node').value=nid;
+  render();
+}
+
+// ── Detail Panel ──
+let allCompanies=[...DB];
+
+function openDetail(id){
+  const c=allCompanies.find(x=>x.id===id)||aiResults.find(x=>x.id===id);
+  if(!c)return;
+  const ic=investorClass(c.saudi_investor);
+  const colors={'av':'#e74c3c','pif':'#8E44AD','sanabil':'#2980B9','tali':'#16A085','global':'#4a5568'};
+  const col=colors[ic];
+
+  document.getElementById('dp-name').textContent=c.name;
+  document.getElementById('dp-meta').innerHTML=`
+    <span>${c.hq}${c.city?', '+c.city:''}</span>
+    <span>·</span><span>${c.stage}</span>
+    ${c.employees?`<span>·</span><span>${c.employees} employees</span>`:''}`;
+
+  const invBadge=c.saudi_investor
+    ?`<span class="dp-investor-badge" style="background:${col}18;color:${col};border:1px solid ${col}33">${c.saudi_investor}</span>`
+    :`<span class="dp-investor-badge" style="background:var(--surf2);color:var(--dim);border:1px solid var(--bdr)">Global — no Saudi investor</span>`;
+
+  const nodeList=(c.nodes||[]).map(n=>{
+    const nm=NODES_META[n];
+    return `<span class="dp-node" title="${nm?.title||n}">${n}: ${nm?.title?.slice(0,30)||n}</span>`;
+  }).join('');
+
+  const fitLabel={'fill':'● Fill — directly builds the node capability','accelerate':'◎ Accelerate — supplies critical component or technology','de-risk':'○ De-risk — reduces technical or market risk'}[c.fit_type]||c.fit_type;
+
+  document.getElementById('dp-body').innerHTML=`
+    <div class="dp-sec">
+      <div class="dp-sec-t">Investor Relationship</div>
+      ${invBadge}
+      ${c.saudi_investor_type?`<div style="font-size:11px;color:var(--dim);margin-top:6px">${c.saudi_investor_type.replace(/_/g,' ')}</div>`:''}
+    </div>
+    <div class="dp-row"><div class="dp-cell"><div class="dp-cell-k">Total Raised</div><div class="dp-cell-v">${c.total_raised||'N/A'}</div></div>
+    <div class="dp-cell"><div class="dp-cell-k">Last Round</div><div class="dp-cell-v">${c.last_round||'—'}</div></div></div>
+    <div class="dp-row"><div class="dp-cell"><div class="dp-cell-k">Saudi Presence</div><div class="dp-cell-v">${c.saudi_presence}</div></div>
+    <div class="dp-cell"><div class="dp-cell-k">Revenue Stage</div><div class="dp-cell-v">${c.revenue_stage||'—'}</div></div></div>
+    <div class="dp-sec">
+      <div class="dp-sec-t">Company Description</div>
+      <div class="dp-txt">${c.description}</div>
+      <div style="margin-top:6px;font-family:'IBM Plex Mono',monospace;font-size:10px;color:var(--accent)">Core technology: ${c.technology}</div>
+    </div>
+    <div class="dp-sec">
+      <div class="dp-sec-t">PSAP Node Fit — ${fitLabel}</div>
+      <div class="dp-txt">${c.fit_reason}</div>
+    </div>
+    <div class="dp-sec">
+      <div class="dp-sec-t">Relevant Nodes (${(c.nodes||[]).length})</div>
+      <div class="dp-nodes">${nodeList}</div>
+    </div>
+    ${c.other_investors?.length?`<div class="dp-sec">
+      <div class="dp-sec-t">Other Notable Investors</div>
+      <div class="dp-txt">${c.other_investors.join(' · ')}</div>
+    </div>`:''}
+    <div class="dp-sec">
+      <div class="dp-sec-t">Contact & Links</div>
+      <a class="dp-link" href="https://${c.website}" target="_blank">↗ ${c.website}</a>
+      ${c.contact&&c.contact!='via website'?`<div style="font-size:11px;color:var(--dim);margin-top:4px">${c.contact}</div>`:''}
+    </div>
+    <div class="dp-sec">
+      <div class="dp-sec-t">Data Source</div>
+      <div class="dp-txt" style="color:var(--muted)">${c.source==='aramco_ventures_portfolio'?'Aramco Ventures public portfolio':c.source==='pif_portfolio'?'PIF disclosed investments':c.source==='sanabil_portfolio'?'Sanabil Investments portfolio':c.source==='tali_ventures_portfolio'?'Tali Ventures (stc) portfolio':c.source==='ai_search'?'⟡ Claude AI live search':'Istawra curated database'} · Verified ${c.last_verified||'2025'}</div>
+    </div>`;
+
+  document.getElementById('detail-panel').classList.add('open');
+  document.getElementById('overlay').classList.add('open');
+}
+
+function closeDetail(){
+  document.getElementById('detail-panel').classList.remove('open');
+  document.getElementById('overlay').classList.remove('open');
+}
+
+// ── AI Scout ──
+async function runAISearch(){
+  const q=document.getElementById('search-input').value.trim();
+  const fn=document.getElementById('f-node').value;
+  const fs=document.getElementById('f-sector').value;
+  const apiKey=(document.getElementById('api-key-input')?.value||'').trim();
+
+  if(!q && !fn && !fs){
+    alert('Enter a search term, select a node, or select a sector first.');return;
+  }
+  if(!apiKey){
+    // Show inline message instead of alert
+    const btn=document.getElementById('ai-btn');
+    btn.innerHTML='<span>⚠</span> Add API Key';
+    btn.style.background='#e74c3c';
+    setTimeout(()=>{btn.innerHTML='<span>⟡</span> AI Scout';btn.style.background='var(--accent)';},2500);
+    document.getElementById('api-key-input').style.borderColor='#e74c3c';
+    document.getElementById('api-key-input').focus();
+    return;
+  }
+
+  const btn=document.getElementById('ai-btn');
+  btn.disabled=true;btn.innerHTML='<span class="ai-spinner" style="display:inline-block;width:12px;height:12px;border:2px solid rgba(0,0,0,.3);border-top-color:#000;border-radius:50%;animation:spin .8s linear infinite"></span> Searching...';
+
+  let nodeContext='';
+  if(fn && NODES_META[fn]){
+    const n=NODES_META[fn];
+    nodeContext=`\nTarget PSAP Node: ${fn} — ${n.title} (Sector: ${n.sector}, Phase: ${n.phase})`;
+  }
+  const sectorContext=fs?`\nTarget Sector: ${SECTORS[fs]||fs}`:'';
+
+  const prompt=`You are an investment intelligence analyst for SaudiOpp, a Saudi Arabia industrial investment platform. Find innovative startups and SMEs that could fill, accelerate, or de-risk Saudi Arabia's PSAP industrial capability nodes.
+${nodeContext}${sectorContext}
+Search query: "${q||('companies relevant to '+((fn&&NODES_META[fn]?.title)||fs||'Saudi industrial investment'))}"
+
+Find 4-6 specific companies (startups, scale-ups, or innovative SMEs) that are relevant. Include companies from Saudi investor portfolios (Aramco Ventures, PIF, Sanabil, Tali/stc) if relevant, as well as global innovators. Consider innovative niche SMEs, not just well-known startups.
+
+Respond ONLY with a valid JSON array, no markdown, no explanation, no code fences:
+[{"id":"AI-001","name":"","hq":"","city":"","stage":"","employees":"","website":"","description":"","technology":"","nodes":[],"fit_type":"fill","fit_reason":"","saudi_investor":null,"saudi_investor_type":null,"other_investors":[],"total_raised":"","last_round":"","revenue_stage":"","saudi_presence":"None","contact":"","confidence":"high","source":"ai_search","last_verified":"2025-03-27"}]`;
+
+  try {
+    const resp = await fetch('https://api.anthropic.com/v1/messages', {
+      method:'POST',
+      headers:{
+        'Content-Type':'application/json',
+        'x-api-key': apiKey,
+        'anthropic-version':'2023-06-01',
+        'anthropic-dangerous-direct-browser-access':'true'
+      },
+      body: JSON.stringify({
+        model:'claude-sonnet-4-20250514',
+        max_tokens:3000,
+        messages:[{role:'user',content:prompt}]
+      })
+    });
+
+    if(!resp.ok){
+      const errText = await resp.text();
+      throw new Error(`API error ${resp.status}: ${errText.slice(0,200)}`);
+    }
+
+    const data = await resp.json();
+    let text = '';
+    for(const block of (data.content||[])){
+      if(block.type==='text') text += block.text;
+    }
+
+    // Extract JSON array — find first [ and last ]
+    const start = text.indexOf('[');
+    const end = text.lastIndexOf(']');
+    if(start === -1 || end === -1 || end <= start){
+      throw new Error('No JSON array found in response');
+    }
+    const jsonStr = text.slice(start, end+1);
+    const companies = JSON.parse(jsonStr);
+    companies.forEach((c,i)=>{
+      c.id=`AI-${Date.now()}-${i}`;
+      if(!c.last_verified) c.last_verified='2025-03-27';
+    });
+    aiResults = companies;
+    allCompanies = [...DB, ...aiResults];
+    document.getElementById('ai-badge').style.display='';
+  } catch(e){
+    console.error('AI Scout error:', e);
+    // Show error in grid
+    document.getElementById('grid').insertAdjacentHTML('afterbegin',
+      `<div style="grid-column:1/-1;background:rgba(231,76,60,.1);border:1px solid rgba(231,76,60,.3);border-radius:4px;padding:14px 16px;font-size:12px;color:#e74c3c;font-family:'IBM Plex Mono',monospace">
+        ⚠ AI Scout error: ${e.message.slice(0,200)}
+        <div style="margin-top:6px;font-size:10px;color:var(--dim)">Check your API key and try again.</div>
+      </div>`
+    );
+  }
+
+  btn.disabled=false;btn.innerHTML='<span>⟡</span> AI Scout';
+  render();
+}
+
+// Search input live filter
+document.getElementById('search-input').addEventListener('input', render);
+document.getElementById('f-node').addEventListener('change', render);
+document.getElementById('f-sector').addEventListener('change', render);
+document.getElementById('f-stage').addEventListener('change', render);
+
+// Enter key triggers AI search
+document.getElementById('search-input').addEventListener('keydown', e=>{
+  if(e.key==='Enter') runAISearch();
+});
+
+// Init
+render();
+</script>
+</body>
+</html>
