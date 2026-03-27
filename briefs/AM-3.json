@@ -1,0 +1,91 @@
+{
+  "id": "AM-3",
+  "title": "Specialty Polymer Compounds from SABIC",
+  "sector": "MT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$95M – $175M",
+  "entry_mechanism": "SABIC downstream compounding investment with PSAP-assisted international compounder JV",
+  "executive_summary": "Specialty polymer compounds — engineering plastics, elastomer blends, flame-retardant polymers, and high-performance thermoplastics used in automotive, aerospace, medical devices, and electronics — are the highest-value downstream product in SABIC's polymer value chain. SABIC produces commodity polymers (polyethylene, polypropylene, polyvinyl chloride) at massive scale but sells most output as bulk commodity pellets. Compounding — blending base polymers with additives to create application-specific materials with defined properties — creates 2–5x the value-add of commodity polymer sales.\n\nSaudi Arabia's PSAP and Vision 2030 industrial programmes create concentrated demand for specialty compounds: flame-retardant compounds for aviation interiors (CA-3), medical-grade compounds for MD-1/MD-2, engineering plastics for automotive components (AU programme), and ESD-protected compounds for electronics manufacturing (DE/SC sectors). All are currently imported.\n\nThe global specialty compounding market was valued at $68 billion in 2024 growing at 6.2% CAGR. SABIC's position as a top-10 global polymer producer, combined with its Saudi feedstock cost advantage, makes a Saudi specialty compounding programme potentially cost-competitive globally from day one.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Avient Corporation (formerly PolyOne)",
+      "country": "USA",
+      "type": "Specialty Compounding Partner",
+      "rationale": "Avient is the world's leading specialty polymer compounder with SABIC as an existing customer. A SABIC-Avient compounding JV in Saudi Arabia is commercially natural.",
+      "contact": "Avient VP International Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Clariant",
+      "country": "Switzerland",
+      "type": "Specialty Additives and Compounds",
+      "rationale": "Clariant produces specialty additives and polymer compounds with active SABIC relationship. Non-US European technology.",
+      "contact": "Clariant VP Masterbatches International"
+    },
+    {
+      "rank": 3,
+      "name": "RTP Company",
+      "country": "USA",
+      "type": "Engineered Thermoplastics",
+      "rationale": "RTP Company specialises in custom-engineered thermoplastic compounds for specific application requirements.",
+      "contact": "RTP Company VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Celanese",
+      "country": "USA",
+      "type": "Engineering Plastics",
+      "rationale": "Celanese produces engineering plastics used in automotive and industrial applications. SABIC as base polymer supplier.",
+      "contact": "Celanese VP Advanced Engineered Materials"
+    },
+    {
+      "rank": 5,
+      "name": "LyondellBasell",
+      "country": "Netherlands/USA",
+      "type": "Compounding Technology",
+      "rationale": "LyondellBasell produces advanced polymer compounds and has SABIC as a peer/partner in the global polymer market.",
+      "contact": "LyondellBasell VP Advanced Polymers, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC Specialties Division",
+      "track": "Track 7 — Venture Client",
+      "current": "Commodity polymer production; some LEXAN and NORYL engineering plastics (acquired with GE Plastics); limited downstream compounding",
+      "upgrade": "Saudi specialty compounding facility; Avient or Clariant technical JV; SABIC polymer as feedstock; medical, automotive, aerospace compound grades; ISO 9001 and sector-specific quality systems",
+      "timeline": "24 months to first specialty compound commercial delivery",
+      "anchor": "SABIC + PIF + SAMI"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Automotive OEMs (future)",
+      "track": "Track 7 — Venture Client",
+      "current": "Automotive assembly development; polymer part requirements emerging",
+      "upgrade": "Saudi automotive compound demand anchors compounding investment; application-specific grades co-developed with AU programme customers",
+      "timeline": "30 months",
+      "anchor": "SABIC + AU programme + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Polymer Research",
+      "track": "Track 6 — R&D",
+      "current": "Polymer materials research; some composites research",
+      "upgrade": "GADD-KACST specialty compound development programme; Saudi-origin flame-retardant compound research; high-performance thermoplastic research",
+      "timeline": "24 months",
+      "anchor": "GADD + KACST + SABIC"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Chemical Engineering / Polymer Science",
+      "track": "Track 8 — Human Capital",
+      "current": "Polymer chemistry; processing engineering; formulation research",
+      "upgrade": "Specialty polymer compounding engineering programme; SABIC-KFUPM compound formulation research; 20 Saudi polymer engineers",
+      "timeline": "24 months",
+      "anchor": "SABIC + KFUPM"
+    }
+  ]
+}

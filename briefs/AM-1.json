@@ -1,0 +1,91 @@
+{
+  "id": "AM-1",
+  "title": "Carbon Fiber Production — Phase I",
+  "sector": "MT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$280M – $480M",
+  "entry_mechanism": "PSAP Track 2 — Carbon fiber JV between SABIC/Aramco and international carbon fiber manufacturer anchored by aerospace demand",
+  "executive_summary": "Carbon fiber — the ultra-high-strength, low-weight material that is the foundational input for composite structures in aerospace, defense, automotive, and wind energy — is produced by only a handful of companies globally: Toray, Hexcel, Solvay, SGL Carbon, and Teijin. Saudi Arabia currently has zero carbon fiber production despite being a world leader in the petrochemical feedstocks (acrylonitrile precursor from SABIC) that carbon fiber is made from. This is a classic Saudi value chain gap: exporting the raw material while importing the finished product.\n\nNode AM-1 targets Phase I establishment of a Saudi carbon fiber production facility, producing T300/T700 grade (standard modulus) carbon fiber using a SABIC-supplied polyacrylonitrile (PAN) precursor. The facility serves Saudi Arabia's aerospace composites programme (MA-1, CA-2, SS-1), defense structures, and emerging automotive and wind energy demand.\n\nThe global carbon fiber market was valued at $5.8 billion in 2024 growing at 11.2% CAGR. A Saudi carbon fiber producer with SABIC's low-cost acrylonitrile supply chain would be cost-competitive globally. Full domestic demand from Saudi aerospace, defense, automotive, and renewable energy programmes alone justifies the Phase I investment.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Toray Industries",
+      "country": "Japan",
+      "type": "Technology JV Partner",
+      "rationale": "Toray is the world's largest carbon fiber producer with 35% global market share. A Toray-SABIC JV for Saudi carbon fiber production would be the most technically credible partnership.",
+      "contact": "Toray VP Composites Materials International"
+    },
+    {
+      "rank": 2,
+      "name": "Hexcel Corporation",
+      "country": "USA",
+      "type": "Carbon Fiber Technology",
+      "rationale": "Hexcel produces aerospace-grade carbon fiber and prepreg. ITAR considerations for defense grades but commercial aerospace grades are accessible.",
+      "contact": "Hexcel VP International Manufacturing"
+    },
+    {
+      "rank": 3,
+      "name": "SGL Carbon",
+      "country": "Germany",
+      "type": "Carbon Fiber Technology Partner",
+      "rationale": "SGL Carbon produces carbon fiber and has established JVs in multiple countries. Non-ITAR German technology with active industrial partnerships.",
+      "contact": "SGL Carbon VP International Joint Ventures"
+    },
+    {
+      "rank": 4,
+      "name": "Solvay",
+      "country": "Belgium",
+      "type": "Composite Materials Partner",
+      "rationale": "Solvay produces carbon fiber and aerospace composites with active Gulf engagement through SABIC relationships.",
+      "contact": "Solvay Composite Materials VP International Business"
+    },
+    {
+      "rank": 5,
+      "name": "Teijin Carbon (Tenax)",
+      "country": "Japan/Germany",
+      "type": "Carbon Fiber and Composite",
+      "rationale": "Teijin produces carbon fiber and has international manufacturing partnerships. Non-ITAR technology.",
+      "contact": "Teijin Carbon VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC / Yarmouk Petrochemical",
+      "track": "Track 7 — Venture Client",
+      "current": "Acrylonitrile production; PAN polymer research; some carbon materials research",
+      "upgrade": "SABIC carbon fiber precursor (PAN) supply to Saudi facility; SABIC equity in carbon fiber JV; vertically integrated Saudi carbon fiber supply chain from acrylonitrile to fiber",
+      "timeline": "36 months to first Saudi carbon fiber production",
+      "anchor": "SABIC + Aramco + SAMI"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco / Industrial Investments",
+      "track": "Track 2 — JV Structuring",
+      "current": "Petrochemical value chain; some advanced materials investment",
+      "upgrade": "Aramco equity in carbon fiber JV; downstream value chain from crude to carbon fiber; Aramco industrial customers as anchor demand",
+      "timeline": "36 months",
+      "anchor": "Aramco + SABIC + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Advanced Materials",
+      "track": "Track 6 — R&D",
+      "current": "Carbon materials research; composites characterisation; some carbon nanotube research",
+      "upgrade": "GADD-KACST carbon fiber research programme; oxidation and carbonisation process optimisation; Saudi carbon fiber grade development",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST + SABIC"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Chemical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Polymer chemistry; process engineering; composites research",
+      "upgrade": "Carbon fiber process engineering programme; SABIC-KFUPM carbon fiber research partnership; 15 Saudi carbon fiber engineers",
+      "timeline": "30 months",
+      "anchor": "SABIC + KFUPM + GADD"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "AM-5",
+  "title": "Aerospace Aluminum Alloy Rolling",
+  "sector": "MT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$320M – $560M",
+  "entry_mechanism": "Ma'aden Aluminium downstream rolling investment with aerospace alloy grade addition",
+  "executive_summary": "Aerospace aluminum alloy sheet and plate — 2xxx series (aircraft fuselage skin), 7xxx series (wing spars, structural elements), and 6xxx series (general structural) — is the second most-used structural material in commercial aircraft after composites. Saudi Arabia has Ma'aden Aluminium at Ras Al-Khair, one of the world's most cost-competitive aluminum smelters using hydropower and domestic alumina. Ma'aden currently produces standard aluminum sheet, but not to aerospace alloy grades or aerospace tolerances.\n\nNode AM-5 targets the upgrade of Ma'aden's rolling mill to produce aerospace-grade aluminum alloy sheet: adding aerospace alloy casting capability (2024, 7075, 6061 grades), installing aerospace-grade homogenisation and rolling process controls, and achieving Nadcap accreditation for aerospace aluminum supply. The upgrade investment is significant but incremental — Ma'aden already has the core infrastructure.\n\nThe global aerospace aluminum market was valued at $8.2 billion in 2024 growing at 4.8% CAGR. Saudi Arabia's addressable aerospace aluminum opportunity — serving MA-1, CA-2, SS-1, and export to Airbus and Boeing supply chains — is estimated at $300–500 million annually at full Phase II capacity.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Novelis (Hindalco)",
+      "country": "USA/India",
+      "type": "Aerospace Rolling Technology Partner",
+      "rationale": "Novelis is the world's largest aluminum rolling company and supplies Airbus and Boeing. A Ma'aden-Novelis technical partnership for aerospace rolling brings Airbus-qualified process technology to Saudi Arabia.",
+      "contact": "Novelis VP Aerospace International"
+    },
+    {
+      "rank": 2,
+      "name": "Constellium",
+      "country": "France/Netherlands",
+      "type": "Aerospace Aluminum Partner",
+      "rationale": "Constellium is a premier aerospace aluminum supplier (Airbus A380 and A350 structures). French company with active SABIC/Ma'aden relationship potential.",
+      "contact": "Constellium VP Aerospace and Defence"
+    },
+    {
+      "rank": 3,
+      "name": "Arconic (formerly Alcoa)",
+      "country": "USA",
+      "type": "Aerospace Aluminum Technology",
+      "rationale": "Arconic produces aerospace aluminum plate and has technology licensing experience.",
+      "contact": "Arconic VP International Technology Partnerships"
+    },
+    {
+      "rank": 4,
+      "name": "SMS Group",
+      "country": "Germany",
+      "type": "Rolling Mill Technology",
+      "rationale": "SMS Group designs and builds aluminum rolling mills and could upgrade Ma'aden's mill to aerospace grade.",
+      "contact": "SMS Group VP Aluminum Rolling, International"
+    },
+    {
+      "rank": 5,
+      "name": "Aleris (Howmet)",
+      "country": "USA",
+      "type": "Aerospace Plate Producer",
+      "rationale": "Aleris (now Howmet Aerospace) produces aerospace aluminum plate with technology licensing capability.",
+      "contact": "Howmet Aerospace VP Materials Technology"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Ma'aden Aluminium",
+      "track": "Track 7 — Venture Client",
+      "current": "Standard-grade aluminum sheet; primary aluminum production; existing rolling mill",
+      "upgrade": "Upgrade rolling mill to aerospace alloy capability; add 2024 and 7075 alloy casting; Nadcap accreditation; Novelis technical partnership for Airbus material qualification",
+      "timeline": "36 months to first aerospace-qualified aluminum delivery",
+      "anchor": "Ma'aden + SABIC + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "SAMI Composites / Aerostructures",
+      "track": "Track 7 — Venture Client",
+      "current": "Composite aerostructures production (MA-1, CA-2)",
+      "upgrade": "Saudi aluminum as input material for hybrid composite-metal aerospace structures; Ma'aden alloy qualification through SAMI aerospace programmes",
+      "timeline": "36 months",
+      "anchor": "SAMI + Ma'aden + Airbus"
+    },
+    {
+      "rank": 3,
+      "name": "Airbus Supply Chain",
+      "track": "Track 7 — Venture Client",
+      "current": "Major Airbus programme customer through Saudia airline orders",
+      "upgrade": "Airbus material qualification for Ma'aden aerospace alloy; Saudi aluminum in Airbus supply chain as IPP conversion; Airbus as first aerospace customer for Saudi aerospace aluminum",
+      "timeline": "42 months",
+      "anchor": "Ma'aden + GAMI + Airbus"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Materials Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Metallurgy; materials characterisation; some aerospace materials research",
+      "upgrade": "Aerospace aluminum metallurgy programme; Ma'aden-KFUPM alloy research partnership; Saudi metallurgists for aerospace qualification",
+      "timeline": "24 months",
+      "anchor": "Ma'aden + KFUPM"
+    }
+  ]
+}

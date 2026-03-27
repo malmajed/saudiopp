@@ -1,0 +1,91 @@
+{
+  "id": "AM-2",
+  "title": "Technical Ceramics from Saudi Alumina",
+  "sector": "MT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$65M – $120M",
+  "entry_mechanism": "PSAP Track 2 — Technical ceramics manufacturer JV using Ma'aden alumina as feedstock",
+  "executive_summary": "Technical ceramics — alumina, silicon carbide, zirconia, and silicon nitride components used in electronics, defense, and industrial applications — are manufactured from mineral precursors that Saudi Arabia is beginning to produce domestically. Ma'aden's alumina refinery at Ras Al-Khair produces smelter-grade alumina for aluminum production; technical ceramics require higher-purity alumina, but the refining technology is directly adjacent.\n\nThe applications are diverse and high-value: alumina ceramic substrates for electronics (used in Saudi Arabia's semiconductor ambition, SC-1 through SC-4), ballistic armor tiles for defense vehicles (LS-3 supplement), wear-resistant components for oil and gas equipment, and cutting tool inserts for precision machining. Saudi Arabia imports all of these today despite having the mineral feedstock domestically.\n\nThe global technical ceramics market was valued at $10.2 billion in 2024 growing at 7.8% CAGR. A Saudi technical ceramics producer anchored by Ma'aden's alumina and serving defense, semiconductor, and industrial customers would be simultaneously a Vision 2030 industrial investment and a supply chain localisation for multiple PSAP sectors.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "CeramTec",
+      "country": "Germany",
+      "type": "Technical Ceramics Manufacturing Partner",
+      "rationale": "CeramTec is Europe's largest technical ceramics manufacturer with defence, medical, and electronics ceramic products. Non-ITAR German technology.",
+      "contact": "CeramTec VP International Manufacturing Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Kyocera",
+      "country": "Japan",
+      "type": "Electronics Ceramics Technology",
+      "rationale": "Kyocera produces technical ceramics for electronics and industrial applications and has international manufacturing partnerships.",
+      "contact": "Kyocera Industrial Ceramics VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Saint-Gobain Performance Ceramics",
+      "country": "France",
+      "type": "Ceramics Technology Partner",
+      "rationale": "Saint-Gobain produces technical ceramics including ballistic ceramics and has active Middle East industrial engagement.",
+      "contact": "Saint-Gobain Ceramics VP International Industrial"
+    },
+    {
+      "rank": 4,
+      "name": "3M Advanced Materials",
+      "country": "USA",
+      "type": "Ceramics Technology",
+      "rationale": "3M produces technical ceramics for electronics and defense. Technology licensing for non-ITAR commercial ceramic grades.",
+      "contact": "3M Advanced Materials VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Coorstek",
+      "country": "USA",
+      "type": "Industrial Ceramics",
+      "rationale": "Coorstek manufactures industrial ceramics and has international facilities.",
+      "contact": "Coorstek VP International Manufacturing"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Ma'aden Aluminium",
+      "track": "Track 7 — Venture Client",
+      "current": "Smelter-grade alumina at Ras Al-Khair; aluminum production",
+      "upgrade": "Ma'aden high-purity alumina (HPA) refining for technical ceramics feedstock; Ma'aden equity in Saudi ceramics JV; Saudi vertically integrated ceramics supply chain",
+      "timeline": "30 months to HPA qualification",
+      "anchor": "Ma'aden + SABIC + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "SABIC / Advanced Materials Division",
+      "track": "Track 7 — Venture Client",
+      "current": "Polymer composites; some ceramics compounds research",
+      "upgrade": "SABIC ceramic composite research programme; ceramic-polymer hybrid materials for Saudi defense and industrial applications",
+      "timeline": "24 months",
+      "anchor": "SABIC + Ma'aden"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Materials Science",
+      "track": "Track 6 — R&D",
+      "current": "Ceramics research; materials characterisation; some defence ceramics research",
+      "upgrade": "GADD-KACST technical ceramics programme; ballistic ceramics performance research; Saudi-origin ceramics grades development",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST + Ma'aden"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Materials Science and Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Ceramics engineering; materials processing; thermal treatment research",
+      "upgrade": "Technical ceramics manufacturing programme; Ma'aden-KFUPM ceramics research partnership; Saudi ceramics engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "Ma'aden + KFUPM"
+    }
+  ]
+}

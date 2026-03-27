@@ -1,0 +1,91 @@
+{
+  "id": "AM-4",
+  "title": "Nanomaterial Pilot Production",
+  "sector": "MT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$55M – $100M",
+  "entry_mechanism": "PSAP Track 6 — KACST-SABIC nanomaterials programme with international university research partnership",
+  "executive_summary": "Nanomaterials — materials engineered at the nanoscale (1–100 nanometers) with extraordinary properties — are the enabling frontier for multiple Saudi Arabia technology ambitions: conductive inks for printed electronics (SC programme), nano-coatings for aerospace structures (MA/SS), advanced catalysts for petrochemical efficiency (Aramco), and nanoparticle drug delivery for medical applications. Saudi Arabia currently imports all nanomaterials used across these sectors.\n\nNode AM-4 targets establishment of a Saudi nanomaterials pilot production facility — not full-scale manufacturing initially, but the R&D-to-pilot scale that creates the foundation for commercial production in Phase II. SABIC's materials science infrastructure and KACST's research capability provide the platform; international nanotechnology companies provide the technology transfer.\n\nThe global nanomaterials market was valued at $12.8 billion in 2024 growing at 15.3% CAGR. Saudi Arabia's ability to produce carbon nanotubes, graphene oxide, silver nanoparticles, and nano-alumina from domestic feedstocks (SABIC carbon-rich streams, Ma'aden alumina) creates a cost-competitive advantage if the processing technology can be established.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "OCSiAl",
+      "country": "Luxembourg/Russia",
+      "type": "Carbon Nanotube Technology",
+      "rationale": "OCSiAl is the world's largest single-wall carbon nanotube producer with international production partnerships.",
+      "contact": "OCSiAl VP International Business"
+    },
+    {
+      "rank": 2,
+      "name": "Nanocyl",
+      "country": "Belgium",
+      "type": "Multi-Wall Carbon Nanotubes",
+      "rationale": "Nanocyl produces MWCNTs with established industrial applications in polymer composites.",
+      "contact": "Nanocyl VP International Sales"
+    },
+    {
+      "rank": 3,
+      "name": "Applied Graphene Materials",
+      "country": "UK",
+      "type": "Graphene Technology",
+      "rationale": "AGM produces graphene nanoplatelets and has technology licensing partnerships.",
+      "contact": "Applied Graphene Materials VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Strem Chemicals / Nanomaterials",
+      "country": "USA",
+      "type": "Research Nanomaterials",
+      "rationale": "Strem supplies research-grade nanomaterials and has pilot production technology transfer capabilities.",
+      "contact": "Strem VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Umicore",
+      "country": "Belgium",
+      "type": "Advanced Materials and Catalysis",
+      "rationale": "Umicore produces specialty materials including nano-catalysts and has Gulf industrial customer relationships.",
+      "contact": "Umicore VP Advanced Materials, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KACST Advanced Materials / Nanomaterials Research",
+      "track": "Track 6 — R&D",
+      "current": "Carbon nanotube research; nano-composite development; some graphene research",
+      "upgrade": "GADD-KACST nanomaterials pilot facility; OCSiAl or Nanocyl technology transfer; Saudi carbon nanotube production from SABIC carbon-rich feedstocks; pilot to commercial transition",
+      "timeline": "30 months to pilot production",
+      "anchor": "GADD + KACST + SABIC"
+    },
+    {
+      "rank": 2,
+      "name": "SABIC Research and Innovation",
+      "track": "Track 7 — Venture Client",
+      "current": "Materials innovation research; polymer additives research; some nanomaterials work",
+      "upgrade": "SABIC nanomaterials R&D investment; feedstock supply for Saudi nano-production; SABIC polymer + nanomaterial integration (e.g. carbon nanotube-reinforced polyethylene)",
+      "timeline": "24 months",
+      "anchor": "SABIC + KACST"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST Chemistry and Materials Science",
+      "track": "Track 6 — R&D",
+      "current": "Nanomaterials research; surface chemistry; some 2D materials research",
+      "upgrade": "KAUST-KACST nanomaterials research programme; graphene and TMD research for electronics applications (SC sector); nano-coating research for aerospace (MA sector)",
+      "timeline": "24 months",
+      "anchor": "GADD + KAUST + KACST"
+    },
+    {
+      "rank": 4,
+      "name": "Aramco Research Centre",
+      "track": "Track 7 — Venture Client",
+      "current": "Enhanced oil recovery materials; catalysis research; some nanomaterials for reservoir applications",
+      "upgrade": "Aramco anchor customer for nano-catalysts from Saudi facility; dual-use oil/gas and advanced manufacturing nanomaterials",
+      "timeline": "24 months",
+      "anchor": "Aramco + KACST + SABIC"
+    }
+  ]
+}
