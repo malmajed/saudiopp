@@ -1,0 +1,91 @@
+{
+  "id": "NV-4",
+  "title": "Combat Management System Software Integration",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$18M – $32M",
+  "entry_mechanism": "Saudi software engineering team under Navantia technical supervision, working toward software modification capability",
+  "executive_summary": "The combat management system (CMS) is the digital brain of a warship — integrating sensors, weapons, communications, and navigation into a coherent tactical picture that enables command and weapons engagement decisions. For Saudi Arabia's Avante 2200 corvettes, the CMS is supplied by Navantia and integrates European sensor and weapon systems. Saudi Arabia currently has zero software engineering capability for naval CMS — every software update, configuration change, and integration task is performed by Navantia or its subcontractors.\n\nNode NV-4 targets the establishment of a Saudi naval software engineering team capable of performing CMS integration tasks — adding new sensor interfaces, modifying tactical display configurations, and eventually developing Saudi-specific software modules — under Navantia technical supervision initially and with growing autonomy through Phase II and III. The parallel with Node MA-4 (UAV software) is exact: software ownership is the foundation of operational sovereignty.\n\nThe strategic importance is clear: a Saudi CMS software team can respond to Saudi-specific tactical requirements (Red Sea threat environment, Saudi command concepts) faster than a foreign OEM, and can modify the system without creating a foreign intelligence visibility risk.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Navantia / Navantia Systems",
+      "country": "Spain",
+      "type": "CMS Developer and SDK Provider",
+      "rationale": "Navantia holds the Avante 2200 CMS and must provide SDK access as part of the programme. Navantia Systems is the software division that would manage the Saudi software team engagement.",
+      "contact": "Navantia Systems VP Saudi Arabia Programme"
+    },
+    {
+      "rank": 2,
+      "name": "Indra",
+      "country": "Spain",
+      "type": "Naval CMS Technology Partner",
+      "rationale": "Indra develops naval combat management systems and has Saudi Arabia defence relationships. Non-ITAR Spanish technology with active Gulf engagement.",
+      "contact": "Indra VP Naval Systems, Gulf Region"
+    },
+    {
+      "rank": 3,
+      "name": "Systematic",
+      "country": "Denmark",
+      "type": "C2 Software Framework",
+      "rationale": "Systematic's SitaWare naval C2 framework could serve as the integration layer for Saudi-developed CMS modules, reducing dependency on Navantia's proprietary architecture.",
+      "contact": "Systematic VP Naval Systems, International"
+    },
+    {
+      "rank": 4,
+      "name": "L3Harris",
+      "country": "USA",
+      "type": "Naval Electronics Integration",
+      "rationale": "L3Harris has naval electronics integration capability and some non-ITAR products suitable for Saudi CMS integration work. Limited by ITAR on most sensitive systems.",
+      "contact": "L3Harris VP International Naval"
+    },
+    {
+      "rank": 5,
+      "name": "Rohde & Schwarz",
+      "country": "Germany",
+      "type": "Naval Communications Integration",
+      "rationale": "R&S supplies naval communications systems and has SDK/API frameworks that Saudi engineers could integrate into the CMS. Non-ITAR German technology.",
+      "contact": "Rohde & Schwarz VP Naval and Government"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "STC Solutions / Defence Division",
+      "track": "Track 7 — Venture Client",
+      "current": "Large-scale software integration; government systems; some communications integration",
+      "upgrade": "Establish naval software division; NSCS security clearance; Navantia CMS SDK access; Saudi naval software engineer team (15 engineers, 2-year Navantia immersion)",
+      "timeline": "36 months to first CMS modification capability",
+      "anchor": "SAMI + Royal Saudi Navy + MOD"
+    },
+    {
+      "rank": 2,
+      "name": "Elm Company",
+      "track": "Track 7 — Venture Client",
+      "current": "Complex government software platforms; Arabic-language systems; secure data platforms",
+      "upgrade": "Naval CMS data management module development; Arabic CMS interface development; NSCS clearance for classified naval systems",
+      "timeline": "30 months",
+      "anchor": "PIF + SAMI + Royal Saudi Navy"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST Computer Science",
+      "track": "Track 6 — R&D",
+      "current": "AI, machine learning, computer vision research",
+      "upgrade": "GADD-KAUST naval AI programme; CMS decision support algorithm research; Saudi-specific threat assessment modelling",
+      "timeline": "24 months to research output usable in CMS",
+      "anchor": "GADD + Royal Saudi Navy"
+    },
+    {
+      "rank": 4,
+      "name": "KACST / Defence Research",
+      "track": "Track 6 — R&D",
+      "current": "Signal processing, communications research, some naval electronics",
+      "upgrade": "Naval electronic warfare signal processing research relevant to CMS sensor integration; Saudi-specific electronic intelligence processing",
+      "timeline": "24 months",
+      "anchor": "GADD + KACST"
+    }
+  ]
+}

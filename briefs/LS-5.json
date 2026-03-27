@@ -1,0 +1,91 @@
+{
+  "id": "LS-5",
+  "title": "Wheeled Armored Vehicle Variant Design",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service/Design",
+  "investment_range": "$15M – $28M",
+  "entry_mechanism": "PSAP Track 6 — SAMI engineering team with GADD support; design rights negotiated through IPP",
+  "executive_summary": "Design authority for military vehicles — the right to modify a platform's configuration, integrate new systems, and produce new variants without OEM permission — is the highest-value capability in the land systems supply chain. Today, every modification to Saudi Arabia's wheeled armoured vehicle fleet requires OEM approval, creates dependency on foreign engineering teams, and generates revenue for foreign companies. Node LS-5 targets Saudi acquisition of design modification rights for one wheeled armoured vehicle platform, enabling Saudi engineers to design and qualify new variants for Saudi-specific operational requirements.\n\nThe commercial rationale is significant: Saudi Arabia's operational environment (extreme heat, sand ingestion, specific mission profiles) creates genuine requirements for locally-optimised variants that OEMs are slow to develop. A Saudi engineering team with design rights can develop a hot-weather optimised variant, a Saudi SANG-specific configuration, or an ambulance/command post variant faster and cheaper than the OEM — and retain the variant design IP.\n\nThis node requires GADD support and government-to-government diplomatic pressure on the OEM to grant design rights as part of IPP obligations — it is not a purely commercial transaction. The precedent, once established, creates the template for Saudi design authority across all major platform categories.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "General Dynamics Land Systems",
+      "country": "USA",
+      "type": "Design Rights Licensor (LAV 6.0)",
+      "rationale": "GDLS has the largest Saudi land systems programme and the most significant IPP obligations. Conversion of IPP to design modification rights for the LAV 6.0 is the primary target.",
+      "contact": "GDLS VP Saudi Arabia Programme → GDLS Chief Engineer, LAV 6.0"
+    },
+    {
+      "rank": 2,
+      "name": "Nexter (KNDS France)",
+      "country": "France",
+      "type": "Design Rights Licensor (VBCI)",
+      "rationale": "Nexter has VBCI design authority and is subject to French government export policy that is more open to design rights transfer than US policy.",
+      "contact": "Nexter VP Engineering and International Programmes"
+    },
+    {
+      "rank": 3,
+      "name": "Rheinmetall",
+      "country": "Germany",
+      "type": "Design Partner",
+      "rationale": "Rheinmetall has established co-design partnerships internationally and is actively pursuing Saudi Arabia expansion. German government policy supports industrial cooperation.",
+      "contact": "Rheinmetall International VP Engineering Cooperation"
+    },
+    {
+      "rank": 4,
+      "name": "Ricardo Defence",
+      "country": "UK",
+      "type": "Independent Engineering Support",
+      "rationale": "Ricardo provides independent vehicle system engineering and can support Saudi design teams working under OEM licence — a neutral technical partner that reduces OEM dependency.",
+      "contact": "Ricardo Defence VP Vehicle Systems Engineering"
+    },
+    {
+      "rank": 5,
+      "name": "AVL (Austrian simulation and testing)",
+      "country": "Austria",
+      "type": "Simulation and Test Partner",
+      "rationale": "AVL provides vehicle simulation, powertrain modelling, and validation tools that Saudi design engineers need to verify variant designs without requiring OEM test facilities.",
+      "contact": "AVL Defence and Special Vehicles VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Land Systems Engineering Division",
+      "track": "Track 6 — R&D / Design",
+      "current": "Vehicle integration and maintenance engineering; some modification documentation; no independent design authority",
+      "upgrade": "Hire 15 Saudi vehicle design engineers (GADD fellowships at OEM facilities); establish CAD/CAM/CAE design environment; negotiate LAV 6.0 or VBCI design modification rights through IPP; achieve first Saudi-designed variant approval",
+      "timeline": "36 months to first variant design authority milestone",
+      "anchor": "SAMI + Saudi Army + GADD"
+    },
+    {
+      "rank": 2,
+      "name": "KFUPM Mechanical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Vehicle dynamics research; some automotive engineering capability",
+      "upgrade": "GADD-KFUPM armoured vehicle engineering programme; 10 KFUPM graduates embedded with SAMI design team; establish vehicle simulation lab",
+      "timeline": "24 months",
+      "anchor": "GADD + SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Defence Research",
+      "track": "Track 6 — R&D",
+      "current": "Defence technology research; some vehicle protection research",
+      "upgrade": "KACST-SAMI hot-weather performance optimisation programme; Saudi-specific environmental testing protocols; contribute Saudi environmental data to variant design",
+      "timeline": "18 months",
+      "anchor": "GADD + KACST + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Aerospace Engineering Industries (SAEI)",
+      "track": "Track 3 — Supplier Development",
+      "current": "Aerospace structures and systems; some vehicle integration work",
+      "upgrade": "Transfer aerospace systems engineering discipline to land vehicle variant design; structural analysis and qualification support for SAMI design team",
+      "timeline": "18 months to effective support role",
+      "anchor": "SAMI"
+    }
+  ]
+}

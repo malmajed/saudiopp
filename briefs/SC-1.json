@@ -1,0 +1,91 @@
+{
+  "id": "SC-1",
+  "title": "Saudi Chip Design and SSIH",
+  "sector": "SC",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$350M – $600M",
+  "entry_mechanism": "PSAP Track 9 — SSIH (Saudi Semiconductor and Industrial Hub) established by GADD with Aramco and PIF as co-investors",
+  "executive_summary": "The global semiconductor industry — designing and manufacturing the chips that power every electronic device — is dominated by a small number of nations and companies. Saudi Arabia has no domestic semiconductor design or manufacturing capability, creating total dependency on imports from TSMC, Samsung, Intel, and their supply chains. Saudi Arabia's National Semiconductor Strategy 2026–2035 targets the establishment of a Saudi Semiconductor and Industrial Hub (SSIH) — beginning with chip design capability before moving to manufacturing in later phases.\n\nNode SC-1 targets Phase I SSIH chip design: establishing a Saudi semiconductor design organisation capable of designing custom chips for Saudi government and military applications — initially in non-sensitive commercial domains (industrial IoT, edge AI inference, automotive) before progressing to classified defence applications. The design tools are commercially available (Synopsys, Cadence EDA tools); the constraint is human capital — Saudi VLSI design engineers.\n\nThe global semiconductor market was valued at $600 billion in 2024 growing at 8.8% CAGR. Saudi Arabia's Phase I chip design target — custom chips for Saudi-specific applications — addresses a $50–100 million annual import replacement opportunity initially, with dramatically larger implications as Saudi manufacturing capability develops.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Synopsys",
+      "country": "USA",
+      "type": "EDA Tools and IP Partner",
+      "rationale": "Synopsys provides the EDA (Electronic Design Automation) tools used to design chips. Saudi government licensing and Synopsys training programme for Saudi design engineers.",
+      "contact": "Synopsys VP Government International"
+    },
+    {
+      "rank": 2,
+      "name": "Arm Holdings",
+      "country": "UK",
+      "type": "Chip Architecture Licensor",
+      "rationale": "Arm licenses its processor architectures (used in 95% of smartphones and growing share of AI chips). Saudi chip design based on Arm architecture is the most commercially logical path.",
+      "contact": "Arm VP International Licensing"
+    },
+    {
+      "rank": 3,
+      "name": "RISC-V International",
+      "country": "Switzerland",
+      "type": "Open ISA Architecture",
+      "rationale": "RISC-V is an open-source chip architecture with no licensing fees — strategically valuable for a sovereign chip programme that doesn't want IP dependency on Arm.",
+      "contact": "RISC-V International VP Industry Development"
+    },
+    {
+      "rank": 4,
+      "name": "Intel Foundry (formerly IFS)",
+      "country": "USA",
+      "type": "Foundry Partner",
+      "rationale": "Intel Foundry provides chip manufacturing services and design support for fabless companies.",
+      "contact": "Intel Foundry VP International Business"
+    },
+    {
+      "rank": 5,
+      "name": "GlobalFoundries",
+      "country": "USA/Singapore",
+      "type": "Foundry Partner",
+      "rationale": "GlobalFoundries manufactures chips for fabless design companies and has Gulf investor relationships (ATIC was a major shareholder). Less advanced node but accessible.",
+      "contact": "GlobalFoundries VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "GADD",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Defence R&D; some electronics research; SSIH programme planning",
+      "upgrade": "GADD as SSIH programme authority; EDA tool procurement; hire 50 Saudi chip design engineers (GADD fellowship at Arm, Intel, Qualcomm); first Saudi chip tape-out in 36 months",
+      "timeline": "36 months to first Saudi chip design",
+      "anchor": "GADD + MOD + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco Digital",
+      "track": "Track 7 — Venture Client",
+      "current": "AI and IoT technology investment; HPC infrastructure",
+      "upgrade": "Aramco edge AI chip requirements drive Saudi chip design; Aramco as anchor customer for Saudi-designed industrial IoT chip; Aramco co-investment in SSIH design centre",
+      "timeline": "36 months",
+      "anchor": "Aramco + GADD + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Microelectronics Research",
+      "track": "Track 6 — R&D",
+      "current": "Some semiconductor research; CMOS design research",
+      "upgrade": "GADD-KACST chip design research programme; Saudi VLSI research laboratory; academic chip design pipeline; KACST first Saudi chip tape-out on university programme",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM / KAUST Electrical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Electrical engineering; digital systems design; some VLSI courses",
+      "upgrade": "VLSI design engineering programme; Synopsys and Cadence university programme; Saudi chip design engineer pipeline (20 per year); SSIH design centre graduate intake",
+      "timeline": "30 months",
+      "anchor": "GADD + KFUPM + KAUST"
+    }
+  ]
+}

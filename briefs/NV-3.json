@@ -1,0 +1,91 @@
+{
+  "id": "NV-3",
+  "title": "Deck Equipment and Fittings Manufacturing",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$8M – $16M",
+  "entry_mechanism": "Saudi steel fabricators upgraded to Lloyd's Register naval standards through PSAP Track 3",
+  "executive_summary": "Deck equipment and fittings — bollards, fairleads, cleats, capstans, anchor windlasses, hatches, and structural deck fittings — are the unglamorous but essential hardware of naval vessels. They are manufactured using standard steel fabrication processes (cutting, forming, welding, machining) to Lloyd's Register or equivalent naval classification standards. Saudi Arabia's existing steel fabrication base — anchored by the Jubail heavy industrial complex and SABIC's Hadeed steel — is directly adjacent to this capability.\n\nNode NV-3 is the most immediately accessible manufacturing entry point in the naval sector, for exactly the same reason as MA-3 (GSE) in aerospace: standard manufacturing processes, non-ITAR content, achievable certification timeline, and immediate demand from the Avante 2200 programme. Saudi-manufactured deck fittings would be the first Saudi-made hardware installed aboard a Royal Saudi Navy warship.\n\nThe global naval deck equipment market is approximately $1.8 billion annually. Saudi Arabia's naval fittings opportunity is modest in dollar terms — $15–30 million over the Avante 2200 programme — but the strategic value is the precedent: a Saudi Lloyd's Register-certified naval hardware manufacturer that creates the supply chain foundation for more complex naval equipment in Phase II.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Rolls-Royce Marine (Kongsberg)",
+      "country": "Norway",
+      "type": "Naval Equipment Technology Partner",
+      "rationale": "Kongsberg/Rolls-Royce Marine produces deck machinery and naval equipment. A technical licensing arrangement for standard deck fittings gives Saudi manufacturers validated designs.",
+      "contact": "Kongsberg Maritime VP International Supply Chain"
+    },
+    {
+      "rank": 2,
+      "name": "Macgregor (Cargotec)",
+      "country": "Finland",
+      "type": "Marine Equipment Licensor",
+      "rationale": "Macgregor produces marine and naval deck equipment globally. Their licensing model supports local manufacturing in many countries.",
+      "contact": "Macgregor VP Naval and Government"
+    },
+    {
+      "rank": 3,
+      "name": "Fluidmecanica",
+      "country": "Spain",
+      "type": "Navantia-Linked Supplier",
+      "rationale": "As a Navantia supply chain partner, Fluidmecanica could provide technical specifications for Avante 2200 compatible fittings and transition work to a Saudi manufacturer.",
+      "contact": "Fluidmecanica VP International Sales"
+    },
+    {
+      "rank": 4,
+      "name": "Italwinch",
+      "country": "Italy",
+      "type": "Naval Deck Machinery",
+      "rationale": "Italian naval deck machinery specialist; non-ITAR; active international sales.",
+      "contact": "Italwinch VP International Business"
+    },
+    {
+      "rank": 5,
+      "name": "Karmøy Winch",
+      "country": "Norway",
+      "type": "Naval Windlass and Capstan",
+      "rationale": "Norwegian naval deck equipment manufacturer; established regional relationships; licensing model available.",
+      "contact": "Karmøy Winch VP Sales and Partnerships"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Al-Zamil Steel / Zamil Industrial",
+      "track": "Track 3 — Supplier Development",
+      "current": "Structural steel fabrication; CNC cutting and forming; welding to industrial standards",
+      "upgrade": "Lloyd's Register certification for naval deck fittings; marine-grade stainless steel and carbon steel fabrication; dimensional and NDT compliance for naval standards",
+      "timeline": "15 months to first Lloyd's Register-certified delivery",
+      "anchor": "SAMI + Navantia"
+    },
+    {
+      "rank": 2,
+      "name": "SABIC / Hadeed",
+      "track": "Track 7 — Venture Client",
+      "current": "Structural steel and specialised alloys",
+      "upgrade": "Supply marine-grade steel and stainless steel to Saudi deck equipment manufacturers; establish Lloyd's Register material certification",
+      "timeline": "12 months to material supply qualification",
+      "anchor": "SAMI + Royal Saudi Navy"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Heavy Industries (SHI — Jubail)",
+      "track": "Track 3 — Supplier Development",
+      "current": "Heavy fabrication for offshore and petrochemical; proven marine fabrication experience",
+      "upgrade": "Naval-grade welding qualification; Lloyd's Register supplier approval; establish dedicated naval fittings production cell",
+      "timeline": "12 months",
+      "anchor": "SAMI + Navantia"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC Jubail Campus",
+      "track": "Track 8 — Human Capital",
+      "current": "Welding and fabrication training programmes; some offshore industry training",
+      "upgrade": "Naval-grade welding certification (Lloyd's Register approved); marine coatings training; quality control for naval fabrication",
+      "timeline": "12 months to certified training programme",
+      "anchor": "SAMI + Lloyd's Register"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "AM-6",
+  "title": "Shape Memory Alloy Production",
+  "sector": "MT",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$85M – $160M",
+  "entry_mechanism": "PSAP Track 6 — KACST-international university SMA research programme transitioning to pilot production",
+  "executive_summary": "Shape Memory Alloys (SMAs) — primarily nickel-titanium (Nitinol) — are extraordinary materials that return to a pre-programmed shape when heated or when stress is removed. Applications span medical devices (coronary stents, orthodontic wires, surgical instruments), aerospace actuators, and advanced sensing systems. Saudi Arabia imports all Nitinol used in its expanding medical device and aerospace sectors.\n\nNode AM-6 targets Saudi Arabia's entry into SMA production — specifically Nitinol for medical device applications (stents, guidewires) where Saudi Arabia's NIDLP medical device programme creates domestic demand, and for aerospace actuators where the SAMI programme creates a captive customer. Nitinol production requires vacuum induction melting and careful alloy composition control — technically demanding but achievable as a Phase II programme building on the materials science infrastructure from Phase I nodes.\n\nThe global SMA market was valued at $14.2 billion in 2024 growing at 12.4% CAGR, led by medical device applications. Saudi Arabia's Ti-rich mineral resource base and SABIC's nickel chemistry create potential feedstock advantages.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Confluent Medical Technologies (Fort Wayne Metals)",
+      "country": "USA",
+      "type": "Nitinol Technology Partner",
+      "rationale": "Confluent/Fort Wayne Metals is the world's leading Nitinol medical wire manufacturer with technology licensing capability.",
+      "contact": "Confluent Medical VP International Licensing"
+    },
+    {
+      "rank": 2,
+      "name": "G. Rau GmbH",
+      "country": "Germany",
+      "type": "SMA Wire and Strip",
+      "rationale": "G. Rau produces shape memory alloy products and has technology partnership programmes. Non-ITAR German technology.",
+      "contact": "G. Rau VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Memry Corporation (Admedes)",
+      "country": "USA/Germany",
+      "type": "Medical SMA Products",
+      "rationale": "Memry specialises in medical Nitinol and has a technology licensing track record.",
+      "contact": "Memry VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "SAES Group",
+      "country": "Italy",
+      "type": "SMA and Specialty Alloys",
+      "rationale": "SAES produces Nitinol and specialty alloys with international partnerships. Non-ITAR Italian technology.",
+      "contact": "SAES Getters VP International"
+    },
+    {
+      "rank": 5,
+      "name": "ATI (Allegheny Technologies)",
+      "country": "USA",
+      "type": "Specialty Alloys",
+      "rationale": "ATI produces Nitinol and specialty titanium alloys with technology licensing capability.",
+      "contact": "ATI VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KACST Materials Science",
+      "track": "Track 6 — R&D",
+      "current": "Alloy research; some shape memory research; materials characterisation",
+      "upgrade": "GADD-KACST Nitinol research programme; vacuum induction melting facility; SMA characterisation and testing; G. Rau or SAES technology partnership",
+      "timeline": "36 months to pilot production",
+      "anchor": "GADD + KACST + MOH"
+    },
+    {
+      "rank": 2,
+      "name": "KFUPM Materials / Metallurgy",
+      "track": "Track 8 — Human Capital",
+      "current": "Metallurgy; alloy processing; some SMA theory",
+      "upgrade": "SMA engineering specialisation; KACST-KFUPM Nitinol research programme; Saudi SMA engineers pipeline",
+      "timeline": "30 months",
+      "anchor": "GADD + KFUPM + KACST"
+    },
+    {
+      "rank": 3,
+      "name": "Ma'aden Titanium (future)",
+      "track": "Track 7 — Venture Client",
+      "current": "Aluminium and phosphate mining; some titanium mineral assessment",
+      "upgrade": "Saudi titanium as feedstock for Nitinol production; Ma'aden titanium sponge programme as Phase II enabler for Saudi SMA",
+      "timeline": "42 months",
+      "anchor": "Ma'aden + KACST + PIF"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Medical Device Companies (NIDLP)",
+      "track": "Track 7 — Venture Client",
+      "current": "Medical device assembly from imported components",
+      "upgrade": "Saudi SMA wire as input for stent and guidewire manufacturing; NIDLP anchor demand for Phase II SMA production scale-up",
+      "timeline": "36 months",
+      "anchor": "NIDLP + MOH + SFDA"
+    }
+  ]
+}

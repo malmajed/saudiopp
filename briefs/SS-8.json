@@ -1,0 +1,91 @@
+{
+  "id": "SS-8",
+  "title": "QKD Payload Engineering",
+  "sector": "SP",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$80M – $150M",
+  "entry_mechanism": "Quantum payload engineering programme under GADD-SSA collaboration with European quantum technology partner",
+  "executive_summary": "Quantum Key Distribution (QKD) from satellites — using photons to distribute encryption keys that are theoretically unbreakable — is the emerging frontier of secure communications. China demonstrated operational satellite QKD in 2016 (Micius satellite), and Europe is racing to deploy its own system through the EuroQCI initiative. Saudi Arabia's Quantum Spine strategy (QT-3) targets a national QKD network; satellite QKD would extend that network across Saudi Arabia's wide territories and into the GCC region without dependence on terrestrial fibre.\n\nNode SS-8 targets Saudi Arabia's participation in satellite QKD payload engineering — developing the capability to design, assemble, and eventually manufacture satellite-borne QKD payloads that can be integrated into Saudi satellite missions. This is an ambitious Phase II target because satellite QKD payloads require precision optics, single-photon detectors, and quantum electronics that are technically demanding.\n\nThe global quantum communication market was valued at $1.9 billion in 2024 growing at 34.8% CAGR. A Saudi satellite QKD capability would be a world-first for the Arab world and a significant quantum sovereignty milestone.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "ID Quantique",
+      "country": "Switzerland",
+      "type": "QKD Technology Partner",
+      "rationale": "ID Quantique is the world's leading commercial QKD company and has active satellite QKD development. Non-ITAR Swiss technology.",
+      "contact": "ID Quantique VP Government and Space"
+    },
+    {
+      "rank": 2,
+      "name": "Airbus Defence and Space (Quantum)",
+      "country": "France/Germany",
+      "type": "Satellite Quantum Payload Integration",
+      "rationale": "Airbus is developing EuroQCI satellite QKD payloads. Saudi partnership through existing Airbus programme relationship.",
+      "contact": "Airbus VP Quantum Communication"
+    },
+    {
+      "rank": 3,
+      "name": "Toshiba Quantum Technology",
+      "country": "UK/Japan",
+      "type": "QKD Component Technology",
+      "rationale": "Toshiba has QKD component technology and active international partnerships. Japanese relationship reduces ITAR concerns.",
+      "contact": "Toshiba Quantum VP International"
+    },
+    {
+      "rank": 4,
+      "name": "QuantumCTek (China)",
+      "country": "China",
+      "type": "Satellite QKD Systems",
+      "rationale": "QuantumCTek operates the world's first commercial satellite QKD service. Policy and technology dependency considerations apply.",
+      "contact": "QuantumCTek VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Thales Alenia Space (Quantum)",
+      "country": "France/Italy",
+      "type": "QKD Payload Integration",
+      "rationale": "Thales Alenia is developing satellite QKD payload integration for EuroQCI. Saudi partnership through existing relationship.",
+      "contact": "Thales Alenia VP Quantum Communication"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "NQI (National Quantum Initiative / Saudi)",
+      "track": "Track 6 — R&D",
+      "current": "Early quantum programme management; KACST quantum research",
+      "upgrade": "NQI-SSA satellite QKD programme; ID Quantique research partnership; 10 Saudi quantum engineers (GADD fellowship); single-photon detector research",
+      "timeline": "42 months to first QKD payload sub-assembly",
+      "anchor": "NQI + SSA + GADD"
+    },
+    {
+      "rank": 2,
+      "name": "KACST Quantum Photonics",
+      "track": "Track 6 — R&D",
+      "current": "Some quantum optics research; photonics laboratory",
+      "upgrade": "GADD-KACST satellite QKD research programme; photon source and detector development; quantum optical systems laboratory",
+      "timeline": "36 months",
+      "anchor": "GADD + KACST + NQI"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST Quantum Science",
+      "track": "Track 6 — R&D",
+      "current": "Quantum physics research; photonics; some quantum information theory",
+      "upgrade": "Satellite QKD protocol research; quantum channel loss characterisation; Saudi-specific atmospheric quantum communication research",
+      "timeline": "30 months",
+      "anchor": "GADD + KAUST + NQI"
+    },
+    {
+      "rank": 4,
+      "name": "SSA / Riyadh Smart Parcel",
+      "track": "Track 2 — JV Structuring",
+      "current": "Space programme infrastructure; Phase I satellite sub-system capability",
+      "upgrade": "QKD payload cleanroom and optical assembly facility; cryogenic test capability for single-photon detectors; integrate QKD payload with Saudi satellite bus",
+      "timeline": "42 months",
+      "anchor": "SSA + NQI + PIF"
+    }
+  ]
+}

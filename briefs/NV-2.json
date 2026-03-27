@@ -1,0 +1,91 @@
+{
+  "id": "NV-2",
+  "title": "Naval Platform MRO Base",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$120M – $200M",
+  "entry_mechanism": "Establish dedicated naval maintenance facility at Jubail with Navantia technical partnership",
+  "executive_summary": "Saudi Arabia's Royal Saudi Naval Forces (RSNF) operate a fleet of frigates, corvettes, mine countermeasure vessels, and patrol craft that require periodic dry dock maintenance, hull inspections, machinery overhaul, and systems updates. Today, major maintenance is performed at foreign shipyards — primarily in Spain, France, and the United States — at significant cost and with extended periods of operational unavailability. The Avante 2200 corvette programme creates an immediate requirement for in-Kingdom naval maintenance: Navantia's programme commitments include support for a Saudi naval maintenance capability.\n\nThe global naval MRO market was valued at $26 billion in 2024. Saudi Arabia's naval fleet generates an estimated $400–600 million per year in maintenance expenditure, of which less than 20% is performed in-Kingdom. A dry dock and maintenance facility at Jubail — adjacent to the King Abdulaziz Naval Base — would serve the Avante 2200 programme immediately and create the infrastructure for long-term Saudi naval industrial sovereignty.\n\nThe strategic importance of in-Kingdom naval MRO extends beyond cost: a Saudi naval fleet dependent on foreign shipyards for maintenance is vulnerable to political disruption in precisely the moments of heightened tension when operational readiness is most critical.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Navantia",
+      "country": "Spain",
+      "type": "Technical Partner and MRO Trainer",
+      "rationale": "Navantia built the Avante 2200 and holds the technical documentation. A Navantia-supported Saudi naval MRO facility is the logical extension of the corvette programme.",
+      "contact": "Navantia VP Saudi Arabia Programme"
+    },
+    {
+      "rank": 2,
+      "name": "Naval Group (France)",
+      "country": "France",
+      "type": "Naval MRO Partner",
+      "rationale": "Naval Group operates naval shipyards and MRO facilities across multiple countries. Non-ITAR French technology and active Gulf engagement.",
+      "contact": "Naval Group VP International Naval Support"
+    },
+    {
+      "rank": 3,
+      "name": "BAE Systems Maritime",
+      "country": "UK",
+      "type": "Naval MRO Expertise",
+      "rationale": "BAE Systems operates naval dockyards and has deep experience in warship maintenance. Active Saudi relationship through other defence programmes.",
+      "contact": "BAE Systems Maritime VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Fincantieri",
+      "country": "Italy",
+      "type": "Dry Dock Design and Operations",
+      "rationale": "Fincantieri designs and operates naval dry dock facilities and could advise on the Jubail facility design and operational model.",
+      "contact": "Fincantieri VP Naval Aftermarket"
+    },
+    {
+      "rank": 5,
+      "name": "Damen Shipyards",
+      "country": "Netherlands",
+      "type": "Patrol Craft MRO",
+      "rationale": "Damen supplies patrol craft to the Gulf region and has an established regional repair network that could anchor a Saudi facility.",
+      "contact": "Damen Naval VP After Sales, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Royal Commission for Jubail / Jubail Industrial City",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial port infrastructure; heavy industry support services; existing marine berths",
+      "upgrade": "Develop dedicated naval dry dock within Jubail industrial port; naval-grade berths and crane infrastructure; security clearance zone for warship maintenance",
+      "timeline": "36 months to first dry dock operational",
+      "anchor": "Royal Saudi Navy + SAMI + Royal Commission"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco Offshore Engineering",
+      "track": "Track 7 — Venture Client",
+      "current": "Offshore platform maintenance; marine vessel support; diving and ROV services",
+      "upgrade": "Extend offshore engineering capability to naval vessel hull inspection and maintenance; transfer underwater hull survey capability to RSNF vessel maintenance",
+      "timeline": "18 months to first naval hull inspection contract",
+      "anchor": "Royal Saudi Navy + Aramco"
+    },
+    {
+      "rank": 3,
+      "name": "SAMI Naval Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Naval programme management; Avante 2200 programme oversight",
+      "upgrade": "Establish SAMI-operated naval MRO centre at Jubail; Navantia technical licence for Avante 2200 maintenance; hire 100 Saudi naval maintenance technicians",
+      "timeline": "30 months to operational MRO centre",
+      "anchor": "SAMI + Royal Saudi Navy"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Ports Authority / Mawani",
+      "track": "Track 7 — Venture Client",
+      "current": "Commercial port operations; vessel maintenance support services",
+      "upgrade": "Establish naval maintenance zone within Jubail commercial port; dual-use dry dock serving commercial and naval vessels; Lloyd's Register certified facilities",
+      "timeline": "36 months",
+      "anchor": "SAMI + Mawani + Royal Saudi Navy"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "DE-2",
+  "title": "Cybersecurity Systems",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$25M – $50M",
+  "entry_mechanism": "Saudi cybersecurity companies developing defence-specific security products through PSAP Track 1",
+  "executive_summary": "Saudi Arabia's defence infrastructure — command systems, logistics platforms, communications networks, and weapon system controllers — is a high-value cyber target. The 2012 Shamoon attack on Saudi Aramco (which destroyed 35,000 computers) demonstrated that Saudi Arabia faces sophisticated state-level cyber threats. Defence-specific cybersecurity — network intrusion detection, endpoint protection for classified networks, and cryptographic systems — is today almost entirely procured from US and Israeli vendors, creating a supply chain risk.\n\nNode DE-2 targets the development of Saudi-origin defence cybersecurity products: network monitoring tools adapted for Saudi military network architectures, Arabic-language threat intelligence platforms, and endpoint protection systems that do not require foreign OEM access to Saudi military network data. The cryptographic element — sovereign encryption for classified communications — is the highest-value target but requires GADD co-development given its classification implications.\n\nSaudi Arabia already has a growing commercial cybersecurity industry — companies like Cysiv, Cyberani (Aramco Digital subsidiary), and Elm's security division have meaningful technical capability. The gap is defence-grade product development: software that meets military certification standards, handles classified data, and operates in air-gapped environments.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Rohde & Schwarz Cybersecurity",
+      "country": "Germany",
+      "type": "Defence Cybersecurity Technology Partner",
+      "rationale": "R&S Cybersecurity develops network encryption and security products for German and NATO defence networks. Non-ITAR technology with established Saudi presence through R&S communications programmes.",
+      "contact": "R&S Cybersecurity VP International Defence"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Cybersecurity",
+      "country": "France",
+      "type": "Cryptographic Systems Partner",
+      "rationale": "Thales is Europe's leading defence cryptography and cybersecurity company. Non-ITAR French technology; active Gulf government engagement; HSM and encryption products.",
+      "contact": "Thales Cybersecurity VP Government, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "CrowdStrike",
+      "country": "USA",
+      "type": "Endpoint Protection Partner",
+      "rationale": "CrowdStrike has established Saudi Arabia government relationships and a Saudi data residency programme. Could support a Saudi-developed endpoint protection product through technology licensing.",
+      "contact": "CrowdStrike VP Government, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "BAE Systems Applied Intelligence",
+      "country": "UK",
+      "type": "Defence Cyber Technology",
+      "rationale": "BAE Applied Intelligence develops military cyber defence tools. Active Saudi Arabia engagement through existing BAE programmes.",
+      "contact": "BAE Applied Intelligence VP Cyber, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Cisco Systems / Cisco Defence",
+      "country": "USA",
+      "type": "Network Security Infrastructure",
+      "rationale": "Cisco has Saudi Arabia data residency and government relationships. Cisco's network security APIs support Saudi-developed security applications on top of Cisco infrastructure.",
+      "contact": "Cisco VP Government, Saudi Arabia"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Cyberani (Aramco Digital)",
+      "track": "Track 1 — PSAP Attraction",
+      "current": "OT cybersecurity for industrial control systems; Arabic threat intelligence; SOC operations",
+      "upgrade": "Defence-grade product development; NSCS clearance for classified network security products; GADD-co-funded military network monitoring tool",
+      "timeline": "18 months to first defence product",
+      "anchor": "Aramco + MOD + GADD"
+    },
+    {
+      "rank": 2,
+      "name": "NCA (National Cybersecurity Authority)",
+      "track": "Track 6 — R&D",
+      "current": "National cybersecurity standards; threat intelligence; government network security",
+      "upgrade": "NCA-GADD defence cybersecurity product co-development; Saudi military cybersecurity certification framework; national defence cyber threat intelligence platform",
+      "timeline": "18 months",
+      "anchor": "NCA + GADD + MOD"
+    },
+    {
+      "rank": 3,
+      "name": "Elm Company / Elm Security",
+      "track": "Track 3 — Supplier Development",
+      "current": "Government IT security; secure platform development; identity management",
+      "upgrade": "Defence endpoint protection product; military network anomaly detection; NSCS clearance",
+      "timeline": "24 months to defence-certified product",
+      "anchor": "PIF + MOD + NCA"
+    },
+    {
+      "rank": 4,
+      "name": "KACST Cybersecurity Research",
+      "track": "Track 6 — R&D",
+      "current": "Cryptography research; network security; some AI-based threat detection research",
+      "upgrade": "GADD-KACST defence cryptography programme; Saudi-origin encryption algorithm research; military network anomaly detection research",
+      "timeline": "30 months",
+      "anchor": "GADD + NCA + KACST"
+    }
+  ]
+}

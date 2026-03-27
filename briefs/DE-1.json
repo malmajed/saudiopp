@@ -1,0 +1,91 @@
+{
+  "id": "DE-1",
+  "title": "C4ISR Software Integration",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$20M – $38M",
+  "entry_mechanism": "Saudi software companies with defence clearance pathway through PSAP Track 1",
+  "executive_summary": "Command, Control, Communications, Computers, Intelligence, Surveillance and Reconnaissance (C4ISR) systems are the nervous system of modern military operations. Saudi Arabia fields a sophisticated C4ISR architecture — including Link 16 tactical data links, AFATDS artillery fire control, and various intelligence fusion systems — almost all operated and maintained by US and European contractors. Node DE-1 targets the establishment of Saudi software engineering capability to build integration layers, Arabic-language interfaces, and data management modules for non-ITAR C4ISR systems.\n\nThe opportunity is clearly defined: C4ISR integration software that runs on top of OEM systems — middleware, data fusion layers, Arabic-language operator interfaces, and Saudi-specific tactical picture management — does not require ITAR-controlled technology and can be developed by Saudi engineers with appropriate security clearances. This is the defence software equivalent of Node MA-4 (UAV software) — the same logic, applied to ground-based C4ISR.\n\nThe global C4ISR market was valued at $125 billion in 2024, growing at 4.8% CAGR. Saudi Arabia's annual C4ISR services spend is estimated at $600–900 million — overwhelmingly foreign-contracted today. A Saudi C4ISR software capability that captures even 10% of this spend within Phase I would represent $60–90 million in annual Saudi-retained revenue.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Systematic",
+      "country": "Denmark",
+      "type": "C2 Software Framework Partner",
+      "rationale": "Systematic's SitaWare C2 platform is used by NATO forces and is available without ITAR restrictions. Systematic has Middle East defence engagement and would support Saudi integration on top of their platform.",
+      "contact": "Systematic VP International Defence, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Rohde & Schwarz",
+      "country": "Germany",
+      "type": "Communications Systems Partner",
+      "rationale": "R&S supplies communications systems to the Saudi military and has SDK/API frameworks for integration. Non-ITAR German technology with established Saudi presence.",
+      "contact": "Rohde & Schwarz VP Government and Defence, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "Thales",
+      "country": "France",
+      "type": "C4ISR Technology Partner",
+      "rationale": "Thales has C4ISR products across multiple domains (land, naval, air) with Saudi Arabia relationships. Non-ITAR product lines support Saudi integration work.",
+      "contact": "Thales VP C4ISR, Saudi Arabia"
+    },
+    {
+      "rank": 4,
+      "name": "BAE Systems Applied Intelligence",
+      "country": "UK",
+      "type": "Intelligence Systems Partner",
+      "rationale": "BAE Applied Intelligence builds intelligence data management and analytics systems for defence. Active Saudi Arabia engagement through other BAE programmes.",
+      "contact": "BAE Applied Intelligence VP Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Elbit Systems C4I",
+      "country": "Israel",
+      "type": "C4ISR Technology (subject to normalisation)",
+      "rationale": "Elbit is a world leader in C4ISR integration. Subject to Saudi-Israeli normalisation progress.",
+      "contact": "Elbit C4I VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "STC Solutions",
+      "track": "Track 1 — PSAP Attraction",
+      "current": "Large-scale government IT integration; secure communications; data centre operations",
+      "upgrade": "Establish defence C4ISR software division; NSCS security clearance; Systematic SitaWare integration partnership; Arabic C2 interface development",
+      "timeline": "18 months to first C4ISR integration delivery",
+      "anchor": "MOD + SAMI + GADD"
+    },
+    {
+      "rank": 2,
+      "name": "Elm Company",
+      "track": "Track 7 — Venture Client",
+      "current": "Government platform development; secure data management; Arabic NLP",
+      "upgrade": "Intelligence data management platform for defence; NSCS clearance; C4ISR data fusion layer development",
+      "timeline": "24 months",
+      "anchor": "PIF + MOD + GADD"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco Digital / SRDP",
+      "track": "Track 7 — Venture Client",
+      "current": "Large-scale data platform operations; real-time monitoring systems; geospatial data",
+      "upgrade": "Dual-use C4ISR data platform; Saudi geospatial intelligence layer development; real-time sensor fusion for defence applications",
+      "timeline": "24 months",
+      "anchor": "Aramco + MOD"
+    },
+    {
+      "rank": 4,
+      "name": "KACST AI Research Centre",
+      "track": "Track 6 — R&D",
+      "current": "AI, computer vision, signal processing research",
+      "upgrade": "Defence AI programme for ISR data analysis; Saudi-specific threat detection algorithms; GADD-funded intelligence analytics research",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST + MOD"
+    }
+  ]
+}

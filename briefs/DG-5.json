@@ -1,0 +1,91 @@
+{
+  "id": "DG-5",
+  "title": "National Industrial IoT Platform",
+  "sector": "DG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$65M – $120M",
+  "entry_mechanism": "SDAIA-Aramco-STC consortium developing national IIoT platform with defence and industrial use cases",
+  "executive_summary": "Industrial Internet of Things (IIoT) — connecting industrial equipment, sensors, and systems to cloud platforms for monitoring, analytics, and control — is the digital transformation foundation for Saudi Arabia's manufacturing, energy, and utilities sectors. Saudi Arabia's Aramco, SABIC, Saudi Electricity Company, and Ma'aden collectively operate millions of industrial sensors and control points, most of which feed data into disparate foreign-operated platforms.\n\nNode DG-5 targets a Saudi-developed National Industrial IoT Platform: a standardised middleware, device management, and analytics layer that allows Saudi industrial companies to connect their equipment to a Saudi-operated platform with Saudi data sovereignty. The platform serves as the industrial data fabric for Vision 2030's manufacturing ambition — every factory in the Saudi industrial clusters (KAEC, Jubail, Yanbu) connected to a single Saudi IIoT fabric.\n\nThe global IIoT platform market was valued at $108 billion in 2024 growing at 23.9% CAGR. Saudi Arabia's industrial base — one of the world's largest petrochemical and energy sectors — creates a massive domestic IIoT platform demand. A Saudi IIoT platform with Aramco and SABIC as reference customers has strong GCC and MENA export potential.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Siemens MindSphere / Xcelerator",
+      "country": "Germany",
+      "type": "IIoT Platform Technology Partner",
+      "rationale": "Siemens Xcelerator is a leading IIoT platform with active Saudi Arabia industrial deployments. Technology partnership for Saudi-operated deployment.",
+      "contact": "Siemens VP Digital Industries, Saudi Arabia"
+    },
+    {
+      "rank": 2,
+      "name": "PTC (ThingWorx)",
+      "country": "USA",
+      "type": "IIoT Platform Technology",
+      "rationale": "PTC ThingWorx is a leading IIoT platform with Saudi Arabia enterprise customers. Technology licensing for Saudi-operated platform.",
+      "contact": "PTC VP International Industrial"
+    },
+    {
+      "rank": 3,
+      "name": "Microsoft Azure IoT",
+      "country": "USA",
+      "type": "Cloud IoT Platform",
+      "rationale": "Azure IoT Hub is widely deployed in Saudi industrial companies. Saudi sovereign deployment of Azure IoT on Saudi sovereign cloud.",
+      "contact": "Microsoft VP IoT, Saudi Arabia"
+    },
+    {
+      "rank": 4,
+      "name": "Hitachi Lumada",
+      "country": "Japan",
+      "type": "Industrial AI and IoT",
+      "rationale": "Hitachi Lumada provides industrial AI and IoT with active Gulf industrial customer relationships.",
+      "contact": "Hitachi VP International Industrial Digital"
+    },
+    {
+      "rank": 5,
+      "name": "Bosch Connected Industry",
+      "country": "Germany",
+      "type": "Smart Factory Platform",
+      "rationale": "Bosch Connected Industry provides factory IoT and analytics with strong Gulf automotive and industrial presence.",
+      "contact": "Bosch VP Connected Industry, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Aramco Digital",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Largest industrial IoT deployment in Saudi Arabia; Aramco Industrial Internet platform; real-time monitoring of 6,000+ wells",
+      "upgrade": "Aramco IIoT platform commercialised as national Saudi IIoT standard; technology transfer to national platform; Aramco as anchor industrial reference customer",
+      "timeline": "18 months to national platform beta",
+      "anchor": "Aramco + SDAIA + SABIC"
+    },
+    {
+      "rank": 2,
+      "name": "SABIC / Industrial Operations",
+      "track": "Track 7 — Venture Client",
+      "current": "Some IIoT deployment; predictive maintenance trials",
+      "upgrade": "SABIC as second anchor customer; SABIC petrochemical process data on Saudi platform; SABIC-KFUPM industrial AI research",
+      "timeline": "18 months",
+      "anchor": "SABIC + Aramco + SDAIA"
+    },
+    {
+      "rank": 3,
+      "name": "SDAIA",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "National data governance; industrial data standards",
+      "upgrade": "National IIoT data standard; Saudi Industrial Data Sovereignty Framework; SDAIA certification for industrial IoT platforms",
+      "timeline": "12 months",
+      "anchor": "SDAIA + MCIT + Aramco"
+    },
+    {
+      "rank": 4,
+      "name": "Elm Company / Digital Platforms",
+      "track": "Track 3 — Supplier Development",
+      "current": "Government digital platforms; secure data management",
+      "upgrade": "Elm as Saudi IIoT platform operator; government industrial sector (Saudi Water Authority, SEC) as public sector IIoT demand",
+      "timeline": "24 months",
+      "anchor": "PIF + SDAIA + Aramco"
+    }
+  ]
+}

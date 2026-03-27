@@ -1,0 +1,91 @@
+{
+  "id": "AU-2",
+  "title": "Seating and Interior Assemblies",
+  "sector": "AU",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "International automotive seating company establishing Saudi assembly with SABIC polymer materials supply",
+  "executive_summary": "Automotive seating and interior assemblies — seats, door panels, dashboard sub-assemblies, headliners — account for 15–20% of a vehicle's total manufacturing cost. They are manufactured using polyurethane foam, SABIC engineering plastics, fabric/leather, and steel frames — inputs that Saudi Arabia largely produces domestically. Node AU-2 targets Saudi assembly of automotive seating and interiors, combining SABIC's polymer materials advantage with international automotive seating companies seeking lower-cost Gulf manufacturing.\n\nSaudi Arabia's automotive assembly programme (the full AU programme) creates a captive OEM demand for locally-produced seating and interior assemblies. The manufacturing processes (foam moulding, fabric cutting and sewing, assembly) are labour-intensive and suited to Saudi Arabia's manufacturing cost structure. The technical barriers are relatively low compared to other automotive components — this is an assembly-intensity play, not a precision manufacturing challenge.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Lear Corporation",
+      "country": "USA",
+      "type": "Automotive Seating JV Partner",
+      "rationale": "Lear is the world's second-largest automotive seating manufacturer with emerging market JV experience.",
+      "contact": "Lear Corporation VP International Manufacturing"
+    },
+    {
+      "rank": 2,
+      "name": "Adient (formerly Johnson Controls)",
+      "country": "USA",
+      "type": "Seating Technology Partner",
+      "rationale": "Adient is the world's largest automotive seating company with active Middle East market presence.",
+      "contact": "Adient VP International Manufacturing"
+    },
+    {
+      "rank": 3,
+      "name": "Faurecia (Forvia)",
+      "country": "France",
+      "type": "Interior Systems Partner",
+      "rationale": "Faurecia produces automotive interiors and seating with non-US European technology and active Gulf supply chain.",
+      "contact": "Faurecia VP International Manufacturing, Gulf"
+    },
+    {
+      "rank": 4,
+      "name": "Toyota Boshoku",
+      "country": "Japan",
+      "type": "Interior Assembly Technology",
+      "rationale": "Toyota Boshoku produces automotive interiors and has international manufacturing JV experience.",
+      "contact": "Toyota Boshoku VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Yanfeng Automotive Interiors",
+      "country": "China",
+      "type": "Interior Assembly Partner",
+      "rationale": "Yanfeng is the world's largest automotive interior supplier with competitive manufacturing costs.",
+      "contact": "Yanfeng VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC Automotive Materials",
+      "track": "Track 7 — Venture Client",
+      "current": "Automotive polypropylene and engineering plastic supply; some foam precursors",
+      "upgrade": "SABIC automotive-grade polymer supply to Saudi seating manufacturer; SABIC equity in seating JV; Saudi vertically integrated polymer → seat assembly supply chain",
+      "timeline": "18 months",
+      "anchor": "SABIC + NIDLP + Saudi OEMs"
+    },
+    {
+      "rank": 2,
+      "name": "KAEC Automotive Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Automotive cluster development at KAEC",
+      "upgrade": "Saudi seating manufacturer as KAEC anchor automotive Tier 1 supplier; shared materials handling and logistics infrastructure",
+      "timeline": "18 months",
+      "anchor": "KAEC + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "TVTC Automotive Upholstery Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Automotive upholstery and trim courses",
+      "upgrade": "Automotive seating assembly technician programme; foam moulding and sewing training; Saudi seating manufacturer operator pipeline",
+      "timeline": "18 months",
+      "anchor": "NIDLP + TVTC"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi OEM Assembly Programmes",
+      "track": "Track 7 — Venture Client",
+      "current": "Vehicle assembly programme development",
+      "upgrade": "Saudi-assembled vehicles specify Saudi-produced seating; localisation scorecard credit; Saudi seating as required local content",
+      "timeline": "30 months",
+      "anchor": "NIDLP + Saudi OEMs + SABIC"
+    }
+  ]
+}

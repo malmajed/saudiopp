@@ -1,0 +1,91 @@
+{
+  "id": "LG-3",
+  "title": "Port Terminal Operating System (Saudi-developed)",
+  "sector": "LG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$55M – $100M",
+  "entry_mechanism": "Saudi software company developing port TOS anchored by Mawani digitalisation programme",
+  "executive_summary": "Port Terminal Operating Systems (TOS) — the software that manages container yard operations, vessel planning, gate operations, and equipment dispatch at container terminals — are dominated by a handful of foreign providers: Navis (N4), Tideworks, and OPUS Terminal. All of Saudi Arabia's ports run on foreign TOS platforms, paying annual licensing fees and creating data sovereignty risks for one of Saudi Arabia's most critical trade infrastructure assets.\n\nNode LG-3 targets the development of a Saudi-origin port TOS, built to manage Saudi Arabia's specific terminal characteristics (large GCC transshipment volumes, Saudi-specific customs integration, Arabic language interface) and deployed at Saudi ports under Mawani's TOS renewal programme. The global port software market creates export potential: a proven Saudi TOS could expand to GCC ports (UAE, Qatar, Kuwait, Bahrain) that face the same vendor dependence.\n\nThe global port software market was valued at $3.1 billion in 2024 growing at 11.2% CAGR. Saudi Arabia's annual port TOS licensing spend is estimated at $25–40 million — fully retained in-Kingdom with a Saudi TOS platform.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Navis (Cargotec)",
+      "country": "USA/Finland",
+      "type": "TOS Technology Licensing Partner",
+      "rationale": "Navis operates Mawani's current TOS and has Saudi Arabia operational experience. Technology licensing or SDK access for Saudi TOS development.",
+      "contact": "Navis VP International"
+    },
+    {
+      "rank": 2,
+      "name": "DP World Technology",
+      "country": "UAE",
+      "type": "Port Technology Reference",
+      "rationale": "DP World has developed in-house port technology (CARGOES TOS). The UAE model is the closest regional precedent for Saudi TOS development.",
+      "contact": "DP World Technology VP International"
+    },
+    {
+      "rank": 3,
+      "name": "IBM / Maersk TradeLens (legacy)",
+      "country": "USA",
+      "type": "Port Data Platform",
+      "rationale": "IBM has port technology and blockchain supply chain experience. Technology partnership for Saudi port data management.",
+      "contact": "IBM VP Port Technology, International"
+    },
+    {
+      "rank": 4,
+      "name": "SAP Port and Terminal Management",
+      "country": "Germany",
+      "type": "Enterprise Port System",
+      "rationale": "SAP has enterprise port management solutions with active Saudi Arabia customer base.",
+      "contact": "SAP VP Port and Logistics, Saudi Arabia"
+    },
+    {
+      "rank": 5,
+      "name": "Tideworks Technology",
+      "country": "USA",
+      "type": "Terminal Software",
+      "rationale": "Tideworks develops TOS with technology licensing model applicable to Saudi development.",
+      "contact": "Tideworks VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Ports Authority (Mawani)",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Navis TOS; heavy foreign dependency; TOS renewal due 2027",
+      "upgrade": "Mawani TOS renewal as Saudi platform opportunity; Mawani engineering team embedded in Saudi TOS development; Mawani as anchor customer and equity co-investor in Saudi TOS company",
+      "timeline": "30 months to deployable Saudi TOS v1.0",
+      "anchor": "Mawani + PIF + MCIT"
+    },
+    {
+      "rank": 2,
+      "name": "Elm Company",
+      "track": "Track 3 — Supplier Development",
+      "current": "Government platform development; some logistics digital infrastructure",
+      "upgrade": "Port TOS development on Elm's government software platform; Mawani API integration; ZATCA customs integration for Saudi TOS",
+      "timeline": "24 months",
+      "anchor": "PIF + Mawani + ZATCA"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Computer Engineering / Industrial Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Software engineering; operations research; logistics optimisation",
+      "upgrade": "Port operations research programme; container yard optimisation algorithms for Saudi TOS; graduate placement in Saudi TOS development team",
+      "timeline": "24 months",
+      "anchor": "Mawani + KFUPM"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Ground Services / SAUDIA Cargo",
+      "track": "Track 7 — Venture Client",
+      "current": "Air cargo operations; cargo management systems",
+      "upgrade": "Saudi air cargo TOS development on same platform architecture; multi-modal freight platform expanding beyond sea ports",
+      "timeline": "30 months",
+      "anchor": "GACA + Mawani + MOT"
+    }
+  ]
+}

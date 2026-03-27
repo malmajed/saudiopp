@@ -1,0 +1,91 @@
+{
+  "id": "AU-13",
+  "title": "Power Electronics Components",
+  "sector": "AU",
+  "phase": "II-IV",
+  "wave": "Wave 2/3",
+  "type": "Product",
+  "investment_range": "$180M – $320M",
+  "entry_mechanism": "PSAP Track 2 — Automotive power electronics manufacturer JV leveraging Saudi SiC programme (SC-4)",
+  "executive_summary": "Automotive power electronics — on-board chargers (OBC), DC-DC converters, inverters, and motor controllers for electric vehicles — are the highest-value electronic systems in an EV drivetrain. They convert electrical energy between battery pack, motor, and grid with efficiency that directly determines range. Node AU-13 directly cascades from Saudi Arabia's semiconductor programme: SC-4 (SiC devices) → AU-13 (SiC-based automotive power electronics) → EV drivetrain. This is the most direct demonstration of how Saudi Arabia's upstream semiconductor investment creates downstream automotive manufacturing capability.\n\nPhase II-IV timeline reflects the technology maturity dependency: SC-4 SiC device pilot must be operational before Saudi SiC-based power electronics can be manufactured domestically. Phase II begins with imported SiC devices assembled into Saudi-manufactured power electronics modules; Phase IV integrates Saudi SiC devices from SC-4 into Saudi power electronics manufacturing.\n\nThe global automotive power electronics market was valued at $12.8 billion in 2024 growing at 24.8% CAGR. Saudi Arabia's Phase II-IV opportunity — automotive power electronics for Saudi-assembled EVs and GCC export — represents a $200–400 million annual production opportunity at steady state.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "BorgWarner Power Drive Systems",
+      "country": "USA",
+      "type": "EV Power Electronics JV",
+      "rationale": "BorgWarner produces EV inverters and power electronics and has international manufacturing partnerships.",
+      "contact": "BorgWarner VP International Power Electronics"
+    },
+    {
+      "rank": 2,
+      "name": "Vitesco Technologies (Continental)",
+      "country": "Germany",
+      "type": "EV Inverter Technology",
+      "rationale": "Vitesco is a leading EV power electronics manufacturer and has been spun off for strategic independence.",
+      "contact": "Vitesco VP International Manufacturing"
+    },
+    {
+      "rank": 3,
+      "name": "STMicroelectronics (SiC to Power Electronics)",
+      "country": "France/Italy",
+      "type": "SiC Device and Module",
+      "rationale": "ST connects SC-4 SiC research with AU-13 power module packaging directly.",
+      "contact": "ST VP Automotive Power Electronics International"
+    },
+    {
+      "rank": 4,
+      "name": "Infineon Technologies",
+      "country": "Germany",
+      "type": "Automotive Power Semiconductor",
+      "rationale": "Infineon is the world's largest automotive semiconductor company with SiC and power module expertise.",
+      "contact": "Infineon VP Automotive Power, International"
+    },
+    {
+      "rank": 5,
+      "name": "Nidec (Emerson EV Systems)",
+      "country": "Japan",
+      "type": "Motor and Inverter Systems",
+      "rationale": "Nidec produces integrated EV motor and inverter systems and has international manufacturing partnerships.",
+      "contact": "Nidec VP International EV Systems"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SSIH / SC-4 SiC Programme",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase II SiC device pilot",
+      "upgrade": "Saudi SiC devices from SC-4 qualified for AU-13 automotive power modules; closed Saudi SiC → power electronics loop; SSIH as upstream supplier to Saudi power electronics manufacturer",
+      "timeline": "Phase IV: 60+ months for Saudi SiC integration",
+      "anchor": "GADD + SC-4 + Vitesco"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Hot-Climate Validation (AU-5)",
+      "track": "Track 7 — Venture Client",
+      "current": "Test facility operational",
+      "upgrade": "EV power electronics thermal validation at 55°C ambient; Saudi power electronics hot-climate qualification; reference data for global EV OEMs",
+      "timeline": "36 months",
+      "anchor": "AU-5 + NIDLP + BorgWarner"
+    },
+    {
+      "rank": 3,
+      "name": "KAEC Power Electronics Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Automotive manufacturing cluster",
+      "upgrade": "High-power electronics manufacturing zone at KAEC; clean room and ESD infrastructure; co-located with BTMS (AU-12) for thermal integration",
+      "timeline": "36 months",
+      "anchor": "KAEC + NIDLP"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM / KAUST Power Electronics Research",
+      "track": "Track 6 — R&D",
+      "current": "Power electronics research; SiC device simulation",
+      "upgrade": "Saudi automotive power electronics engineering programme; SiC module packaging research; EV inverter design research; Saudi EV power electronics engineer pipeline",
+      "timeline": "30 months",
+      "anchor": "GADD + KFUPM + KAUST + SC-4"
+    }
+  ]
+}

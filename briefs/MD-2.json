@@ -1,0 +1,91 @@
+{
+  "id": "MD-2",
+  "title": "IV Administration Sets and Syringes",
+  "sector": "MD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "PSAP Track 2 — International medical device manufacturer JV at Saudi industrial zone",
+  "executive_summary": "Intravenous (IV) administration sets and syringes are among the highest-volume medical consumables in any healthcare system. Saudi Arabia's hospital network — including 500+ hospitals and 2,000+ primary care centres — consumes hundreds of millions of these items annually, all imported. The SFDA (Saudi Food and Drug Authority) has increasingly stringent localisation requirements for government procurement, and NIDLP's medical device localisation target creates a policy-driven demand pull for domestic production.\n\nIV sets and syringes are manufactured using injection moulding of medical-grade plastics (polypropylene, PVC) and assembly operations. Saudi Arabia's petrochemical supply chain — SABIC's medical-grade polymer compounds — provides direct material cost advantage. The manufacturing processes (injection moulding, clean room assembly, sterilisation) are well-established and multiple international manufacturers actively seek Gulf manufacturing partners.\n\nThe global IV administration set market was valued at $4.8 billion in 2024. Saudi Arabia's addressable domestic market is estimated at $200–300 million annually. Full domestic production would create 800–1,200 manufacturing jobs and eliminate a critical healthcare supply chain vulnerability.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Becton Dickinson (BD)",
+      "country": "USA",
+      "type": "Manufacturing JV Partner",
+      "rationale": "BD is the world's largest medical device company with major syringe and IV set manufacturing. BD has established manufacturing JVs in multiple emerging markets.",
+      "contact": "BD VP International Manufacturing Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "ICU Medical",
+      "country": "USA",
+      "type": "IV Systems Partner",
+      "rationale": "ICU Medical specialises in IV infusion therapy and has international manufacturing partnerships.",
+      "contact": "ICU Medical VP International Operations"
+    },
+    {
+      "rank": 3,
+      "name": "B. Braun",
+      "country": "Germany",
+      "type": "IV and Infusion Products",
+      "rationale": "B. Braun manufactures IV sets and infusion products globally. Non-US European technology with active Gulf market relationships.",
+      "contact": "B. Braun VP Manufacturing International"
+    },
+    {
+      "rank": 4,
+      "name": "Fresenius Kabi",
+      "country": "Germany",
+      "type": "IV Solutions and Administration",
+      "rationale": "Fresenius Kabi produces IV solutions and administration sets with active Middle East market presence.",
+      "contact": "Fresenius Kabi VP International Manufacturing"
+    },
+    {
+      "rank": 5,
+      "name": "Nipro Corporation",
+      "country": "Japan",
+      "type": "Syringe and IV Set Manufacturing",
+      "rationale": "Nipro manufactures syringes and IV sets at scale and has international manufacturing JV experience.",
+      "contact": "Nipro VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC / Medical Grade Polymers",
+      "track": "Track 7 — Venture Client",
+      "current": "Medical-grade polypropylene and PVC production",
+      "upgrade": "Establish SABIC medical polymer supply agreement with Saudi IV set manufacturer; SABIC medical-grade certification; Saudi material content in IV sets",
+      "timeline": "12 months to supply qualification",
+      "anchor": "SABIC + MOH + NIDLP"
+    },
+    {
+      "rank": 2,
+      "name": "NUPCO",
+      "track": "Track 7 — Venture Client",
+      "current": "National medical supply procurement",
+      "upgrade": "NUPCO 5-year offtake agreement for Saudi-manufactured IV sets and syringes; quality audit and SFDA compliance verification; anchor that enables BD or B. Braun JV investment decision",
+      "timeline": "12 months to offtake agreement",
+      "anchor": "MOH + NUPCO"
+    },
+    {
+      "rank": 3,
+      "name": "SFDA (Saudi FDA)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Medical device regulatory authority",
+      "upgrade": "SFDA Class II device manufacturing licence expedited process; SFDA-FDA/CE mutual recognition framework; regulatory sandbox for Saudi medical device manufacturers",
+      "timeline": "12 months",
+      "anchor": "SFDA + MOH + NIDLP"
+    },
+    {
+      "rank": 4,
+      "name": "Dammam Industrial City (2nd IC)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial zone with medical device cluster",
+      "upgrade": "Dedicated medical device manufacturing zone; shared clean room and sterilisation infrastructure; ISO 13485 cluster certification framework",
+      "timeline": "18 months",
+      "anchor": "MOIP + NIDLP + SFDA"
+    }
+  ]
+}

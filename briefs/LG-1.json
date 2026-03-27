@@ -1,0 +1,91 @@
+{
+  "id": "LG-1",
+  "title": "Saudi Cold Chain Monitoring Platform",
+  "sector": "LG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$28M – $52M",
+  "entry_mechanism": "Saudi software company developing cold chain IoT platform anchored by SFDA cold chain compliance requirements",
+  "executive_summary": "Cold chain logistics — the temperature-controlled movement of pharmaceuticals, vaccines, food, and biological samples — is a critical national infrastructure requirement that Saudi Arabia has historically managed poorly. Vaccine wastage due to cold chain breaks, pharmaceutical recall events, and food safety failures all trace to inadequate cold chain monitoring. Saudi Arabia's SFDA now requires temperature monitoring data for pharmaceutical imports and distribution — creating a regulatory pull for cold chain technology.\n\nNode LG-1 targets a Saudi-developed cold chain monitoring platform: IoT sensors, data management, alert systems, and regulatory compliance reporting for Saudi Arabia's pharmaceutical and food cold chains. The platform combines hardware (temperature loggers, cellular trackers) with software (dashboard, alerts, SFDA reporting) in a SaaS model sold to Saudi distributors, hospitals, and food companies.\n\nThe global cold chain monitoring market was valued at $7.8 billion in 2024 growing at 19.3% CAGR. Saudi Arabia's pharmaceutical import volume ($6+ billion annually) and food retail sector create a substantial domestic market. SFDA's compliance requirement is the regulatory anchor that guarantees market creation.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Sensitech (Carrier)",
+      "country": "USA",
+      "type": "Cold Chain Technology Partner",
+      "rationale": "Sensitech is the global cold chain monitoring leader. Technology licensing for Saudi-developed platform.",
+      "contact": "Sensitech VP International Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "ORBCOMM",
+      "country": "USA",
+      "type": "IoT Cold Chain Platform",
+      "rationale": "ORBCOMM provides cold chain IoT with cellular and satellite connectivity. Saudi platform development on ORBCOMM infrastructure.",
+      "contact": "ORBCOMM VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Emerson (Cargo Solutions)",
+      "country": "USA",
+      "type": "Cold Chain Solutions",
+      "rationale": "Emerson produces cold chain monitoring hardware with established Gulf logistics relationships.",
+      "contact": "Emerson VP Cold Chain, International"
+    },
+    {
+      "rank": 4,
+      "name": "Testo",
+      "country": "Germany",
+      "type": "Cold Chain Measurement",
+      "rationale": "Testo produces precision temperature monitoring devices with SFDA-compatible data formats.",
+      "contact": "Testo VP International Industrial"
+    },
+    {
+      "rank": 5,
+      "name": "Controlant",
+      "country": "Iceland",
+      "type": "Pharma Cold Chain Platform",
+      "rationale": "Controlant specialises in pharmaceutical cold chain monitoring and has WHO pre-qualification for vaccine cold chain.",
+      "contact": "Controlant VP International Pharma"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SFDA (Saudi Food and Drug Authority)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Pharmaceutical cold chain regulation; import inspection",
+      "upgrade": "SFDA mandatory cold chain data reporting requirement; Saudi cold chain platform as SFDA certified reporting tool; SFDA-Saudi platform integration for regulatory compliance",
+      "timeline": "12 months to regulatory mandate",
+      "anchor": "SFDA + MOH + MCIT"
+    },
+    {
+      "rank": 2,
+      "name": "NUPCO / Saudi pharmaceutical distributors",
+      "track": "Track 7 — Venture Client",
+      "current": "National pharmaceutical distribution; some cold chain monitoring",
+      "upgrade": "NUPCO as anchor customer; Saudi platform deployed across NUPCO cold chain; NUPCO operational data as development input",
+      "timeline": "18 months to commercial deployment",
+      "anchor": "NUPCO + MOH + SFDA"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Post / SPL (Saudi Post Logistics)",
+      "track": "Track 7 — Venture Client",
+      "current": "National logistics network; some temperature-controlled courier",
+      "upgrade": "SPL pharmaceutical cold chain service; Saudi platform integration for last-mile pharma delivery; Saudi cold chain network expansion",
+      "timeline": "18 months",
+      "anchor": "SPL + SFDA + MOH"
+    },
+    {
+      "rank": 4,
+      "name": "SDAIA",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "National data governance; IoT standards",
+      "upgrade": "Saudi IoT cold chain data standard; SFDA-SDAIA cold chain data sovereignty framework; API standards for cold chain reporting",
+      "timeline": "12 months",
+      "anchor": "SDAIA + SFDA + MCIT"
+    }
+  ]
+}

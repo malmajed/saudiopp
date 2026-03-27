@@ -1,0 +1,91 @@
+{
+  "id": "DT-5",
+  "title": "Digital Water Operations Platform",
+  "sector": "WT",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "Saudi digital company developing water operations AI platform anchored by SWCC and Saudi Water Authority",
+  "executive_summary": "Digital water operations — AI-powered platforms that optimise desalination plant performance, predict membrane fouling, schedule maintenance, and manage water distribution networks — are the highest-value service layer in the water sector. Saudi Arabia's water infrastructure generates enormous operational data (plant sensors, water quality monitors, distribution pressure sensors) that today is managed by legacy SCADA systems with limited analytics capability.\n\nNode DT-5 targets a Saudi-developed Digital Water Operations Platform: Saudi data scientists and water engineers building predictive models for Saudi-specific desalination conditions (Red Sea and Arabian Gulf feed water characteristics, extreme ambient temperatures) and deploying an AI-powered water operations platform that SWCC and Saudi Water Authority use to optimise their national water network.\n\nThe global digital water market was valued at $15.8 billion in 2024 growing at 12.4% CAGR. Saudi Arabia's unique combination of the world's largest desalination capacity and a national digital transformation ambition creates a compelling domestic market. A Saudi digital water platform that proves itself on SWCC's operations has strong export potential across MENA's water-stressed nations.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Xylem / Idrica",
+      "country": "USA/Spain",
+      "type": "Digital Water Technology Partner",
+      "rationale": "Idrica (Xylem subsidiary) provides GoAigua digital water platform deployed globally. Technology licensing for Saudi platform.",
+      "contact": "Xylem Digital VP International"
+    },
+    {
+      "rank": 2,
+      "name": "IBM Water Intelligence",
+      "country": "USA",
+      "type": "AI Water Operations",
+      "rationale": "IBM has water analytics and AI operations platforms with global deployments. IBM Cloud sovereign deployment model.",
+      "contact": "IBM VP Water Intelligence, International"
+    },
+    {
+      "rank": 3,
+      "name": "Siemens Digital Industries / Water",
+      "country": "Germany",
+      "type": "Water Digital Twin",
+      "rationale": "Siemens provides digital twin platforms for water infrastructure with SWCC relationships.",
+      "contact": "Siemens VP Water Digitalisation, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Bentley Systems",
+      "country": "USA",
+      "type": "Water Network Digital Twin",
+      "rationale": "Bentley provides water network modelling and digital twin tools widely used by utilities.",
+      "contact": "Bentley VP Water Infrastructure, International"
+    },
+    {
+      "rank": 5,
+      "name": "Halma Water Analytics",
+      "country": "UK",
+      "type": "Water Quality Analytics",
+      "rationale": "Halma subsidiary produces water quality monitoring and analytics for utilities.",
+      "contact": "Halma VP Water, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Water Company (SWCC)",
+      "track": "Track 7 — Venture Client",
+      "current": "Legacy SCADA; limited analytics; large operational data archive",
+      "upgrade": "SWCC as development partner; operational data access for platform development; SWCC 10-year platform licensing commitment; SWCC engineers embedded in development team",
+      "timeline": "24 months to operational platform",
+      "anchor": "SWCC + MOE + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco Digital",
+      "track": "Track 7 — Venture Client",
+      "current": "Industrial AI platform; predictive maintenance expertise",
+      "upgrade": "Transfer Aramco predictive maintenance AI methodology to water operations domain; Saudi water industry digital twin framework; dual-use industrial/water AI platform",
+      "timeline": "18 months",
+      "anchor": "Aramco + SWCC + SDAIA"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST / Water Research",
+      "track": "Track 6 — R&D",
+      "current": "Desalination process research; water quality analytics research",
+      "upgrade": "KAUST-SWCC digital water research programme; RO membrane performance prediction models; Saudi Red Sea and Gulf feedwater characterisation models",
+      "timeline": "24 months",
+      "anchor": "SWCC + KAUST"
+    },
+    {
+      "rank": 4,
+      "name": "SDAIA",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "National data governance",
+      "upgrade": "Water operational data sovereignty framework; Saudi water AI certification standard; SWCC data as national critical infrastructure",
+      "timeline": "12 months",
+      "anchor": "SDAIA + MOE + SWCC"
+    }
+  ]
+}

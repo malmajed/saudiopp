@@ -1,0 +1,91 @@
+{
+  "id": "MR-2",
+  "title": "Offshore Support Vessel Operations (Saudi-flagged)",
+  "sector": "MR",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$180M – $320M",
+  "entry_mechanism": "Saudi flagging programme through GAZT/GAQA combined with PSAP for vessel management capability",
+  "executive_summary": "Saudi Aramco operates one of the world's largest offshore oil and gas fields — requiring a fleet of offshore support vessels (OSVs) for anchor handling, platform supply, diving support, and marine construction. Today, a significant portion of this OSV fleet is foreign-flagged and foreign-operated. Node MR-2 targets the Saudisation of OSV operations: Saudi-flagged vessels, Saudi-crewed and Saudi-managed, operating in Saudi territorial waters.\n\nThe commercial logic is clear: Saudi Arabia's offshore activity generates $400–600 million annually in OSV charter fees, the majority flowing to foreign vessel owners and operators. A Saudi-flagged OSV fleet with Saudi crews retains this revenue in-Kingdom and creates 2,000–3,000 maritime jobs for Saudi nationals.\n\nSaudi Arabia's Cabinet Resolution 100 (2020) mandated the Saudisation of offshore vessel operations. The challenge has been implementation — Saudi maritime human capital is insufficient to crew a large OSV fleet immediately, requiring a systematic training programme. Node MR-2 is the operational anchor for Saudi Arabia's maritime workforce development programme.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Tidewater Marine",
+      "country": "USA",
+      "type": "OSV Operations Partner",
+      "rationale": "Tidewater is the world's largest OSV operator and has active Saudi Arabia operations through Aramco contracts. A Saudi JV with Tidewater transfers operational management capability.",
+      "contact": "Tidewater VP Middle East Operations"
+    },
+    {
+      "rank": 2,
+      "name": "BOURBON Maritime",
+      "country": "France",
+      "type": "OSV Management Partner",
+      "rationale": "BOURBON operates OSVs globally and has established management partnerships in multiple emerging maritime nations.",
+      "contact": "BOURBON VP International Partnerships"
+    },
+    {
+      "rank": 3,
+      "name": "Siem Offshore",
+      "country": "Norway",
+      "type": "Specialized OSV Partner",
+      "rationale": "Siem Offshore operates specialised OSVs including diving support and subsea vessels. Norwegian maritime expertise and active Gulf engagement.",
+      "contact": "Siem Offshore VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "DOF Group",
+      "country": "Norway",
+      "type": "Subsea and OSV",
+      "rationale": "DOF has subsea and OSV operations with a track record of establishing joint ventures in emerging maritime nations.",
+      "contact": "DOF VP International Ventures"
+    },
+    {
+      "rank": 5,
+      "name": "Gulf Marine Services",
+      "country": "UAE",
+      "type": "Regional OSV Operator",
+      "rationale": "GMS is the Gulf's largest OSV operator and a regional benchmark. Saudi JV with GMS converts regional competitor to Saudi capability platform.",
+      "contact": "GMS VP Business Development"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Aramco Marine",
+      "track": "Track 7 — Venture Client",
+      "current": "Some Saudi-flagged vessels; mostly foreign-chartered OSVs",
+      "upgrade": "Aramco 10-year Saudi OSV charter commitment; Saudi-flagged fleet expansion programme; Aramco technical supervision of Saudi crew training",
+      "timeline": "24 months to first fully Saudi-crewed Saudi-flagged OSV",
+      "anchor": "Aramco + Bahri + SAMI"
+    },
+    {
+      "rank": 2,
+      "name": "Bahri Offshore",
+      "track": "Track 2 — JV Structuring",
+      "current": "VLCC and dry bulk operations; limited OSV capability",
+      "upgrade": "Bahri OSV division establishment; JV with Tidewater or BOURBON; Saudi fleet of 20 OSVs by Phase I end; Saudi maritime officer programme",
+      "timeline": "24 months to operational OSV division",
+      "anchor": "Bahri + Aramco + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Maritime Academy (Rabigh)",
+      "track": "Track 8 — Human Capital",
+      "current": "Maritime officer training; some OSV navigation training",
+      "upgrade": "OSV-specific maritime programme; DP (Dynamic Positioning) operator certification; offshore safety and survival training; 200 Saudi OSV officers per year",
+      "timeline": "18 months to accredited OSV training programme",
+      "anchor": "MOT + Aramco + Bahri"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Ports Authority",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Port operations; some OSV registration services",
+      "upgrade": "Saudi flag state administration expansion; OSV registration incentives; Saudi crew certification centre; streamlined flag registration for Saudi-owned OSVs",
+      "timeline": "18 months",
+      "anchor": "Mawani + MOT + Bahri"
+    }
+  ]
+}

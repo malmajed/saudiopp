@@ -1,0 +1,91 @@
+{
+  "id": "QT-1",
+  "title": "Saudi PQC Implementation Program",
+  "sector": "QT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "NCA-led national programme converting Saudi government cryptographic infrastructure to post-quantum standards",
+  "executive_summary": "Post-Quantum Cryptography (PQC) is the urgent replacement of today's encryption algorithms (RSA, ECC) with quantum-resistant alternatives before quantum computers powerful enough to break them become available. NIST finalised its first PQC standards in 2024 (CRYSTALS-Kyber, CRYSTALS-Dilithium, SPHINCS+), and the 'harvest now, decrypt later' threat means adversaries may already be collecting Saudi government encrypted traffic today for future decryption.\n\nNode QT-1 targets Saudi Arabia's national PQC migration: systematically inventorying all Saudi government cryptographic infrastructure, prioritising migration based on data sensitivity and exposure, and implementing PQC algorithms across government communications, financial systems, and critical infrastructure. This is a national security programme, not merely an IT upgrade.\n\nSaudi Arabia's national PQC programme is simultaneously a security imperative (protecting Saudi government data from future quantum attacks) and a technical capability investment (creating Saudi cryptography engineers who understand and can implement quantum-resistant algorithms). NCA leadership is essential — this is a national security programme, not an IT project.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "IBM Quantum Safe",
+      "country": "USA",
+      "type": "PQC Implementation Partner",
+      "rationale": "IBM has the most mature PQC implementation programme and NIST PQC standard contributions. IBM Quantum Safe programme for Saudi government migration.",
+      "contact": "IBM VP Quantum Safe, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Cryptographic Solutions",
+      "country": "France",
+      "type": "HSM and PQC Partner",
+      "rationale": "Thales produces government-grade Hardware Security Modules with PQC support. French government technology alignment.",
+      "contact": "Thales VP Cryptographic Solutions, Government"
+    },
+    {
+      "rank": 3,
+      "name": "PQShield",
+      "country": "UK",
+      "type": "PQC Technology Partner",
+      "rationale": "PQShield is a leading PQC implementation company with hardware and software IP. Non-US alternative with active government partnerships.",
+      "contact": "PQShield VP Government Partnerships"
+    },
+    {
+      "rank": 4,
+      "name": "ISARA Corporation",
+      "country": "Canada",
+      "type": "PQC Migration Services",
+      "rationale": "ISARA specialises in quantum-safe migration services for government and enterprise.",
+      "contact": "ISARA VP Government International"
+    },
+    {
+      "rank": 5,
+      "name": "DigiCert Quantum",
+      "country": "USA",
+      "type": "PKI and Certificate Migration",
+      "rationale": "DigiCert provides PKI infrastructure with quantum-safe certificate migration capability.",
+      "contact": "DigiCert VP Government, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "National Cybersecurity Authority (NCA)",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Government cybersecurity standards; some PQC awareness",
+      "upgrade": "NCA Saudi PQC National Programme; cryptographic asset inventory for all government agencies; PQC migration timeline and standards; NCA PQC certification for government systems",
+      "timeline": "18 months to national PQC programme launch",
+      "anchor": "NCA + MOF + MCIT"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Central Bank (SAMA)",
+      "track": "Track 7 — Venture Client",
+      "current": "Financial system encryption; SWIFT connectivity; some quantum awareness",
+      "upgrade": "SAMA PQC migration programme for Saudi financial system; Saudi banking sector PQC timeline; Saudi Riyal digital currency PQC architecture",
+      "timeline": "24 months",
+      "anchor": "SAMA + NCA + MOF"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Cryptography Research",
+      "track": "Track 6 — R&D",
+      "current": "Cryptography research; some PQC algorithm research",
+      "upgrade": "GADD-KACST PQC implementation research; Saudi-specific PQC performance optimisation; Saudi cryptography engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "NCA + KACST + GADD"
+    },
+    {
+      "rank": 4,
+      "name": "Elm Company",
+      "track": "Track 7 — Venture Client",
+      "current": "Government digital platforms; Absher identity infrastructure",
+      "upgrade": "Elm PQC migration for Saudi government identity systems; Absher quantum-safe authentication; Saudi national identity PQC implementation",
+      "timeline": "24 months",
+      "anchor": "NCA + Elm + MOI"
+    }
+  ]
+}

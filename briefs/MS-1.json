@@ -1,0 +1,91 @@
+{
+  "id": "MS-1",
+  "title": "Guided Munitions Final Assembly Under License",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$80M – $150M",
+  "entry_mechanism": "Licensed final assembly under existing Saudi munitions procurement contracts via IPP conversion",
+  "executive_summary": "Saudi Arabia is one of the world's largest importers of guided munitions — Paveway laser-guided bombs, JDAM GPS-guided kits, Brimstone air-launched missiles, Storm Shadow cruise missiles, and AMRAAM air-to-air missiles. Every one of these weapons is manufactured entirely outside the Kingdom and shipped to Saudi Arabia as a complete article. Node MS-1 targets the first and most accessible step toward munitions sovereignty: licensed final assembly of guided munitions in-Kingdom, using imported components assembled by Saudi technicians to OEM specifications.\n\nFinal assembly under licence is the munitions industry's established model for transferring industrial capability to allied nations — the UK, Australia, South Korea, and Japan all manufacture US-designed munitions under Production and Support Agreements. Saudi Arabia's scale of munitions procurement ($2–4 billion annually) creates the economic mass to justify a dedicated final assembly facility, and GAMI's PSAP framework provides the regulatory structure to attract OEM partners.\n\nThe global guided munitions market was valued at $48 billion in 2024, growing at 6.8% CAGR driven by global rearmament. Saudi Arabia's addressable final assembly opportunity — capturing the assembly value-add from its existing procurement — is estimated at $300–500 million annually at steady state.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Raytheon (RTX)",
+      "country": "USA",
+      "type": "Munitions Production Partner",
+      "rationale": "Raytheon supplies Paveway, AMRAAM, and AIM-9X to Saudi Arabia under Foreign Military Sales. Raytheon has established licensed assembly programmes internationally and has significant IPP obligations in Saudi Arabia.",
+      "contact": "Raytheon VP Saudi Arabia Programmes → RTX International Industrial Cooperation"
+    },
+    {
+      "rank": 2,
+      "name": "MBDA",
+      "country": "France/UK/Germany/Italy",
+      "type": "Missile Assembly Partner",
+      "rationale": "MBDA supplies Brimstone, Storm Shadow, and Meteor to Saudi Arabia and has established licensed production in multiple countries. European IPP obligations support Saudi assembly investment.",
+      "contact": "MBDA VP Saudi Arabia — Industrial Cooperation"
+    },
+    {
+      "rank": 3,
+      "name": "Boeing Defence",
+      "country": "USA",
+      "type": "JDAM and GBU Assembly",
+      "rationale": "Boeing produces JDAM guidance kits and Paveway variants with significant Saudi Arabia sales. Boeing has production licence programmes for allied nations.",
+      "contact": "Boeing Defence VP International Industrial Partnerships"
+    },
+    {
+      "rank": 4,
+      "name": "Elbit Systems Munitions",
+      "country": "Israel",
+      "type": "Guided Munitions Technology (subject to normalisation)",
+      "rationale": "Elbit produces guided munitions including SkyStriker loitering munitions. Subject to Saudi-Israeli normalisation.",
+      "contact": "Elbit Munitions VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Rheinmetall Waffe Munition",
+      "country": "Germany",
+      "type": "Conventional and Guided Munitions",
+      "rationale": "Rheinmetall manufactures guided artillery munitions and has established production partnerships internationally. Active Saudi Arabia engagement.",
+      "contact": "Rheinmetall Waffe Munition VP International Programmes"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI / Saudi Arabian Military Industries Munitions",
+      "track": "Track 2 — JV Structuring",
+      "current": "Munitions programme management; some conventional ammunition production; explosives handling safety",
+      "upgrade": "Establish Raytheon and MBDA licensed final assembly facility; explosives manufacturing licence from MOI; 100+ Saudi assembly technicians; ASQ9100 for munitions; first Paveway and Brimstone assembly lines",
+      "timeline": "36 months to first licensed munitions delivery",
+      "anchor": "SAMI + MOD + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "Royal Ordnance / Defence Science and Technology (Saudi)",
+      "track": "Track 6 — R&D",
+      "current": "Some conventional munitions research and production; explosives expertise",
+      "upgrade": "Guided munitions component manufacturing research; Saudi explosives filling capability; quality standards for guided munitions production",
+      "timeline": "24 months",
+      "anchor": "GADD + MOD + SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "King Abdulaziz City for Science and Technology",
+      "track": "Track 6 — R&D",
+      "current": "Defence research; materials science; some energetic materials research",
+      "upgrade": "Munitions propellant characterisation research; warhead design research (Phase III aspiration); support SAMI munitions quality programme",
+      "timeline": "36 months",
+      "anchor": "GADD + KACST + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "GAPT (General Administration for Personnel Training)",
+      "track": "Track 8 — Human Capital",
+      "current": "Military technical training; explosives handling training",
+      "upgrade": "Guided munitions assembly technician programme; Raytheon and MBDA factory training pipeline; explosives and safety qualification",
+      "timeline": "18 months",
+      "anchor": "MOD + SAMI + GAMI"
+    }
+  ]
+}

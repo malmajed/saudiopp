@@ -1,0 +1,91 @@
+{
+  "id": "DT-3",
+  "title": "Desalination Control System Integration",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$25M – $48M",
+  "entry_mechanism": "Saudi system integrator certified by Siemens and Honeywell for desalination control systems",
+  "executive_summary": "Desalination plant control systems — the SCADA (Supervisory Control and Data Acquisition) and DCS (Distributed Control Systems) that manage the complex interplay of pumps, membranes, chemical dosing, and water quality monitoring in a modern desalination plant — are installed, commissioned, and maintained almost entirely by foreign system integrators. Saudi Arabia operates the world's largest desalination capacity, and control system integration represents $100–150 million in annual services that currently flow to foreign companies.\n\nNode DT-3 targets Saudi-qualified desalination control system integrators: companies certified by Siemens, Honeywell, Yokogawa, and Emerson to design, install, commission, and maintain SCADA and DCS systems in Saudi desalination plants. The certification pathway is accessible — these OEMs have established system integrator programmes internationally.\n\nThe system integration value-add is significant: integration services represent 20–30% of the total control system installation cost. A Saudi-qualified integrator retains this value in-Kingdom, creates high-skill engineering jobs, and builds the automation engineering capability that underpins Saudi Arabia's broader industrial digitalisation ambition.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Siemens Process Automation",
+      "country": "Germany",
+      "type": "DCS Technology Partner",
+      "rationale": "Siemens supplies DCS to Saudi desalination plants and has Certified System Integrator programme.",
+      "contact": "Siemens Process Industries VP Saudi Arabia"
+    },
+    {
+      "rank": 2,
+      "name": "Honeywell Process Solutions",
+      "country": "USA",
+      "type": "SCADA and DCS Partner",
+      "rationale": "Honeywell is the leading SCADA/DCS provider for Saudi Water Company desalination plants. Honeywell System Integrator certification programme.",
+      "contact": "Honeywell Process Solutions VP Saudi Arabia"
+    },
+    {
+      "rank": 3,
+      "name": "Yokogawa Electric",
+      "country": "Japan",
+      "type": "Control System Partner",
+      "rationale": "Yokogawa supplies control systems to Gulf desalination plants and has system integrator certification.",
+      "contact": "Yokogawa VP Gulf Region"
+    },
+    {
+      "rank": 4,
+      "name": "Emerson Automation Solutions",
+      "country": "USA",
+      "type": "Process Control",
+      "rationale": "Emerson has active Saudi Arabia desalination and petrochemical control system deployments.",
+      "contact": "Emerson VP Process Control, Saudi Arabia"
+    },
+    {
+      "rank": 5,
+      "name": "ABB Process Automation",
+      "country": "Switzerland",
+      "type": "Water SCADA Partner",
+      "rationale": "ABB supplies SCADA for water utilities and has Saudi Arabia government water relationships.",
+      "contact": "ABB VP Process Automation, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Rawafid Technology (Saudi automation)",
+      "track": "Track 3 — Supplier Development",
+      "current": "Industrial automation integration; some oil and gas DCS; Siemens partner",
+      "upgrade": "Siemens and Honeywell Certified Integrator for desalination; SWCC approved vendor list; 30 Saudi control system engineers; first NEOM desalination plant integration contract",
+      "timeline": "18 months to first desalination control system delivery",
+      "anchor": "SWCC + NEOM + SABIC"
+    },
+    {
+      "rank": 2,
+      "name": "Elm Company / Industrial Digital",
+      "track": "Track 3 — Supplier Development",
+      "current": "Government IT systems; some industrial systems",
+      "upgrade": "Desalination SCADA integration capability; SWCC data management integration; Saudi water sector digital twin",
+      "timeline": "24 months",
+      "anchor": "SWCC + Elm + SDAIA"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Systems Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Control systems engineering; automation; process control",
+      "upgrade": "Desalination process control specialisation; Siemens and Honeywell certification programme; SWCC graduate placement programme",
+      "timeline": "18 months",
+      "anchor": "SWCC + KFUPM"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Water Partnership Company",
+      "track": "Track 7 — Venture Client",
+      "current": "Desalination PPP programme management; private sector water investment",
+      "upgrade": "Saudi integrator preference in PPP desalination tenders; local content requirements for control system integration; Saudi integrator development programme",
+      "timeline": "18 months",
+      "anchor": "SWPC + MOE + NIDLP"
+    }
+  ]
+}

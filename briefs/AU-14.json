@@ -1,0 +1,91 @@
+{
+  "id": "AU-14",
+  "title": "Industrial Quality Support Services",
+  "sector": "AU",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$20M – $38M",
+  "entry_mechanism": "Saudi quality services company certified by IATF and AIAG providing automotive cluster-wide quality support",
+  "executive_summary": "Automotive quality management — IATF 16949 certification support, APQP (Advanced Product Quality Planning) programme management, PPAP (Production Part Approval Process) documentation, FMEA facilitation, and supplier quality engineering — is a specialised professional service that Saudi Arabia's growing automotive cluster requires but cannot yet provide domestically. Every KAEC automotive manufacturer needs IATF 16949 certification; every Saudi automotive component supplier needs PPAP approval; every Saudi OEM programme needs APQP management. Today, all of this is provided by foreign consultancies at significant cost.\n\nNode AU-14 targets a Saudi automotive quality services company: Saudi automotive quality engineers certified by IATF, VDA (German Automotive Association), and AIAG (American Automotive Industry Action Group) providing the full quality services stack for Saudi Arabia's automotive cluster. This is not a manufacturing node — it is the quality infrastructure layer that makes all other automotive manufacturing nodes function at OEM standards.\n\nAt $8–15 million in annual professional services revenue, AU-14 is the smallest node in the automotive programme but arguably the most enabling. No other AU node achieves OEM qualification without AU-14's services.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "TÜV SÜD Automotive",
+      "country": "Germany",
+      "type": "Quality Certification Partner",
+      "rationale": "TÜV SÜD provides IATF 16949 certification and automotive quality services globally. Saudi-certified TÜV SÜD affiliate for KAEC cluster.",
+      "contact": "TÜV SÜD VP Automotive Quality, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Bureau Veritas Automotive",
+      "country": "France",
+      "type": "Testing and Certification",
+      "rationale": "BV provides automotive quality auditing and certification with active Gulf presence.",
+      "contact": "Bureau Veritas VP Automotive, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "AIAG (Automotive Industry Action Group)",
+      "country": "USA",
+      "type": "Quality Standards Body",
+      "rationale": "AIAG defines APQP, PPAP, and FMEA standards. AIAG training partnership for Saudi quality engineers.",
+      "contact": "AIAG VP International Training"
+    },
+    {
+      "rank": 4,
+      "name": "VDA QMC",
+      "country": "Germany",
+      "type": "German Automotive Quality",
+      "rationale": "VDA QMC provides IATF 16949 and VDA 6.3 certification and training.",
+      "contact": "VDA QMC VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Plexus Systems / Omnex",
+      "country": "USA",
+      "type": "Quality Management Software",
+      "rationale": "Omnex provides automotive quality management software and consulting services.",
+      "contact": "Omnex VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KAEC Automotive Cluster",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase I automotive manufacturers established",
+      "upgrade": "KAEC cluster-wide quality services contract; shared IATF 16949 certification infrastructure; AU-14 company as quality service provider for all KAEC automotive manufacturers",
+      "timeline": "18 months to first cluster quality contract",
+      "anchor": "KAEC + NIDLP + TÜV SÜD"
+    },
+    {
+      "rank": 2,
+      "name": "NIDLP Automotive Programme",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Automotive programme management; supplier qualification oversight",
+      "upgrade": "NIDLP mandate for IATF 16949 certification for all Saudi automotive suppliers; Saudi quality services company as approved certifier; NIDLP quality KPI integration",
+      "timeline": "12 months",
+      "anchor": "NIDLP + IATF + TÜV SÜD"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Industrial Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Quality management; statistical process control; industrial engineering",
+      "upgrade": "Automotive quality engineering specialisation; IATF 16949 lead auditor certification programme; Saudi automotive quality engineer pipeline",
+      "timeline": "18 months",
+      "anchor": "NIDLP + KFUPM + TÜV SÜD"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Standards Authority (SASO)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "National standards and certification",
+      "upgrade": "SASO-IATF bilateral recognition; Saudi automotive national standard development; Saudi quality certification authority for automotive",
+      "timeline": "24 months",
+      "anchor": "SASO + NIDLP + TÜV SÜD"
+    }
+  ]
+}

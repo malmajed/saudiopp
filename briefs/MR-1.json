@@ -1,0 +1,91 @@
+{
+  "id": "MR-1",
+  "title": "VLCC and Large Vessel Dry Dock Repair",
+  "sector": "MR",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$350M – $600M",
+  "entry_mechanism": "Saudi Aramco anchor tenant model — dry dock built around guaranteed Aramco fleet maintenance demand",
+  "executive_summary": "Saudi Arabia owns and operates one of the world's largest crude oil tanker fleets through Bahri (National Shipping Company of Saudi Arabia), including 41 VLCCs (Very Large Crude Carriers) each capable of transporting 2 million barrels of crude. Every one of these vessels requires dry dock maintenance every 2.5 years for hull inspection, painting, propeller servicing, and machinery overhaul. Today, all major Bahri VLCC maintenance is performed at Drydocks World Dubai or Asian shipyards in South Korea, China, and Singapore — at a combined estimated cost of $200–300 million per year.\n\nNode MR-1 targets the establishment of Saudi Arabia's first VLCC-capable dry dock at Ras Al-Khair or Jizan — a national strategic asset that captures Bahri's maintenance spend in-Kingdom, provides MRO capacity for Aramco's offshore fleet, and positions Saudi Arabia as a regional maritime MRO hub serving Gulf and Red Sea vessel traffic.\n\nThe global ship repair market was valued at $38 billion in 2024. Saudi Arabia's addressable capture from its own fleet — Bahri VLCCs alone plus Aramco offshore vessels — represents $200–300 million annually. A Saudi dry dock capable of handling VLCCs would be the largest maritime industrial facility in the Arabian Peninsula.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Hyundai Heavy Industries (HHI)",
+      "country": "South Korea",
+      "type": "Dry Dock Design and Operations Partner",
+      "rationale": "HHI is the world's largest shipbuilder and has dry dock design, construction, and operations expertise. HHI has active Saudi Arabia industrial investment engagement.",
+      "contact": "HHI VP International Business Development"
+    },
+    {
+      "rank": 2,
+      "name": "Drydocks World Dubai",
+      "country": "UAE",
+      "type": "Operations Partnership",
+      "rationale": "Drydocks World currently maintains the Bahri fleet and has operational expertise directly applicable to a Saudi facility. A Saudi joint venture with Drydocks World converts a competitor into a partner.",
+      "contact": "Drydocks World CEO / VP Business Development"
+    },
+    {
+      "rank": 3,
+      "name": "Damen Shiprepair",
+      "country": "Netherlands",
+      "type": "Ship Repair Operations",
+      "rationale": "Damen operates ship repair facilities globally and has a management contract model applicable to a new Saudi facility.",
+      "contact": "Damen Shiprepair VP International Operations"
+    },
+    {
+      "rank": 4,
+      "name": "Fincantieri",
+      "country": "Italy",
+      "type": "Dry Dock Engineering",
+      "rationale": "Fincantieri designs and builds dry dock facilities and has active Gulf engagement through naval programmes.",
+      "contact": "Fincantieri VP Marine Infrastructure"
+    },
+    {
+      "rank": 5,
+      "name": "COSCO Shipping Yards",
+      "country": "China",
+      "type": "Cost-Competitive Alternative",
+      "rationale": "COSCO has dry dock management experience and is actively seeking international partnerships.",
+      "contact": "COSCO VP International Cooperation"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Bahri (National Shipping Company)",
+      "track": "Track 7 — Venture Client",
+      "current": "VLCC fleet of 41 vessels; all maintenance abroad",
+      "upgrade": "Bahri as anchor tenant with 10-year maintenance commitment; co-invest in Saudi dry dock; Bahri fleet demand guarantees ROI on dry dock investment",
+      "timeline": "36 months to first dry dock commissioning (with fast-track construction)",
+      "anchor": "Bahri + Aramco + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco Shipping",
+      "track": "Track 7 — Venture Client",
+      "current": "Offshore support vessel fleet; some maintenance contracts abroad",
+      "upgrade": "Aramco offshore fleet as secondary anchor tenant; Aramco-funded dry dock berths for offshore vessels; dual-use VLCC and OSV dry dock",
+      "timeline": "36 months",
+      "anchor": "Aramco + Bahri"
+    },
+    {
+      "rank": 3,
+      "name": "Royal Commission for Jubail / Ras Al-Khair",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial port infrastructure at Ras Al-Khair",
+      "upgrade": "Allocate Ras Al-Khair berth for VLCC dry dock; industrial zone incentives; shared heavy infrastructure; Saudi maritime training centre co-location",
+      "timeline": "24 months to site allocation and permits",
+      "anchor": "Royal Commission + SAMI + PIF"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Ports Authority (Mawani)",
+      "track": "Track 7 — Venture Client",
+      "current": "Commercial port operations; some vessel repair services",
+      "upgrade": "Mawani maritime services expansion; dry dock as national port infrastructure; coordinate ship repair zones at Jubail, Jeddah, and Jizan",
+      "timeline": "24 months",
+      "anchor": "Mawani + Bahri + SAMI"
+    }
+  ]
+}

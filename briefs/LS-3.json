@@ -1,0 +1,91 @@
+{
+  "id": "LS-3",
+  "title": "Armor Steel Structural Fabrication",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$25M – $45M",
+  "entry_mechanism": "PSAP Track 3 — Saudi heavy fabricator using SABIC materials upgraded to MIL-SPEC armour standards",
+  "executive_summary": "Armoured vehicle hull structures are large welded steel assemblies — armour plate cut, formed, and welded to precise dimensional tolerances to achieve ballistic protection standards. Saudi Arabia already has one of the most capable heavy steel fabrication industries outside the OECD, anchored by SABIC's Hadeed steel plant and the Jubail heavy fabrication complex that serves Aramco's offshore and onshore infrastructure. The gap between existing capability and armour hull fabrication is a standards and qualification gap, not a fundamental manufacturing gap.\n\nNode LS-3 targets the qualification of Saudi heavy fabricators to produce armour plate hulls and structural components for wheeled and tracked armoured vehicles, using Hadeed-produced armour steel where possible and imported armour steel for grades not yet produced domestically. The ballistic protection qualification process — STANAG 4569 Level testing — is the critical milestone that converts a capable steel fabricator into a qualified defence supplier.\n\nSaudi Arabia's land vehicle procurement programme — with hundreds of vehicles planned across multiple programmes — creates a sustained demand for locally-produced hull structures. A Saudi-qualified armour fabricator would immediately be the lowest-logistics-cost hull supplier for Saudi programmes and could develop into a regional supplier for GCC vehicle programmes.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "SSAB (Swedish Steel)",
+      "country": "Sweden",
+      "type": "Armour Steel Technology Partner",
+      "rationale": "SSAB produces Hardox and Armox armour steels and provides technical support to fabricators worldwide. A SSAB technical partnership gives Saudi fabricators access to material specifications, welding procedures, and forming guidelines for armour steel.",
+      "contact": "SSAB Hardox/Armox VP International Technical Support"
+    },
+    {
+      "rank": 2,
+      "name": "ThyssenKrupp Steel",
+      "country": "Germany",
+      "type": "Armour Steel Supplier and Technical Partner",
+      "rationale": "ThyssenKrupp produces armour steel and has global fabrication partnerships. German technology is non-ITAR and ThyssenKrupp has prior Gulf industrial engagement.",
+      "contact": "ThyssenKrupp Steel VP Defence Materials, International"
+    },
+    {
+      "rank": 3,
+      "name": "Elbit Systems Land / IMI Systems",
+      "country": "Israel",
+      "type": "Armour Technology (subject to normalisation)",
+      "rationale": "IMI Systems has advanced armour fabrication and explosive reactive armour technology. Subject to Saudi-Israeli normalisation.",
+      "contact": "IMI Systems VP International"
+    },
+    {
+      "rank": 4,
+      "name": "RUAG (now Nitrochemie/Swiss defence)",
+      "country": "Switzerland",
+      "type": "Armour Qualification and Testing",
+      "rationale": "Swiss defence testing institutions provide independent STANAG 4569 ballistic qualification testing — neutral, non-ITAR, and internationally recognised.",
+      "contact": "RUAG Defence VP Testing and Certification"
+    },
+    {
+      "rank": 5,
+      "name": "General Dynamics European Land Systems (GDELS)",
+      "country": "Germany/Spain",
+      "type": "Programme Partner",
+      "rationale": "GDELS produces wheeled armoured vehicles and has IPP obligations in the Gulf. Converting IPP to hull fabrication work packages for a Saudi fabricator is a direct engagement path.",
+      "contact": "GDELS VP Industrial Cooperation, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC / Hadeed",
+      "track": "Track 7 — Venture Client",
+      "current": "Produces structural steel and some specialised steels; heavy plate rolling capability",
+      "upgrade": "Qualify Hadeed to produce STANAG 4569 Level 4 armour plate grades; invest in armour-grade heat treatment; SSAB technical partnership for armour steel metallurgy",
+      "timeline": "24–36 months to armour plate qualification",
+      "anchor": "SAMI + Saudi Army + SABIC"
+    },
+    {
+      "rank": 2,
+      "name": "Zamil Industrial",
+      "track": "Track 3 — Supplier Development",
+      "current": "Heavy steel fabrication for industrial and construction; large welding and cutting capability",
+      "upgrade": "Armour steel cutting (plasma, laser), forming (press brake upgrade), and MIL-SPEC welding qualification (AWS D17.1); STANAG 4569 ballistic test submission",
+      "timeline": "24 months to first ballistic-qualified hull structure",
+      "anchor": "SAMI + GAMI"
+    },
+    {
+      "rank": 3,
+      "name": "Al-Babtain Heavy Industries",
+      "track": "Track 3 — Supplier Development",
+      "current": "Heavy structural fabrication; proven large-format welding and machining",
+      "upgrade": "Defence quality management system; armour welding procedure qualification; dimensional control upgrade for hull tolerances",
+      "timeline": "18 months to MIL-SPEC fabrication qualification",
+      "anchor": "SAMI + GAMI"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Materials Science / Metallurgy",
+      "track": "Track 6 — R&D",
+      "current": "Metallurgy research; materials testing laboratory; some steel microstructure research",
+      "upgrade": "GADD-KFUPM armour steel research programme; characterisation of Hadeed steel grades for ballistic performance; support Hadeed armour grade development",
+      "timeline": "24 months",
+      "anchor": "GADD + SABIC"
+    }
+  ]
+}

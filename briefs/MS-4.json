@@ -1,0 +1,91 @@
+{
+  "id": "MS-4",
+  "title": "Loitering Munitions Design",
+  "sector": "AD",
+  "phase": "III",
+  "wave": "Wave 2/3",
+  "type": "Product/Design",
+  "investment_range": "$120M – $220M",
+  "entry_mechanism": "GADD-SAMI co-development with design rights and Saudi IP ownership from programme initiation",
+  "executive_summary": "Loitering munitions — autonomous or semi-autonomous systems that loiter over a target area before attacking — have proven decisive in multiple recent conflicts (Nagorno-Karabakh 2020, Ukraine 2022–present). Saudi Arabia has observed this battlefield evolution carefully. The Kingdom's interest in sovereign loitering munitions design reflects both the tactical utility of the systems and the strategic requirement that Saudi Arabia not remain dependent on foreign suppliers for a weapon category with such high operational demand.\n\nNode MS-4 is Saudi Arabia's most ambitious Phase III design aspiration: not licensed assembly, not component manufacturing, but an original Saudi loitering munitions design — developed by Saudi engineers, owned by Saudi Arabia, and manufactured in-Kingdom. The design programme begins with Phase II preparatory work (propulsion from MS-3, electronics from DE-1/DE-2, materials from AM nodes) and converges in Phase III as a GADD-SAMI co-development programme.\n\nThe global loitering munitions market was valued at $1.1 billion in 2024 and is growing at 18.3% CAGR — the fastest-growing segment in the entire guided munitions market. A Saudi-designed loitering munition with proven operational performance has significant GCC export potential: UAE, Kuwait, and Qatar face similar threat environments and would be natural customers for a Saudi-made system.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Baykar",
+      "country": "Turkey",
+      "type": "Technology Partner and Precedent",
+      "rationale": "Baykar's Kargu loitering munition is the most directly relevant reference system. The existing SAMI-Baykar relationship on Akinci creates a pathway for a technology discussion on loitering munition design cooperation.",
+      "contact": "Baykar VP Special Systems → SAMI VP Advanced Programmes"
+    },
+    {
+      "rank": 2,
+      "name": "Rheinmetall / Israeli Weapons Industries (subject to normalisation)",
+      "country": "Germany/Israel",
+      "type": "Loitering Munition Technology",
+      "rationale": "Rheinmetall has acquired interests in loitering munitions. Israeli companies (Uvision, IAI) are global leaders in this category — subject to normalisation.",
+      "contact": "Rheinmetall VP Unmanned Systems"
+    },
+    {
+      "rank": 3,
+      "name": "Saab Dynamics",
+      "country": "Sweden",
+      "type": "Munitions Design and Technology",
+      "rationale": "Saab has guided munitions design capability and a track record of international co-development programmes. Non-ITAR Swedish technology.",
+      "contact": "Saab Dynamics VP International Co-development"
+    },
+    {
+      "rank": 4,
+      "name": "Nammo / Nordic Unmanned",
+      "country": "Norway",
+      "type": "Small UAV and Loitering Munition",
+      "rationale": "Nordic Unmanned and Nammo have small UAV and loitering munition programmes relevant to the Saudi Phase III design target.",
+      "contact": "Nordic Unmanned VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Thales / TDA",
+      "country": "France",
+      "type": "Guided Munitions Design Partner",
+      "rationale": "TDA Armements (Thales/Nexter JV) has guided munitions design experience and French government support for Saudi defence industrial cooperation.",
+      "contact": "TDA Armements VP International Industrial Cooperation"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "GADD",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Defence R&D programme management; some UAV research",
+      "upgrade": "GADD Loitering Munitions Design Programme: 30-person design team; avionics from DE-1/DE-2 programmes; propulsion from MS-3; structure from MA-1 materials; GADD flight test range",
+      "timeline": "Phase III: 48–60 months to first Saudi prototype",
+      "anchor": "GADD + SAMI + MOD"
+    },
+    {
+      "rank": 2,
+      "name": "SAMI Advanced Systems Division",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "UAV programme management; some Akinci programme engineering experience",
+      "upgrade": "SAMI loitering munitions design team (20 engineers from MA-4, MA-7 programmes); manufacturing readiness from Phase I/II nodes; production programme management",
+      "timeline": "48 months",
+      "anchor": "SAMI + GADD"
+    },
+    {
+      "rank": 3,
+      "name": "KACST / Defence Systems Research",
+      "track": "Track 6 — R&D",
+      "current": "UAV research; guidance and navigation research; materials research",
+      "upgrade": "GADD-KACST loitering munition seeker and guidance research; Saudi-origin terminal guidance algorithms; computer vision for target recognition",
+      "timeline": "36 months",
+      "anchor": "GADD + KACST"
+    },
+    {
+      "rank": 4,
+      "name": "KAUST AI and Robotics",
+      "track": "Track 6 — R&D",
+      "current": "Robotics, AI, computer vision research",
+      "upgrade": "Saudi autonomous systems research for loitering munition autonomy; target detection algorithms; swarm coordination research",
+      "timeline": "36 months",
+      "anchor": "GADD + KAUST + KACST"
+    }
+  ]
+}

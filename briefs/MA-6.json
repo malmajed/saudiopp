@@ -1,0 +1,91 @@
+{
+  "id": "MA-6",
+  "title": "Avionics Sub-System Repair and Overhaul",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "PSAP Track 1 — International avionics MRO specialist attracted to Alsalam facility with Saudi understudy programme",
+  "executive_summary": "Saudi Arabia's military aviation fleet operates some of the most sophisticated avionics systems in the world — AN/APG-63 and AN/APG-82 radars on the F-15SA, Euroradar CAPTOR-E on the Typhoon, and Rockwell Collins flight management systems across multiple platforms. Today, component-level avionics repair is performed almost entirely outside the Kingdom, with units shipped to US and European MRO facilities under OEM service agreements. Node MA-6 targets the establishment of in-Kingdom avionics component repair and overhaul (CRO) capability — moving from line maintenance (replacing LRUs) to shop-level repair (repairing LRUs to serviceable standard).\n\nThe global avionics MRO market was valued at $7.8 billion in 2024, growing at 4.2% CAGR. Military avionics CRO is a high-margin, high-skill segment requiring specialist test equipment, OEM-licensed repair procedures, and security clearances for classified systems. Saudi Arabia's avionics CRO dependency represents both a strategic vulnerability and a significant annual import cost estimated at $180–250 million.\n\nPhase II timing is correct: avionics CRO requires the quality system infrastructure (AS9100, EASA Part 145) established in Phase I at Alsalam, and the Saudi avionics technician pipeline initiated in Phase I. Without that foundation, a Phase I avionics CRO facility would lack the workforce and regulatory baseline to achieve OEM qualification.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Elbit Systems",
+      "country": "Israel",
+      "type": "Technology Partner",
+      "rationale": "Elbit has significant avionics CRO capability and Middle East relationships. Note: engagement subject to Saudi-Israeli normalisation progress. Alternative: pursue via a European JV partner.",
+      "contact": "Elbit Systems VP International Defence"
+    },
+    {
+      "rank": 2,
+      "name": "Collins Aerospace",
+      "country": "USA",
+      "type": "OEM Licensor",
+      "rationale": "Collins supplies avionics to F-15SA and has Saudi Arabia MRO obligations under existing contracts. Licensed CRO at Alsalam aligns with Collins' authorised repair network strategy.",
+      "contact": "Collins Aerospace VP Military Aftermarket, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "Thales",
+      "country": "France",
+      "type": "Technology Transfer Partner",
+      "rationale": "Thales supplies avionics to Typhoon and has ITAR-free European alternatives for many CRO capabilities. Thales has established Saudi Arabia presence through Airbus Defence programmes.",
+      "contact": "Thales VP Defence Avionics, Gulf Region"
+    },
+    {
+      "rank": 4,
+      "name": "Heico Corporation",
+      "country": "USA",
+      "type": "PMA Parts and CRO Partner",
+      "rationale": "Heico is the world's largest independent avionics repair company with OEM-equivalent repair capabilities and a cost-competitive model suited to a new Saudi CRO operation.",
+      "contact": "Heico Aviation Group VP International Business"
+    },
+    {
+      "rank": 5,
+      "name": "Lufthansa Technik",
+      "country": "Germany",
+      "type": "MRO JV Partner",
+      "rationale": "LHT has avionics CRO capabilities across military and civil platforms and a proven JV establishment model. Their existing Saudia Technic relationship provides a Saudi entry point.",
+      "contact": "LHT VP Military MRO, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Alsalam Aircraft Company",
+      "track": "Track 2 — JV Structuring",
+      "current": "Line-level avionics maintenance; LRU removal and replacement on F-15 and Typhoon",
+      "upgrade": "Establish dedicated avionics CRO shop within Alsalam; Collins Aerospace licensing for F-15 avionics categories; EASA Part 145 extension; Saudi avionics technician apprenticeship (3-year programme)",
+      "timeline": "30–36 months to first OEM-qualified repair",
+      "anchor": "SAMI + RSAF"
+    },
+    {
+      "rank": 2,
+      "name": "SAMI Electronics",
+      "track": "Track 3 — Supplier Development",
+      "current": "Defense electronics assembly and test; some communications equipment maintenance",
+      "upgrade": "Extend to avionics board-level repair; invest in automated test equipment (ATE); obtain IPC-A-610 Class 3 and AS9100 qualification for avionics CRO scope",
+      "timeline": "24 months to first avionics CRO delivery",
+      "anchor": "SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "King Abdulaziz City for Science and Technology (KACST)",
+      "track": "Track 6 — R&D",
+      "current": "Electronics research, signal processing, some defence electronics testing capability",
+      "upgrade": "KACST avionics test laboratory co-funded by GADD; develop Saudi test procedures for non-ITAR avionics categories; build Saudi test engineers pipeline",
+      "timeline": "36 months to independent test capability",
+      "anchor": "GADD + KACST"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Electrical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Electronics engineering graduates; some embedded systems and signal processing specialisation",
+      "upgrade": "GADD-KFUPM avionics technician programme; 2-year avionics CRO immersion at Alsalam; GACA Aircraft Maintenance Engineer (Avionics) licence pathway",
+      "timeline": "24 months to first qualified Saudi avionics technicians",
+      "anchor": "GADD + Alsalam"
+    }
+  ]
+}

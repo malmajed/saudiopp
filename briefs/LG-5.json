@@ -1,0 +1,91 @@
+{
+  "id": "LG-5",
+  "title": "Last-Mile AI Routing Platform",
+  "sector": "LG",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "Saudi AI company developing last-mile routing platform anchored by Saudi Post and e-commerce growth",
+  "executive_summary": "Last-mile delivery routing — AI algorithms that determine optimal delivery sequences, route planning, driver assignment, and customer notification for same-day and next-day parcel delivery — is one of the most commercially valuable applications of AI in logistics. Saudi Arabia's e-commerce market grew 71% in 2020–2022 and is projected to reach $30 billion by 2028, creating massive last-mile delivery demand. Saudi Arabia's geography (spread-out cities, irregular addressing, new NEOM/giga-project developments) creates routing challenges that international platforms (Onfleet, Routific, Circuit) handle poorly.\n\nNode LG-5 targets a Saudi-developed last-mile AI routing platform: algorithms trained on Saudi geographic data, Arabic addressing, and Saudi delivery patterns — outperforming foreign platforms on Saudi-specific routing challenges. The platform serves Saudi Post, Aramex Saudi Arabia, and Saudi e-commerce delivery companies.\n\nThe global last-mile delivery technology market was valued at $7.1 billion in 2024 growing at 26.8% CAGR. A Saudi routing platform with demonstrable Saudi performance advantage creates an immediately defensible market position and GCC export opportunity.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Onfleet",
+      "country": "USA",
+      "type": "Route Optimization Platform",
+      "rationale": "Onfleet provides delivery management and routing with API access for Saudi platform development.",
+      "contact": "Onfleet VP International Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "HERE Technologies",
+      "country": "Netherlands",
+      "type": "Mapping and Routing API",
+      "rationale": "HERE provides mapping and routing APIs with Saudi Arabia coverage and Arabic addressing support.",
+      "contact": "HERE VP International Enterprise"
+    },
+    {
+      "rank": 3,
+      "name": "Google Maps Platform",
+      "country": "USA",
+      "type": "Mapping Infrastructure",
+      "rationale": "Google Maps API provides Saudi geographic data for routing algorithm development.",
+      "contact": "Google VP Maps Platform, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Bringg",
+      "country": "Israel (subject to normalisation)",
+      "type": "Delivery Orchestration",
+      "rationale": "Bringg provides delivery orchestration and routing. Subject to normalisation.",
+      "contact": "Bringg VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Samsara",
+      "country": "USA",
+      "type": "Fleet Management Platform",
+      "rationale": "Samsara provides fleet telematics and routing for delivery operations.",
+      "contact": "Samsara VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Post (SPL)",
+      "track": "Track 7 — Venture Client",
+      "current": "National postal and parcel delivery; some routing technology",
+      "upgrade": "SPL as anchor customer; 50 million annual parcel routing on Saudi platform; SPL delivery data as training data for Saudi routing AI",
+      "timeline": "18 months to commercial deployment",
+      "anchor": "SPL + MOT + SDAIA"
+    },
+    {
+      "rank": 2,
+      "name": "SDAIA / Saudi National Address",
+      "track": "Track 7 — Venture Client",
+      "current": "National Address system; Wasel delivery address database",
+      "upgrade": "Saudi National Address API integration for routing platform; Arabic addressing standardisation; Saudi geospatial data as routing model input",
+      "timeline": "12 months to API integration",
+      "anchor": "SDAIA + SPL + MCIT"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST AI Research",
+      "track": "Track 6 — R&D",
+      "current": "Operations research; combinatorial optimisation; vehicle routing problem research",
+      "upgrade": "Saudi routing AI research programme; Saudi-specific geographic constraints modelling; real-time traffic and demand prediction for Saudi cities",
+      "timeline": "24 months",
+      "anchor": "SDAIA + KAUST + SPL"
+    },
+    {
+      "rank": 4,
+      "name": "Tamara / Saudi e-commerce ecosystem",
+      "track": "Track 7 — Venture Client",
+      "current": "Saudi fintech and e-commerce payment infrastructure",
+      "upgrade": "Saudi e-commerce delivery routing platform; Tamara checkout integration with Saudi routing platform; combined payment-delivery-tracking Saudi e-commerce infrastructure",
+      "timeline": "18 months",
+      "anchor": "SDAIA + SPL + Tamara"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "LG-2",
+  "title": "National Freight Visibility Platform",
+  "sector": "LG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "Saudi logistics tech company building national freight visibility platform with Mawani and CITC as regulatory anchors",
+  "executive_summary": "Freight visibility — knowing where cargo is, when it will arrive, and what condition it is in throughout the supply chain — is the foundational digital infrastructure for modern logistics. Saudi Arabia's Vision 2030 logistics hub ambition (targeting a Logistics Performance Index top-10 ranking) requires world-class freight visibility, but Saudi Arabia's current freight tracking is fragmented: each port, trucking company, and customs system operates its own data silo with no national visibility layer.\n\nNode LG-2 targets a Saudi National Freight Visibility Platform: an integrated data layer that combines port data (Mawani), customs data (Zakat, Tax and Customs Authority), trucking GPS data, and railway data (SAR) into a single Saudi freight visibility platform. The platform serves importers, exporters, 3PLs, and government agencies — providing end-to-end Saudi supply chain visibility with Saudi data sovereignty.\n\nThe global freight visibility market was valued at $12.4 billion in 2024 growing at 28.3% CAGR. A Saudi national platform anchored by government data mandates would have immediate adoption from the 300,000+ businesses engaged in Saudi trade.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "project44",
+      "country": "USA",
+      "type": "Freight Visibility Platform Technology",
+      "rationale": "project44 is the global freight visibility leader with carrier and shipper network. Saudi platform development on p44 technology.",
+      "contact": "project44 VP International Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "FourKites",
+      "country": "USA",
+      "type": "Supply Chain Visibility",
+      "rationale": "FourKites provides real-time supply chain visibility with active Middle East logistics customer relationships.",
+      "contact": "FourKites VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Descartes Systems",
+      "country": "Canada",
+      "type": "Logistics Technology Platform",
+      "rationale": "Descartes provides logistics management and visibility solutions with customs data integration capability.",
+      "contact": "Descartes VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "SAP Logistics",
+      "country": "Germany",
+      "type": "Enterprise Logistics Platform",
+      "rationale": "SAP has major Saudi enterprise customer base and supply chain visibility modules. Saudi visibility platform on SAP infrastructure.",
+      "contact": "SAP VP Logistics, Saudi Arabia"
+    },
+    {
+      "rank": 5,
+      "name": "Oracle Logistics",
+      "country": "USA",
+      "type": "Transport Management",
+      "rationale": "Oracle TMS has active Saudi logistics market deployments.",
+      "contact": "Oracle VP Supply Chain, Saudi Arabia"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Ports Authority (Mawani)",
+      "track": "Track 7 — Venture Client",
+      "current": "Port management systems; some cargo tracking; Mawani data silo",
+      "upgrade": "Mawani as anchor data provider; API integration between Mawani and national visibility platform; Mawani mandate for carrier reporting through national platform",
+      "timeline": "18 months to Mawani integration",
+      "anchor": "Mawani + MOT + ZATCA"
+    },
+    {
+      "rank": 2,
+      "name": "ZATCA (Customs Authority)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Customs clearance data; cargo manifests; import/export data",
+      "upgrade": "ZATCA clearance data feed to national visibility platform; e-customs integration; Saudi trade data as public infrastructure",
+      "timeline": "18 months",
+      "anchor": "ZATCA + MCIT + Mawani"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Logistics Hub Programme / NTDP",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "National transport and logistics strategy",
+      "upgrade": "National freight visibility as Vision 2030 logistics KPI infrastructure; mandate for all registered carriers to report through platform; Logistics Performance Index improvement programme",
+      "timeline": "12 months to policy mandate",
+      "anchor": "MOT + NTDP + Mawani"
+    },
+    {
+      "rank": 4,
+      "name": "Elm Company",
+      "track": "Track 3 — Supplier Development",
+      "current": "Government digital platforms; Absher identity infrastructure",
+      "upgrade": "National freight visibility platform development and operation; integration with Absher business identity for Saudi company cargo tracking",
+      "timeline": "18 months",
+      "anchor": "PIF + MOT + MCIT"
+    }
+  ]
+}

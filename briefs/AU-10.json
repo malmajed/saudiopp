@@ -1,0 +1,91 @@
+{
+  "id": "AU-10",
+  "title": "Metal Body Stampings",
+  "sector": "AU",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$120M – $220M",
+  "entry_mechanism": "PSAP Track 2 — International stamping company JV at KAEC using Ma'aden automotive steel or POSCO supply",
+  "executive_summary": "Metal body stampings — pressed steel panels (door skins, hood, trunk lid, roof, fender, body-in-white structural components) — are the structural skeleton of every passenger vehicle. Phase II timing reflects the capital intensity: a stamping facility requires large hydraulic presses (2,000–5,000-tonne capacity), transfer dies, and material handling automation that is only justified by dedicated OEM programme demand at scale.\n\nSaudi Arabia's Phase II automotive assembly programme creates the OEM demand anchor for stamping investment. The global metal stamping market for automotive is valued at $42 billion annually. POSCO's Saudi Arabia steel investment interest and Ma'aden's steel programme (longer term) create a materials supply chain foundation. A Saudi stamping facility serves Saudi OEM assembly initially and exports to GCC assembly programmes as Saudi automotive capacity grows.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Gestamp",
+      "country": "Spain",
+      "type": "Stamping JV Partner",
+      "rationale": "Gestamp is Europe's largest automotive stamping company with international JV experience and active Gulf market interest.",
+      "contact": "Gestamp VP International Manufacturing Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Tower International (Shiloh)",
+      "country": "USA",
+      "type": "Stamping Technology",
+      "rationale": "Shiloh Industries produces automotive metal stampings and has international manufacturing partnerships.",
+      "contact": "Shiloh VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Magna Cosma International",
+      "country": "Canada",
+      "type": "Body Structures Partner",
+      "rationale": "Magna Cosma is the world's largest automotive body structures manufacturer.",
+      "contact": "Magna Cosma VP International Manufacturing"
+    },
+    {
+      "rank": 4,
+      "name": "POSCO Automotive Steel",
+      "country": "South Korea",
+      "type": "Steel Supply and Technology",
+      "rationale": "POSCO produces automotive steel and has Saudi Arabia investment interest. POSCO stamping technology available alongside steel supply.",
+      "contact": "POSCO VP Automotive Steel International"
+    },
+    {
+      "rank": 5,
+      "name": "Schuler Group",
+      "country": "Germany",
+      "type": "Press and Stamping Equipment",
+      "rationale": "Schuler manufactures automotive stamping presses and can support Saudi facility design and equipment supply.",
+      "contact": "Schuler VP International Industrial"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KAEC Automotive Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Phase I automotive cluster established",
+      "upgrade": "Heavy stamping zone at KAEC with 5,000-tonne press infrastructure; dedicated power supply; Gestamp JV anchor tenant",
+      "timeline": "36 months to first stamping production",
+      "anchor": "KAEC + NIDLP + Gestamp"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi OEM Assembly Programmes",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase II vehicle assembly scale-up",
+      "upgrade": "Saudi OEM body-in-white sourced from Saudi stamping facility; long-term stamping supply agreement; IATF 16949 qualification support",
+      "timeline": "36 months",
+      "anchor": "NIDLP + Saudi OEMs"
+    },
+    {
+      "rank": 3,
+      "name": "POSCO / Ma'aden Steel (future)",
+      "track": "Track 7 — Venture Client",
+      "current": "Steel import; Ma'aden steel programme planning",
+      "upgrade": "Saudi automotive steel supply to Saudi stamping facility; Ma'aden-POSCO JV as Phase II steel anchor; closed Saudi steel → stamping → assembly loop",
+      "timeline": "42 months",
+      "anchor": "Ma'aden + POSCO + NIDLP"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Mechanical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Manufacturing engineering; forming and metal processing",
+      "upgrade": "Automotive stamping engineering programme; die design and forming simulation research; Saudi stamping engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "NIDLP + KFUPM + Gestamp"
+    }
+  ]
+}

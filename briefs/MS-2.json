@@ -1,0 +1,91 @@
+{
+  "id": "MS-2",
+  "title": "Support Equipment and Handling Systems",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$15M – $28M",
+  "entry_mechanism": "Saudi industrial companies producing non-ITAR munitions support equipment through PSAP Track 3",
+  "executive_summary": "Munitions support equipment — hoists, trolleys, loading devices, storage racks, transport containers, and test sets for guided weapons — is the logistics infrastructure that makes a munitions inventory operationally usable. Like GSE in aviation (MA-3), munitions support equipment is manufactured using standard industrial engineering processes and does not require ITAR-controlled technology for the mechanical handling categories.\n\nSaudi Arabia procures hundreds of millions of dollars of munitions support equipment alongside every major weapons purchase — and today, virtually none of it is manufactured in-Kingdom. The equipment is structurally simple: welded steel frames, precision-machined interfaces (to weapon standard dimensions), and safety-rated mechanical systems. Saudi Arabia's Jubail heavy fabrication and machining base is directly capable of producing this equipment once qualification to weapons-specific interface standards is achieved.\n\nNode MS-2 is Phase I priority for the same reason as MA-3 and NV-3: it is the most immediately achievable manufacturing entry point in the missiles and munitions sub-sector, creates early visible GAMI-verifiable Saudi content, and builds the industrial foundation for more complex munitions manufacturing in later phases.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "DRS Technologies / Leonardo DRS",
+      "country": "USA",
+      "type": "Munitions Handling Equipment",
+      "rationale": "Leonardo DRS produces munitions handling and storage systems for US and allied forces. Saudi-qualified variants of standard handling systems are a natural product extension.",
+      "contact": "Leonardo DRS VP International Defence"
+    },
+    {
+      "rank": 2,
+      "name": "Thales / TDA Armements",
+      "country": "France",
+      "type": "Weapons Support Equipment",
+      "rationale": "Thales and associated French defence companies produce munitions support equipment for European weapon systems. Non-ITAR design licensing available.",
+      "contact": "Thales VP Armaments Support Equipment"
+    },
+    {
+      "rank": 3,
+      "name": "BAE Systems RO Defence",
+      "country": "UK",
+      "type": "Munitions Support and Handling",
+      "rationale": "BAE RO Defence produces munitions support and handling systems and has Saudi Arabia programme relationships.",
+      "contact": "BAE RO Defence VP International Industrial"
+    },
+    {
+      "rank": 4,
+      "name": "Moog Defence",
+      "country": "USA",
+      "type": "Precision Interface Components",
+      "rationale": "Moog produces precision mechanical components for weapon system interfaces. Saudi manufacturing of non-ITAR Moog-designed components is achievable.",
+      "contact": "Moog VP Defence, International"
+    },
+    {
+      "rank": 5,
+      "name": "Chemring",
+      "country": "UK",
+      "type": "Ordnance Handling and Safety",
+      "rationale": "Chemring specialises in ordnance safety, handling, and disposal systems. Safety-rated handling equipment design licensing.",
+      "contact": "Chemring VP International Industrial Cooperation"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Industrial / Manufacturing Division",
+      "track": "Track 3 — Supplier Development",
+      "current": "Some industrial equipment manufacturing; programme management for munitions programmes",
+      "upgrade": "Establish munitions handling equipment manufacturing cell; acquire TDA or Thales design licences; AS9100 qualification; first Saudi-manufactured munitions handling systems for Paveway and Brimstone programmes",
+      "timeline": "18 months to first qualified delivery",
+      "anchor": "SAMI + MOD + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "Zamil Industrial",
+      "track": "Track 3 — Supplier Development",
+      "current": "Heavy steel fabrication; precision machining for industrial equipment",
+      "upgrade": "Munitions handling equipment fabrication; weapon interface dimensional standards; AS9100 certification for munitions support equipment",
+      "timeline": "15 months",
+      "anchor": "SAMI + GAMI"
+    },
+    {
+      "rank": 3,
+      "name": "Al-Rashid Trading / Technical Division",
+      "track": "Track 3 — Supplier Development",
+      "current": "Industrial equipment supply and some manufacturing",
+      "upgrade": "Munitions trolley and hoist manufacturing; safety-rated mechanical systems; weapon compatibility testing",
+      "timeline": "18 months",
+      "anchor": "SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Mechanical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Structural design; precision manufacturing engineering",
+      "upgrade": "Munitions handling equipment design capability; safety-critical mechanical system standards; graduate placement with SAMI manufacturing",
+      "timeline": "18 months",
+      "anchor": "SAMI + GAMI"
+    }
+  ]
+}

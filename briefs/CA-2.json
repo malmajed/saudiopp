@@ -1,0 +1,91 @@
+{
+  "id": "CA-2",
+  "title": "Composite Panel Manufacturing",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "PSAP Track 2 — JV with international composite aerostructures Tier 2 at KAEC composites platform",
+  "executive_summary": "Commercial aircraft structural panels — wing skin panels, fuselage panels, floor beams, and nacelle structures — are among the highest-value components in civil aircraft production. Node CA-2 targets the establishment of Saudi composite panel manufacturing for commercial aircraft, using the KAEC composites platform established by the military aerospace programme (MA-1) as its industrial foundation. The capability transfer from MA-1 (military composite sub-assemblies) to CA-2 (commercial aircraft panels) is the NCAS cascade logic in action: military manufacturing investment creating commercial manufacturing capability.\n\nThe addressable market is substantial: Airbus and Boeing collectively produce over 1,400 commercial aircraft per year, each consuming tonnes of composite material in structural panels. As a Tier 2 composite panel supplier, a Saudi manufacturer can target commercial aircraft programmes through the major international aerostructures primes — Stelia Aerospace, Premium AEROTEC, Spirit AeroSystems — who in turn supply Airbus and Boeing.\n\nSaudi Arabia's advantages: KAEC's existing composites platform, SABIC's polymer materials supply chain, and a growing pool of composite technicians from the MA-1 programme. The constraint: AS9100 certification and Nadcap accreditation are prerequisites for commercial aerostructures supply — timelines of 24–36 months from programme start.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Stelia Aerospace (Airbus Group)",
+      "country": "France",
+      "type": "JV Partner / Programme Access",
+      "rationale": "Stelia is a Tier 1 aerostructures supplier to Airbus and produces composite fuselage sections. A Stelia-Saudi JV at KAEC would provide immediate access to Airbus programme demand.",
+      "contact": "Stelia Aerospace VP Industrial Partnerships, International"
+    },
+    {
+      "rank": 2,
+      "name": "Sonaca",
+      "country": "Belgium",
+      "type": "Composite Aerostructures JV Partner",
+      "rationale": "Sonaca supplies composite panels to Airbus and Boeing and has active international manufacturing JV experience. Non-ITAR, Gulf-interested.",
+      "contact": "Sonaca VP Business Development, Middle East & Africa"
+    },
+    {
+      "rank": 3,
+      "name": "Spirit AeroSystems",
+      "country": "USA",
+      "type": "Aerostructures Technology Partner",
+      "rationale": "Spirit produces composite panels for Boeing 737 MAX and 787. ITAR considerations apply to some work packages but commercial composite panel technology is accessible.",
+      "contact": "Spirit AeroSystems VP International Industrial Partnerships"
+    },
+    {
+      "rank": 4,
+      "name": "Daher",
+      "country": "France",
+      "type": "Composite Aerostructures Partner",
+      "rationale": "Daher produces composite aerostructures and aircraft and has Saudi Arabia industrial engagement interest.",
+      "contact": "Daher VP Aerostructures International"
+    },
+    {
+      "rank": 5,
+      "name": "GKN Aerospace",
+      "country": "UK",
+      "type": "Composite Wing and Fuselage Tier 1",
+      "rationale": "GKN is the world's largest independent aerostructures company. A GKN work package allocation to a Saudi composite manufacturer would be transformative.",
+      "contact": "GKN Aerospace VP Supply Chain, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Composites / KAEC Platform",
+      "track": "Track 2 — JV Structuring",
+      "current": "Phase I composite capability from MA-1; AS9100 certification in progress; CFRP layup and autoclave",
+      "upgrade": "Expand to commercial aircraft panel geometry; AS9100 renewed for commercial scope; Nadcap accreditation; Stelia or Sonaca JV; first A320 family panel delivery",
+      "timeline": "30 months from MA-1 Phase I completion",
+      "anchor": "SAMI + Stelia + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "SABIC Composites",
+      "track": "Track 7 — Venture Client",
+      "current": "CFRP prepreg research; polymer matrix supply",
+      "upgrade": "Commercial-grade prepreg supply to Saudi panel manufacturer; Airbus-qualified material supplier; Saudi material content in commercial aircraft",
+      "timeline": "30 months to Airbus material qualification",
+      "anchor": "SABIC + Stelia + SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "KAEC Industrial Authority",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial zone management; shared infrastructure",
+      "upgrade": "Dedicated aerospace composites cluster at KAEC; shared NDT, autoclave, and clean room infrastructure; AS9100 cluster certification framework",
+      "timeline": "18 months",
+      "anchor": "KAEC + SAMI + GAMI"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Aerospace / Composites Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Composites engineering research; materials testing",
+      "upgrade": "Commercial aerostructures composites engineering programme; Stelia-KFUPM industrial placement; Nadcap specialist training pipeline",
+      "timeline": "24 months",
+      "anchor": "SAMI + KFUPM + Stelia"
+    }
+  ]
+}

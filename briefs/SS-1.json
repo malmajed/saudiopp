@@ -1,0 +1,91 @@
+{
+  "id": "SS-1",
+  "title": "Satellite Structural Manufacturing",
+  "sector": "SP",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$40M – $75M",
+  "entry_mechanism": "PSAP-attracted structural manufacturer with Saudi understudy programme at Riyadh Smart Parcel",
+  "executive_summary": "Satellite structural manufacturing — producing the aluminium alloy and CFRP panels, frames, and mechanical ground support equipment for small satellites — is the entry manufacturing node for Saudi Arabia's space industrial ambition. Small satellites (10–200 kg class) are the fastest-growing segment of the space market and use manufacturing processes (CNC aluminium machining, composite layup, precision bonding) that are technically adjacent to Saudi Arabia's existing industrial base.\n\nThe global small satellite market was valued at $4.1 billion in 2024 growing at 19.8% CAGR. Saudi Arabia's SSA programme pipeline — including the EO constellation and government communications satellites — provides captive domestic demand for satellite structures. A Saudi-manufactured structure installed in a Saudi-owned satellite is the PSAP model applied to space: industrial capability anchored by sovereign demand.\n\nNode SS-1 builds directly on the composite manufacturing capability established by MA-1 and CA-2 — the three-node cascade from military UAV composites to commercial aerostructures to satellite structures is the NCAS logic applied to materials processing.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Airbus Defence and Space",
+      "country": "France/Germany",
+      "type": "Structural Manufacturing Partner",
+      "rationale": "Airbus has small satellite structure manufacturing and a Saudi Arabia programme relationship. Airbus structural design data for its OneWeb buses is the natural template.",
+      "contact": "Airbus Defence and Space VP Manufacturing, Small Satellites"
+    },
+    {
+      "rank": 2,
+      "name": "RUAG Space",
+      "country": "Switzerland",
+      "type": "Precision Satellite Structures",
+      "rationale": "RUAG Space produces satellite structures for European programmes. Swiss precision manufacturing standards, non-ITAR, with international licensing track record.",
+      "contact": "RUAG Space VP International Business"
+    },
+    {
+      "rank": 3,
+      "name": "GomSpace",
+      "country": "Denmark",
+      "type": "Small Satellite Structure Partner",
+      "rationale": "GomSpace provides CubeSat and small satellite structures and has PSAP-style industrial partnerships.",
+      "contact": "GomSpace VP Government International"
+    },
+    {
+      "rank": 4,
+      "name": "EnduroSat",
+      "country": "Bulgaria",
+      "type": "Satellite Structure Platform",
+      "rationale": "EnduroSat has accessible small satellite structures with international partnership model.",
+      "contact": "EnduroSat VP Strategic Partnerships"
+    },
+    {
+      "rank": 5,
+      "name": "SPAR Aerospace (MDA)",
+      "country": "Canada",
+      "type": "Satellite Structures and Mechanisms",
+      "rationale": "MDA/SPAR has satellite structural manufacturing with international partnerships.",
+      "contact": "MDA VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SSA / Riyadh Smart Parcel",
+      "track": "Track 2 — JV Structuring",
+      "current": "Programme oversight; no manufacturing capability",
+      "upgrade": "Establish Saudi satellite structures facility at Riyadh SSP; RUAG or Airbus manufacturing JV; clean-room CNC machining; AS9100-equivalent space certification; 20 Saudi structural engineers",
+      "timeline": "30 months to first flight-qualified structure",
+      "anchor": "SSA + PIF + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "SAMI Composites / KAEC",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase I composite manufacturing from MA-1 and CA-2",
+      "upgrade": "Extend composite capability to satellite-grade CFRP structures; space-grade materials qualification; dual-use aerospace/space composite manufacturing",
+      "timeline": "24 months",
+      "anchor": "SAMI + SSA"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Space Research",
+      "track": "Track 6 — R&D",
+      "current": "Satellite payload research; some structural analysis",
+      "upgrade": "GADD-KACST satellite structures research; finite element analysis for space structures; Saudi structural engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "SSA + KACST"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Aerospace Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Aerospace structures research; composites engineering",
+      "upgrade": "Space structures engineering specialisation; KFUPM-SSA industrial placement; RUAG-funded laboratory upgrade",
+      "timeline": "24 months",
+      "anchor": "SSA + KFUPM"
+    }
+  ]
+}

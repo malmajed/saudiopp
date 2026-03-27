@@ -1,0 +1,91 @@
+{
+  "id": "MD-5",
+  "title": "Dental Implant Manufacturing",
+  "sector": "MD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$22M – $42M",
+  "entry_mechanism": "PSAP Track 2 — International dental implant company establishing Saudi manufacturing for GCC market",
+  "executive_summary": "Dental implants — titanium screws and crowns replacing missing teeth — are among the fastest-growing segments of the medical device market driven by aging populations and increasing dental health awareness. Saudi Arabia's expanding dental care system, Vision 2030 health improvement targets, and growing private dental clinic market create significant domestic demand. All dental implants consumed in Saudi Arabia are currently imported.\n\nDental implant manufacturing uses precision CNC titanium machining (the implant body), surface treatment (sandblasting and acid etching for osseointegration), and ceramic crown processing — manufacturing processes that are accessible to Saudi Arabia's precision manufacturing and materials sectors. The materials (Grade 4 and Grade 5 medical titanium) are commercially available internationally.\n\nThe global dental implant market was valued at $5.1 billion in 2024 growing at 9.3% CAGR. Saudi Arabia's domestic dental implant market is estimated at $180–250 million annually and growing at 12% driven by dental care coverage expansion. A Saudi manufacturer serving the GCC — UAE, Qatar, Kuwait, Bahrain — adds $200–300 million in addressable export market.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Straumann Group",
+      "country": "Switzerland",
+      "type": "Manufacturing JV Partner",
+      "rationale": "Straumann is the global dental implant market leader with manufacturing JV experience. A Saudi Straumann facility would benefit from Swiss brand premium and GCC market access.",
+      "contact": "Straumann VP International Manufacturing Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Dentsply Sirona",
+      "country": "USA",
+      "type": "Dental Technology Partner",
+      "rationale": "Dentsply Sirona is the world's largest dental company with active Middle East market presence. Manufacturing localisation for Saudi market.",
+      "contact": "Dentsply Sirona VP International Operations"
+    },
+    {
+      "rank": 3,
+      "name": "Osstem Implant",
+      "country": "South Korea",
+      "type": "Implant Manufacturing Partner",
+      "rationale": "Osstem is Asia's largest dental implant manufacturer with competitive manufacturing costs and international partnership experience.",
+      "contact": "Osstem VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "MIS Implants Technologies",
+      "country": "Israel (subject to normalisation)",
+      "type": "Implant Technology",
+      "rationale": "MIS is a global dental implant manufacturer. Subject to normalisation.",
+      "contact": "MIS VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Bredent Medical",
+      "country": "Germany",
+      "type": "Dental Manufacturing Partner",
+      "rationale": "Bredent is a German dental device manufacturer with international manufacturing partnerships.",
+      "contact": "Bredent VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Council for Health Specialties",
+      "track": "Track 7 — Venture Client",
+      "current": "Dental specialisation licensing; healthcare professional standards",
+      "upgrade": "Saudi-manufactured implant clinical validation programme; Saudi dental society endorsement; SFDA Class III device manufacturing pathway support",
+      "timeline": "24 months",
+      "anchor": "MOH + SFDA + SCHS"
+    },
+    {
+      "rank": 2,
+      "name": "SFDA",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Medical device regulation; Class III device oversight",
+      "upgrade": "SFDA Class III implant manufacturing licence expedited process; Saudi implant performance database; ISO 13485 and ISO 14971 support for Saudi manufacturer",
+      "timeline": "24 months to manufacturing licence",
+      "anchor": "SFDA + MOH"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco Materials Technology",
+      "track": "Track 7 — Venture Client",
+      "current": "Titanium and specialty metals experience from petrochemical; precision machining",
+      "upgrade": "Medical-grade titanium machining qualification; CNC precision machining for implant bodies; surface treatment process development",
+      "timeline": "18 months",
+      "anchor": "NIDLP + SFDA + Aramco"
+    },
+    {
+      "rank": 4,
+      "name": "King Abdullah International Medical Research Center",
+      "track": "Track 6 — R&D",
+      "current": "Medical research; clinical studies; biomaterials research",
+      "upgrade": "Saudi dental implant clinical validation study; osseointegration research on Saudi-manufactured implants; KAIMRC clinical data for SFDA registration",
+      "timeline": "24 months",
+      "anchor": "MOH + KAIMRC + SFDA"
+    }
+  ]
+}

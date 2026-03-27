@@ -1,0 +1,91 @@
+{
+  "id": "QT-2",
+  "title": "Quantum Gravimetry Pilot for Saudi Geological Survey",
+  "sector": "QT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$25M – $48M",
+  "entry_mechanism": "Saudi Geological Survey partnership with quantum sensing company for pilot deployment",
+  "executive_summary": "Quantum gravimetry — using quantum atomic interferometry to measure gravitational field variations with extraordinary precision — has immediate practical applications in geological survey, oil and gas exploration, and underground infrastructure mapping. Quantum gravimeters can detect density variations in the subsurface with sensitivity 100x greater than classical gravimeters, enabling more accurate identification of hydrocarbon reservoirs, mineral deposits, and underground voids.\n\nSaudi Arabia's geological survey requirements — mapping the Arabian Shield mineral potential, characterising Aramco's mature oilfield subsurface, and detecting underground water aquifers — create an immediate high-value application for quantum gravimetry. The technology is commercially available from a small number of companies (Muquans in France, M-Squared Lasers in UK, AOSense in USA).\n\nNode QT-2 targets Saudi Arabia's first quantum sensing deployment: a quantum gravimetry pilot with the Saudi Geological Survey (SGS) to characterise the Arabian Shield's mineral potential using quantum-precision measurements, with transfer of operational capability to Saudi geophysicists.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Muquans (iXblue)",
+      "country": "France",
+      "type": "Quantum Gravimeter Technology",
+      "rationale": "Muquans produces the most commercially mature quantum gravimeters and has government deployment experience. French technology, non-ITAR.",
+      "contact": "iXblue VP Quantum Sensing, International"
+    },
+    {
+      "rank": 2,
+      "name": "M-Squared Lasers",
+      "country": "UK",
+      "type": "Quantum Sensing Platform",
+      "rationale": "M-Squared builds quantum sensing platforms for government applications. UK technology with active government partnerships.",
+      "contact": "M-Squared VP Quantum Sensing"
+    },
+    {
+      "rank": 3,
+      "name": "AOSense",
+      "country": "USA",
+      "type": "Atomic Sensing Technology",
+      "rationale": "AOSense produces atomic interferometry sensors for gravimetry applications.",
+      "contact": "AOSense VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Safran Sensing Technologies",
+      "country": "France",
+      "type": "Inertial and Quantum Sensing",
+      "rationale": "Safran is developing quantum inertial sensors with military and survey applications.",
+      "contact": "Safran Sensing VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Q.ANT (Trumpf Group)",
+      "country": "Germany",
+      "type": "Quantum Sensor",
+      "rationale": "Q.ANT develops compact quantum sensors for industrial and survey applications.",
+      "contact": "Q.ANT VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Geological Survey (SGS)",
+      "track": "Track 7 — Venture Client",
+      "current": "Classical gravimetry for mineral exploration; Aramco geophysical data sharing",
+      "upgrade": "SGS as pilot operator; Muquans quantum gravimeter deployment at 3 Arabian Shield survey sites; Saudi geophysicist training; pilot data comparison with classical survey",
+      "timeline": "18 months to pilot results",
+      "anchor": "SGS + Ma'aden + Aramco"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco Geosciences",
+      "track": "Track 7 — Venture Client",
+      "current": "Subsurface characterisation; gravity surveys for EOR planning",
+      "upgrade": "Quantum gravimetry for Aramco mature field subsurface mapping; EOR planning improvement from quantum-precision gravity data",
+      "timeline": "24 months to first Aramco application",
+      "anchor": "Aramco + SGS"
+    },
+    {
+      "rank": 3,
+      "name": "KACST / Quantum Physics Research",
+      "track": "Track 6 — R&D",
+      "current": "Some quantum sensing research; atomic physics research",
+      "upgrade": "GADD-KACST quantum gravimetry research programme; Saudi quantum sensing laboratory; Arabian Shield geological quantum survey programme",
+      "timeline": "24 months",
+      "anchor": "GADD + KACST + SGS"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Geoscience / Physics",
+      "track": "Track 8 — Human Capital",
+      "current": "Geophysics; applied physics; some quantum physics",
+      "upgrade": "Quantum sensing specialisation for geophysics applications; SGS-KFUPM quantum gravimetry programme; Saudi quantum geophysicist pipeline",
+      "timeline": "24 months",
+      "anchor": "SGS + KFUPM + KACST"
+    }
+  ]
+}

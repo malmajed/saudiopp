@@ -1,0 +1,91 @@
+{
+  "id": "MD-4",
+  "title": "Radiology AI Platform",
+  "sector": "MD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$28M – $52M",
+  "entry_mechanism": "Saudi AI company developing medical imaging AI under SDAIA and MOH data access framework",
+  "executive_summary": "Radiology AI — software that analyses medical images (X-ray, CT, MRI) to detect pathology, prioritise worklists, and assist radiologist reporting — is the fastest-growing segment of the medical device market. Saudi Arabia's radiology workforce faces a structural shortage: there are approximately 1,200 radiologists for a population of 36 million, compared to a WHO target of 2,500. AI-assisted radiology can significantly expand radiologist throughput and improve diagnostic quality in under-served regions.\n\nNode MD-4 targets a Saudi-developed radiology AI platform — trained on Saudi clinical data, validated against Saudi patient populations, and deployed across Saudi Arabia's hospital network. The platform addresses both the workforce shortage and the data sovereignty imperative: Saudi patient imaging data should be processed by Saudi-approved algorithms on Saudi infrastructure, not sent to foreign cloud AI services.\n\nThe global AI in medical imaging market was valued at $1.4 billion in 2024 growing at 38.2% CAGR — the highest growth rate in the entire medical device market. Saudi Arabia's combination of centralised healthcare data (MOH integrated systems), strong AI research capability (SDAIA, KAUST), and significant unmet diagnostic demand creates a compelling domestic development case.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Aidoc",
+      "country": "Israel (subject to normalisation)",
+      "type": "Radiology AI Platform",
+      "rationale": "Aidoc is a leading radiology AI company. Subject to normalisation, but their platform architecture is the global benchmark.",
+      "contact": "Aidoc VP International"
+    },
+    {
+      "rank": 2,
+      "name": "Lunit",
+      "country": "South Korea",
+      "type": "AI Radiology Technology Partner",
+      "rationale": "Lunit develops radiology AI for chest X-ray and mammography. Active Middle East market engagement; no ITAR concerns.",
+      "contact": "Lunit VP International Business"
+    },
+    {
+      "rank": 3,
+      "name": "Intelerad / Ambra Health",
+      "country": "Canada",
+      "type": "Radiology Workflow Platform",
+      "rationale": "Intelerad provides radiology workflow and PACS systems integrated with AI. Saudi deployment with Saudi AI module integration.",
+      "contact": "Intelerad VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Siemens Healthineers (AI-Rad Companion)",
+      "country": "Germany",
+      "type": "Medical Imaging AI",
+      "rationale": "Siemens has AI-powered imaging analysis tools and major Saudi hospital relationships. Platform licensing with Saudi AI customisation.",
+      "contact": "Siemens Healthineers VP Digital Health, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Google Health / DeepMind Health",
+      "country": "USA",
+      "type": "AI Technology Partner",
+      "rationale": "Google Health has radiology AI research and platform capabilities. Saudi data residency requirements would need to be addressed.",
+      "contact": "Google Health VP Partnerships, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SDAIA (Saudi Data and AI Authority)",
+      "track": "Track 6 — R&D",
+      "current": "National AI strategy; healthcare AI programme; data governance framework",
+      "upgrade": "SDAIA-MOH Saudi radiology AI programme; anonymised imaging data access for Saudi AI training; national radiology AI validation framework; SFDA AI medical device certification pathway",
+      "timeline": "24 months to first validated Saudi radiology AI",
+      "anchor": "SDAIA + MOH + SFDA"
+    },
+    {
+      "rank": 2,
+      "name": "KAUST AI Research",
+      "track": "Track 6 — R&D",
+      "current": "Computer vision; deep learning; medical imaging research",
+      "upgrade": "KAUST-MOH radiology AI research programme; Saudi-population-specific diagnostic model training; Arabic radiology reporting NLP",
+      "timeline": "24 months",
+      "anchor": "SDAIA + KAUST + MOH"
+    },
+    {
+      "rank": 3,
+      "name": "King Faisal Specialist Hospital",
+      "track": "Track 7 — Venture Client",
+      "current": "Advanced radiology department; PACS systems; large imaging archive",
+      "upgrade": "KFSH imaging data partnership for AI training; KFSH as clinical validation site; KFSH radiologists as AI performance validators",
+      "timeline": "18 months",
+      "anchor": "MOH + KFSH"
+    },
+    {
+      "rank": 4,
+      "name": "Elm Company / Digital Health",
+      "track": "Track 3 — Supplier Development",
+      "current": "Government digital platforms; health IT systems",
+      "upgrade": "Saudi radiology AI platform development; MOH health IT integration; Saudi-operated AI inference infrastructure; SFDA SaMD (Software as Medical Device) certification",
+      "timeline": "24 months",
+      "anchor": "MOH + SDAIA + SFDA"
+    }
+  ]
+}

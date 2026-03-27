@@ -1,0 +1,91 @@
+{
+  "id": "MR-6",
+  "title": "ROV Operations and Subsea Inspection",
+  "sector": "MR",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$40M – $75M",
+  "entry_mechanism": "Saudi ROV company established through Aramco supply chain development with international ROV operator JV",
+  "executive_summary": "Remotely Operated Vehicles (ROVs) are underwater robots used for subsea pipeline inspection, platform structural inspection, seabed survey, and emergency intervention in offshore oil and gas operations. Saudi Aramco operates one of the world's most extensive offshore infrastructure networks — Safaniya, Manifa, Zuluf — requiring continuous subsea inspection. Today, all ROV operations are performed by foreign specialist companies (Oceaneering, Subsea 7, TechnipFMC) under Aramco contracts.\n\nNode MR-6 targets the establishment of a Saudi ROV operations company — initially operating foreign-manufactured ROVs under a technical partnership, progressing to Saudi ROV payload integration and eventually Saudi ROV component manufacturing. The operations capability is Phase II because it requires the maritime technician workforce and quality management systems established in Phase I.\n\nThe global ROV services market was valued at $6.2 billion in 2024. Saudi Aramco's annual ROV services spend is estimated at $150–250 million. A Saudi ROV operations company capturing 50% of Aramco's work within Phase II would represent $75–125 million in annual Saudi-retained revenue.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Oceaneering International",
+      "country": "USA",
+      "type": "ROV Operations JV Partner",
+      "rationale": "Oceaneering is the world's largest ROV operator with the largest Saudi Aramco contract. A Saudi JV with Oceaneering transfers operational management to Saudi company.",
+      "contact": "Oceaneering VP International Operations, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Subsea 7",
+      "country": "Norway/UK",
+      "type": "Subsea Operations Partner",
+      "rationale": "Subsea 7 provides ROV and subsea services to Aramco. Norwegian/UK partnership for Saudi ROV company establishment.",
+      "contact": "Subsea 7 VP Middle East Operations"
+    },
+    {
+      "rank": 3,
+      "name": "Forum Energy Technologies",
+      "country": "USA",
+      "type": "ROV Technology",
+      "rationale": "Forum manufactures ROV systems and has technology licensing programmes. Saudi ROV company using Forum ROV equipment.",
+      "contact": "Forum VP International ROV"
+    },
+    {
+      "rank": 4,
+      "name": "Saab Seaeye",
+      "country": "UK/Sweden",
+      "type": "Electric ROV Technology",
+      "rationale": "Saab Seaeye produces electric ROVs and has an international sales and partnership network. Non-ITAR technology.",
+      "contact": "Saab Seaeye VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Fugro",
+      "country": "Netherlands",
+      "type": "Subsea Survey and Inspection",
+      "rationale": "Fugro provides ROV survey and inspection services and has established local partnerships in multiple markets.",
+      "contact": "Fugro VP Business Development, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Aramco Offshore Engineering",
+      "track": "Track 7 — Venture Client",
+      "current": "ROV services fully outsourced to foreign operators",
+      "upgrade": "Aramco Saudi ROV supply chain development programme; 10-year commitment to Saudi ROV company for incremental work share; Aramco technical supervision and quality oversight",
+      "timeline": "24 months to first Saudi ROV operation",
+      "anchor": "Aramco + SAMI + IKTVA"
+    },
+    {
+      "rank": 2,
+      "name": "SAMI Maritime Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Naval programme management; some marine services",
+      "upgrade": "SAMI-Oceaneering ROV operations JV; Saudi ROV pilot training programme; fleet of 5 ROVs initially; expand to 20 ROVs by Phase II end",
+      "timeline": "24 months",
+      "anchor": "SAMI + Aramco"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco Research Centre",
+      "track": "Track 6 — R&D",
+      "current": "Subsea materials research; inspection technology research",
+      "upgrade": "Saudi ROV AI-assisted inspection research; Saudi-developed pipeline inspection algorithm; autonomous ROV mission planning research",
+      "timeline": "36 months",
+      "anchor": "Aramco + KAUST"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC Maritime Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Maritime technician training",
+      "upgrade": "ROV pilot and technician training programme; IMCA ROV certification pathway; 30 Saudi ROV pilots per year",
+      "timeline": "18 months",
+      "anchor": "Aramco + SAMI + TVTC"
+    }
+  ]
+}

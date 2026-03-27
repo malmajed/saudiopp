@@ -1,0 +1,91 @@
+{
+  "id": "SP-1",
+  "title": "Satellite Ground Segment Sovereignty",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$85M – $160M",
+  "entry_mechanism": "NSG/SSA sovereign operations through PSAP Track 1 and Track 8",
+  "executive_summary": "Saudi Arabia currently relies on foreign-operated ground stations and foreign-staffed mission control centres to operate its satellite assets. The SaudiSat constellation, the Arabsat communications satellites, and the Kingdom's growing EO satellite fleet all have operational dependencies on foreign expertise — mission planning, orbit manoeuvre execution, telemetry interpretation, and anomaly resolution are performed largely by foreign engineers. Node SP-1 targets the complete Saudisation of satellite ground segment operations: Saudi engineers operating Saudi satellite assets from Saudi-controlled infrastructure with full operational independence.\n\nThe strategic case is straightforward: a satellite that cannot be operated without foreign engineers is not a sovereign asset — it is a foreign-operated asset on Saudi orbit slots. The 2020s have demonstrated repeatedly that satellite operational capability can be disrupted by political decisions, sanctions, or service terminations. Saudi Arabia's growing intelligence, communications, and Earth observation satellite requirements make this dependency increasingly unacceptable.\n\nOperational sovereignty does not require Saudi Arabia to build satellites — it requires Saudi Arabia to operate them. The ground segment is the operational locus of satellite capability, and Saudi operational independence from this foundation is achievable within Phase I.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Airbus Defence and Space",
+      "country": "France/Germany",
+      "type": "Ground Segment Operations Training Partner",
+      "rationale": "Airbus has built and operates multiple Saudi satellite programmes. A structured transition from Airbus-operated to Saudi-operated ground segments, with Airbus training and supervised handover, is the natural Phase I path.",
+      "contact": "Airbus Defence and Space VP Saudi Arabia Programmes"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Alenia Space",
+      "country": "France/Italy",
+      "type": "Ground System Technology",
+      "rationale": "Thales Alenia has designed ground systems for multiple Arabsat satellites. Ground segment technology transfer and operations training.",
+      "contact": "Thales Alenia Space VP Ground Systems, International"
+    },
+    {
+      "rank": 3,
+      "name": "GMV (Spain)",
+      "country": "Spain",
+      "type": "Ground Segment Software",
+      "rationale": "GMV develops satellite mission control software (HIFLY, FocusSuite) used by multiple space agencies. Saudi deployment of GMV software with Saudi operators.",
+      "contact": "GMV VP Space Segment, International"
+    },
+    {
+      "rank": 4,
+      "name": "SES (Luxembourg)",
+      "country": "Luxembourg",
+      "type": "Satellite Operations Partner",
+      "rationale": "SES operates commercial satellites globally and has experience transitioning satellite operations to sovereign teams in multiple countries.",
+      "contact": "SES VP Technical Operations, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Kratos Defense (ground systems)",
+      "country": "USA",
+      "type": "Ground System Infrastructure",
+      "rationale": "Kratos builds satellite ground systems for government and commercial operators. Saudi-deployed Kratos infrastructure with Saudi operators.",
+      "contact": "Kratos VP Government Satellite, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Space Authority (SSA)",
+      "track": "Track 1 — Relocation",
+      "current": "Regulatory and programme oversight; some operational monitoring",
+      "upgrade": "Establish SSA National Mission Control Centre; 50 Saudi satellite operators and engineers; Airbus/Thales supervised handover programme; 24/7 Saudi-staffed operations for all national satellites",
+      "timeline": "24 months to full operational independence for SaudiSat constellation",
+      "anchor": "SSA + MOD + Aramco"
+    },
+    {
+      "rank": 2,
+      "name": "National Space Centre (NSC) / KSA",
+      "track": "Track 8 — Human Capital",
+      "current": "Early-stage space training and awareness",
+      "upgrade": "Saudi satellite operator training programme (100 operators over 3 years); Airbus and GMV training partnership; KAUST space engineering masters pipeline",
+      "timeline": "24 months",
+      "anchor": "SSA + KAUST + GADD"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Space Research",
+      "track": "Track 6 — R&D",
+      "current": "Satellite payload research; some ground station capability at KACST Riyadh",
+      "upgrade": "Upgrade KACST ground station to mission control standard; dual-use research/operations capability; Saudi orbit determination and manoeuvre planning capability",
+      "timeline": "18 months",
+      "anchor": "SSA + KACST"
+    },
+    {
+      "rank": 4,
+      "name": "Arabsat",
+      "track": "Track 7 — Venture Client",
+      "current": "Geostationary satellite operations; some Saudi operator presence",
+      "upgrade": "Full Saudisation of Arabsat technical operations; Saudi payload operations engineers at Arabsat Riyadh hub; expand Saudi control to LEO assets",
+      "timeline": "24 months",
+      "anchor": "SSA + Arabsat + MOC"
+    }
+  ]
+}

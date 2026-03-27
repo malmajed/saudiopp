@@ -1,0 +1,91 @@
+{
+  "id": "DT-8",
+  "title": "Desalination Process Engineering",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service/Design",
+  "investment_range": "$20M – $38M",
+  "entry_mechanism": "Saudi engineering services company with international desalination EPC firm partnership",
+  "executive_summary": "Desalination process engineering — the technical design of desalination plant configurations, membrane system design, pre-treatment specifications, and energy optimisation — is a high-value professional service that flows almost entirely to foreign engineering firms (AECOM, Veolia, Mott MacDonald, Black & Veatch) for Saudi Arabia's new plant programmes. Creating a Saudi process engineering capability for desalination serves both the immediate economic goal (retaining professional services fees) and the strategic goal (Saudi design authority for Saudi water infrastructure).\n\nNode DT-8 targets Saudi-led desalination process engineering: Saudi engineers leading the process design, optimisation, and commissioning support for new Saudi desalination capacity, with international EPC firms as JV partners initially and under Saudi engineering leadership by Phase II. The professional services opportunity is $50–80 million annually in design fees retained in-Kingdom.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Veolia Water Technologies",
+      "country": "France",
+      "type": "Process Engineering Partner",
+      "rationale": "Veolia is the world's leading water technology and engineering company with major Saudi Arabia desalination design projects.",
+      "contact": "Veolia VP Engineering Services, Saudi Arabia"
+    },
+    {
+      "rank": 2,
+      "name": "Black & Veatch",
+      "country": "USA",
+      "type": "Desalination Engineering Partner",
+      "rationale": "B&V is a leading desalination EPC firm with active Saudi Arabia SWCC programme relationships.",
+      "contact": "Black & Veatch VP Water, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "Mott MacDonald",
+      "country": "UK",
+      "type": "Water Process Engineering",
+      "rationale": "Mott MacDonald has major Saudi Arabia water sector programmes and Saudi engineering partnership interest.",
+      "contact": "Mott MacDonald VP Water, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Arcadis",
+      "country": "Netherlands",
+      "type": "Water Engineering",
+      "rationale": "Arcadis provides water infrastructure engineering with active Gulf market presence.",
+      "contact": "Arcadis VP Water, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "IDE Technologies",
+      "country": "Israel (subject to normalisation)",
+      "type": "Desalination Design",
+      "rationale": "IDE is a world leader in desalination design and operations. Subject to Saudi-Israeli normalisation.",
+      "contact": "IDE VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Rawafid / Saudi Engineering Companies",
+      "track": "Track 3 — Supplier Development",
+      "current": "Some water sector engineering; oil and gas engineering services",
+      "upgrade": "Desalination process engineering specialisation; Veolia or Black & Veatch JV; SWCC approved engineer programme; 50 Saudi desalination process engineers",
+      "timeline": "24 months to Saudi-led engineering capability",
+      "anchor": "SWCC + NIDLP + Veolia"
+    },
+    {
+      "rank": 2,
+      "name": "KFUPM / KAUST Water Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Chemical engineering; water treatment research",
+      "upgrade": "Desalination process engineering MSc programme; SWCC-KFUPM practitioner programme; 30 Saudi desalination engineers per year",
+      "timeline": "24 months",
+      "anchor": "SWCC + KFUPM + KAUST"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Water Partnership Company",
+      "track": "Track 7 — Venture Client",
+      "current": "PPP programme management; engineering oversight",
+      "upgrade": "Saudi engineering preference in PPP desalination EPC tenders; Saudi process engineer content requirement; SWPC engineering development programme",
+      "timeline": "18 months",
+      "anchor": "SWPC + MOE"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Council of Engineers",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Engineering licensing; professional development",
+      "upgrade": "Desalination process engineer specialisation track; Saudi engineer internship programme at SWCC plants; Saudi Professional Engineer certification for desalination",
+      "timeline": "18 months",
+      "anchor": "SCE + SWCC + KFUPM"
+    }
+  ]
+}

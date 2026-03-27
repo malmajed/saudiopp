@@ -1,0 +1,91 @@
+{
+  "id": "LS-4",
+  "title": "Fire Control Electronics Assembly and Test",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$20M – $38M",
+  "entry_mechanism": "PSAP Track 1 — Defence electronics manufacturer attracted through PSAP using Riyadh electronics manufacturing platform",
+  "executive_summary": "Fire control systems for armoured vehicles — including the Cockerill 3105 turret's ballistic computer, gunner's sight electronics, commander's panoramic sight, and stabilisation electronics — are high-value, low-volume assemblies that sit at the intersection of precision electronics manufacturing and defence system integration. The electronics are predominantly European-origin (non-ITAR) for Saudi Arabia's wheeled vehicle fleet, making them accessible for in-Kingdom assembly and test without US export control restrictions.\n\nNode LS-4 targets Phase II establishment of a Saudi electronics assembly and test facility capable of producing fire control electronic assemblies to IPC-A-610 Class 3 aerospace/defence standard — the highest commercial electronics quality standard. The facility serves the Cockerill turret programme initially and expands to other vehicle electronics (communications, navigation, driver vision) as Saudi content requirements grow.\n\nThe global military electronics assembly market is valued at $12 billion annually. Saudi Arabia's Phase II fire control electronics opportunity is estimated at $40–80 million over the programme lifecycle — small in global terms, but the capability foundation for a Saudi defence electronics manufacturing cluster that can serve all land, naval, and aerospace platforms.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Thales",
+      "country": "France",
+      "type": "Fire Control Technology Partner",
+      "rationale": "Thales supplies fire control systems to European armoured vehicle programmes and has Saudi Arabia defence relationships. Thales's non-ITAR fire control electronics are directly relevant to the Cockerill programme.",
+      "contact": "Thales Land and Air Systems VP Saudi Arabia"
+    },
+    {
+      "rank": 2,
+      "name": "Elbit Systems (subject to normalisation)",
+      "country": "Israel",
+      "type": "Fire Control Systems",
+      "rationale": "Elbit is a global leader in turret fire control electronics. Subject to Saudi-Israeli normalisation progress.",
+      "contact": "Elbit Land Systems VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Hensoldt",
+      "country": "Germany",
+      "type": "Optronics and Electronics Partner",
+      "rationale": "Hensoldt produces gunner's sights and commander's panoramic sights for European vehicle programmes. Non-ITAR German technology with active Gulf defence market engagement.",
+      "contact": "Hensoldt VP International Programmes, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Lacroix Defence",
+      "country": "France",
+      "type": "Electronics Assembly Partner",
+      "rationale": "French defence electronics specialist with IPC-A-610 Class 3 manufacturing and a track record of international manufacturing partnerships.",
+      "contact": "Lacroix Defence VP International Industrial Cooperation"
+    },
+    {
+      "rank": 5,
+      "name": "Curtiss-Wright Defence",
+      "country": "USA",
+      "type": "Rugged Electronics Platform",
+      "rationale": "Curtiss-Wright produces rugged military electronics assemblies and has prior Gulf engagement. Some ITAR restrictions apply but non-ITAR product lines exist.",
+      "contact": "Curtiss-Wright VP International Defence"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Electronics Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Defence electronics assembly, communications equipment; some board-level assembly",
+      "upgrade": "IPC-A-610 Class 3 certification; Thales/Hensoldt licensed assembly procedures; dedicated fire control electronics production line; automated optical inspection (AOI) and functional test equipment",
+      "timeline": "24 months to first qualified fire control assembly",
+      "anchor": "SAMI + John Cockerill"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Telecom (STC) / STC Solutions",
+      "track": "Track 7 — Venture Client",
+      "current": "Large-scale electronics integration; network equipment assembly; some defence communications",
+      "upgrade": "Establish defence electronics manufacturing subsidiary; IPC-A-610 Class 3; ESD-protected manufacturing environment; NSCS clearance for classified system assembly",
+      "timeline": "30 months",
+      "anchor": "SAMI + MOD"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Electronics Research Institute",
+      "track": "Track 6 — R&D",
+      "current": "Electronics research; some defence system integration; signal processing",
+      "upgrade": "Fire control electronics test laboratory; develop Saudi test procedures for non-ITAR fire control assemblies; support Saudisation of electronics test engineering",
+      "timeline": "24 months",
+      "anchor": "GADD + KACST"
+    },
+    {
+      "rank": 4,
+      "name": "Elm Company",
+      "track": "Track 3 — Supplier Development",
+      "current": "IT systems integration; some hardware assembly for government systems",
+      "upgrade": "Defence electronics assembly qualification; IPC-A-610 training programme; ESD-protected assembly environment; fire control test equipment procurement",
+      "timeline": "24 months",
+      "anchor": "PIF + SAMI"
+    }
+  ]
+}

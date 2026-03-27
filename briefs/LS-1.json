@@ -1,0 +1,91 @@
+{
+  "id": "LS-1",
+  "title": "Turret Mechanical Component Manufacturing",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$12M – $22M",
+  "entry_mechanism": "PSAP Track 3 — Saudi precision machining company established under PSAP using Jubail process platform",
+  "executive_summary": "The John Cockerill 3105 turret is the primary weapon system on Saudi Arabia's wheeled armoured vehicle fleet — a 105mm armed turret manufactured in Belgium and integrated onto Saudi platforms. The turret programme creates a specific and immediate demand for locally-produced precision-machined components: race rings, elevation and traversing mechanisms, and structural fittings that do not carry ITAR restrictions and are manufacturable with standard aerospace-grade CNC capability.\n\nThe global armoured vehicle component market was valued at $4.2 billion in 2024. Saudi Arabia's land forces operate one of the largest wheeled armoured fleets in the Middle East, with an ongoing vehicle procurement programme that creates sustained demand for turret components. The Jubail industrial platform already has heavy fabrication and CNC machining capability that is directly adjacent to the requirements of turret component manufacturing — this is a qualification and standards upgrade, not a greenfield build.\n\nThis is a Phase I node precisely because it is accessible: non-ITAR, technically achievable with existing Saudi industrial capability, and anchored by a contractually committed programme (Cockerill turret) that guarantees demand. It is the ideal first Saudi defence manufacturing success story.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "John Cockerill Defence",
+      "country": "Belgium",
+      "type": "Programme Partner / Quality Authority",
+      "rationale": "Cockerill is the turret OEM and quality authority. Their acceptance standard defines the node requirements. Engage through SAMI's existing Cockerill programme office for work package allocation.",
+      "contact": "John Cockerill Defence VP Co-production, Saudi Arabia Programme"
+    },
+    {
+      "rank": 2,
+      "name": "Peri GmbH / Renk Group",
+      "country": "Germany",
+      "type": "Technology Licensor",
+      "rationale": "German precision defence component manufacturers with race ring and turret drive mechanism manufacturing expertise. Non-ITAR European technology is ideal for a new Saudi supplier.",
+      "contact": "Renk Group VP International Defence Programmes"
+    },
+    {
+      "rank": 3,
+      "name": "Elbit Systems Land",
+      "country": "Israel",
+      "type": "Component Supplier (subject to normalisation)",
+      "rationale": "Elbit manufactures turret drive electronics and stabilisation components. Engagement subject to Saudi-Israeli normalisation progress.",
+      "contact": "Elbit Land VP International"
+    },
+    {
+      "rank": 4,
+      "name": "KNDS (Nexter/Krauss-Maffei)",
+      "country": "France/Germany",
+      "type": "Land Systems Technology Partner",
+      "rationale": "KNDS has precision land systems component manufacturing and offset programme experience in the Gulf. Could provide technical assistance and quality standards framework.",
+      "contact": "KNDS VP International Co-production"
+    },
+    {
+      "rank": 5,
+      "name": "Rheinmetall",
+      "country": "Germany",
+      "type": "Land Systems Partner",
+      "rationale": "Rheinmetall manufactures turret components for multiple NATO programmes and has active Saudi Arabia engagement through the Boxer and other vehicle programmes.",
+      "contact": "Rheinmetall International VP Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Al-Faisaliah Industrial Group / Jubail",
+      "track": "Track 3 — Supplier Development",
+      "current": "CNC machining for oil and gas industry; steel fabrication; some precision components",
+      "upgrade": "AS9100 certification; Cockerill-specified CNC tolerances and surface finishes; dedicated defence quality management system; ballistic steel machining qualification",
+      "timeline": "18 months to first Cockerill-qualified delivery",
+      "anchor": "SAMI + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "SABIC Steel / Hadeed",
+      "track": "Track 7 — Venture Client",
+      "current": "Steel production including armour-grade steel; heavy fabrication",
+      "upgrade": "Qualify Hadeed armour steel to Cockerill material specifications; establish supply agreement with Saudi turret component manufacturer",
+      "timeline": "12 months to material qualification",
+      "anchor": "SAMI + SABIC"
+    },
+    {
+      "rank": 3,
+      "name": "SAMI Land Systems Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Land systems integration and maintenance; programme management for Cockerill programme",
+      "upgrade": "Establish in-house precision machining cell for turret components; AS9100 certification; Cockerill technical liaison role",
+      "timeline": "24 months",
+      "anchor": "SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "Prince Sultan Defence Academy",
+      "track": "Track 8 — Human Capital",
+      "current": "Land systems training; vehicle maintenance technician programmes",
+      "upgrade": "Precision machining technician programme for defence components; Cockerill component quality inspection training",
+      "timeline": "18 months to first qualified technicians",
+      "anchor": "SAMI + Saudi Land Forces"
+    }
+  ]
+}

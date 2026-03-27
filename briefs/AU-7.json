@@ -1,0 +1,91 @@
+{
+  "id": "AU-7",
+  "title": "Tooling and Die Center",
+  "sector": "AU",
+  "phase": "I-II",
+  "wave": "Wave 1",
+  "type": "Product/Service",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "NIDLP-KAEC automotive cluster development with international partner",
+  "executive_summary": "Automotive tooling — injection moulds, press dies, jigs, and fixtures — is the capital equipment backbone of automotive manufacturing. Saudi Arabia's automotive programme requires in-Kingdom tooling capability to service its growing component manufacturing base without depending on costly foreign tooling suppliers. Node AU-7 targets a Saudi automotive tooling centre capable of designing and manufacturing moulds and dies for Saudi component manufacturers.\n\nThe global automotive tooling and die center market is growing in line with the overall automotive industry. Saudi Arabia's Vision 2030 automotive programme creates immediate domestic demand anchored by Saudi OEM assembly and the 10M+ vehicle installed base.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "TÜV SÜD / IDIADA",
+      "country": "Germany/Spain",
+      "type": "Quality and Testing Partner",
+      "rationale": "Leading automotive quality and testing companies with Gulf engagement.",
+      "contact": "TÜV SÜD VP Automotive, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Bosch Automotive",
+      "country": "Germany",
+      "type": "Automotive Systems Partner",
+      "rationale": "Bosch is the world's largest automotive supplier and has active Saudi Arabia presence.",
+      "contact": "Bosch VP Automotive International"
+    },
+    {
+      "rank": 3,
+      "name": "CEVA Logistics / Automotive",
+      "country": "France",
+      "type": "Automotive Logistics Partner",
+      "rationale": "CEVA is a major automotive logistics company with Gulf operations.",
+      "contact": "CEVA VP Automotive, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Hexagon Manufacturing Intelligence",
+      "country": "Sweden",
+      "type": "Metrology Technology",
+      "rationale": "Hexagon provides automotive dimensional measurement systems.",
+      "contact": "Hexagon VP Manufacturing Intelligence, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "GXO Logistics",
+      "country": "USA/UK",
+      "type": "Automotive Warehousing",
+      "rationale": "GXO provides automotive JIT logistics and warehousing globally.",
+      "contact": "GXO VP International Automotive"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KAEC Automotive Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial zone development",
+      "upgrade": "KAEC anchor infrastructure for Tooling and Die Center; shared zone services; Saudi automotive cluster cohesion",
+      "timeline": "18–24 months",
+      "anchor": "KAEC + NIDLP"
+    },
+    {
+      "rank": 2,
+      "name": "NIDLP / Automotive Programme",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Automotive strategy implementation",
+      "upgrade": "NIDLP investment in Tooling and Die Center; local content credit; Vision 2030 KPI contribution",
+      "timeline": "24 months",
+      "anchor": "NIDLP + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi OEM Assembly Programmes",
+      "track": "Track 7 — Venture Client",
+      "current": "Vehicle assembly development",
+      "upgrade": "Saudi OEMs as anchor customers for Tooling and Die Center; long-term service agreement",
+      "timeline": "24–30 months",
+      "anchor": "NIDLP + Saudi OEMs"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC / KAEC Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Technical training programmes",
+      "upgrade": "Automotive tooling and die center technician programme; Saudi workforce development",
+      "timeline": "18 months",
+      "anchor": "TVTC + NIDLP"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "SP-2",
+  "title": "ISR Data Analysis Center",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$60M – $120M",
+  "entry_mechanism": "Saudi intelligence analysts with commercial satellite imagery tools under SSA/MOD programme",
+  "executive_summary": "Intelligence, Surveillance, and Reconnaissance (ISR) from satellite imagery is a core enabler of modern military and national security operations. Saudi Arabia currently receives processed satellite imagery and analysis products from foreign intelligence partners and commercial imagery providers — with the analysis work performed by foreign analysts. Node SP-2 targets the establishment of a Saudi ISR data analysis centre: Saudi analysts using commercial satellite imagery tools to produce Saudi-authored intelligence products from satellite-sourced data.\n\nThe commercial satellite imagery market has democratised ISR — Planet, Maxar, Airbus Defence and Space, and ICEYE now offer sub-meter resolution imagery, daily revisit rates, and SAR (Synthetic Aperture Radar) capabilities that were previously accessible only to superpower intelligence agencies. Saudi Arabia can procure commercial imagery and develop Saudi analytical capability without requiring technology transfer from foreign intelligence agencies.\n\nA Saudi ISR analysis centre produces three categories of value: tactical intelligence (monitoring threat activities, border surveillance, vessel tracking in the Red Sea and Gulf); national development intelligence (monitoring NEOM and giga-project progress, agricultural monitoring, water resource management); and sovereign independence (reducing dependency on foreign intelligence products whose provision can be politically conditioned).",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Maxar Technologies",
+      "country": "USA",
+      "type": "Imagery Provider and Analytics Platform",
+      "rationale": "Maxar provides the highest-resolution commercial satellite imagery globally and has government-grade analytics platforms. Saudi Arabia is a current Maxar customer.",
+      "contact": "Maxar VP Government Sales, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Airbus Defence and Space / Intelligence",
+      "country": "France/Germany",
+      "type": "EO Imagery and Analysis",
+      "rationale": "Airbus provides Pléiades and Pléiades Neo imagery with Saudi Arabia government relationships. Airbus Intelligence has analyst training programmes.",
+      "contact": "Airbus Intelligence VP Government, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "ICEYE",
+      "country": "Finland",
+      "type": "SAR Imagery Provider",
+      "rationale": "ICEYE provides SAR imagery for all-weather, day-night monitoring — critical for Red Sea vessel tracking and border surveillance. Non-US technology with no ITAR restrictions.",
+      "contact": "ICEYE VP Government Solutions, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Planet Labs",
+      "country": "USA",
+      "type": "High-Frequency Imagery",
+      "rationale": "Planet provides daily imagery of any point on Earth — ideal for change detection and monitoring Saudi Arabia's wide area of strategic interest.",
+      "contact": "Planet VP Government, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "BlackSky",
+      "country": "USA",
+      "type": "Geospatial Intelligence Platform",
+      "rationale": "BlackSky provides AI-powered geospatial intelligence analytics on top of multi-source satellite imagery. Platform licensing for Saudi analysts.",
+      "contact": "BlackSky VP Government, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "General Intelligence Presidency (GIP)",
+      "track": "Track 1 — Government Programme",
+      "current": "National intelligence; some imagery analysis capability using foreign products",
+      "upgrade": "Establish Saudi National ISR Analysis Centre; 100 Saudi imagery analysts; Maxar and Airbus imagery contracts; Esri ArcGIS and BlackSky analytics platforms; classified ISR product distribution network",
+      "timeline": "18 months to operational centre",
+      "anchor": "GIP + SSA + MOD"
+    },
+    {
+      "rank": 2,
+      "name": "SSA (Saudi Space Authority)",
+      "track": "Track 1 — Government Programme",
+      "current": "Space programme oversight; some EO data management",
+      "upgrade": "SSA National EO Data Centre; Saudi-operated imagery archive; analysis platform hosting; civilian ISR products for giga-projects",
+      "timeline": "18 months",
+      "anchor": "SSA + PIF + MOD"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Remote Sensing Research",
+      "track": "Track 6 — R&D",
+      "current": "Remote sensing research; some agricultural and geological monitoring using satellite data",
+      "upgrade": "GADD-KACST ISR algorithm research; change detection algorithms for Saudi strategic areas; SAR processing pipeline; support analyst training",
+      "timeline": "24 months",
+      "anchor": "GADD + KACST + GIP"
+    },
+    {
+      "rank": 4,
+      "name": "KAUST Computer Science / AI",
+      "track": "Track 8 — Human Capital",
+      "current": "Computer vision; AI; geospatial data processing research",
+      "upgrade": "Saudi geospatial AI programme; automated change detection; AI-assisted ISR analysis tools; graduate placement at Saudi ISR centre",
+      "timeline": "24 months",
+      "anchor": "GADD + KAUST + GIP"
+    }
+  ]
+}

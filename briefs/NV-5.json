@@ -1,0 +1,91 @@
+{
+  "id": "NV-5",
+  "title": "Radar Sub-System Maintenance and Modification",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$22M – $40M",
+  "entry_mechanism": "Progressive capability build from line maintenance to depot-level repair under OEM licence",
+  "executive_summary": "Naval radar systems — air search, surface search, fire control, and navigation radars aboard Saudi corvettes and frigates — are among the most technically complex and strategically sensitive systems on a warship. Today, any radar failure beyond basic line maintenance (replacement of front-line-replaceable units) requires the system to be shipped to the OEM facility in Europe for depot-level repair — a process that takes weeks to months and leaves the vessel without critical sensor capability.\n\nNode NV-5 targets a progressive build from line maintenance (what Saudi technicians can do today) to depot-level repair (what they will do by Phase II end) and eventually modification authority (Phase III aspiration). The progression follows a structured three-stage model: Stage 1 — Saudi technicians perform scheduled maintenance and LRU replacement under OEM supervision; Stage 2 — Saudi technicians perform component-level repair of non-classified sub-assemblies; Stage 3 — Saudi engineers perform modification and upgrade under OEM licence.\n\nThe radar systems on the Avante 2200 are primarily European-origin (non-ITAR) — Indra's SPS-N 5000 air search radar, Hensoldt navigation radar — making them accessible for in-Kingdom maintenance development without US export control restrictions.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Indra",
+      "country": "Spain",
+      "type": "Radar OEM and MRO Partner",
+      "rationale": "Indra supplies the SPS-N 5000 radar on the Avante 2200 and has Saudi Arabia maintenance obligations. Indra's depot repair licensing for Saudi technicians is the natural extension of the corvette programme.",
+      "contact": "Indra VP Naval Electronic Systems, After-Sales"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Naval",
+      "country": "France",
+      "type": "Radar MRO Technology Partner",
+      "rationale": "Thales supplies naval radar to regional navies and has an active Gulf support presence. Thales's SMART-S and Sea Master radar families have established maintenance programmes.",
+      "contact": "Thales Naval VP After-Sales, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "Hensoldt",
+      "country": "Germany",
+      "type": "Navigation and Fire Control Radar",
+      "rationale": "Hensoldt supplies navigation and fire control radar to the Saudi corvette programme and has a track record of international maintenance licensing.",
+      "contact": "Hensoldt VP Naval Systems After-Sales"
+    },
+    {
+      "rank": 4,
+      "name": "Leonardo (formerly Selex)",
+      "country": "Italy",
+      "type": "Radar Systems Partner",
+      "rationale": "Leonardo supplies naval radar to multiple Gulf navies and has established regional maintenance partnerships.",
+      "contact": "Leonardo Naval VP Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Saab (Gothenburg)",
+      "country": "Sweden",
+      "type": "Naval Electronics MRO",
+      "rationale": "Saab has naval radar and electronics maintenance capabilities and active Gulf navy relationships through the Royal Saudi Naval Forces.",
+      "contact": "Saab Naval VP International After-Sales"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Electronics / Naval Electronics Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Some electronics maintenance; communications equipment repair; limited radar line maintenance",
+      "upgrade": "Establish naval radar maintenance shop; Indra depot maintenance licence; radar test equipment procurement; 20 Saudi radar technicians trained at Indra Madrid facility",
+      "timeline": "30 months to depot-level repair capability",
+      "anchor": "SAMI + Royal Saudi Navy"
+    },
+    {
+      "rank": 2,
+      "name": "KACST Electronics Research",
+      "track": "Track 6 — R&D",
+      "current": "Signal processing research; RF and microwave engineering; some radar research",
+      "upgrade": "Naval radar signal processing research relevant to maintenance diagnostics; Saudi radar test procedures development; support Saudi radar engineer training",
+      "timeline": "24 months",
+      "anchor": "GADD + KACST"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco Communications Division",
+      "track": "Track 7 — Venture Client",
+      "current": "Microwave and satellite communications maintenance; some radar-adjacent systems",
+      "upgrade": "Extend RF maintenance capability to naval radar frequency bands; dual-use test equipment investment; Saudi RF technician pipeline",
+      "timeline": "18 months",
+      "anchor": "Aramco + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Electrical Engineering / RF Lab",
+      "track": "Track 8 — Human Capital",
+      "current": "RF and microwave engineering research; antenna theory; some radar systems courses",
+      "upgrade": "Naval radar engineering programme; Indra-sponsored laboratory equipment; graduate placement at SAMI naval electronics division",
+      "timeline": "24 months to first radar-qualified graduates",
+      "anchor": "GADD + SAMI + KFUPM"
+    }
+  ]
+}

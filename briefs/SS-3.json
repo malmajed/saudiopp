@@ -1,0 +1,91 @@
+{
+  "id": "SS-3",
+  "title": "Ground Segment Equipment Manufacturing",
+  "sector": "SP",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$25M – $48M",
+  "entry_mechanism": "Ground segment equipment manufacturer attracted through PSAP; co-located with Riyadh SSP and connected to KACST ground station upgrade programme",
+  "executive_summary": "Satellite ground segment equipment — S-band, X-band, and Ka-band antennas; telemetry and tracking receivers; ground modem systems; and signal processing hardware — is less technically restricted than space segment hardware and more accessible for manufacturing localisation. Saudi Arabia operates multiple satellite ground stations (KACST Riyadh, SSA ground stations, Arabsat facilities) that currently use imported equipment from European, US, and Japanese manufacturers.\n\nNode SS-3 targets Saudi manufacturing of ground segment equipment: antenna dish structures (steel and composite), RF feed systems, modem hardware, and antenna control systems. The manufacturing processes — precision steel fabrication for antenna structures, electronics assembly for modems, RF feed machining — are accessible to Saudi industrial capability with quality standards upgrades.\n\nSaudi Arabia's addressable ground equipment market — from its own expanding ground station network plus the GCC commercial and government satellite operator market — is estimated at $120–200 million over the Phase I period. A Saudi ground equipment manufacturer with AS9100-equivalent space certification would be competitive across the regional market.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "ViaSat / EchoStar",
+      "country": "USA",
+      "type": "Ground Modem and Systems",
+      "rationale": "ViaSat supplies satellite modems and ground systems globally. Some ITAR considerations but commercial ground equipment is accessible.",
+      "contact": "ViaSat VP Government, International"
+    },
+    {
+      "rank": 2,
+      "name": "General Dynamics SATCOM",
+      "country": "USA",
+      "type": "Antenna Systems",
+      "rationale": "GD SATCOM produces satellite antennas for government and commercial applications. Some ITAR content but antenna structure manufacturing is accessible.",
+      "contact": "GDMS VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Orbit Communications (Israel)",
+      "country": "Israel",
+      "type": "Ground Systems (subject to normalisation)",
+      "rationale": "Orbit produces satellite ground systems including SATCOM-on-the-move. Subject to normalisation.",
+      "contact": "Orbit VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Cobham Advanced Electronics",
+      "country": "UK",
+      "type": "RF and Antenna Components",
+      "rationale": "Cobham produces RF components and antenna feed systems. Non-ITAR UK technology with international sales.",
+      "contact": "Cobham VP International Defence and Space"
+    },
+    {
+      "rank": 5,
+      "name": "Innodata / ND SATCOM",
+      "country": "Germany",
+      "type": "Ground Station Systems",
+      "rationale": "ND SATCOM produces turnkey ground station systems. Non-ITAR German technology with active international installations.",
+      "contact": "ND SATCOM VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KACST / Ground Station Network",
+      "track": "Track 6 — R&D",
+      "current": "Operates Riyadh ground station; some antenna manufacturing experience",
+      "upgrade": "Saudi antenna structure manufacturing; ND SATCOM technology partnership; AS9100 space equipment certification; KACST as anchor customer for first Saudi-made antennas",
+      "timeline": "24 months",
+      "anchor": "SSA + KACST"
+    },
+    {
+      "rank": 2,
+      "name": "Arabsat",
+      "track": "Track 7 — Venture Client",
+      "current": "Geostationary ground stations; extensive antenna park",
+      "upgrade": "Arabsat as anchor customer for Saudi-manufactured replacement antennas; dual-use commercial/government antenna manufacturing",
+      "timeline": "18 months",
+      "anchor": "SSA + Arabsat"
+    },
+    {
+      "rank": 3,
+      "name": "Al-Zamil Steel / Precision Division",
+      "track": "Track 3 — Supplier Development",
+      "current": "Precision steel fabrication; large structural fabrication",
+      "upgrade": "Antenna dish structure manufacturing; RF-grade surface finish machining; AS9100 space equipment quality system",
+      "timeline": "18 months",
+      "anchor": "SSA + KACST + GAMI"
+    },
+    {
+      "rank": 4,
+      "name": "SAMI Electronics",
+      "track": "Track 3 — Supplier Development",
+      "current": "Defence electronics assembly; some RF components",
+      "upgrade": "Ground modem PCB assembly; RF feed electronics; ND SATCOM licensed modem manufacturing",
+      "timeline": "24 months",
+      "anchor": "SSA + SAMI"
+    }
+  ]
+}

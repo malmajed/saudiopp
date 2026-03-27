@@ -1,0 +1,91 @@
+{
+  "id": "MD-3",
+  "title": "Patient Monitor Assembly",
+  "sector": "MD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$30M – $55M",
+  "entry_mechanism": "PSAP Track 1 — International patient monitoring company establishing Saudi assembly with local content progression",
+  "executive_summary": "Patient monitoring systems — vital signs monitors, ICU monitors, telemetry systems, and pulse oximeters — are among the most critical and highest-volume capital medical devices in Saudi Arabia's expanding hospital network. Saudi Arabia is investing $65 billion in healthcare infrastructure by 2030. Every hospital bed requires monitoring equipment, and Saudi Arabia's bed count is expanding rapidly. Today, all monitors are imported from Philips, GE Healthcare, Mindray, and Nihon Kohden.\n\nNode MD-3 targets Saudi assembly of patient monitoring systems — initially final assembly and test from imported sub-assemblies, progressing to increasingly Saudi-manufactured content (display systems, power supplies, housing) over Phase I. The manufacturing processes (PCB assembly, display integration, software loading, calibration and test) are accessible to Saudi Arabia's electronics manufacturing base with quality standards upgrades.\n\nThe global patient monitoring market was valued at $5.8 billion in 2024 growing at 8.3% CAGR. Saudi Arabia's domestic monitor market — for its expanding hospital network — is estimated at $180–250 million annually. Saudi assembly with SFDA Class II or Class III device certification could capture 40–60% of this demand.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Mindray Medical",
+      "country": "China",
+      "type": "Manufacturing and Technology JV",
+      "rationale": "Mindray is the world's largest non-Western patient monitoring company with active international manufacturing partnerships and Saudi Arabia government hospital contracts.",
+      "contact": "Mindray VP International Manufacturing Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Nihon Kohden",
+      "country": "Japan",
+      "type": "Patient Monitor Technology",
+      "rationale": "Nihon Kohden manufactures patient monitors and has international assembly partnerships. Japanese quality standards align with Saudi SFDA requirements.",
+      "contact": "Nihon Kohden VP International Business"
+    },
+    {
+      "rank": 3,
+      "name": "Philips Healthcare",
+      "country": "Netherlands",
+      "type": "Premium Monitor Technology",
+      "rationale": "Philips is a major Saudi hospital supplier. A Saudi assembly arrangement converts IPP/localisation obligations into manufacturing investment.",
+      "contact": "Philips Healthcare VP Industrial Cooperation, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "GE Healthcare",
+      "country": "USA",
+      "type": "Monitor and ICU Equipment",
+      "rationale": "GE Healthcare has active Saudi Arabia hospital contracts and localisation obligations. Saudi assembly for GE-branded monitors is technically and commercially feasible.",
+      "contact": "GE Healthcare VP International Manufacturing"
+    },
+    {
+      "rank": 5,
+      "name": "Edan Instruments",
+      "country": "China",
+      "type": "Entry-Level Monitor Manufacturing",
+      "rationale": "Edan produces entry and mid-level patient monitors and has active international manufacturing partnerships. Lower regulatory barriers for entry-level monitors.",
+      "contact": "Edan Instruments VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "NUPCO / MOH",
+      "track": "Track 7 — Venture Client",
+      "current": "National medical equipment procurement",
+      "upgrade": "NUPCO local content preference policy for Saudi-assembled monitors; 5-year framework agreement with price parity guarantee; anchor procurement that enables Mindray or Nihon Kohden JV",
+      "timeline": "12 months",
+      "anchor": "MOH + NUPCO + NIDLP"
+    },
+    {
+      "rank": 2,
+      "name": "SFDA",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Medical device regulatory authority; ISO 13485 verification",
+      "upgrade": "SFDA manufacturer registration for Saudi assembly facility; ISO 13485 fast-track certification support; SFDA-CE bilateral recognition for Saudi-assembled monitors",
+      "timeline": "18 months to first SFDA manufacturing licence",
+      "anchor": "SFDA + MOH"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Electronics Manufacturing Companies",
+      "track": "Track 3 — Supplier Development",
+      "current": "Electronics assembly; PCB assembly; some medical device sub-assembly",
+      "upgrade": "ISO 13485 certification; IPC-A-610 Class 2 for medical device electronics; patient monitor PCB assembly and test",
+      "timeline": "18 months",
+      "anchor": "NIDLP + MOH + SFDA"
+    },
+    {
+      "rank": 4,
+      "name": "King Faisal Specialist Hospital",
+      "track": "Track 7 — Venture Client",
+      "current": "Largest tertiary hospital in Saudi Arabia; advanced medical equipment user",
+      "upgrade": "KFSH as clinical validation partner for Saudi-assembled monitors; real-world performance data to support SFDA registration; procurement commitment",
+      "timeline": "24 months",
+      "anchor": "MOH + KFSH + SFDA"
+    }
+  ]
+}

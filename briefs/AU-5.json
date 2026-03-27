@@ -1,0 +1,91 @@
+{
+  "id": "AU-5",
+  "title": "Hot-Climate Vehicle Validation Lab",
+  "sector": "AU",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$80M – $150M",
+  "entry_mechanism": "Global automotive OEMs paying for Saudi hot-climate validation testing; GAZT-NIDLP investment co-funded facility",
+  "executive_summary": "Saudi Arabia's extreme climate — ambient temperatures reaching 55°C, intense solar radiation, fine sand and dust, high humidity in coastal areas — is the most demanding automotive test environment in the world. Global automotive OEMs must validate their vehicles for hot-climate performance, and today they ship vehicles to Death Valley (USA), Spain, or UAE for high-temperature testing. Saudi Arabia's superior natural test environment — plus the world's largest hot-climate automotive market — makes it the logical global hot-climate automotive testing hub.\n\nNode AU-5 targets the establishment of a Saudi automotive hot-climate validation facility: proving grounds, climate-controlled chambers simulating extreme conditions, HVAC load testing, battery thermal management validation, and sand/dust ingestion testing — serving global OEM validation programmes and Saudi domestic vehicle approvals. Revenue from international OEM test programmes ($80–120 million annually at steady state) funds the facility and creates Saudi automotive testing engineering capability.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "IDIADA Automotive Technology",
+      "country": "Spain",
+      "type": "Test Facility Design and Operations",
+      "rationale": "IDIADA operates proving grounds and is the world's leading independent automotive test facility operator. IDIADA Saudi partnership for facility design, calibration, and international marketing.",
+      "contact": "IDIADA VP International Business Development"
+    },
+    {
+      "rank": 2,
+      "name": "Millbrook Proving Ground",
+      "country": "UK",
+      "type": "Test Track Partner",
+      "rationale": "Millbrook is a leading independent test facility with international partnerships.",
+      "contact": "Millbrook VP International"
+    },
+    {
+      "rank": 3,
+      "name": "AVL (Austria)",
+      "country": "Austria",
+      "type": "Powertrain and HVAC Testing",
+      "rationale": "AVL is the world's largest independent automotive powertrain engineering and testing company. AVL climate chambers for Saudi facility.",
+      "contact": "AVL VP International Testing Solutions"
+    },
+    {
+      "rank": 4,
+      "name": "Toyota Technical Centre",
+      "country": "Japan/USA",
+      "type": "Reference Customer and Partner",
+      "rationale": "Toyota sends vehicles to UAE for hot-climate testing. Saudi facility as Toyota's preferred Gulf testing partner.",
+      "contact": "Toyota VP Vehicle Quality Engineering"
+    },
+    {
+      "rank": 5,
+      "name": "TÜV SÜD Automotive",
+      "country": "Germany",
+      "type": "Type Approval Partner",
+      "rationale": "TÜV SÜD provides automotive type approval and certification services. Saudi facility connected to TÜV SÜD type approval for Gulf markets.",
+      "contact": "TÜV SÜD VP Automotive International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "NIDLP / Saudi Automotive Cluster",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Automotive strategy and investment programme",
+      "upgrade": "NIDLP co-fund Saudi hot-climate validation facility; establish Saudi automotive testing authority; global OEM marketing of Saudi test capability",
+      "timeline": "30 months to facility commissioning",
+      "anchor": "NIDLP + KAEC + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "KAEC Industrial Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Land available for industrial development; KAEC climate is ideal for hot-weather testing",
+      "upgrade": "Proving grounds land allocation at KAEC; shared infrastructure with automotive manufacturing cluster; KAEC as integrated Saudi automotive manufacturing + testing hub",
+      "timeline": "24 months to proving ground construction start",
+      "anchor": "KAEC + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Standards Authority (SASO)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Vehicle type approval; emissions and safety standards",
+      "upgrade": "Saudi type approval testing conducted at Saudi facility; SASO-IDIADA type approval partnership; Saudi facility as official SASO vehicle certification test site",
+      "timeline": "24 months",
+      "anchor": "SASO + NIDLP + IDIADA"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM / KAUST Automotive Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Automotive systems engineering; thermal engineering",
+      "upgrade": "Automotive hot-climate engineering research programme; KFUPM-facility testing research partnership; Saudi automotive test engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "NIDLP + KFUPM + IDIADA"
+    }
+  ]
+}

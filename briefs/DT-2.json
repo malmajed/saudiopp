@@ -1,0 +1,91 @@
+{
+  "id": "DT-2",
+  "title": "High-Pressure Pump Component Manufacturing",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$55M – $100M",
+  "entry_mechanism": "Saudi precision machining company upgraded to desalination pump standards with international pump OEM partnership",
+  "executive_summary": "High-pressure pumps are the workhorses of reverse osmosis desalination — forcing seawater at pressures of 55–80 bar through RO membranes. Saudi Arabia's desalination plants run the world's largest fleet of RO high-pressure pumps, all manufactured abroad by Flowserve, KSB, Sulzer, and Grundfos. Pump impellers, casings, and shaft seals are precision-machined components accessible to Saudi Arabia's Jubail industrial base.\n\nNode DT-2 targets Saudi manufacturing of high-pressure pump components: impellers, wear rings, bearing housings, and seal assemblies manufactured in Saudi Arabia to OEM specifications. The manufacturing processes — precision CNC machining of duplex stainless steel, surface finishing, and dimensional inspection — are directly adjacent to Saudi Arabia's existing oil and gas equipment manufacturing capability.\n\nSaudi Arabia's addressable high-pressure pump component market — from its own desalination fleet maintenance plus GCC and MENA export — is estimated at $80–120 million annually. A Saudi-qualified pump component manufacturer would be the lowest-logistics-cost supplier for the Gulf desalination market.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Flowserve",
+      "country": "USA",
+      "type": "Pump OEM Technology Partner",
+      "rationale": "Flowserve is the world's largest pump manufacturer with active Saudi Arabia desalination relationships. Saudi component manufacturing under Flowserve quality standards.",
+      "contact": "Flowserve VP International Manufacturing Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "KSB",
+      "country": "Germany",
+      "type": "Desalination Pump Partner",
+      "rationale": "KSB supplies high-pressure pumps to Saudi desalination plants and has established international manufacturing partnerships. Non-ITAR German technology.",
+      "contact": "KSB VP International Industrial Cooperation"
+    },
+    {
+      "rank": 3,
+      "name": "Sulzer Pumps",
+      "country": "Switzerland",
+      "type": "Pump Technology Partner",
+      "rationale": "Sulzer is a leading desalination pump manufacturer with international parts manufacturing partnerships.",
+      "contact": "Sulzer Pumps VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "Grundfos",
+      "country": "Denmark",
+      "type": "Water Pump Technology",
+      "rationale": "Grundfos produces high-pressure pumps for desalination and has active Saudi Arabia market presence.",
+      "contact": "Grundfos VP International Industrial"
+    },
+    {
+      "rank": 5,
+      "name": "Xylem",
+      "country": "USA",
+      "type": "Water Technology",
+      "rationale": "Xylem produces water infrastructure equipment and has Saudi Arabia government water utility relationships.",
+      "contact": "Xylem VP International Manufacturing"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Aramco Industrial Services (AMSCO)",
+      "track": "Track 7 — Venture Client",
+      "current": "Precision machining for oil and gas; pump component repair; metallurgical testing",
+      "upgrade": "Extend precision machining to desalination pump components; KSB or Flowserve approved manufacturer programme; duplex stainless steel machining qualification; Saudi Water Company as anchor customer",
+      "timeline": "18 months to first OEM-qualified component delivery",
+      "anchor": "SWCC + SAMI + AMSCO"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Water Company (SWCC)",
+      "track": "Track 7 — Venture Client",
+      "current": "Operates world's largest desalination fleet; all pump components imported",
+      "upgrade": "SWCC pump component localisation programme; 5-year Saudi component procurement commitment; SWCC technical standards for Saudi manufacturer qualification",
+      "timeline": "18 months to procurement commitment",
+      "anchor": "SWCC + MOE + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Mechanical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Fluid mechanics; pump theory; materials engineering",
+      "upgrade": "Desalination equipment engineering programme; pump component design and testing research; Saudi water industry engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "SWCC + KFUPM"
+    },
+    {
+      "rank": 4,
+      "name": "Jubail Industrial City / Heavy Machining Cluster",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Heavy machining for oil and gas; some water sector components",
+      "upgrade": "Dedicated water sector machining cluster at Jubail; shared metrology and testing equipment; ISO 9001 and API 610 cluster certification",
+      "timeline": "18 months",
+      "anchor": "MOIP + NIDLP + SWCC"
+    }
+  ]
+}

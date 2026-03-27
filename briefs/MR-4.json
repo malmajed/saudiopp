@@ -1,0 +1,91 @@
+{
+  "id": "MR-4",
+  "title": "Maritime Navigation and Bridge Systems Integration",
+  "sector": "MR",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$15M – $28M",
+  "entry_mechanism": "Saudi maritime electronics company established through PSAP Track 3 with OEM certification",
+  "executive_summary": "Maritime navigation and bridge systems — integrated bridge systems (IBS), ECDIS (Electronic Chart Display and Information System), radar, AIS, and GMDSS equipment — require periodic installation, integration, and maintenance across Saudi Arabia's expanding commercial and government fleet. Today, all bridge systems installation and maintenance is performed by foreign-certified technicians from European and Asian OEM service companies.\n\nNode MR-4 targets the establishment of Saudi certified maritime electronics engineers and technicians capable of performing IBS installation, ECDIS commissioning, and ongoing bridge systems maintenance for Saudi-flagged vessels. The certification pathway (FURUNO, Kongsberg, Raytheon Anschütz authorised service) is well-defined and directly accessible.\n\nThis is the maritime equivalent of DE-3 (communications equipment maintenance) — a service capability upgrade using existing OEM certification pathways, creating Saudi technical employment and reducing dependency on foreign field service teams. The Saudi maritime electronics market is estimated at $40–60 million annually in installation and service revenue.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Kongsberg Maritime",
+      "country": "Norway",
+      "type": "IBS and Navigation Technology",
+      "rationale": "Kongsberg is the leading integrated bridge system provider with active Saudi Arabia vessel contracts. Kongsberg authorised service certification for Saudi technicians.",
+      "contact": "Kongsberg Maritime VP After-Sales, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Furuno Electric",
+      "country": "Japan",
+      "type": "Navigation Electronics",
+      "rationale": "Furuno produces navigation radar, ECDIS, and AIS systems widely deployed on Saudi commercial vessels. Furuno dealer and service certification programme.",
+      "contact": "Furuno VP International Service Network"
+    },
+    {
+      "rank": 3,
+      "name": "Raytheon Anschütz",
+      "country": "Germany",
+      "type": "Integrated Bridge Systems",
+      "rationale": "Raytheon Anschütz is a leading IBS provider for naval and commercial vessels. Non-ITAR German technology with authorised service programme.",
+      "contact": "Raytheon Anschütz VP International Service"
+    },
+    {
+      "rank": 4,
+      "name": "JRC (Japan Radio Company)",
+      "country": "Japan",
+      "type": "Maritime Electronics",
+      "rationale": "JRC produces bridge navigation equipment widely used in the Gulf region. JRC service certification programme.",
+      "contact": "JRC VP International Service"
+    },
+    {
+      "rank": 5,
+      "name": "Wärtsilä Voyage",
+      "country": "Finland",
+      "type": "Digital Navigation Solutions",
+      "rationale": "Wärtsilä Voyage provides digital navigation and fleet management systems with active Gulf market presence.",
+      "contact": "Wärtsilä Voyage VP Service, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Bahri Technical Services",
+      "track": "Track 3 — Supplier Development",
+      "current": "Vessel technical management; some electronics maintenance using foreign technicians",
+      "upgrade": "Train 30 Saudi maritime electronics technicians; Kongsberg and Furuno certification; Saudi-staffed bridge systems maintenance for Bahri fleet",
+      "timeline": "18 months to first certified Saudi marine electronics engineers",
+      "anchor": "Bahri + Aramco + Mawani"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Maritime Academy",
+      "track": "Track 8 — Human Capital",
+      "current": "Maritime officer training; some electronics courses",
+      "upgrade": "Marine electronics engineering programme; Kongsberg and Furuno certified training; GMDSS operator certification; 50 graduates per year",
+      "timeline": "18 months to accredited programme",
+      "anchor": "MOT + Bahri + Kongsberg"
+    },
+    {
+      "rank": 3,
+      "name": "King Abdulaziz Port Technical Institute",
+      "track": "Track 8 — Human Capital",
+      "current": "Port and maritime technical training",
+      "upgrade": "Bridge systems integration and maintenance specialisation; OEM certification pathway; Saudi marine electronics company formation support",
+      "timeline": "12 months",
+      "anchor": "Mawani + MOT"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Aramco Marine Electronics",
+      "track": "Track 7 — Venture Client",
+      "current": "Some maritime electronics maintenance for Aramco offshore fleet",
+      "upgrade": "Extend Aramco marine electronics team to commercial vessel service; dual-use (Aramco + third party) marine electronics company formation",
+      "timeline": "18 months",
+      "anchor": "Aramco + Bahri"
+    }
+  ]
+}

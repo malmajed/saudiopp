@@ -1,0 +1,91 @@
+{
+  "id": "MR-3",
+  "title": "Port Equipment Structural Manufacturing",
+  "sector": "MR",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "Saudi heavy fabricators upgraded to port equipment standards through Mawani and PSAP Track 3",
+  "executive_summary": "Port equipment — ship-to-shore cranes, rubber-tyred gantry cranes, reach stackers, spreader frames, fenders, bollards, and mooring hardware — is manufactured using heavy structural steel fabrication, precision machining, and electrical systems integration. Saudi Arabia's port expansion programme (King Abdulaziz Port Dammam, Jeddah Islamic Port, King Salman Port at Ras Al-Khair) represents billions of dollars of port equipment investment — all currently procured from Chinese, South Korean, and European manufacturers.\n\nNode MR-3 targets the most accessible manufacturing entry point in the port equipment value chain: structural and mechanical components that can be manufactured using Saudi heavy fabrication capability. Crane booms, fender frames, bollard assemblies, and gantry structures are large-format steel fabrications that Saudi companies like Zamil Industrial and Al-Babtain already produce for industrial and infrastructure applications.\n\nThe global port equipment market was valued at $4.8 billion in 2024 growing at 5.1% CAGR. Saudi Arabia's port expansion programme creates $800M–1.2B in port equipment procurement over the next decade. Even 20% Saudi content capture represents $160–240 million in manufacturing value retained in-Kingdom.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Liebherr Maritime Cranes",
+      "country": "Germany",
+      "type": "Crane Structure Manufacturing Partner",
+      "rationale": "Liebherr manufactures port cranes and has established local manufacturing partnerships globally. Non-ITAR German technology with active Gulf port relationships.",
+      "contact": "Liebherr Maritime VP International Manufacturing"
+    },
+    {
+      "rank": 2,
+      "name": "Konecranes",
+      "country": "Finland",
+      "type": "Port Equipment Partner",
+      "rationale": "Konecranes produces port cranes and has international manufacturing partnerships. Active Saudi Arabia port equipment market.",
+      "contact": "Konecranes VP International Industrial Cooperation"
+    },
+    {
+      "rank": 3,
+      "name": "ZPMC (China)",
+      "country": "China",
+      "type": "Port Crane Manufacturer",
+      "rationale": "ZPMC is the world's largest ship-to-shore crane manufacturer with active Saudi Arabia port contracts. Sub-assembly manufacturing partnership.",
+      "contact": "ZPMC VP International Projects"
+    },
+    {
+      "rank": 4,
+      "name": "Trelleborg Marine Systems",
+      "country": "Sweden",
+      "type": "Fenders and Mooring Equipment",
+      "rationale": "Trelleborg produces marine fenders and mooring equipment. Saudi manufacturing of Trelleborg-designed structural components.",
+      "contact": "Trelleborg Marine VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Cavotec",
+      "country": "Switzerland",
+      "type": "Port Systems Equipment",
+      "rationale": "Cavotec produces port power, mooring, and automation systems with international partnerships.",
+      "contact": "Cavotec VP Business Development, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Zamil Industrial",
+      "track": "Track 3 — Supplier Development",
+      "current": "Heavy steel fabrication; structural steelwork; industrial equipment",
+      "upgrade": "Port equipment structure fabrication; crane boom and gantry frame manufacturing; Liebherr or Konecranes approved fabricator programme; Lloyd's Register certification for port equipment",
+      "timeline": "18 months to first crane structure delivery",
+      "anchor": "Mawani + SAMI + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Ports Authority (Mawani)",
+      "track": "Track 7 — Venture Client",
+      "current": "Port operations; equipment procurement",
+      "upgrade": "Mawani local content requirement for port equipment tenders; 20% Saudi content mandate by 2027; Saudi supplier development programme for port equipment",
+      "timeline": "12 months to local content policy",
+      "anchor": "Mawani + MOT + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "SABIC Steel / Hadeed",
+      "track": "Track 7 — Venture Client",
+      "current": "Structural steel supply; heavy sections and plate",
+      "upgrade": "Port equipment steel specification qualification; Hadeed supply to Saudi port equipment manufacturers; steel quality standards for marine environment",
+      "timeline": "12 months",
+      "anchor": "SABIC + Mawani + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "Royal Commission for Jubail",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Heavy industry zone; marine infrastructure",
+      "upgrade": "Port equipment manufacturing cluster at Jubail; shared fabrication infrastructure; Lloyd's Register certification support for Saudi manufacturers",
+      "timeline": "18 months",
+      "anchor": "Royal Commission + SAMI + GAMI"
+    }
+  ]
+}

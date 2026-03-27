@@ -1,0 +1,91 @@
+{
+  "id": "NV-1",
+  "title": "Ship Systems Outfitting",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$30M – $55M",
+  "entry_mechanism": "Saudi construction and industrial companies upgraded to naval standards through PSAP Track 3",
+  "executive_summary": "Ship systems outfitting — the installation of electrical, HVAC, piping, damage control, and habitability systems aboard naval vessels — represents 15–25% of the total cost of a naval shipbuilding programme. Saudi Arabia's Avante 2200 corvette programme, being built in Spain by Navantia with planned Saudi industrial participation, creates an immediate and contractually anchored demand for Saudi outfitting work packages. The outfitting trades — electrical installation, pipework, HVAC, insulation, and joinery — are directly adjacent to Saudi Arabia's existing construction and industrial services capability.\n\nThe global naval outfitting market is estimated at $3.2 billion annually. Saudi Arabia's naval expansion programme — including the Avante 2200 corvettes and future surface combatants — creates a decade-long pipeline of outfitting work packages. Saudi Arabia's existing construction industry, which executes complex MEP (Mechanical, Electrical, Plumbing) works on industrial and offshore platforms at scale, requires primarily a standards and quality upgrade, not a capability build from scratch.\n\nPhase I outfitting capability establishes Saudi Arabia's first naval industrial footprint and creates the workforce foundation for the more complex Phase II naval manufacturing nodes — combat systems integration and radar maintenance.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Navantia",
+      "country": "Spain",
+      "type": "Programme Partner / Work Package Allocator",
+      "rationale": "Navantia is the Avante 2200 prime contractor and holds all work package allocation authority. Engage through SAMI's Navantia programme office to negotiate outfitting work packages for Saudi companies.",
+      "contact": "Navantia VP Saudi Arabia Programme → Navantia VP Industrial Cooperation"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Naval",
+      "country": "France",
+      "type": "Naval Systems Integration Partner",
+      "rationale": "Thales supplies combat management and naval systems and has strong Gulf naval relationships. Thales can support Saudi companies in understanding naval-grade electrical and systems installation requirements.",
+      "contact": "Thales Naval VP Gulf Region"
+    },
+    {
+      "rank": 3,
+      "name": "Kaefer (maritime insulation)",
+      "country": "Germany",
+      "type": "Naval Outfitting Specialist",
+      "rationale": "Kaefer is Europe's leading naval insulation and outfitting specialist with a track record of establishing international naval outfitting operations. A Kaefer technical partnership gives Saudi companies access to Lloyd's Register-compliant outfitting procedures.",
+      "contact": "Kaefer Marine VP International Partnerships"
+    },
+    {
+      "rank": 4,
+      "name": "Fincantieri",
+      "country": "Italy",
+      "type": "Naval Shipbuilding Partner",
+      "rationale": "Fincantieri is Europe's largest naval shipbuilder and has active Gulf naval partnerships. Fincantieri's outfitting expertise and quality systems are directly transferable to Saudi companies.",
+      "contact": "Fincantieri VP International Naval Programmes"
+    },
+    {
+      "rank": 5,
+      "name": "Damen Shipyards",
+      "country": "Netherlands",
+      "type": "Naval and Offshore Partner",
+      "rationale": "Damen builds naval and offshore vessels and has active Middle East partnerships. Damen's modular shipbuilding approach is amenable to outsourced outfitting work packages.",
+      "contact": "Damen Naval VP Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Aramco Industrial Services (AMSCO)",
+      "track": "Track 7 — Venture Client",
+      "current": "Complex MEP works on offshore platforms; piping, electrical, HVAC for industrial facilities",
+      "upgrade": "Qualify to Lloyd's Register naval classification for piping and electrical installation; establish dedicated naval outfitting team; Navantia technical supervision for first Avante 2200 work packages",
+      "timeline": "18 months to first naval-qualified delivery",
+      "anchor": "SAMI + Navantia + Royal Saudi Navy"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Binladin Group / Saudi Arabia Contracting",
+      "track": "Track 3 — Supplier Development",
+      "current": "Large-scale MEP contracting; electrical installation; HVAC systems",
+      "upgrade": "Naval-grade electrical installation standards; Lloyd's Register supplier qualification; dedicated naval outfitting division",
+      "timeline": "24 months",
+      "anchor": "SAMI + Navantia"
+    },
+    {
+      "rank": 3,
+      "name": "Almabani General Contractors",
+      "track": "Track 3 — Supplier Development",
+      "current": "Industrial construction; MEP for petrochemical and infrastructure",
+      "upgrade": "Naval systems installation qualification; Lloyd's Register approval for piping and HVAC; Kaefer technical partnership for insulation",
+      "timeline": "18 months",
+      "anchor": "SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC Maritime Training Centre",
+      "track": "Track 8 — Human Capital",
+      "current": "Maritime training programmes; some naval maintenance training",
+      "upgrade": "Naval outfitting trades programme; Lloyd's Register certified training; placement with Saudi outfitting companies on Avante 2200 programme",
+      "timeline": "18 months",
+      "anchor": "SAMI + Royal Saudi Navy + TVTC"
+    }
+  ]
+}

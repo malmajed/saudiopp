@@ -1,0 +1,91 @@
+{
+  "id": "LS-2",
+  "title": "Wheeled Vehicle Maintenance Services",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$18M – $35M",
+  "entry_mechanism": "PSAP Track 3 — Upgrade existing Saudi vehicle maintenance workshops to defence maintenance standards with OEM training via IPP",
+  "executive_summary": "Saudi Arabia operates the largest wheeled military vehicle fleet in the Arabian Peninsula — thousands of vehicles across the Army and Saudi Arabian National Guard (SANG), including the LAV 6.0, M1126 Stryker, VBCI, and various wheeled armoured personnel carriers. Preventive and corrective maintenance for this fleet is performed through a combination of Saudi military workshops, OEM-contracted field teams, and overseas depot repairs — with Saudi content in technical roles below 30% by most estimates.\n\nNode LS-2 targets the most immediate and achievable localisation opportunity in the land systems sector: upgrading Saudi Arabia's existing commercial and light military vehicle maintenance infrastructure to qualify for wheeled military vehicle maintenance. Saudi Arabia already has a substantial commercial automotive and heavy vehicle maintenance industry — the upgrade required is standards, tooling, documentation systems, and OEM qualification, not fundamental capability.\n\nThe Saudi military vehicle fleet generates an estimated $300–450 million per year in maintenance expenditure. Phase I targets 50% in-Kingdom Saudi technician content — a shift that would retain $150–225 million annually and create 800–1,200 high-quality technical jobs.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "General Dynamics Land Systems (GDLS)",
+      "country": "USA",
+      "type": "OEM Training Provider / IPP Converter",
+      "rationale": "GDLS supplies the LAV 6.0 and has active IPP obligations in Saudi Arabia. Converting IPP to Saudi maintenance capability investment is the natural engagement path.",
+      "contact": "GDLS VP Saudi Arabia Programmes → IPP Director"
+    },
+    {
+      "rank": 2,
+      "name": "Nexter (KNDS France)",
+      "country": "France",
+      "type": "VBCI Maintenance Partner",
+      "rationale": "Nexter supplies the VBCI to Saudi Arabia and has IPP obligations. Maintenance training and documentation transfer is an accessible first step.",
+      "contact": "Nexter VP Customer Support, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "Oshkosh Defense",
+      "country": "USA",
+      "type": "Logistics Vehicle Maintenance",
+      "rationale": "Oshkosh supplies logistics vehicles to Saudi Arabia and has active field service presence. Transition from OEM field teams to Saudi-qualified workshops is the upgrade path.",
+      "contact": "Oshkosh Defense VP International Support"
+    },
+    {
+      "rank": 4,
+      "name": "Ricardo Defence",
+      "country": "UK",
+      "type": "Technical Support and Training",
+      "rationale": "Ricardo provides independent defence vehicle technical support and maintenance training programmes. Well suited to establish Saudi maintenance standards independent of any single OEM.",
+      "contact": "Ricardo Defence VP Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Rheinmetall",
+      "country": "Germany",
+      "type": "Land Systems Maintenance Partner",
+      "rationale": "Rheinmetall has wheeled vehicle maintenance programmes across multiple countries and is actively expanding its Saudi Arabia footprint.",
+      "contact": "Rheinmetall International VP After-Sales, Gulf"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Land Systems / Service Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Some wheeled vehicle maintenance contracts; programme management",
+      "upgrade": "Establish SAMI-operated vehicle maintenance centres at 3 strategic Saudi locations; OEM qualification from GDLS and Nexter; hire 200 Saudi vehicle technicians over 24 months",
+      "timeline": "18 months to first qualified maintenance centre",
+      "anchor": "SAMI + Saudi Army + SANG"
+    },
+    {
+      "rank": 2,
+      "name": "Abdul Latif Jameel / ALJ Automotive",
+      "track": "Track 3 — Supplier Development",
+      "current": "Toyota and commercial vehicle maintenance; large Saudi automotive service network",
+      "upgrade": "Establish defence-grade maintenance division; MIL-SPEC documentation systems; OEM military vehicle qualification",
+      "timeline": "24 months to military vehicle maintenance qualification",
+      "anchor": "SAMI + Saudi Army"
+    },
+    {
+      "rank": 3,
+      "name": "SANG Industrial Services",
+      "track": "Track 3 — Supplier Development",
+      "current": "SANG vehicle fleet maintenance operations; significant wheeled vehicle experience",
+      "upgrade": "Formalise maintenance standards to MIL-SPEC; establish Saudi technician qualification programme; expand to full diagnostic and component repair",
+      "timeline": "12 months to formalised qualification",
+      "anchor": "SANG + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "Technical and Vocational Training Corporation (TVTC)",
+      "track": "Track 8 — Human Capital",
+      "current": "Automotive and heavy vehicle maintenance programmes; national Saudi technician training",
+      "upgrade": "Military vehicle maintenance specialisation; OEM-certified training curriculum; placement programme with SAMI maintenance centres",
+      "timeline": "18 months to first military-qualified cohort",
+      "anchor": "GADD + SAMI + TVTC"
+    }
+  ]
+}

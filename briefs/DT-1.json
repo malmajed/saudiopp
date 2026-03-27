@@ -1,0 +1,91 @@
+{
+  "id": "DT-1",
+  "title": "RO Membrane Manufacturing — Phase I",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$120M – $220M",
+  "entry_mechanism": "PSAP Track 2 — International membrane manufacturer JV using SABIC polymer supply chain at SWCC/NEOM anchor demand",
+  "executive_summary": "Reverse osmosis (RO) membranes are the core technology of modern desalination — the thin-film composite membranes through which seawater is forced at high pressure, leaving salt behind. Saudi Arabia is the world's second-largest desalination market, consuming hundreds of millions of dollars of RO membranes annually — all imported. SABIC produces the polysulfone and polyamide polymer precursors that RO membranes are made from, creating a unique vertically integrated opportunity: Saudi raw materials, manufactured in Saudi Arabia, deployed in Saudi desalination plants.\n\nThe global RO membrane market was valued at $5.1 billion in 2024 growing at 10.2% CAGR. Saudi Arabia and the GCC represent approximately 18% of global RO membrane demand. A Saudi membrane manufacturer with SABIC's polymer cost advantage and SWCC's (Saudi Water Company) offtake commitment would be globally cost-competitive from day one.\n\nSABIC's commitment to evaluate Saudi polysulfone supply for the desalination membrane programme (the demand commitment provision in the NCAS) makes this one of the most vertically coherent manufacturing opportunities in the entire Saudi strategy.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "DuPont Water Solutions (FilmTec)",
+      "country": "USA",
+      "type": "Membrane Technology JV Partner",
+      "rationale": "DuPont FilmTec is the world's largest RO membrane manufacturer. A DuPont-SABIC JV for Saudi membrane production would be the world's most integrated membrane supply chain.",
+      "contact": "DuPont Water Solutions VP International Manufacturing"
+    },
+    {
+      "rank": 2,
+      "name": "Toray Water Treatment",
+      "country": "Japan",
+      "type": "Membrane Technology Partner",
+      "rationale": "Toray is the second-largest RO membrane manufacturer and has active Saudi Arabia desalination market relationships.",
+      "contact": "Toray Water Treatment VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Hydranautics (Nitto Denko)",
+      "country": "Japan",
+      "type": "Membrane Manufacturing Partner",
+      "rationale": "Hydranautics/Nitto produces RO membranes with active Gulf desalination market presence.",
+      "contact": "Nitto Hydranautics VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "LG Chem Water Solutions",
+      "country": "South Korea",
+      "type": "Membrane Technology",
+      "rationale": "LG Chem produces RO membranes and has active GCC desalination market engagement.",
+      "contact": "LG Chem Water VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Koch Separation Solutions (Inopor)",
+      "country": "USA/Germany",
+      "type": "Specialty Membrane",
+      "rationale": "Koch produces specialty membranes including ultrafiltration and nanofiltration relevant to Saudi water treatment.",
+      "contact": "Koch Separation VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC / Polymer Supply",
+      "track": "Track 7 — Venture Client",
+      "current": "Polysulfone and polyamide production; specialty polymer research",
+      "upgrade": "SABIC membrane-grade polysulfone qualification; SABIC equity in Saudi membrane JV; vertically integrated Saudi membrane supply chain",
+      "timeline": "24 months to membrane-grade polymer qualification",
+      "anchor": "SABIC + SWCC + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Water Company (SWCC)",
+      "track": "Track 7 — Venture Client",
+      "current": "World's largest single desalination operator; 100% membrane import",
+      "upgrade": "SWCC 10-year membrane offtake agreement; SWCC technical qualification of Saudi membranes; anchor procurement enabling DuPont or Toray JV investment decision",
+      "timeline": "18 months to offtake agreement",
+      "anchor": "SWCC + MOE + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "NEOM Water",
+      "track": "Track 7 — Venture Client",
+      "current": "NEOM desalination programme under development; large-scale RO demand",
+      "upgrade": "NEOM as second anchor customer; NEOM desalination plant specified for Saudi-manufactured membranes; green desalination demonstration site",
+      "timeline": "24 months",
+      "anchor": "NEOM + SWCC + PIF"
+    },
+    {
+      "rank": 4,
+      "name": "KAUST Water Desalination and Reuse Centre",
+      "track": "Track 6 — R&D",
+      "current": "RO membrane research; fouling characterisation; novel membrane materials",
+      "upgrade": "KAUST-SWCC membrane performance research; Saudi membrane performance database; next-generation membrane research funded by Saudi membrane manufacturer",
+      "timeline": "24 months",
+      "anchor": "SWCC + KAUST + SABIC"
+    }
+  ]
+}

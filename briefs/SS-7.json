@@ -1,0 +1,91 @@
+{
+  "id": "SS-7",
+  "title": "Electric Propulsion Manufacturing",
+  "sector": "SP",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$50M – $95M",
+  "entry_mechanism": "Electric propulsion company establishing Saudi manufacturing under PSAP Track 1",
+  "executive_summary": "Electric propulsion — ion thrusters, Hall-effect thrusters, and cold-gas propulsion systems for satellite attitude control and orbit maintenance — has become the standard propulsion technology for small and medium satellites. Unlike chemical propulsion (which requires explosive propellants and carries significant regulatory complexity), electric propulsion systems use inert propellants (xenon, iodine) and are far more accessible for manufacturing localisation.\n\nSaudi Arabia's aspiration for a sovereign satellite constellation requires domestic propulsion capability — importing thrusters from foreign manufacturers creates a critical operational dependency that can be disrupted at the worst moments. Electric propulsion manufacturing (thruster assembly, power processing unit electronics, propellant management hardware) uses manufacturing processes accessible to Saudi Arabia's electronics and precision machining base.\n\nThe global electric propulsion market was valued at $1.2 billion in 2024 growing at 16.8% CAGR. Saudi Arabia's satellite constellation demand creates initial domestic demand, with GCC satellite operator export potential by Phase III.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Safran Spacecraft Propulsion",
+      "country": "France",
+      "type": "Electric Propulsion Partner",
+      "rationale": "Safran is Europe's leading spacecraft propulsion manufacturer. Non-ITAR French technology with Saudi Arabia government relationships.",
+      "contact": "Safran VP Spacecraft Propulsion, International"
+    },
+    {
+      "rank": 2,
+      "name": "Busek",
+      "country": "USA",
+      "type": "Hall Thruster Technology",
+      "rationale": "Busek manufactures Hall-effect thrusters for small satellites. Some ITAR considerations but accessible technologies.",
+      "contact": "Busek VP International Sales"
+    },
+    {
+      "rank": 3,
+      "name": "Bradford ECAPS (Sweden)",
+      "country": "Sweden",
+      "type": "Green Propulsion Systems",
+      "rationale": "Bradford ECAPS develops green monopropellant systems — safer and more accessible than conventional propellants. Non-ITAR Swedish technology.",
+      "contact": "Bradford ECAPS VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Enpulsion (Austria)",
+      "country": "Austria",
+      "type": "Ion Propulsion",
+      "rationale": "Enpulsion manufactures compact ion propulsion systems for small satellites. Non-ITAR, accessible international partner.",
+      "contact": "Enpulsion VP International Business"
+    },
+    {
+      "rank": 5,
+      "name": "Exotrail (France)",
+      "country": "France",
+      "type": "Hall-Effect Thrusters for Small Satellites",
+      "rationale": "Exotrail is a French startup producing compact Hall-effect thrusters. Non-ITAR, active international partnerships.",
+      "contact": "Exotrail VP Commercial"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SSA / Riyadh Smart Parcel",
+      "track": "Track 2 — JV Structuring",
+      "current": "No propulsion manufacturing",
+      "upgrade": "Safran or Enpulsion JV; thruster assembly and test facility; xenon propellant handling; 15 Saudi propulsion engineers; first Saudi-assembled thruster on Saudi satellite",
+      "timeline": "30 months to first qualified thruster",
+      "anchor": "SSA + PIF + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "KACST Propulsion Research",
+      "track": "Track 6 — R&D",
+      "current": "Some plasma physics research; combustion research",
+      "upgrade": "GADD-KACST electric propulsion research programme; Hall-effect thruster plasma simulation; thruster performance characterisation facility",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST + SSA"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Mechanical/Aerospace Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Fluid mechanics; propulsion theory; plasma physics",
+      "upgrade": "Space propulsion engineering specialisation; Safran-KFUPM research partnership; graduate placement at Saudi propulsion facility",
+      "timeline": "24 months",
+      "anchor": "SSA + KFUPM"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Aramco Research Centre",
+      "track": "Track 7 — Venture Client",
+      "current": "Materials and chemical engineering; some plasma research",
+      "upgrade": "Propellant materials research; xenon handling and storage expertise from industrial gas experience; dual-use propulsion materials research",
+      "timeline": "24 months",
+      "anchor": "Aramco + SSA"
+    }
+  ]
+}

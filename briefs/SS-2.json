@@ -1,0 +1,91 @@
+{
+  "id": "SS-2",
+  "title": "Solar Array and Power Electronics Manufacturing",
+  "sector": "SP",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$55M – $100M",
+  "entry_mechanism": "European or Asian solar array manufacturer with PSAP Track establishment in Riyadh Smart Parcel",
+  "executive_summary": "Satellite solar arrays and power conditioning electronics are critical sub-systems that determine a satellite's power budget and operational lifetime. Saudi Arabia's solar energy expertise — NEOM, ACWA Power, and the world's largest solar installation programme — creates an unusual and underexploited synergy with space solar array manufacturing. The processes used in high-efficiency GaAs solar cell assembly and PCU electronics manufacturing are technically distinct from terrestrial solar but share fundamental photovoltaic principles.\n\nThe global space solar array market was valued at $2.1 billion in 2024. Saudi Arabia's SSA satellite programme creates immediate domestic demand for space-grade solar arrays. A Saudi-manufactured solar array on a Saudi satellite — powered by Saudi-refined silicon and assembled by Saudi engineers — is a compelling Vision 2030 narrative with genuine industrial substance.\n\nSaudi Arabia's solar irradiance advantage (among the highest in the world) also creates a natural testing environment for space solar array ground validation — a competitive advantage for a Saudi space solar array manufacturer serving the regional and global market.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Azur Space Solar Power",
+      "country": "Germany",
+      "type": "Space Solar Cell Technology",
+      "rationale": "Azur Space is Europe's leading GaAs space solar cell manufacturer. Non-ITAR German technology with active international sales.",
+      "contact": "Azur Space VP International Business"
+    },
+    {
+      "rank": 2,
+      "name": "Spectrolab (Boeing)",
+      "country": "USA",
+      "type": "High-Efficiency Solar Cells",
+      "rationale": "Spectrolab produces the highest-efficiency space solar cells. ITAR restrictions apply but licensed manufacturing for Saudi solar array assembly is potentially negotiable.",
+      "contact": "Spectrolab VP International Licensing"
+    },
+    {
+      "rank": 3,
+      "name": "Thales Alenia Space",
+      "country": "France/Italy",
+      "type": "Solar Array Integration",
+      "rationale": "Thales Alenia integrates solar arrays on satellites. Saudi array integration work package.",
+      "contact": "Thales Alenia VP Power Systems"
+    },
+    {
+      "rank": 4,
+      "name": "Airbus Space Power",
+      "country": "France/Germany",
+      "type": "Solar Array and PCU",
+      "rationale": "Airbus designs solar arrays and PCUs for its satellite platforms. Saudi manufacturing JV under SSA programme.",
+      "contact": "Airbus Defence and Space VP Electrical Power Systems"
+    },
+    {
+      "rank": 5,
+      "name": "CESI (Italian space solar)",
+      "country": "Italy",
+      "type": "Solar Cell Technology",
+      "rationale": "CESI produces GaAs solar cells for space and has international licensing partnerships.",
+      "contact": "CESI VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SSA / Riyadh Smart Parcel",
+      "track": "Track 2 — JV Structuring",
+      "current": "No solar array manufacturing",
+      "upgrade": "Azur Space or CESI JV; GaAs cell assembly facility; PCU electronics manufacturing; ECSS space qualification process; 15 Saudi power electronics engineers",
+      "timeline": "36 months to first qualified solar array",
+      "anchor": "SSA + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "ACWA Power / Solar Division",
+      "track": "Track 7 — Venture Client",
+      "current": "Large-scale terrestrial solar installation; PV manufacturing knowledge",
+      "upgrade": "Transfer PV process knowledge to space-grade application; shared testing infrastructure; ACWA-SSA dual-use solar research programme",
+      "timeline": "24 months",
+      "anchor": "ACWA + SSA + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Energy Research Institute",
+      "track": "Track 6 — R&D",
+      "current": "Solar energy research; photovoltaic materials research",
+      "upgrade": "Space-grade solar cell research programme; GaAs cell efficiency research; GADD-KACST space solar programme",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST + SSA"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Electrical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Power electronics research; photovoltaics courses",
+      "upgrade": "Space power systems engineering specialisation; satellite PCU design programme; industrial placement at Saudi solar array facility",
+      "timeline": "24 months",
+      "anchor": "SSA + KFUPM"
+    }
+  ]
+}

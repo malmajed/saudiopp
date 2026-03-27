@@ -1,0 +1,91 @@
+{
+  "id": "MR-5",
+  "title": "Maritime Digital Twin and AI Platform",
+  "sector": "MR",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$25M – $48M",
+  "entry_mechanism": "Saudi digital company developing maritime AI platform anchored by Bahri and Aramco Marine data",
+  "executive_summary": "Maritime digital twins — software models that mirror a vessel's physical state in real-time, integrating sensor data from hull, machinery, and navigation systems — are the emerging standard for predictive maintenance, fuel optimisation, and fleet management. Bahri operates 41 VLCCs and dozens of other vessels, each generating terabytes of operational data. Today, this data is processed by foreign software platforms (Kongsberg, DNV, Wartsila Voyage) on foreign servers.\n\nNode MR-5 targets a Saudi-developed maritime digital twin and AI platform — Saudi data scientists building predictive models specific to the operating conditions of Saudi Arabia's fleet (Red Sea, Arabian Gulf, Indian Ocean routes; high ambient temperature; specific cargo profiles). The platform creates Saudi-retained data sovereignty and maritime AI capability with potential export to GCC fleet operators.\n\nThe global maritime digital solutions market was valued at $2.8 billion in 2024 growing at 22.4% CAGR. A Saudi maritime AI platform that serves Bahri and Aramco Marine creates an immediate $15–25 million annual revenue base, with GCC export potential of $40–80 million by Phase III.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Kongsberg Digital",
+      "country": "Norway",
+      "type": "Digital Twin Technology Partner",
+      "rationale": "Kongsberg Digital builds maritime digital twin platforms (Kognifai). Saudi deployment with Saudi data science team building Saudi-specific models on top.",
+      "contact": "Kongsberg Digital VP International Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "DNV Digital Solutions",
+      "country": "Norway",
+      "type": "Maritime AI and Classification",
+      "rationale": "DNV provides vessel digital twin and AI maintenance prediction. Saudi platform deployment with Saudi engineering team.",
+      "contact": "DNV Digital VP International Business"
+    },
+    {
+      "rank": 3,
+      "name": "Wärtsilä Voyage",
+      "country": "Finland",
+      "type": "Fleet Intelligence Platform",
+      "rationale": "Wärtsilä provides fleet performance and voyage optimisation platforms. Saudi deployment and customisation.",
+      "contact": "Wärtsilä VP Digital, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Palantir Technologies",
+      "country": "USA",
+      "type": "Data Analytics Platform",
+      "rationale": "Palantir has maritime data analytics and predictive maintenance capabilities deployed on sovereign infrastructure.",
+      "contact": "Palantir VP Government, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "C3.ai",
+      "country": "USA",
+      "type": "Industrial AI Platform",
+      "rationale": "C3.ai provides predictive maintenance AI for maritime applications with Saudi Aramco as an existing customer reference.",
+      "contact": "C3.ai VP Industrial, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Bahri Digital",
+      "track": "Track 7 — Venture Client",
+      "current": "Fleet management systems; some vessel data collection",
+      "upgrade": "Bahri fleet as primary data source; Bahri-funded platform development; anchor customer with 41 VLCC data streams; Bahri operational team as primary user",
+      "timeline": "18 months to operational platform",
+      "anchor": "Bahri + Aramco + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco Digital",
+      "track": "Track 7 — Venture Client",
+      "current": "Industrial digital twin for offshore assets; some maritime data",
+      "upgrade": "Extend Aramco digital twin expertise to maritime domain; Aramco offshore fleet as secondary data source; dual-use industrial/maritime AI platform",
+      "timeline": "18 months",
+      "anchor": "Aramco + Bahri"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST AI and Data Science",
+      "track": "Track 6 — R&D",
+      "current": "Time-series ML; predictive analytics; oceanographic research",
+      "upgrade": "Maritime AI research programme; vessel performance optimisation research; Red Sea and Arabian Gulf environmental model integration",
+      "timeline": "24 months",
+      "anchor": "Bahri + KAUST"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Data and AI Authority (SDAIA)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "National AI governance; data sovereignty framework",
+      "upgrade": "Maritime data sovereignty framework; Saudi maritime AI certification standards; Bahri and Aramco data classified as national critical data",
+      "timeline": "12 months",
+      "anchor": "SDAIA + MOT + Aramco"
+    }
+  ]
+}

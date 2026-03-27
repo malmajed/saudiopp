@@ -1,0 +1,91 @@
+{
+  "id": "AU-12",
+  "title": "Battery Thermal Management Systems",
+  "sector": "AU",
+  "phase": "II-IV",
+  "wave": "Wave 2/3",
+  "type": "Product",
+  "investment_range": "$150M – $280M",
+  "entry_mechanism": "PSAP Track 2 — Battery thermal management JV connecting Saudi HVAC capability with EV battery technology",
+  "executive_summary": "Battery Thermal Management Systems (BTMS) — the cooling and heating systems that maintain EV battery packs within optimal temperature ranges — are among the most critical and technically demanding components in electric vehicles. Saudi Arabia's extreme ambient temperatures create unique BTMS challenges: cooling an EV battery pack to safe operating temperatures (below 45°C) when ambient air is 55°C requires far more capable cooling than standard EV designs provide. This Saudi-specific engineering challenge creates a genuine product differentiation opportunity.\n\nNode AU-12 builds directly on AU-11 (HVAC Systems) and AU-5 (Hot-Climate Validation), combining automotive thermal management expertise with battery-specific cooling requirements. It also connects to DT-9 (Saudi brine lithium) and SC-4 (Saudi SiC power devices) — creating a Saudi EV supply chain cascade from materials to systems.\n\nThe global BTMS market was valued at $5.8 billion in 2024 growing at 28.4% CAGR — among the fastest-growing automotive components. Saudi Arabia's BTMS programme creates the foundation for Saudi EV manufacturing leadership in the Gulf's extreme climate niche.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Valeo Thermal Management",
+      "country": "France",
+      "type": "BTMS Technology Partner",
+      "rationale": "Valeo extends naturally from AU-11 HVAC to battery thermal management. Valeo has active EV BTMS programme and Saudi Arabia engagement.",
+      "contact": "Valeo VP EV Thermal Management International"
+    },
+    {
+      "rank": 2,
+      "name": "Hanon Systems",
+      "country": "South Korea",
+      "type": "EV Thermal Systems",
+      "rationale": "Hanon Systems has EV battery thermal management products and extends naturally from AU-11.",
+      "contact": "Hanon VP EV Systems International"
+    },
+    {
+      "rank": 3,
+      "name": "Gentherm",
+      "country": "USA",
+      "type": "Battery Thermal Management",
+      "rationale": "Gentherm specialises in battery and seat thermal management for EVs.",
+      "contact": "Gentherm VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Mahle Behr (EV)",
+      "country": "Germany",
+      "type": "Battery Cooling Technology",
+      "rationale": "Mahle Behr develops battery cooling plates and immersion cooling systems for EV packs.",
+      "contact": "Mahle VP EV Thermal"
+    },
+    {
+      "rank": 5,
+      "name": "Dana Incorporated",
+      "country": "USA",
+      "type": "Thermal Management Systems",
+      "rationale": "Dana produces EV thermal management and has active emerging market partnerships.",
+      "contact": "Dana VP International EV"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi HVAC Programme (AU-11 cascade)",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase II HVAC manufacturing established",
+      "upgrade": "Direct technology extension from AU-11 to AU-12; Saudi HVAC engineers transition to BTMS; shared manufacturing infrastructure at KAEC",
+      "timeline": "36–42 months",
+      "anchor": "NIDLP + Valeo + AU-11"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Hot-Climate Validation (AU-5)",
+      "track": "Track 7 — Venture Client",
+      "current": "Hot-climate test facility operational",
+      "upgrade": "World's first 55°C EV battery thermal management validation; Saudi BTMS qualification standard; global EV OEM testing programme",
+      "timeline": "36 months",
+      "anchor": "NIDLP + AU-5 + Gentherm"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi SiC Programme (SC-4 cascade)",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase II SiC device research",
+      "upgrade": "Saudi SiC power electronics integrated into BTMS power conditioning; closed Saudi EV supply chain from SiC → BTMS controller → battery pack",
+      "timeline": "48 months",
+      "anchor": "GADD + SC-4 + Valeo"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM / KAUST EV Research",
+      "track": "Track 6 — R&D",
+      "current": "Thermal engineering; battery research; EV systems",
+      "upgrade": "Saudi hot-climate EV battery thermal research programme; BTMS optimisation for Saudi conditions; Saudi EV system engineer pipeline",
+      "timeline": "30 months",
+      "anchor": "NIDLP + KFUPM + KAUST"
+    }
+  ]
+}

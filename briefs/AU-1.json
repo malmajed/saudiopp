@@ -1,0 +1,91 @@
+{
+  "id": "AU-1",
+  "title": "Alloy Wheel Manufacturing",
+  "sector": "AU",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$55M – $100M",
+  "entry_mechanism": "PSAP Track 2 — International alloy wheel manufacturer JV with Ma'aden aluminium supply chain anchor",
+  "executive_summary": "Alloy wheels are manufactured by low-pressure or gravity die-casting of aluminium alloy, machined to dimensional tolerances, and powder-coated or painted. Saudi Arabia is the largest automotive market in the Middle East (1+ million vehicles sold annually) and the largest automotive aftermarket in the Arab world. All alloy wheels are imported — yet Ma'aden Aluminium at Ras Al-Khair produces aluminium alloy directly adjacent to this supply chain gap.\n\nNode AU-1 is Phase I's most achievable automotive manufacturing entry: alloy wheel production using Ma'aden aluminium alloy, with OEM and aftermarket customer base. The manufacturing process (gravity die-casting, CNC machining, surface treatment) is well-established, and Saudi Arabia's automotive assembly ambition (AU programme) creates a domestic OEM customer. Alloy wheels are also high-volume aftermarket products — Saudi Arabia's 10+ million registered vehicles represent 20+ million wheel replacement cycles over a decade.\n\nThe global alloy wheel market was valued at $28.4 billion in 2024 growing at 6.3% CAGR. Saudi Arabia's domestic alloy wheel market (OEM + aftermarket) is estimated at $400–600 million annually — a substantial domestic demand base for a Saudi manufacturer.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "CITIC Dicastal",
+      "country": "China",
+      "type": "Alloy Wheel Manufacturing JV",
+      "rationale": "Dicastal is the world's largest alloy wheel manufacturer with international JV experience and active Gulf market engagement.",
+      "contact": "CITIC Dicastal VP International Business"
+    },
+    {
+      "rank": 2,
+      "name": "Superior Industries",
+      "country": "USA",
+      "type": "Alloy Wheel Technology Partner",
+      "rationale": "Superior Industries is a leading OEM alloy wheel supplier with technology licensing capability.",
+      "contact": "Superior Industries VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Borbet",
+      "country": "Germany",
+      "type": "Premium Alloy Wheel Partner",
+      "rationale": "Borbet produces premium alloy wheels and has international manufacturing partnerships.",
+      "contact": "Borbet VP International Manufacturing"
+    },
+    {
+      "rank": 4,
+      "name": "Maxion Wheels",
+      "country": "Brazil/USA",
+      "type": "OEM Wheel Supply Chain",
+      "rationale": "Maxion is a global OEM wheel supplier with technology and supply chain expertise.",
+      "contact": "Maxion VP International Manufacturing"
+    },
+    {
+      "rank": 5,
+      "name": "Enkei Corporation",
+      "country": "Japan",
+      "type": "Alloy Wheel Technology",
+      "rationale": "Enkei produces high-quality alloy wheels with international manufacturing partnerships.",
+      "contact": "Enkei VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Ma'aden Aluminium",
+      "track": "Track 7 — Venture Client",
+      "current": "Aluminium alloy production; some downstream conversion",
+      "upgrade": "Ma'aden automotive alloy (A356 grade) supply to Saudi wheel manufacturer; Ma'aden equity in wheel manufacturing JV; Saudi vertically integrated aluminium → alloy wheel supply chain",
+      "timeline": "24 months to alloy supply qualification",
+      "anchor": "Ma'aden + PIF + NIDLP"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Automotive Assembled Vehicles Programme",
+      "track": "Track 7 — Venture Client",
+      "current": "Saudi vehicle assembly development",
+      "upgrade": "Saudi-assembled vehicle programmes as OEM customers for Saudi wheels; localisation credit for Saudi wheel content in Saudi-assembled vehicles",
+      "timeline": "30 months",
+      "anchor": "NIDLP + Saudi OEMs + Ma'aden"
+    },
+    {
+      "rank": 3,
+      "name": "KAEC Industrial Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial zone with automotive cluster development",
+      "upgrade": "Dedicated automotive components zone at KAEC; shared aluminium casting and machining infrastructure; Saudi wheel manufacturer as anchor automotive tenant",
+      "timeline": "18 months",
+      "anchor": "KAEC + NIDLP + Ma'aden"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC / Automotive Technical Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Automotive maintenance technician training",
+      "upgrade": "Aluminium casting and CNC machining technician programme; automotive quality control training; Saudi wheel manufacturing operator pipeline",
+      "timeline": "18 months",
+      "anchor": "NIDLP + Ma'aden + TVTC"
+    }
+  ]
+}

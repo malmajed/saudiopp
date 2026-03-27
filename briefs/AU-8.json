@@ -1,0 +1,91 @@
+{
+  "id": "AU-8",
+  "title": "Industrial Testing and Metrology",
+  "sector": "AU",
+  "phase": "I-II",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "NIDLP-KAEC automotive cluster development with international partner",
+  "executive_summary": "Automotive component quality control requires precision dimensional measurement, material testing, and functional validation. Node AU-8 targets Saudi accredited metrology and testing services for the automotive cluster — IATF 16949-compliant dimensional inspection, material characterisation, and functional test capabilities that serve all KAEC automotive manufacturers as a shared service.\n\nThe global automotive industrial testing and metrology market is growing in line with the overall automotive industry. Saudi Arabia's Vision 2030 automotive programme creates immediate domestic demand anchored by Saudi OEM assembly and the 10M+ vehicle installed base.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "TÜV SÜD / IDIADA",
+      "country": "Germany/Spain",
+      "type": "Quality and Testing Partner",
+      "rationale": "Leading automotive quality and testing companies with Gulf engagement.",
+      "contact": "TÜV SÜD VP Automotive, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Bosch Automotive",
+      "country": "Germany",
+      "type": "Automotive Systems Partner",
+      "rationale": "Bosch is the world's largest automotive supplier and has active Saudi Arabia presence.",
+      "contact": "Bosch VP Automotive International"
+    },
+    {
+      "rank": 3,
+      "name": "CEVA Logistics / Automotive",
+      "country": "France",
+      "type": "Automotive Logistics Partner",
+      "rationale": "CEVA is a major automotive logistics company with Gulf operations.",
+      "contact": "CEVA VP Automotive, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Hexagon Manufacturing Intelligence",
+      "country": "Sweden",
+      "type": "Metrology Technology",
+      "rationale": "Hexagon provides automotive dimensional measurement systems.",
+      "contact": "Hexagon VP Manufacturing Intelligence, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "GXO Logistics",
+      "country": "USA/UK",
+      "type": "Automotive Warehousing",
+      "rationale": "GXO provides automotive JIT logistics and warehousing globally.",
+      "contact": "GXO VP International Automotive"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KAEC Automotive Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial zone development",
+      "upgrade": "KAEC anchor infrastructure for Industrial Testing and Metrology; shared zone services; Saudi automotive cluster cohesion",
+      "timeline": "18–24 months",
+      "anchor": "KAEC + NIDLP"
+    },
+    {
+      "rank": 2,
+      "name": "NIDLP / Automotive Programme",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Automotive strategy implementation",
+      "upgrade": "NIDLP investment in Industrial Testing and Metrology; local content credit; Vision 2030 KPI contribution",
+      "timeline": "24 months",
+      "anchor": "NIDLP + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi OEM Assembly Programmes",
+      "track": "Track 7 — Venture Client",
+      "current": "Vehicle assembly development",
+      "upgrade": "Saudi OEMs as anchor customers for Industrial Testing and Metrology; long-term service agreement",
+      "timeline": "24–30 months",
+      "anchor": "NIDLP + Saudi OEMs"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC / KAEC Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Technical training programmes",
+      "upgrade": "Automotive industrial testing and metrology technician programme; Saudi workforce development",
+      "timeline": "18 months",
+      "anchor": "TVTC + NIDLP"
+    }
+  ]
+}

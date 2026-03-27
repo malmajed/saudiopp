@@ -1,0 +1,91 @@
+{
+  "id": "SC-3",
+  "title": "High-Purity Alumina Ceramic Components from Ma'aden",
+  "sector": "SC",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$95M – $175M",
+  "entry_mechanism": "Ma'aden HPA programme combined with semiconductor ceramic component manufacturing JV",
+  "executive_summary": "High-purity alumina (HPA, 99.99%+ Al₂O₃) is a critical material for semiconductor manufacturing — used as the substrate for LED chips, as a polishing abrasive (CMP slurry) in wafer planarization, as ceramic ring components in plasma etch chambers, and as the dielectric layer in advanced memory chips. Ma'aden's alumina refinery at Ras Al-Khair produces smelter-grade alumina (99.5%); upgrading to HPA grades creates direct value-add in the semiconductor supply chain.\n\nNode SC-3 targets Saudi Ma'aden HPA production and downstream semiconductor ceramic components: pure alumina polishing powder for CMP slurry, alumina ceramic chamber components for semiconductor equipment, and alumina substrate wafers for LED production. The AM-2 technical ceramics programme provides the manufacturing foundation; SC-3 adds the semiconductor-grade purity requirements.\n\nThe global HPA market was valued at $2.8 billion in 2024 growing at 28.4% CAGR — driven by LED, EV battery separator, and semiconductor demand. Saudi Arabia's Ma'aden cost-advantaged alumina supply chain creates a natural entry point into this high-growth market.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Sumitomo Chemical (HPA)",
+      "country": "Japan",
+      "type": "HPA Technology Partner",
+      "rationale": "Sumitomo produces HPA for semiconductor and LED applications. Technology licensing for Ma'aden HPA upgrade.",
+      "contact": "Sumitomo Chemical VP Semiconductor Materials"
+    },
+    {
+      "rank": 2,
+      "name": "Altech Chemicals",
+      "country": "Australia",
+      "type": "HPA Production Technology",
+      "rationale": "Altech has HPA production technology using kaolin feedstock applicable to alumina upgrade.",
+      "contact": "Altech VP Technology Licensing"
+    },
+    {
+      "rank": 3,
+      "name": "CeramTec (Semiconductor Ceramics)",
+      "country": "Germany",
+      "type": "Semiconductor Ceramic Components",
+      "rationale": "CeramTec produces alumina ceramic components for semiconductor manufacturing equipment. Manufacturing JV for Saudi semiconductor ceramics.",
+      "contact": "CeramTec VP Semiconductor International"
+    },
+    {
+      "rank": 4,
+      "name": "Kyocera (Semiconductor Ceramics)",
+      "country": "Japan",
+      "type": "Ceramic Substrate Technology",
+      "rationale": "Kyocera is the world's largest semiconductor ceramic components manufacturer.",
+      "contact": "Kyocera Industrial Ceramics VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Applied Materials (AMAT)",
+      "country": "USA",
+      "type": "Semiconductor Equipment Customer",
+      "rationale": "AMAT uses alumina ceramics in its semiconductor etch equipment. Qualifying Ma'aden HPA ceramics as AMAT-approved components.",
+      "contact": "AMAT VP Supply Chain, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Ma'aden Aluminium",
+      "track": "Track 7 — Venture Client",
+      "current": "Smelter-grade alumina at Ras Al-Khair",
+      "upgrade": "Ma'aden HPA refining investment; Sumitomo or Altech technology JV; 4N and 5N purity alumina production; Ma'aden ceramics downstream processing",
+      "timeline": "36 months to first HPA production",
+      "anchor": "Ma'aden + PIF + GADD"
+    },
+    {
+      "rank": 2,
+      "name": "KACST Advanced Materials (AM-2 connection)",
+      "track": "Track 6 — R&D",
+      "current": "Technical ceramics from AM-2 programme",
+      "upgrade": "Extend AM-2 technical ceramics to semiconductor grade; HPA characterisation and qualification; Saudi semiconductor ceramics quality laboratory",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST + Ma'aden"
+    },
+    {
+      "rank": 3,
+      "name": "SSIH (SC-1 connection)",
+      "track": "Track 7 — Venture Client",
+      "current": "Saudi chip design (Phase I)",
+      "upgrade": "SSIH Phase II fabrication using Saudi HPA ceramics; closed-loop Saudi semiconductor supply chain; Ma'aden HPA → SSIH chamber components",
+      "timeline": "48 months",
+      "anchor": "GADD + Ma'aden + SSIH"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Materials Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Ceramics and materials engineering; purity characterisation",
+      "upgrade": "HPA and semiconductor ceramics engineering programme; Ma'aden-KFUPM HPA research partnership; Saudi semiconductor materials characterisation laboratory",
+      "timeline": "24 months",
+      "anchor": "Ma'aden + KFUPM"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "MD-6",
+  "title": "CGM Sensor Assembly",
+  "sector": "MD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$40M – $75M",
+  "entry_mechanism": "PSAP Track 1 — International CGM manufacturer establishing Saudi sensor assembly for Middle East market",
+  "executive_summary": "Continuous Glucose Monitoring (CGM) sensors — wearable biosensors that measure blood glucose levels in real-time for diabetic patients — are the highest-growth segment of the diabetes device market. Saudi Arabia has one of the world's highest diabetes prevalence rates: approximately 18% of adults, representing 4–5 million diabetic patients. Saudi Arabia is also one of the world's largest CGM markets by per-capita diabetes burden, yet all CGM sensors are imported from Dexcom, Abbott (FreeStyle Libre), and Medtronic.\n\nCGM sensor manufacturing combines electrochemical sensor fabrication (glucose-sensitive enzyme coatings on electrodes), wireless electronics (Bluetooth), and biocompatible adhesive assembly — manufacturing processes that are technically accessible with appropriate standards and clean-room infrastructure. Node MD-6 targets Saudi assembly of CGM sensors for the Middle East market, capturing the manufacturing value-add from Saudi Arabia's massive domestic demand.\n\nThe global CGM market was valued at $6.8 billion in 2024 growing at 24.2% CAGR — one of the highest growth rates in medical devices. Saudi Arabia's domestic CGM market is estimated at $350–500 million annually. A Saudi assembly facility serving the GCC (where diabetes prevalence is similarly high) would access a $800M–1.2B annual market.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Abbott (FreeStyle Libre)",
+      "country": "USA",
+      "type": "Manufacturing JV Partner",
+      "rationale": "Abbott's FreeStyle Libre has the largest Middle East CGM market share. Abbott has manufacturing partners internationally and Saudi Arabia is its largest CGM market outside the US and Europe.",
+      "contact": "Abbott Diabetes Care VP International Manufacturing"
+    },
+    {
+      "rank": 2,
+      "name": "Dexcom",
+      "country": "USA",
+      "type": "CGM Technology Partner",
+      "rationale": "Dexcom is the premium CGM manufacturer with active Saudi Arabia government procurement. Saudi assembly under Dexcom licence.",
+      "contact": "Dexcom VP International Operations"
+    },
+    {
+      "rank": 3,
+      "name": "Medtronic Diabetes",
+      "country": "USA/Ireland",
+      "type": "CGM and Insulin Pump",
+      "rationale": "Medtronic has integrated CGM and insulin pump systems with Saudi Arabia hospital relationships.",
+      "contact": "Medtronic Diabetes VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Roche Diabetes Care",
+      "country": "Switzerland",
+      "type": "Diabetes Device Partner",
+      "rationale": "Roche has diabetes monitoring devices and active Saudi Arabia market presence.",
+      "contact": "Roche Diabetes Care VP International Manufacturing"
+    },
+    {
+      "rank": 5,
+      "name": "iSens (South Korea)",
+      "country": "South Korea",
+      "type": "Accessible CGM Technology",
+      "rationale": "iSens produces CGM sensors with lower technology barriers and active international partnerships. Entry-level CGM for Saudi assembly.",
+      "contact": "iSens VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "NUPCO / Saudi Diabetes Association",
+      "track": "Track 7 — Venture Client",
+      "current": "CGM procurement for Saudi government hospitals; 4+ million diabetic patients",
+      "upgrade": "NUPCO 5-year offtake agreement for Saudi-assembled CGM sensors; Saudi Diabetes Association clinical endorsement; anchor procurement enabling Abbott or Dexcom assembly JV",
+      "timeline": "18 months",
+      "anchor": "MOH + NUPCO + SDA"
+    },
+    {
+      "rank": 2,
+      "name": "SFDA",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Class III implantable device regulation; in vitro diagnostic oversight",
+      "upgrade": "SFDA CGM manufacturing licence pathway; Saudi clinical validation framework; ISO 13485 fast-track for Saudi CGM assembler",
+      "timeline": "24 months",
+      "anchor": "SFDA + MOH"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST Bioengineering",
+      "track": "Track 6 — R&D",
+      "current": "Biosensor research; electrochemical sensing; biocompatible materials",
+      "upgrade": "GADD-KAUST CGM sensor research; Saudi-specific glucose calibration algorithm (population-specific factors); next-generation CGM research",
+      "timeline": "36 months",
+      "anchor": "MOH + KAUST + SDAIA"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Electronics Companies",
+      "track": "Track 3 — Supplier Development",
+      "current": "PCB assembly; Bluetooth electronics; IoT device assembly",
+      "upgrade": "Medical-grade electronics assembly (ISO 13485); CGM wireless electronics sub-assembly; biocompatible adhesive application processes",
+      "timeline": "24 months",
+      "anchor": "NIDLP + SFDA + MOH"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "SS-4",
+  "title": "Earth Observation Data Analytics Platform",
+  "sector": "SP",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "EO analytics company establishing Saudi operations through PSAP Track 1; connected to NEOM and Aramco procurement",
+  "executive_summary": "Earth observation data analytics — transforming raw satellite imagery into actionable intelligence products using AI, machine learning, and geospatial analysis — is the highest-value service layer in the space economy. Saudi Arabia consumes large volumes of EO data for giga-project monitoring, agricultural assessment, water resource management, border surveillance, and oil field monitoring. Almost all analytical processing today is performed by foreign companies using foreign tools and storing Saudi geospatial data on foreign servers.\n\nNode SS-4 targets the establishment of a Saudi EO analytics platform: Saudi data scientists processing Saudi satellite imagery using Saudi-operated infrastructure to produce geospatial intelligence products for Saudi government and commercial clients. The platform serves NEOM (construction monitoring), Aramco (pipeline and facility monitoring), and MOD (border and maritime surveillance).\n\nThe global EO analytics market was valued at $3.8 billion in 2024 growing at 22.1% CAGR — the fastest-growing segment in the space value chain. Saudi Arabia's position as both a major EO data consumer and an aspiring space nation makes an in-Kingdom analytics platform simultaneously a commercial opportunity and a sovereignty imperative.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Airbus Intelligence",
+      "country": "France/Germany",
+      "type": "Analytics Platform Partner",
+      "rationale": "Airbus Intelligence provides AI-powered EO analytics and has Saudi Arabia government relationships. Platform licensing with Saudi data science team.",
+      "contact": "Airbus Intelligence VP Analytics, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "BlackSky",
+      "country": "USA",
+      "type": "Geospatial Intelligence Platform",
+      "rationale": "BlackSky provides automated EO analytics with API access. Saudi deployment of BlackSky analytics with Saudi operators.",
+      "contact": "BlackSky VP Government International"
+    },
+    {
+      "rank": 3,
+      "name": "ICEYE",
+      "country": "Finland",
+      "type": "SAR Analytics",
+      "rationale": "ICEYE provides SAR imagery and analytics for all-weather monitoring. Non-US technology, Saudi data residency possible.",
+      "contact": "ICEYE VP Analytics, International"
+    },
+    {
+      "rank": 4,
+      "name": "Descartes Labs",
+      "country": "USA",
+      "type": "AI EO Analytics",
+      "rationale": "Descartes Labs provides AI-powered geospatial analytics for agriculture and infrastructure monitoring — directly relevant to Saudi Vision 2030 use cases.",
+      "contact": "Descartes Labs VP Government"
+    },
+    {
+      "rank": 5,
+      "name": "Planet Labs",
+      "country": "USA",
+      "type": "Data and Analytics",
+      "rationale": "Planet provides high-frequency imagery and analytics APIs. Saudi platform integration with Planet data.",
+      "contact": "Planet VP Government, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SSA / Saudi EO Analytics Centre",
+      "track": "Track 1 — PSAP Attraction",
+      "current": "Some EO data purchasing; no analytics capability",
+      "upgrade": "Establish Saudi National EO Analytics Platform; BlackSky or Airbus Intelligence platform licensing; 30 Saudi geospatial data scientists; Saudi data residency for all national EO data",
+      "timeline": "24 months to operational platform",
+      "anchor": "SSA + NEOM + Aramco"
+    },
+    {
+      "rank": 2,
+      "name": "KAUST AI and Data Science",
+      "track": "Track 6 — R&D",
+      "current": "Computer vision; machine learning; remote sensing research",
+      "upgrade": "GADD-KAUST EO analytics research; Saudi-specific crop type classification; change detection algorithms for Vision 2030 projects",
+      "timeline": "24 months",
+      "anchor": "SSA + KAUST"
+    },
+    {
+      "rank": 3,
+      "name": "SDAIA (Saudi Data and AI Authority)",
+      "track": "Track 7 — Venture Client",
+      "current": "National data governance; AI strategy; some geospatial data management",
+      "upgrade": "SDAIA national EO data platform; integrate SSA EO analytics with national data architecture; Saudi government EO data sovereignty framework",
+      "timeline": "18 months",
+      "anchor": "SSA + SDAIA + PIF"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Aramco Geosciences",
+      "track": "Track 7 — Venture Client",
+      "current": "Advanced geospatial analytics for oil and gas; satellite imagery procurement",
+      "upgrade": "Extend Aramco geospatial analytics to national EO platform; share algorithms with SSA; anchor commercial customer for Saudi EO analytics",
+      "timeline": "18 months",
+      "anchor": "Aramco + SSA"
+    }
+  ]
+}

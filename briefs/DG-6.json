@@ -1,0 +1,91 @@
+{
+  "id": "DG-6",
+  "title": "Saudi Cybersecurity Operations Center — Arabic Threat Intelligence",
+  "sector": "DG",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$55M – $100M",
+  "entry_mechanism": "NCA-GADD joint programme building Arabic threat intelligence capability on top of existing Saudi SOC infrastructure",
+  "executive_summary": "Cybersecurity Operations Centres (SOCs) — 24/7 facilities monitoring networks for threats and responding to incidents — are widespread in Saudi Arabia, operated by Elm, STC, Cyberani, and government agencies. The gap is threat intelligence: the knowledge of who is attacking, how, and with what tools. Almost all cyber threat intelligence consumed by Saudi SOCs today is English-language threat intelligence from US companies (CrowdStrike, Mandiant, Palo Alto Networks) — with no Arabic threat actor tracking, no Gulf-specific threat landscape analysis, and no understanding of Arabic-language cybercriminal forums.\n\nNode DG-6 targets Saudi Arabic cyber threat intelligence capability: analysts fluent in Arabic monitoring Arabic-language cybercriminal and hacktivist forums, tracking Gulf-specific threat actors, and producing Arabic-language threat intelligence products consumed by Saudi SOCs and government agencies. This combines human intelligence (Arabic-speaking threat analysts) with AI-assisted analysis (Arabic NLP from DG-1).\n\nThe global cyber threat intelligence market was valued at $8.2 billion in 2024 growing at 21.3% CAGR. Saudi Arabia's unique exposure to state-sponsored attacks and Gulf regional threat actors creates demand for Saudi-origin threat intelligence that foreign vendors cannot adequately address.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Recorded Future",
+      "country": "USA",
+      "type": "Threat Intelligence Platform Partner",
+      "rationale": "Recorded Future provides AI-powered threat intelligence and has government partnerships globally. Saudi deployment with Arabic language extension.",
+      "contact": "Recorded Future VP Government International"
+    },
+    {
+      "rank": 2,
+      "name": "Flashpoint (Gulf analysts)",
+      "country": "USA",
+      "type": "Threat Intelligence and Dark Web",
+      "rationale": "Flashpoint monitors dark web and underground forums. Arabic-language monitoring partnership.",
+      "contact": "Flashpoint VP International Partnerships"
+    },
+    {
+      "rank": 3,
+      "name": "Group-IB",
+      "country": "UAE/Singapore",
+      "type": "Cyber Threat Intelligence",
+      "rationale": "Group-IB has Middle East operations and Arabic-language threat analyst capability.",
+      "contact": "Group-IB VP Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Mandiant (Google)",
+      "country": "USA",
+      "type": "Advanced Threat Intelligence",
+      "rationale": "Mandiant has state-actor threat intelligence and active Saudi Arabia government engagement.",
+      "contact": "Mandiant VP Government, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Anomali",
+      "country": "USA",
+      "type": "Threat Intelligence Platform",
+      "rationale": "Anomali provides threat intelligence platforms with Arab region deployment capability.",
+      "contact": "Anomali VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "NCA (National Cybersecurity Authority)",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "National SOC; government threat sharing; some threat intelligence",
+      "upgrade": "NCA Arabic Threat Intelligence Centre; 30 Arabic-speaking threat analysts; Recorded Future platform under NCA control; national threat intelligence sharing with all Saudi SOCs",
+      "timeline": "18 months to operational Arabic TI centre",
+      "anchor": "NCA + GADD + MOI"
+    },
+    {
+      "rank": 2,
+      "name": "Cyberani",
+      "track": "Track 7 — Venture Client",
+      "current": "Aramco SOC; OT threat intelligence; some Arabic threat monitoring",
+      "upgrade": "Commercialise Cyberani Arabic threat intelligence; integrate with NCA national platform; Arabic language dark web monitoring product",
+      "timeline": "18 months",
+      "anchor": "Aramco + NCA"
+    },
+    {
+      "rank": 3,
+      "name": "SDAIA / Arabic NLP (DG-1 connection)",
+      "track": "Track 7 — Venture Client",
+      "current": "Arabic NLP research; national AI programme",
+      "upgrade": "Arabic NLP from DG-1 Saudi Falcon applied to threat intelligence text analysis; automated Arabic forum monitoring; Arabic malware code analysis",
+      "timeline": "24 months",
+      "anchor": "SDAIA + NCA"
+    },
+    {
+      "rank": 4,
+      "name": "KACST Cybersecurity Research",
+      "track": "Track 6 — R&D",
+      "current": "Cybersecurity research; some Arabic language security research",
+      "upgrade": "Arabic threat intelligence research programme; Gulf cybercriminal ecosystem mapping; Saudi-specific threat actor profiling",
+      "timeline": "24 months",
+      "anchor": "NCA + KACST + GADD"
+    }
+  ]
+}

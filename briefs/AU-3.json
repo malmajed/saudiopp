@@ -1,0 +1,91 @@
+{
+  "id": "AU-3",
+  "title": "Wire Harness and Electrical Systems",
+  "sector": "AU",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "International wire harness manufacturer establishing Saudi operations with labour cost and copper supply advantages",
+  "executive_summary": "Wire harnesses — the bundles of wires, connectors, and terminals that distribute electrical power and signals throughout a vehicle — are labour-intensive assemblies requiring high manual dexterity and quality control. Wire harness manufacturing has migrated globally to lower-cost labour countries (Morocco, Tunisia, Ukraine, Mexico, Vietnam) from Germany and Japan as vehicle electrical content has grown. Saudi Arabia's automotive programme requires locally-produced wire harnesses, and the labour cost structure (with Vision 2030 Saudisation flexibility for industrial roles) is competitive with major harness manufacturing hubs.\n\nSaudi Arabia's copper position (potential feedstock from mining programmes) and polymer cable insulation from SABIC create materials supply chain advantages. The addressable Saudi OEM harness market from the full AU programme is estimated at $200–400 million annually.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Yazaki Corporation",
+      "country": "Japan",
+      "type": "Wire Harness Manufacturing Partner",
+      "rationale": "Yazaki is the world's largest wire harness manufacturer with extensive emerging market JV experience.",
+      "contact": "Yazaki VP International Manufacturing"
+    },
+    {
+      "rank": 2,
+      "name": "Sumitomo Electric Wiring Systems",
+      "country": "Japan",
+      "type": "Harness Technology Partner",
+      "rationale": "SEWS is the second-largest harness manufacturer and has active Middle East automotive supply chain engagement.",
+      "contact": "SEWS VP International Industrial"
+    },
+    {
+      "rank": 3,
+      "name": "Delphi Technologies / Aptiv",
+      "country": "USA/UK",
+      "type": "Automotive Electrical Systems",
+      "rationale": "Aptiv is a global automotive electrical systems leader with Saudi Arabia market presence.",
+      "contact": "Aptiv VP International Manufacturing"
+    },
+    {
+      "rank": 4,
+      "name": "Lear Corporation Electrical",
+      "country": "USA",
+      "type": "Electrical Systems Partner",
+      "rationale": "Lear has automotive electrical systems capability alongside seating (AU-2 synergy).",
+      "contact": "Lear VP Electrical Systems International"
+    },
+    {
+      "rank": 5,
+      "name": "Leoni",
+      "country": "Germany",
+      "type": "Wire Harness Technology",
+      "rationale": "Leoni produces wire harnesses with international manufacturing partnerships.",
+      "contact": "Leoni VP International Industrial"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC / Cable Materials",
+      "track": "Track 7 — Venture Client",
+      "current": "PVC and polyethylene for cable insulation production",
+      "upgrade": "SABIC automotive-grade cable insulation material supply; SABIC connector housing plastic supply; Saudi harness manufacturer as anchor downstream SABIC customer",
+      "timeline": "18 months",
+      "anchor": "SABIC + NIDLP"
+    },
+    {
+      "rank": 2,
+      "name": "KAEC Industrial Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial manufacturing zone",
+      "upgrade": "Wire harness manufacturing zone at KAEC; shared logistics and materials handling; Saudi harness manufacturer co-located with seating (AU-2) and plastics (AU-4)",
+      "timeline": "18 months",
+      "anchor": "KAEC + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi OEM Assembly",
+      "track": "Track 7 — Venture Client",
+      "current": "Vehicle assembly programme development",
+      "upgrade": "Saudi OEM harness localisation requirement; Yazaki Saudi JV as OEM-approved supplier; Saudi harness as required local content",
+      "timeline": "24 months",
+      "anchor": "NIDLP + Saudi OEMs"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC / Electrical Assembly Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Electronics and electrical technician training",
+      "upgrade": "Wire harness assembly technician programme; crimp tool qualification; automotive quality control training",
+      "timeline": "12 months",
+      "anchor": "NIDLP + Yazaki + TVTC"
+    }
+  ]
+}

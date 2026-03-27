@@ -1,0 +1,91 @@
+{
+  "id": "DG-2",
+  "title": "Government Sovereign Cloud",
+  "sector": "DG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$800M – $1.5B",
+  "entry_mechanism": "Hyperscaler JV with data residency requirement — government data must remain on Saudi-controlled infrastructure",
+  "executive_summary": "Saudi Arabia's government operates across dozens of ministries, agencies, and state enterprises — generating and processing sensitive data (citizen records, national security intelligence, financial systems, health records) that currently sits on foreign cloud infrastructure or aging on-premises systems. Data sovereignty — the principle that Saudi national data should be stored and processed on Saudi-controlled infrastructure — is a core Vision 2030 principle and a national security imperative.\n\nNode DG-2 targets the establishment of Saudi Arabia's sovereign government cloud: hyperscaler-grade infrastructure (data centres, networking, security) operated under Saudi law with Saudi data residency, providing cloud services to Saudi government agencies. The international hyperscalers (AWS, Microsoft Azure, Google Cloud) are all present in Saudi Arabia or building capacity — the sovereign model requires them to operate as infrastructure tenants of Saudi-owned facilities, not as the data custodians.\n\nThe Saudi government cloud market is estimated at $3–5 billion in annual IT services spend. Moving government workloads from foreign cloud to Saudi sovereign cloud — retaining the revenue in-Kingdom, creating Saudi cloud engineering jobs, and eliminating the data sovereignty risk — is one of the largest single services localisation opportunities in Vision 2030.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Microsoft Azure",
+      "country": "USA",
+      "type": "Sovereign Cloud Partner",
+      "rationale": "Microsoft has already announced an $80 billion AI investment commitment in 2025 including Saudi Arabia. Azure's sovereign cloud model (government-controlled facilities, Microsoft as operator) is the applicable architecture.",
+      "contact": "Microsoft VP Government Cloud, Saudi Arabia"
+    },
+    {
+      "rank": 2,
+      "name": "AWS (Amazon Web Services)",
+      "country": "USA",
+      "type": "Cloud Infrastructure Partner",
+      "rationale": "AWS has launched an AWS Saudi Arabia region and has active government engagement. AWS GovCloud architecture applicable to Saudi sovereign requirements.",
+      "contact": "AWS VP Public Sector, Saudi Arabia"
+    },
+    {
+      "rank": 3,
+      "name": "Google Cloud",
+      "country": "USA",
+      "type": "Cloud Technology Partner",
+      "rationale": "Google Cloud has Saudi Arabia data centre investment and AI capability (Gemini). Google's sovereign cloud model applicable.",
+      "contact": "Google Cloud VP Government, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Huawei Cloud",
+      "country": "China",
+      "type": "Alternative Cloud Platform",
+      "rationale": "Huawei Cloud has active Saudi Arabia data centre investment and government cloud deployments. An alternative to US hyperscalers for non-sensitive workloads.",
+      "contact": "Huawei Cloud VP Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "Oracle Cloud",
+      "country": "USA",
+      "type": "Government Database Cloud",
+      "rationale": "Oracle has a strong government and enterprise database presence in Saudi Arabia. Oracle's sovereign cloud model for government ERP and database workloads.",
+      "contact": "Oracle VP Government Cloud, Saudi Arabia"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Elm Company",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Government digital platforms; secure IT for Saudi agencies; significant government data management",
+      "upgrade": "Elm as Saudi sovereign cloud operator; Microsoft Azure or AWS infrastructure under Elm operational control; Saudi government data sovereignty compliance; 10,000-server national government cloud",
+      "timeline": "24 months to sovereign cloud operational",
+      "anchor": "PIF + MCIT + NCA"
+    },
+    {
+      "rank": 2,
+      "name": "STC (Saudi Telecom) / STC Cloud",
+      "track": "Track 7 — Venture Client",
+      "current": "Large-scale data centre operations; IaaS and SaaS services; government connectivity",
+      "upgrade": "STC sovereign cloud expansion; hyperscaler JV for government cloud; STC as Saudi data centre anchor investor; Saudi cloud operator certification",
+      "timeline": "18 months",
+      "anchor": "STC + MCIT + NCA"
+    },
+    {
+      "rank": 3,
+      "name": "National Cybersecurity Authority (NCA)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Government cybersecurity standards; cloud security certification",
+      "upgrade": "Saudi Sovereign Cloud Security Standard (SCSSS); NCA certification for government cloud operators; mandatory data classification and residency requirements",
+      "timeline": "12 months to certification framework",
+      "anchor": "NCA + MCIT + CITC"
+    },
+    {
+      "rank": 4,
+      "name": "KACST / National Centre for AI",
+      "track": "Track 6 — R&D",
+      "current": "Government AI research; some cloud computing research",
+      "upgrade": "Saudi sovereign AI infrastructure on government cloud; sovereign AI research cluster; Saudi AI model training on government sovereign compute",
+      "timeline": "18 months",
+      "anchor": "SDAIA + KACST + NCA"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "DE-4",
+  "title": "Radar Sub-System Manufacturing",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "PSAP Track 1 — European radar manufacturer establishing Saudi manufacturing operations",
+  "executive_summary": "Radar sub-system manufacturing — producing antenna structures, waveguide assemblies, power supply units, and signal processing chassis for military radar systems — is Phase II's most technically ambitious electronics manufacturing goal. Unlike communications equipment maintenance (DE-3) which is a service node, DE-4 is a manufacturing node: Saudi engineers and technicians physically building radar hardware to OEM specifications.\n\nThe opportunity is anchored by Saudi Arabia's position as one of the world's largest military radar customers — F-15SA APG-82 radars, Typhoon CAPTOR-E, ground-based air defence radars, and naval search radars represent billions of dollars of radar hardware deployed in-Kingdom. Non-ITAR European radar components (antenna structures, power electronics, signal processing boards for European-origin systems) are the Phase II manufacturing target.\n\nThe global military radar market was valued at $15.8 billion in 2024 and growing at 5.2% CAGR. Saudi Arabia's addressable Phase II manufacturing opportunity — structural and power sub-assemblies for European-origin radar systems — is estimated at $80–140 million over the Phase II period.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Hensoldt",
+      "country": "Germany",
+      "type": "Manufacturing JV Partner",
+      "rationale": "Hensoldt manufactures military radar for Eurofighter and other European platforms. Hensoldt has active Saudi Arabia engagement and is exploring Gulf manufacturing investment.",
+      "contact": "Hensoldt VP International Industrial Cooperation"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Ground Radar",
+      "country": "France",
+      "type": "Radar Manufacturing Partner",
+      "rationale": "Thales produces ground-based air defence and naval radar and has Saudi Arabia government relationships. French government IPP policy supports manufacturing localisation.",
+      "contact": "Thales VP Radar Systems, Industrial Cooperation"
+    },
+    {
+      "rank": 3,
+      "name": "Indra",
+      "country": "Spain",
+      "type": "Radar Sub-Assembly Partner",
+      "rationale": "Indra manufactures naval and air defence radar and has Navantia programme relationships in Saudi Arabia. Non-ITAR Spanish technology.",
+      "contact": "Indra VP Electronic Systems, Saudi Arabia"
+    },
+    {
+      "rank": 4,
+      "name": "Leonardo Radar",
+      "country": "Italy",
+      "type": "Antenna and Radar Structure Manufacturing",
+      "rationale": "Leonardo manufactures radar antennas and structural sub-assemblies for military systems. Active Gulf defence market engagement.",
+      "contact": "Leonardo VP Radar and Electronic Warfare, International"
+    },
+    {
+      "rank": 5,
+      "name": "Saab Defence Electronics",
+      "country": "Sweden",
+      "type": "Radar System Partner",
+      "rationale": "Saab produces radar systems for multiple platforms and has Middle East defence relationships. Non-ITAR Swedish technology.",
+      "contact": "Saab VP Electronic Warfare, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Electronics / Advanced Manufacturing",
+      "track": "Track 2 — JV Structuring",
+      "current": "Electronics assembly and maintenance; some defence electronics manufacturing",
+      "upgrade": "Hensoldt or Thales manufacturing JV; precision sheet metal and antenna structure fabrication; RF-grade electronics assembly; ISO 9001 and AS9100 for radar sub-assemblies",
+      "timeline": "36 months to first manufactured radar sub-assembly",
+      "anchor": "SAMI + GADD"
+    },
+    {
+      "rank": 2,
+      "name": "KACST / National Electronics Technology Centre",
+      "track": "Track 6 — R&D",
+      "current": "RF engineering research; microwave component design; some radar research",
+      "upgrade": "GADD-KACST radar technology programme; Saudi RF component research; support Hensoldt/Thales technology transfer to SAMI manufacturing",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST + SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco / Industrial Technology Park",
+      "track": "Track 7 — Venture Client",
+      "current": "Precision manufacturing; composite structures; some electronics assembly",
+      "upgrade": "Extend precision manufacturing to RF-grade radar antenna structures; dual-use (commercial + defence) precision fabrication",
+      "timeline": "24 months",
+      "anchor": "Aramco + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Electrical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "RF and microwave engineering; antenna theory research",
+      "upgrade": "Radar manufacturing engineering programme; KFUPM-industry placement at SAMI radar manufacturing facility; antenna design and manufacturing research",
+      "timeline": "24 months",
+      "anchor": "GADD + SAMI + KFUPM"
+    }
+  ]
+}

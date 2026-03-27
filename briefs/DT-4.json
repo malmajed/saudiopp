@@ -1,0 +1,91 @@
+{
+  "id": "DT-4",
+  "title": "Brine Mineral Assessment and Pilot Extraction",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "KAUST-SWCC research programme transitioning to pilot mineral extraction operation",
+  "executive_summary": "Desalination brine — the hypersaline waste stream discharged by Saudi Arabia's desalination plants — contains concentrated dissolved minerals including lithium, potassium, magnesium, bromine, and uranium at economically interesting concentrations. Saudi Arabia discharges approximately 4.5 million cubic meters of concentrated brine per day — the world's largest brine discharge — making it the world's most accessible concentration of dissolved mineral wealth.\n\nNode DT-4 targets the systematic assessment and pilot extraction of commercially valuable minerals from Saudi desalination brine, beginning with lithium (critical battery material), potassium (fertiliser), and magnesium (lightweight alloys). Saudi Arabia's brine mineral programme, if successful, transforms a waste disposal problem into a raw material supply chain — converting SWCC's brine discharge into a lithium supply that serves Saudi Arabia's electric vehicle battery ambitions (AU-12, Battery Thermal Management).\n\nThe global direct lithium extraction (DLE) market is pre-commercial but growing rapidly. Saudi Arabia's brine lithium resource — estimated at 800,000 tonnes per year in dissolved form across all brine streams — is potentially one of the world's largest accessible lithium resources if extraction economics prove viable.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "EnergySource Minerals",
+      "country": "USA",
+      "type": "Direct Lithium Extraction Technology",
+      "rationale": "EnergySource has proven DLE technology (ILiAD process) commercially deployed at the Salton Sea. Technology transfer to Saudi brine application.",
+      "contact": "EnergySource Minerals VP International Licensing"
+    },
+    {
+      "rank": 2,
+      "name": "SLB (formerly Schlumberger)",
+      "country": "USA/France",
+      "type": "Mineral Extraction Technology",
+      "rationale": "SLB has brine mineral extraction technology and active Saudi Arabia operations through Aramco relationships.",
+      "contact": "SLB VP New Energy, Saudi Arabia"
+    },
+    {
+      "rank": 3,
+      "name": "Saltworks Technologies",
+      "country": "Canada",
+      "type": "Advanced Brine Processing",
+      "rationale": "Saltworks develops advanced brine concentration and mineral recovery technologies with commercial deployments.",
+      "contact": "Saltworks VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "Veolia Water Technologies",
+      "country": "France",
+      "type": "Brine Management and Mining",
+      "rationale": "Veolia has brine management technologies and active Saudi Arabia water sector relationships.",
+      "contact": "Veolia VP Water Technologies, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "MGX Minerals (Pure Lithium)",
+      "country": "Canada",
+      "type": "DLE Technology",
+      "rationale": "MGX has membrane-based lithium extraction from brines with commercial scale-up experience.",
+      "contact": "Pure Lithium VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KAUST Water Desalination and Reuse Centre",
+      "track": "Track 6 — R&D",
+      "current": "Brine characterisation research; mineral recovery research; membrane materials research",
+      "upgrade": "KAUST-SWCC brine minerals programme; comprehensive brine mineral mapping across all Saudi desalination plants; DLE pilot at KAUST research facility",
+      "timeline": "24 months to pilot extraction data",
+      "anchor": "SWCC + KAUST + Ma'aden"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Water Company (SWCC)",
+      "track": "Track 7 — Venture Client",
+      "current": "Brine discharged as waste; limited minerals recovery",
+      "upgrade": "SWCC brine access agreement for mineral pilot; SWCC infrastructure investment for brine capture; co-investment in mineral pilot plant",
+      "timeline": "18 months to pilot plant construction",
+      "anchor": "SWCC + MOE + Ma'aden"
+    },
+    {
+      "rank": 3,
+      "name": "Ma'aden (Saudi Arabian Mining Company)",
+      "track": "Track 7 — Venture Client",
+      "current": "Phosphate and aluminium mining; some rare earth assessment",
+      "upgrade": "Ma'aden brine minerals processing investment; lithium and potassium extraction commercialisation; Ma'aden Saudi battery materials supply chain",
+      "timeline": "36 months to commercial extraction decision",
+      "anchor": "Ma'aden + SWCC + PIF"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Aramco Research Centre",
+      "track": "Track 6 — R&D",
+      "current": "Brine injection for enhanced oil recovery; some brine chemistry research",
+      "upgrade": "Aramco brine mineral characterisation; EOR brine lithium content assessment; dual-use brine management and mineral extraction research",
+      "timeline": "24 months",
+      "anchor": "Aramco + SWCC + KAUST"
+    }
+  ]
+}

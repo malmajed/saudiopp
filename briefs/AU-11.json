@@ -1,0 +1,91 @@
+{
+  "id": "AU-11",
+  "title": "HVAC Systems",
+  "sector": "AU",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$65M – $120M",
+  "entry_mechanism": "PSAP Track 2 — International automotive HVAC manufacturer JV optimising for Saudi extreme-heat requirements",
+  "executive_summary": "Automotive HVAC systems — the heating, ventilation, and air conditioning assemblies that maintain cabin comfort — are among the highest-value components in Gulf-market vehicles where cooling performance is a primary purchase driver. Saudi Arabia's extreme ambient temperatures (55°C peak) mean automotive HVAC systems work harder, longer, and under more stress than anywhere else in the world. Saudi-specific HVAC engineering — optimised for 55°C ambient rather than 35°C European baseline — creates a genuine product differentiation opportunity.\n\nPhase II timing reflects the system integration complexity: automotive HVAC requires thermal simulation expertise, refrigerant system engineering, and electrical integration that builds on Phase I manufacturing infrastructure. The global automotive HVAC market was valued at $21 billion in 2024 growing at 6.1% CAGR. Saudi Arabia's HVAC opportunity — serving domestic OEM assembly plus GCC export — is estimated at $150–250 million annually.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Valeo Thermal Systems",
+      "country": "France",
+      "type": "HVAC Technology JV Partner",
+      "rationale": "Valeo is the world's second-largest automotive HVAC manufacturer with non-US French technology and active Gulf market engagement.",
+      "contact": "Valeo VP Thermal Systems International"
+    },
+    {
+      "rank": 2,
+      "name": "Denso Corporation",
+      "country": "Japan",
+      "type": "HVAC Technology Partner",
+      "rationale": "Denso is the world's largest automotive HVAC manufacturer with international manufacturing JV experience.",
+      "contact": "Denso VP International Manufacturing"
+    },
+    {
+      "rank": 3,
+      "name": "Mahle Behr",
+      "country": "Germany",
+      "type": "Thermal Management Partner",
+      "rationale": "Mahle Behr produces automotive HVAC and thermal management systems with active Gulf development.",
+      "contact": "Mahle Behr VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Hanon Systems",
+      "country": "South Korea",
+      "type": "HVAC Manufacturing Partner",
+      "rationale": "Hanon Systems is a leading automotive HVAC manufacturer with international JV experience.",
+      "contact": "Hanon Systems VP International Manufacturing"
+    },
+    {
+      "rank": 5,
+      "name": "Sanden International",
+      "country": "Japan",
+      "type": "Compressor and HVAC",
+      "rationale": "Sanden produces automotive HVAC compressors and has international manufacturing partnerships.",
+      "contact": "Sanden VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Hot-Climate Validation Lab (AU-5)",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase I test facility operational",
+      "upgrade": "AU-5 facility as HVAC validation anchor; Saudi HVAC hot-climate performance certification; world-first 55°C HVAC qualification standard",
+      "timeline": "30 months",
+      "anchor": "NIDLP + AU-5 facility + Valeo"
+    },
+    {
+      "rank": 2,
+      "name": "KAEC Automotive Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Phase I automotive cluster",
+      "upgrade": "HVAC manufacturing facility at KAEC; shared refrigerant handling infrastructure; co-located with wire harness (AU-3) and seating (AU-2)",
+      "timeline": "30 months",
+      "anchor": "KAEC + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Thermal Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Heat transfer; thermodynamics; HVAC systems research",
+      "upgrade": "Saudi hot-climate automotive HVAC research programme; Valeo-KFUPM thermal research partnership; Saudi HVAC engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "NIDLP + KFUPM + Valeo"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi OEM Assembly",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase II vehicle assembly scale-up",
+      "upgrade": "Saudi HVAC in Saudi-assembled vehicles; hot-climate performance as Saudi vehicle competitive advantage; IATF 16949 qualification",
+      "timeline": "36 months",
+      "anchor": "NIDLP + Saudi OEMs"
+    }
+  ]
+}

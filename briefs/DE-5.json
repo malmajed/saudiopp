@@ -1,0 +1,91 @@
+{
+  "id": "DE-5",
+  "title": "Electronic Warfare Signal Analysis",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$30M – $55M",
+  "entry_mechanism": "PSAP Track 6 — GADD-led R&D programme with cleared Saudi engineers",
+  "executive_summary": "Electronic warfare (EW) — the exploitation of the electromagnetic spectrum for military advantage, including radar jamming, communications intercept, and threat signal analysis — is one of the most strategically sensitive and sovereign-critical capabilities in modern defence. Saudi Arabia's EW dependency is total: threat signal libraries are maintained by US intelligence agencies; EW mission data files are US-controlled; and EW system operators are US-trained and in some cases US-supervised.\n\nNode DE-5 targets a specific and achievable subset of Saudi EW sovereignty: the development of a Saudi signals analysis team capable of characterising electromagnetic threats in Saudi Arabia's specific operational environment (Arabian Peninsula threat emitters, Red Sea and Gulf radar signatures) and contributing to Saudi-specific EW mission data. This is intelligence work as much as engineering work — requiring GADD leadership, NSCS clearance, and a small team of highly skilled Saudi signals engineers.\n\nThis node is deliberately scoped narrowly — Saudi threat signal characterisation and analysis, not EW system design or jamming system development, which are Phase III aspirations. The narrow scope makes it achievable in Phase II and builds the sovereign intelligence foundation that Phase III EW development requires.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Rohde & Schwarz",
+      "country": "Germany",
+      "type": "EW Test Equipment and Signal Analysis",
+      "rationale": "R&S manufactures signal analysis equipment and EW test systems without ITAR restrictions. R&S could supply the laboratory equipment for the Saudi signals analysis team.",
+      "contact": "R&S VP Defence Technology, International"
+    },
+    {
+      "rank": 2,
+      "name": "Hensoldt EW",
+      "country": "Germany",
+      "type": "EW System and Analysis Partner",
+      "rationale": "Hensoldt develops EW systems and has a signals analysis capability. Non-ITAR German technology and active Saudi Arabia engagement.",
+      "contact": "Hensoldt VP Electronic Warfare, International"
+    },
+    {
+      "rank": 3,
+      "name": "Thales EW",
+      "country": "France",
+      "type": "EW Technology Partner",
+      "rationale": "Thales has EW systems for air, naval, and ground platforms and Saudi Arabia government relationships. French government policy supports EW capability sharing with allies.",
+      "contact": "Thales VP Electronic Warfare, Gulf Region"
+    },
+    {
+      "rank": 4,
+      "name": "MBDA",
+      "country": "France/UK/Germany/Italy",
+      "type": "Missile and EW Programme Integration",
+      "rationale": "MBDA integrates EW countermeasures into missile and weapon programmes supplied to Saudi Arabia. MBDA's IPP obligations include EW-related technology.",
+      "contact": "MBDA VP Saudi Arabia Programmes"
+    },
+    {
+      "rank": 5,
+      "name": "Saab Electronic Warfare",
+      "country": "Sweden",
+      "type": "EW Training and Analysis",
+      "rationale": "Saab develops EW training systems and threat simulation — enabling Saudi EW analysts to develop skills without requiring access to classified US EW data.",
+      "contact": "Saab VP Electronic Warfare Training, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "GADD (General Authority for Defence Development)",
+      "track": "Track 6 — R&D",
+      "current": "Defence R&D programme management; some signals research",
+      "upgrade": "Establish Saudi EW signals analysis team (10 cleared engineers); R&S laboratory equipment procurement; Arabian Peninsula threat emitter characterisation programme; NSCS highest clearance programme",
+      "timeline": "30–36 months to operational signals analysis capability",
+      "anchor": "GADD + MOD + NSCS"
+    },
+    {
+      "rank": 2,
+      "name": "KACST / Signals Intelligence Research",
+      "track": "Track 6 — R&D",
+      "current": "Signal processing research; RF engineering; some spectrum analysis capability",
+      "upgrade": "GADD-KACST EW research programme; cleared research laboratory; Saudi-specific threat environment simulation",
+      "timeline": "30 months",
+      "anchor": "GADD + KACST + NSCS"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Special Forces / SANG Technical Corps",
+      "track": "Track 8 — Human Capital",
+      "current": "Some EW operational experience; signals intelligence operators",
+      "upgrade": "Saudi signals analyst engineering programme; GADD fellowship to Hensoldt or Thales EW teams; NSCS clearance pathway for engineering roles",
+      "timeline": "36 months to qualified signals analysts",
+      "anchor": "GADD + MOD"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Electrical Engineering / Signal Processing Lab",
+      "track": "Track 8 — Human Capital",
+      "current": "Signal processing research; RF and microwave; communications systems",
+      "upgrade": "EW-relevant signal processing specialisation; GADD-funded research programme; graduate pipeline to Saudi signals analysis team",
+      "timeline": "24 months",
+      "anchor": "GADD + KFUPM"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "DT-7",
+  "title": "Energy Recovery Device Manufacturing",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product/Service",
+  "investment_range": "$65M – $120M",
+  "entry_mechanism": "International ERD manufacturer establishing Saudi assembly with SWCC programme anchor",
+  "executive_summary": "Energy Recovery Devices (ERDs) — pressure exchangers and turbines that capture the energy from high-pressure brine reject streams and transfer it back to the incoming seawater feed — reduce desalination energy consumption by 40–60%. Saudi Arabia's desalination fleet consumes 8–10 GW of electrical power; ERDs already installed on modern plants save $300–500 million in annual energy costs. All ERDs are manufactured by two companies: Energy Recovery Inc (USA) and Danfoss High Pressure Pumps (Denmark). Node DT-7 targets Saudi assembly of ERDs, beginning with pressure exchanger components (ceramic-lined rotors, end-caps, manifolds) that can be manufactured in Saudi Arabia using Ma'aden alumina ceramics (AM-2) and SABIC engineered polymers (AM-3). This creates a direct materials cascade: Saudi ceramics → Saudi ERD components → Saudi-assembled ERD → Saudi desalination plant energy savings.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Energy Recovery Inc (ERI)",
+      "country": "USA",
+      "type": "ERD Technology Partner",
+      "rationale": "ERI supplies 70% of global ERDs. Saudi assembly under ERI licence is commercially natural given Saudi Arabia's scale of ERI procurement.",
+      "contact": "ERI VP International Manufacturing Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Danfoss High Pressure Pumps",
+      "country": "Denmark",
+      "type": "ERD and Pump Partner",
+      "rationale": "Danfoss produces iSave ERDs and has active Saudi Arabia desalination market relationships.",
+      "contact": "Danfoss VP Water Infrastructure, International"
+    },
+    {
+      "rank": 3,
+      "name": "Flowserve (Calder)",
+      "country": "USA/Switzerland",
+      "type": "Pelton Turbine ERD",
+      "rationale": "Flowserve Calder produces Pelton wheel ERDs for large plants. Saudi component manufacturing.",
+      "contact": "Flowserve VP Water Technology"
+    },
+    {
+      "rank": 4,
+      "name": "KSB",
+      "country": "Germany",
+      "type": "ERD System Integration",
+      "rationale": "KSB integrates ERDs into high-pressure pump systems. System integration capability complementing ERI device manufacturing.",
+      "contact": "KSB VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Suez Water Technologies",
+      "country": "France",
+      "type": "Water Technology",
+      "rationale": "Suez has energy recovery system integration with active Saudi Arabia water relationships.",
+      "contact": "Suez VP Water Technologies, Middle East"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SWCC",
+      "track": "Track 7 — Venture Client",
+      "current": "ERI devices installed on modern plants; all imported",
+      "upgrade": "SWCC ERD localisation programme; Saudi-assembled ERD technical qualification; SWCC procurement commitment for Saudi ERDs",
+      "timeline": "24 months",
+      "anchor": "SWCC + MOE + ERI"
+    },
+    {
+      "rank": 2,
+      "name": "Ma'aden Technical Ceramics (AM-2 connection)",
+      "track": "Track 7 — Venture Client",
+      "current": "Phase I alumina ceramics production",
+      "upgrade": "Ma'aden alumina ceramic rotor linings for ERD pressure exchangers; direct AM-2 to DT-7 materials cascade",
+      "timeline": "30 months",
+      "anchor": "Ma'aden + SWCC + ERI"
+    },
+    {
+      "rank": 3,
+      "name": "SABIC / Polymer Compounds (AM-3 connection)",
+      "track": "Track 7 — Venture Client",
+      "current": "Engineered polymer compounds production",
+      "upgrade": "SABIC polymer end-caps and manifolds for Saudi ERD assembly; direct AM-3 to DT-7 cascade",
+      "timeline": "24 months",
+      "anchor": "SABIC + SWCC"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Mechanical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Fluid mechanics; pressure vessel design; rotating machinery",
+      "upgrade": "ERD engineering programme; pressure exchanger design research; Saudi water equipment engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "SWCC + KFUPM"
+    }
+  ]
+}

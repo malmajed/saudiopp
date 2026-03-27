@@ -1,0 +1,92 @@
+{
+  "id": "DG-1",
+  "title": "Saudi Falcon Arabic LLM Program",
+  "sector": "DG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$180M – $320M",
+  "entry_mechanism": "SDAIA-led national programme with compute infrastructure from Aramco/STC and Arabic data from MOE/MOH/government corpus",
+  "executive_summary": "Arabic is spoken by 420 million people and is the official language of 22 countries, yet the global AI large language model landscape is dominated by English-first systems. GPT-4, Claude, and Gemini have poor Arabic capabilities — generating grammatical errors, missing dialectal nuance, and struggling with right-to-left text in mixed documents. Saudi Arabia has a strategic opportunity to develop the world's premier Arabic-language large language model: a national AI capability that serves Saudi government, enterprise, and consumer applications while establishing Saudi Arabia as the AI hub of the Arabic-speaking world.\n\nNode DG-1 targets the Saudi Falcon LLM Programme: developing and deploying a sovereign Arabic LLM with state-of-the-art performance on Arabic NLP benchmarks, deployed on Saudi sovereign infrastructure, and commercially licensed to Saudi government and GCC enterprise customers. The UAE's Falcon LLM (by TIIUAE) demonstrates the model — the Saudi version should be specifically optimised for the Gulf Arabic dialect ecosystem and government use cases.\n\nThe global LLM market was valued at $6.4 billion in 2024 growing at 79% CAGR. A sovereign Saudi Arabic LLM licensed to Saudi and GCC government agencies, Arabic media companies, Arabic e-commerce platforms, and Arabic-language education providers creates a large and defensible revenue opportunity.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Hugging Face",
+      "country": "France/USA",
+      "type": "Platform and Open Source Partner",
+      "rationale": "Hugging Face provides the open-source ML infrastructure (Transformers library) and hosts models. Saudi Falcon could be developed on HF infrastructure and published on HF Hub.",
+      "contact": "Hugging Face VP Enterprise Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Cohere",
+      "country": "Canada",
+      "type": "Enterprise LLM Partner",
+      "rationale": "Cohere builds enterprise LLMs with sovereign deployment capability. Cohere has Middle East government engagement and a flexible deployment model.",
+      "contact": "Cohere VP Enterprise, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "NVIDIA",
+      "country": "USA",
+      "type": "GPU Infrastructure Partner",
+      "rationale": "NVIDIA provides the H100/H200 GPU clusters required for LLM training. NVIDIA has active Saudi Arabia engagement through the DGX SuperPOD programme.",
+      "contact": "NVIDIA VP Government, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Microsoft Azure OpenAI",
+      "country": "USA",
+      "type": "Hybrid Deployment Partner",
+      "rationale": "Microsoft has Azure Saudi Arabia regions and OpenAI partnership. Hybrid deployment of Saudi Falcon on Azure sovereign regions.",
+      "contact": "Microsoft VP Government, Saudi Arabia"
+    },
+    {
+      "rank": 5,
+      "name": "Mistral AI",
+      "country": "France",
+      "type": "Open Weight Model Partner",
+      "rationale": "Mistral provides open-weight models that can be fine-tuned on Arabic data. European technology with sovereign deployment model.",
+      "contact": "Mistral VP International Partnerships"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SDAIA (Saudi Data and AI Authority)",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "National AI strategy; some NLP research; Arabic NLP standards",
+      "upgrade": "Lead Saudi Falcon LLM programme; establish Saudi AI computing cluster (1,000+ H100s); Arabic corpus curation from government and public sources; programme management and IP ownership",
+      "timeline": "24 months to first public Saudi Falcon release",
+      "anchor": "SDAIA + PIF + Aramco"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Aramco Digital",
+      "country": "",
+      "track": "Track 7 — Venture Client",
+      "current": "NVIDIA DGX SuperPOD; large-scale AI compute; industrial AI applications",
+      "upgrade": "Aramco compute cluster available for Saudi Falcon training; Aramco Arabic technical corpus contribution; Aramco as anchor enterprise customer for Saudi Falcon",
+      "timeline": "12 months to compute access",
+      "anchor": "Aramco + SDAIA"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST AI Research Centre",
+      "track": "Track 6 — R&D",
+      "current": "NLP research; Arabic language processing; LLM research; some Arabic NLP datasets",
+      "upgrade": "KAUST as Saudi Falcon research engine; Arabic benchmark development; Gulf dialect adaptation research; KAUST researchers as model development core team",
+      "timeline": "18 months",
+      "anchor": "SDAIA + KAUST"
+    },
+    {
+      "rank": 4,
+      "name": "Ministry of Education / Arabic Content",
+      "track": "Track 7 — Venture Client",
+      "current": "Massive Arabic language corpus (textbooks, curriculum, assessments)",
+      "upgrade": "MOE Arabic educational corpus for LLM training; Saudi Falcon integration into Saudi school AI assistant; Arabic educational AI anchor use case",
+      "timeline": "18 months",
+      "anchor": "MOE + SDAIA"
+    }
+  ]
+}

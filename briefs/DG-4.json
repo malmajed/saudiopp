@@ -1,0 +1,91 @@
+{
+  "id": "DG-4",
+  "title": "Open RAN Network Management Software",
+  "sector": "DG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$55M – $100M",
+  "entry_mechanism": "Saudi telecom software company developing Open RAN management tools with STC as anchor operator and development partner",
+  "executive_summary": "Open RAN (Open Radio Access Network) is the architectural paradigm replacing proprietary 5G radio networks with interoperable, software-defined networks that can run on generic hardware from multiple vendors. Saudi Arabia's Vision 2030 digital infrastructure strategy mandates 5G nationwide coverage, and STC's Open RAN deployment — one of the largest in the Middle East — creates a demand for Open RAN management software that currently flows entirely to foreign vendors (Mavenir, Rakuten Symphony, VMware Telco).\n\nNode DG-4 targets Saudi-developed Open RAN network management software: RAN Intelligent Controller (RIC) applications (xApps and rApps), network analytics, interference management algorithms, and energy optimisation tools that run on top of the Open RAN architecture. These software layers are accessible to Saudi development — they do not require radio hardware design capability, only software engineering and telecom domain knowledge.\n\nThe global Open RAN software market was valued at $3.2 billion in 2024 growing at 41.3% CAGR. Saudi Arabia's STC network alone creates $50–100 million in annual software licensing demand. A Saudi Open RAN software company with STC as reference customer has immediate GCC export potential — Zain, du, Ooredoo, and other Gulf operators face the same Open RAN transition.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Mavenir",
+      "country": "USA",
+      "type": "Open RAN Technology Partner",
+      "rationale": "Mavenir is the leading Open RAN software company with active STC relationship. Technology licensing for Saudi-developed xApp layer.",
+      "contact": "Mavenir VP International Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Rakuten Symphony",
+      "country": "Japan",
+      "type": "Open RAN Platform",
+      "rationale": "Rakuten Symphony provides Symworld Open RAN platform and has international operator partnerships. Japanese technology with active Middle East engagement.",
+      "contact": "Rakuten Symphony VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Nokia (Open RAN)",
+      "country": "Finland",
+      "type": "RAN Technology Partner",
+      "rationale": "Nokia is a leading Open RAN supplier and has STC relationships. Nokia's Open RAN APIs enable Saudi xApp development.",
+      "contact": "Nokia VP Open RAN, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Ericsson",
+      "country": "Sweden",
+      "type": "RAN Platform and APIs",
+      "rationale": "Ericsson has Open RAN capability and Saudi operator relationships.",
+      "contact": "Ericsson VP Open Networks, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "VMware Telco (Broadcom)",
+      "country": "USA",
+      "type": "Telco Cloud Platform",
+      "rationale": "VMware Telco provides the cloud infrastructure for Open RAN deployment. Saudi software runs on VMware telco cloud.",
+      "contact": "Broadcom VMware Telco VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "STC (Saudi Telecom Company)",
+      "track": "Track 7 — Venture Client",
+      "current": "Open RAN deployment; some in-house software development; largest 5G network in Saudi Arabia",
+      "upgrade": "STC as development partner and anchor customer for Saudi Open RAN software; STC network as live testbed; STC-co-funded Saudi xApp development programme; 5-year Saudi software licensing commitment",
+      "timeline": "24 months to first production xApp deployment",
+      "anchor": "STC + CITC + MCIT"
+    },
+    {
+      "rank": 2,
+      "name": "MCIT (Ministry of Communications)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Digital infrastructure strategy; spectrum management; Open RAN policy",
+      "upgrade": "MCIT Open RAN software localisation requirement; Saudi software preference in government-funded network expansion; regulatory support for Saudi Open RAN software certification",
+      "timeline": "12 months",
+      "anchor": "MCIT + CITC + STC"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST Computer Science / Communications",
+      "track": "Track 6 — R&D",
+      "current": "Wireless communications research; ML for networks; some RAN research",
+      "upgrade": "KAUST-STC Open RAN research programme; AI-powered RAN optimisation research; energy efficiency algorithms for Saudi climate conditions",
+      "timeline": "24 months",
+      "anchor": "MCIT + KAUST + STC"
+    },
+    {
+      "rank": 4,
+      "name": "SDAIA / AI Centre",
+      "track": "Track 6 — R&D",
+      "current": "National AI programme; some telecom AI research",
+      "upgrade": "AI-powered Open RAN management research; Saudi RAN intelligent controller AI models; SDAIA compute for RAN AI training",
+      "timeline": "24 months",
+      "anchor": "SDAIA + STC + KAUST"
+    }
+  ]
+}

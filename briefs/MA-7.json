@@ -1,0 +1,91 @@
+{
+  "id": "MA-7",
+  "title": "UAV Propulsion Maintenance and Assembly",
+  "sector": "AD",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product/Service",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "PSAP Track 2 — Joint programme between SAMI and Baykar with GADD propulsion technology programme",
+  "executive_summary": "UAV propulsion is the most operationally critical and technically demanding node in the MALE UAV supply chain. The Baykar Akinci is powered by two AI-450C turbofan engines (Ukrainian-origin, now produced under licence) or two TEI PD170 turbodiesel engines. Both engine types require periodic overhaul, component replacement, and in some cases assembly of spare engines from parts. Today, all Akinci engine work is performed in Turkey. Node MA-7 targets the establishment of in-Kingdom overhaul and assembly capability for the UAV propulsion systems in the Saudi fleet, reducing operational dependency on Turkish support and building the propulsion engineering competence that underpins future sovereign UAV programmes.\n\nThe global military UAV propulsion MRO market is estimated at $1.2 billion in 2024 and growing at 14.3% CAGR, driven by the rapid expansion of MALE and HALE fleet sizes globally. Saudi Arabia's Akinci fleet — targeted at 12+ airframes — creates a sustained domestic propulsion maintenance demand. GADD's future sovereign UAV programme will require Saudi propulsion engineering competence at the design level, making MA-7 a critical capability investment beyond its immediate MRO value.\n\nPhase II timing reflects the technology complexity: turbofan and diesel engine overhaul requires precision machining, specialised tooling, and engine test cell capability that cannot be established credibly without the Phase I manufacturing and quality infrastructure from MA-1 and MA-3.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Baykar / TEI (Tusas Engine Industries)",
+      "country": "Turkey",
+      "type": "Technology Partner / Licensor",
+      "rationale": "TEI manufactures the PD170 turbodiesel that powers the Akinci. A licensing arrangement for Saudi overhaul is the natural extension of the SAMI-Baykar co-production relationship.",
+      "contact": "TEI VP International Programmes → SAMI Propulsion Director"
+    },
+    {
+      "rank": 2,
+      "name": "Honeywell Aerospace",
+      "country": "USA",
+      "type": "Engine MRO Partner",
+      "rationale": "Honeywell has turbofan MRO capabilities relevant to small military engines and an existing Saudi Arabia presence through commercial aviation. Honeywell's AS907 and HTF7000 experience is transferable to MALE UAV turbofan categories.",
+      "contact": "Honeywell Aerospace VP Defence Aftermarket, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "Safran Helicopter Engines",
+      "country": "France",
+      "type": "Propulsion Technology Partner",
+      "rationale": "Safran has turboshaft and small turbofan overhaul capabilities with a strong international licensing track record. Non-ITAR French technology avoids US export control complications.",
+      "contact": "Safran Helicopter Engines VP International MRO"
+    },
+    {
+      "rank": 4,
+      "name": "MTU Aero Engines",
+      "country": "Germany",
+      "type": "Engine Test Cell Partner",
+      "rationale": "MTU specialises in military engine MRO and maintenance test cell design. MTU's Saudi Arabia engagement through Tornado engine work provides a relationship foundation.",
+      "contact": "MTU Aero Engines VP Military Engine Services"
+    },
+    {
+      "rank": 5,
+      "name": "HEICO / Aviall",
+      "country": "USA",
+      "type": "Parts Supply and CRO",
+      "rationale": "Independent parts supply and component repair for turbofan accessories reduces OEM dependency and improves parts availability for the Saudi UAV fleet.",
+      "contact": "HEICO Defence VP International Supply Chain"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI / Alsalam Propulsion Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Limited rotary-wing engine line maintenance (GE T700 at Alsalam); no fixed-wing turbofan overhaul",
+      "upgrade": "Construct UAV engine test cell (Phase II); obtain TEI/Baykar propulsion data package; hire 5 Saudi propulsion engineers via GADD fellowship; establish turbodiesel overhaul line",
+      "timeline": "36 months to first engine overhaul completion",
+      "anchor": "SAMI + RSAF UAV Command"
+    },
+    {
+      "rank": 2,
+      "name": "ARAMCO Industrial Services (AMSCO)",
+      "track": "Track 7 — Venture Client",
+      "current": "Gas turbine maintenance for Aramco power generation; precision machining for rotating equipment",
+      "upgrade": "Qualify precision machining capability for UAV engine component repair; AS9100 certification; SAMI subcontract for engine component machining",
+      "timeline": "18 months to qualified Tier 2 engine component supplier",
+      "anchor": "SAMI + Aramco"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Mechanical Engineering / Turbomachinery Lab",
+      "track": "Track 6 — R&D",
+      "current": "Turbomachinery research; computational fluid dynamics; some small turbine testing",
+      "upgrade": "GADD-KFUPM propulsion research programme; establish small turbine test cell; provide graduate engineers to SAMI propulsion programme",
+      "timeline": "24 months to meaningful research contribution",
+      "anchor": "GADD + KFUPM"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Electricity Company (SEC) / Power Generation Division",
+      "track": "Track 7 — Venture Client",
+      "current": "Gas turbine overhaul for power generation (GE, Siemens, Alstom turbines); large engine test facility",
+      "upgrade": "Extend gas turbine test capability to aerospace-grade small turbofan testing; dual-use test facility serving both power generation and UAV engine overhaul",
+      "timeline": "24 months to dual-use capability",
+      "anchor": "SAMI + SEC"
+    }
+  ]
+}

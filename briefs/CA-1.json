@@ -1,0 +1,91 @@
+{
+  "id": "CA-1",
+  "title": "Commercial MRO Expansion",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$180M – $320M",
+  "entry_mechanism": "Saudia Technic expansion plus PSAP-attracted international MRO specialists with EASA Part 145 and FAA Repair Station",
+  "executive_summary": "Saudi Arabia's commercial aviation sector is undergoing its most dramatic expansion in history — Saudi Arabian Airlines, Riyadh Air, and Flynas have collectively ordered over 400 narrow and wide-body aircraft. This fleet expansion creates a massive domestic MRO demand that is currently projected to flow largely to foreign maintenance facilities in Dubai, Bahrain, Singapore, and Europe. Node CA-1 targets the expansion of Saudi Arabia's commercial MRO capability to capture the maintenance demand from this fleet expansion in-Kingdom.\n\nThe global commercial aviation MRO market was valued at $96 billion in 2024 and is growing at 5.8% CAGR. Saudi Arabia's addressable MRO market — based on its expanding fleet — is estimated at $1.8–2.4 billion per year by 2030. Saudia Technic currently captures approximately $400–500 million of this market. Full-spectrum Saudi MRO capability — heavy maintenance, engine overhaul, component repair, and line maintenance across the Airbus and Boeing fleet — could capture $1.2–1.8 billion per year, making it one of the largest service localisation opportunities in the Saudi industrial strategy.\n\nThe expansion of Saudi MRO capability also serves Vision 2030's aviation hub ambition: Saudi Arabia positioned as the MRO centre of excellence for the GCC, attracting work from Emirati, Qatari, and Kuwaiti carriers that currently send work to Dubai and Singapore.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Lufthansa Technik",
+      "country": "Germany",
+      "type": "JV MRO Partner",
+      "rationale": "LHT is the world's leading independent MRO provider and has established MRO joint ventures in multiple countries. LHT's relationship with Saudia Technic is the natural partnership base for capability expansion.",
+      "contact": "LHT VP MRO Joint Ventures, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Air France Industries / KLM Engineering",
+      "country": "France/Netherlands",
+      "type": "Engine and Component MRO",
+      "rationale": "AFI KLM E&M has engine MRO capability (CFM56, LEAP, Trent) and component repair. Active Middle East expansion strategy.",
+      "contact": "AFI KLM E&M VP International Business Development"
+    },
+    {
+      "rank": 3,
+      "name": "ST Engineering Aerospace",
+      "country": "Singapore",
+      "type": "Full-Service MRO Partner",
+      "rationale": "ST Engineering operates one of Asia's largest MRO facilities and has established multiple international JVs. Active interest in Gulf MRO market.",
+      "contact": "ST Engineering VP Commercial MRO, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "StandardAero",
+      "country": "USA/Canada",
+      "type": "Engine MRO Partner",
+      "rationale": "StandardAero is the world's largest independent engine MRO provider with CFM56 and LEAP capability directly relevant to Saudi Arabia's narrowbody fleet.",
+      "contact": "StandardAero VP International Business"
+    },
+    {
+      "rank": 5,
+      "name": "Joramco (Alia / Royal Jordanian)",
+      "country": "Jordan",
+      "type": "Regional MRO Benchmark",
+      "rationale": "Joramco has expanded from a Jordan Airlines MRO to a regional third-party MRO. The model is directly relevant to Saudia Technic's expansion path.",
+      "contact": "Joramco CEO / VP Business Development"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudia Technic",
+      "track": "Track 2 — JV Structuring",
+      "current": "Airbus A320 and A330 heavy maintenance; some Boeing 777 capability; EASA Part 145 approval",
+      "upgrade": "Expand to Boeing 787 and A350 heavy maintenance; add LEAP engine shop (CFM56 to LEAP transition); component repair expansion; LHT technical partnership for quality uplift; 300 additional Saudi technicians",
+      "timeline": "24 months to Phase I expanded capability",
+      "anchor": "Saudia + GACA + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "GACA (General Authority of Civil Aviation)",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Civil aviation regulatory authority; EASA bilateral relationship",
+      "upgrade": "Streamlined EASA Part 145 approval extension process for Saudi MRO; GACA-EASA bilateral upgrade; Saudi National MRO Strategy implementation oversight",
+      "timeline": "12 months to enhanced regulatory framework",
+      "anchor": "GACA + EASA"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Ground Services Company (SAUDIA Group)",
+      "track": "Track 3 — Supplier Development",
+      "current": "Ground handling and line maintenance at Saudi airports",
+      "upgrade": "Upgrade line maintenance to full A-check capability; EASA Part 145 for line stations; expand to component pooling and exchange",
+      "timeline": "18 months",
+      "anchor": "Saudia + GACA"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC Aviation Academy",
+      "track": "Track 8 — Human Capital",
+      "current": "Aviation technician training; some GACA certifications",
+      "upgrade": "EASA Part 147 approved training organisation; Airbus and Boeing type-rated maintenance engineer programme; 200 Saudi AME graduates per year pipeline",
+      "timeline": "24 months to EASA Part 147 approval",
+      "anchor": "GACA + Saudia Technic + TVTC"
+    }
+  ]
+}

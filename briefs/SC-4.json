@@ -1,0 +1,91 @@
+{
+  "id": "SC-4",
+  "title": "SiC Device Research and Pilot at KACST-SSIH",
+  "sector": "SC",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$220M – $400M",
+  "entry_mechanism": "GADD-KACST-SSIH Silicon Carbide power device research programme with international foundry partnership",
+  "executive_summary": "Silicon Carbide (SiC) power semiconductors are the enabling technology for electric vehicles, industrial power conversion, solar inverters, and defence power electronics — operating at higher voltages, temperatures, and efficiencies than silicon-based devices. SiC devices are the fastest-growing semiconductor category (29.4% CAGR) and Saudi Arabia's automotive (AU programme), renewable energy, and defence programmes all create demand for SiC power devices.\n\nNode SC-4 targets Phase II Saudi SiC device research and pilot fabrication at KACST-SSIH. Phase I activities (SC-1 chip design, SC-2 electronic chemicals, SC-3 HPA ceramics) establish the enabling infrastructure. Phase II SiC research builds on this foundation to create Saudi SiC device design capability and a pilot fabrication line.\n\nSiC substrate manufacturing (Wolfspeed, SICC, STMicroelectronics) is a strategic bottleneck — Saudi Arabia's natural silicon carbide mineral resources (quartz + carbon → SiC at SABIC) and HPA ceramics from SC-3 create potential feedstock advantages for SiC crystal growth. The SiC substrate → SiC device → Saudi EV power electronics cascade is the semiconductor equivalent of the MA-1 → CA-2 → SS-1 composites cascade.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "STMicroelectronics",
+      "country": "France/Italy",
+      "type": "SiC Technology Partner",
+      "rationale": "ST is the market leader in automotive SiC devices with active GCC market relationships. Non-US European technology with industrial partnership experience.",
+      "contact": "STMicroelectronics VP International Manufacturing Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Wolfspeed",
+      "country": "USA",
+      "type": "SiC Substrate Technology",
+      "rationale": "Wolfspeed produces the world's leading SiC substrates. Technology access for Saudi SiC research programme.",
+      "contact": "Wolfspeed VP International Business"
+    },
+    {
+      "rank": 3,
+      "name": "Infineon Technologies",
+      "country": "Germany",
+      "type": "SiC Power Device Partner",
+      "rationale": "Infineon is a leading SiC power device manufacturer with active Gulf industrial relationships.",
+      "contact": "Infineon VP International Power Semiconductors"
+    },
+    {
+      "rank": 4,
+      "name": "onsemi",
+      "country": "USA",
+      "type": "SiC Device Technology",
+      "rationale": "onsemi is the fastest-growing SiC device company with automotive and industrial focus.",
+      "contact": "onsemi VP International Manufacturing"
+    },
+    {
+      "rank": 5,
+      "name": "SICC (China)",
+      "country": "China",
+      "type": "SiC Substrate Alternative",
+      "rationale": "SICC produces SiC substrates and offers more accessible technology partnership than US suppliers.",
+      "contact": "SICC VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "GADD / SSIH",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Phase I SC-1 chip design infrastructure",
+      "upgrade": "GADD SiC research programme at KACST-SSIH; STMicroelectronics research partnership; SiC crystal growth laboratory; 20 Saudi SiC device engineers; pilot 4-inch SiC wafer fabrication line",
+      "timeline": "42 months to pilot fabrication capability",
+      "anchor": "GADD + PIF + MOD"
+    },
+    {
+      "rank": 2,
+      "name": "KACST Semiconductor Research",
+      "track": "Track 6 — R&D",
+      "current": "Some semiconductor materials research; limited device research",
+      "upgrade": "GADD-KACST SiC research programme; SiC crystal characterisation; SiC device simulation and modelling; Saudi SiC process development",
+      "timeline": "36 months",
+      "anchor": "GADD + KACST"
+    },
+    {
+      "rank": 3,
+      "name": "Ma'aden / SABIC (SiC feedstock)",
+      "track": "Track 7 — Venture Client",
+      "current": "Silicon raw materials; carbon-rich petrochemical streams",
+      "upgrade": "Saudi SiC crystal growth from SABIC silicon + carbon sources; Ma'aden SiC crystal programme; Saudi SiC substrate research using domestic feedstock",
+      "timeline": "42 months",
+      "anchor": "Ma'aden + SABIC + GADD"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM / KAUST Electrical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Power electronics research; semiconductor courses",
+      "upgrade": "SiC power electronics engineering programme; SSIH-KFUPM SiC device research partnership; Saudi power semiconductor engineer pipeline",
+      "timeline": "30 months",
+      "anchor": "GADD + KFUPM + KAUST"
+    }
+  ]
+}

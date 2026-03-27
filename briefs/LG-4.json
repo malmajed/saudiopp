@@ -1,0 +1,91 @@
+{
+  "id": "LG-4",
+  "title": "Industrial Supply Chain Management Platform",
+  "sector": "LG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$40M – $75M",
+  "entry_mechanism": "Saudi software company building industrial SCM platform anchored by ARAMCO IKTVA supply chain digitalisation",
+  "executive_summary": "Industrial supply chain management — the software platforms that manage procurement, vendor performance, inventory, demand planning, and delivery scheduling for industrial companies — is a large professional services and software market that flows almost entirely to SAP, Oracle, and Infor in Saudi Arabia. Saudi Arabia's industrial programmes (PSAP, IKTVA, NIDLP) mandate supplier development and local content tracking — creating compliance data management requirements that are not well served by generic ERP platforms.\n\nNode LG-4 targets a Saudi-developed industrial SCM platform specifically designed for Saudi IKTVA/NIDLP compliance: supplier local content tracking, Saudi industrial council certification management, Aramco IKTVA scoring integration, and Arabic-language supplier communication. The compliance requirement is the unique Saudi use case that foreign platforms serve poorly.\n\nThe platform has immediate demand from Saudi Arabia's 2,000+ IKTVA-registered suppliers and 500+ NIDLP-participating companies. Annual platform licensing revenue of $20–40 million is achievable within 3 years.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "SAP Ariba",
+      "country": "Germany/USA",
+      "type": "SCM Platform Technology",
+      "rationale": "SAP Ariba is the dominant industrial procurement platform with Saudi Aramco deployment. Saudi SCM built on SAP APIs and extending Ariba with Saudi compliance modules.",
+      "contact": "SAP VP Supply Chain, Saudi Arabia"
+    },
+    {
+      "rank": 2,
+      "name": "Oracle SCM Cloud",
+      "country": "USA",
+      "type": "Supply Chain Platform",
+      "rationale": "Oracle SCM is widely used in Saudi Arabia. Saudi compliance module development on Oracle platform.",
+      "contact": "Oracle VP Supply Chain, Middle East"
+    },
+    {
+      "rank": 3,
+      "name": "Infor CloudSuite Industrial",
+      "country": "USA",
+      "type": "Industrial ERP Partner",
+      "rationale": "Infor has industrial ERP with active Gulf manufacturing customer base.",
+      "contact": "Infor VP International Industrial"
+    },
+    {
+      "rank": 4,
+      "name": "Jaggaer",
+      "country": "USA",
+      "type": "Procurement Platform",
+      "rationale": "Jaggaer provides procurement platforms with government and industrial customer focus.",
+      "contact": "Jaggaer VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Coupa Software",
+      "country": "USA",
+      "type": "Business Spend Management",
+      "rationale": "Coupa provides spend management and supplier compliance tracking.",
+      "contact": "Coupa VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Aramco / IKTVA Programme",
+      "track": "Track 7 — Venture Client",
+      "current": "IKTVA compliance tracking using manual and spreadsheet tools; SAP fragmentation",
+      "upgrade": "Aramco as development partner for Saudi IKTVA SCM platform; IKTVA data API access; Aramco supplier network as pilot deployment base; Aramco 5-year platform licensing commitment",
+      "timeline": "18 months to commercial platform",
+      "anchor": "Aramco + IKTVA + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "GAMI (General Authority for Military Industries)",
+      "track": "Track 7 — Venture Client",
+      "current": "PSAP local content management; some digital tools",
+      "upgrade": "GAMI PSAP compliance integrated into Saudi SCM platform; defence supplier local content tracking; GAMI mandate for PSAP suppliers to use Saudi SCM platform",
+      "timeline": "18 months",
+      "anchor": "GAMI + SAMI + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "Elm Company",
+      "track": "Track 3 — Supplier Development",
+      "current": "Government digital platforms; business identity infrastructure",
+      "upgrade": "Saudi SCM platform built on Elm's government data infrastructure; Absher business identity integration; national supplier registry API",
+      "timeline": "18 months",
+      "anchor": "PIF + GAMI + Aramco"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Industrial Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Supply chain engineering; operations research; industrial systems",
+      "upgrade": "Saudi supply chain platform design research; IKTVA compliance algorithm optimisation; Saudi SCM engineering programme",
+      "timeline": "24 months",
+      "anchor": "Aramco + KFUPM"
+    }
+  ]
+}

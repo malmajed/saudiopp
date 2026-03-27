@@ -1,0 +1,91 @@
+{
+  "id": "DT-10",
+  "title": "Solar-Variable RO Control Systems",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product/Service",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "Saudi software company developing solar-powered variable-output RO control algorithms with NEOM green desalination as anchor",
+  "executive_summary": "Traditional RO desalination operates at steady-state — constant pressure, constant flow, constant power consumption. Solar energy is inherently variable — rising and falling through the day, interrupted by clouds. Marrying solar power with RO desalination requires sophisticated variable-speed pump control, membrane protection algorithms that handle power fluctuations, and intelligent system management that maximises water production during peak solar hours. This is a genuinely novel engineering challenge that Saudi Arabia — with both the world's largest desalination capacity and one of the world's largest solar irradiance — is uniquely positioned to solve.\n\nNode DT-10 targets Saudi-developed solar-variable RO control software and hardware: algorithms that safely operate RO systems across the full power range from 20% to 100% output, protecting membranes during power transients and maximising daily water production from variable solar input. NEOM's green desalination programme — using solar-powered RO exclusively — is the global showcase anchor for this technology.\n\nThe global solar-powered desalination market is nascent ($1.2 billion in 2024) but growing at 31.4% CAGR. Saudi Arabia, as the world's leading solar resource country and largest desalination operator, is the natural home for this technology development.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "ACWA Power",
+      "country": "Saudi Arabia",
+      "type": "Solar-Desal Developer",
+      "rationale": "ACWA Power develops solar-powered desalination globally and is the Saudi anchor investor in this space. ACWA's technical team is the natural development partner.",
+      "contact": "ACWA Power VP Technology Development"
+    },
+    {
+      "rank": 2,
+      "name": "Siemens Energy",
+      "country": "Germany",
+      "type": "Variable Frequency Drive Systems",
+      "rationale": "Siemens supplies VFD pump control for desalination. Solar-variable adaptation of Siemens VFD systems.",
+      "contact": "Siemens Energy VP Water Technology"
+    },
+    {
+      "rank": 3,
+      "name": "ABB Drives",
+      "country": "Switzerland",
+      "type": "Power Control Technology",
+      "rationale": "ABB produces variable frequency drives and has solar-variable drive technology applicable to RO pump control.",
+      "contact": "ABB VP Drives and Controls, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Danfoss Drives",
+      "country": "Denmark",
+      "type": "Solar Pump Control",
+      "rationale": "Danfoss has solar pump drive technology and active Gulf desalination market presence.",
+      "contact": "Danfoss VP Water and Wastewater, Middle East"
+    },
+    {
+      "rank": 5,
+      "name": "TMEIC",
+      "country": "Japan/USA",
+      "type": "Solar-Variable Power Systems",
+      "rationale": "TMEIC produces solar inverters and variable power systems with Gulf industrial deployments.",
+      "contact": "TMEIC VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "NEOM Water",
+      "track": "Track 7 — Venture Client",
+      "current": "Green desalination programme; solar-powered RO development",
+      "upgrade": "NEOM as anchor development partner and showcase site; Saudi variable RO control software deployed at NEOM; NEOM operational data for algorithm development",
+      "timeline": "24 months to first commercial deployment",
+      "anchor": "NEOM + ACWA + SWCC"
+    },
+    {
+      "rank": 2,
+      "name": "KAUST Solar Energy Research Centre",
+      "track": "Track 6 — R&D",
+      "current": "Solar energy research; some solar-desal research",
+      "upgrade": "KAUST-SWCC-NEOM solar-variable RO research programme; membrane performance under variable pressure research; algorithm validation using KAUST pilot plant",
+      "timeline": "18 months",
+      "anchor": "KAUST + NEOM + SWCC"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Electricity Company",
+      "track": "Track 7 — Venture Client",
+      "current": "Grid operator; solar integration challenge",
+      "upgrade": "SEC-SWCC variable demand desalination for grid balancing; solar-variable RO as demand response asset; Saudi smart grid integration",
+      "timeline": "24 months",
+      "anchor": "SEC + SWCC + NEOM"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Electrical Engineering / Control Systems",
+      "track": "Track 8 — Human Capital",
+      "current": "Control systems engineering; power electronics; some solar-water research",
+      "upgrade": "Solar-variable RO control research programme; Saudi water-energy nexus engineering specialisation",
+      "timeline": "24 months",
+      "anchor": "SWCC + KFUPM + NEOM"
+    }
+  ]
+}

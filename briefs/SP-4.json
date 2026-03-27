@@ -1,0 +1,91 @@
+{
+  "id": "SP-4",
+  "title": "Military Communications Satellite Operations",
+  "sector": "AD",
+  "phase": "II-III",
+  "wave": "Wave 2/3",
+  "type": "Service",
+  "investment_range": "$200M – $400M",
+  "entry_mechanism": "Sovereign operations of a dedicated Saudi military communications satellite through Phase II procurement and Phase III operations",
+  "executive_summary": "Military satellite communications (MILSATCOM) is the backbone of modern joint military operations — providing beyond-line-of-sight communications for command and control, intelligence distribution, and real-time battlefield coordination. Saudi Arabia currently relies on commercial Arabsat capacity and US MILSATCOM services for its military communications — a dependency that becomes operationally critical and politically vulnerable in exactly the circumstances when Saudi Arabia most needs reliable, sovereign communications.\n\nNode SP-4 targets Saudi Arabia's first dedicated military communications satellite: procured in Phase II (satellite acquisition, ground segment construction, and Saudi operator training) and placed in sovereign operation in Phase III. The satellite provides Ka-band and X-band capacity for Saudi military communications, with a ground segment operated entirely by Saudi engineers at a cleared military facility.\n\nA dedicated Saudi MILSATCOM satellite is a strategic investment with clear deterrent value: it signals to adversaries that Saudi Arabia's command and control architecture cannot be disrupted by denying access to third-party satellite services, and it provides Saudi commanders with uncontested communications capacity across the Kingdom's wide strategic area of interest.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Airbus Defence and Space",
+      "country": "France/Germany",
+      "type": "MILSATCOM Satellite Prime Contractor",
+      "rationale": "Airbus has designed and built MILSATCOM satellites for France, UK, Germany, and Spain. The most experienced European MILSATCOM provider with Saudi Arabia relationships.",
+      "contact": "Airbus Defence and Space VP Military Space, Saudi Arabia"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Alenia Space",
+      "country": "France/Italy",
+      "type": "MILSATCOM Satellite Prime",
+      "rationale": "Thales Alenia has built MILSATCOM satellites for multiple nations including the Syracuse series for France and SICRAL for Italy. French government support for Saudi space cooperation.",
+      "contact": "Thales Alenia Space VP Government Satellites, International"
+    },
+    {
+      "rank": 3,
+      "name": "Lockheed Martin Space",
+      "country": "USA",
+      "type": "MILSATCOM Technology",
+      "rationale": "Lockheed Martin builds MILSATCOM satellites for the US military. ITAR-controlled technology but US government policy may support a Saudi MILSATCOM acquisition through FMS.",
+      "contact": "Lockheed Martin Space VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "ISRO Antrix / NewSpace India",
+      "country": "India",
+      "type": "Alternative Launch and Bus Provider",
+      "rationale": "India's commercial space sector offers non-ITAR satellite bus and launch services that provide an alternative to US and European technology.",
+      "contact": "Antrix Corporation VP International Business"
+    },
+    {
+      "rank": 5,
+      "name": "Hispasat / SES Government",
+      "country": "Spain/Luxembourg",
+      "type": "Managed MILSATCOM Services",
+      "rationale": "As an interim measure before sovereign satellite, managed MILSATCOM capacity through Hispasat or SES Government provides enhanced security over commercial services.",
+      "contact": "Hispasat VP Government and Defence, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudi Ministry of Defence / MILSATCOM Programme Office",
+      "track": "Track 1 — Government Programme",
+      "current": "Commercial satellite communications; some MILSATCOM capacity through Arabsat",
+      "upgrade": "Establish MOD MILSATCOM Programme Office; procure Saudi MILSATCOM satellite (Airbus or Thales); construct sovereign military ground segment; train 50 Saudi military satellite operators",
+      "timeline": "Phase II: procurement (36 months); Phase III: launch and operation (60 months)",
+      "anchor": "MOD + SSA + NSC"
+    },
+    {
+      "rank": 2,
+      "name": "Arabsat",
+      "track": "Track 7 — Venture Client",
+      "current": "Commercial satellite operations including some military-use capacity",
+      "upgrade": "Arabsat MILSATCOM dedicated capacity as bridge service; transition Saudi military to dedicated sovereign satellite when available; co-locate Saudi military operators at Arabsat ground segment",
+      "timeline": "12 months to enhanced MILSATCOM capacity from Arabsat",
+      "anchor": "MOD + Arabsat"
+    },
+    {
+      "rank": 3,
+      "name": "SSA / National Space Centre",
+      "track": "Track 1 — Government Programme",
+      "current": "Civil space programme oversight; some ground station infrastructure",
+      "upgrade": "SSA technical support to MOD MILSATCOM programme; shared ground infrastructure for civil and military satellites; Saudi satellite operator training framework",
+      "timeline": "36 months",
+      "anchor": "SSA + MOD"
+    },
+    {
+      "rank": 4,
+      "name": "KACST / Communications Technology Research",
+      "track": "Track 6 — R&D",
+      "current": "Communications technology research; some satellite communications research",
+      "upgrade": "GADD-KACST MILSATCOM waveform research; Saudi military communications protocol development; anti-jamming technology research",
+      "timeline": "36 months",
+      "anchor": "GADD + KACST + MOD"
+    }
+  ]
+}

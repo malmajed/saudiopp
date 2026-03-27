@@ -1,0 +1,91 @@
+{
+  "id": "SC-2",
+  "title": "Semiconductor Materials — Electronic Grade Chemicals",
+  "sector": "SC",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$180M – $320M",
+  "entry_mechanism": "SABIC downstream speciality chemicals investment producing semiconductor-grade materials from domestic petrochemical base",
+  "executive_summary": "Semiconductor manufacturing requires ultra-pure chemicals — electronic grade solvents, etchants, photoresists, and dopant gases at purities exceeding 99.9999% (6N purity). Saudi Arabia's SABIC produces many of the base chemicals that electronic grade semiconductor materials are refined from — a classic value chain gap: exporting commodity chemicals while importing ultra-pure electronic-grade versions.\n\nNode SC-2 targets Saudi production of electronic grade semiconductor chemicals: ultra-pure hydrofluoric acid (HF), sulphuric acid, isopropyl alcohol (IPA), hydrogen peroxide, and specialty gases (silane, germane, phosphine) used in semiconductor wafer cleaning, etching, and deposition. The refining processes for electronic grade purity are technically demanding but well-established, and SABIC's chemical engineering infrastructure provides the foundation.\n\nThe global electronic chemicals market was valued at $22 billion in 2024 growing at 7.8% CAGR. Saudi Arabia's addressable opportunity — supplying electronic grade chemicals to Asian and European fabs — is potentially $500M–1B annually at steady state, with immediate domestic demand from SSIH's Phase II fabrication ambitions.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Stella Chemifa",
+      "country": "Japan",
+      "type": "Electronic Grade HF Partner",
+      "rationale": "Stella Chemifa produces electronic grade HF and is the global quality standard. Technology licensing for Saudi production.",
+      "contact": "Stella Chemifa VP International"
+    },
+    {
+      "rank": 2,
+      "name": "Air Liquide (Electronics)",
+      "country": "France",
+      "type": "Specialty Gases Technology",
+      "rationale": "Air Liquide produces electronic specialty gases for semiconductor fabs. Non-US technology with active Gulf industrial presence.",
+      "contact": "Air Liquide VP Electronics, International"
+    },
+    {
+      "rank": 3,
+      "name": "Mitsubishi Chemical / Semiconductor Materials",
+      "country": "Japan",
+      "type": "Process Chemicals Technology",
+      "rationale": "Mitsubishi Chemical produces semiconductor process chemicals and has international licensing partnerships.",
+      "contact": "Mitsubishi Chemical VP Semiconductor Materials"
+    },
+    {
+      "rank": 4,
+      "name": "Merck KGaA Electronics",
+      "country": "Germany",
+      "type": "Specialty Chemicals for Semicon",
+      "rationale": "Merck produces photoresists and specialty chemicals for semiconductor manufacturing. Active SSIH engagement interest.",
+      "contact": "Merck KGaA VP Semiconductor Solutions, International"
+    },
+    {
+      "rank": 5,
+      "name": "Honeywell Electronic Materials",
+      "country": "USA",
+      "type": "Specialty Gas Technology",
+      "rationale": "Honeywell produces specialty semiconductor gases and has process technology licensing.",
+      "contact": "Honeywell VP Electronic Materials"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC Specialties / Advanced Chemicals",
+      "track": "Track 7 — Venture Client",
+      "current": "Bulk chemical production; some speciality chemicals; HF acid production for petrochemical",
+      "upgrade": "SABIC electronic grade chemical refining investment; Air Liquide or Stella Chemifa technology JV; ultra-pure HF and IPA production; 6N purity certification; SSIH as domestic anchor customer",
+      "timeline": "36 months to first electronic grade chemical production",
+      "anchor": "SABIC + GADD + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "KACST Chemistry Research",
+      "track": "Track 6 — R&D",
+      "current": "Chemical research; materials purification research",
+      "upgrade": "GADD-KACST electronic grade materials research; ultra-pure materials characterisation; Saudi semiconductor materials quality programme",
+      "timeline": "24 months",
+      "anchor": "GADD + KACST + SABIC"
+    },
+    {
+      "rank": 3,
+      "name": "KFUPM Chemical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Chemical engineering; distillation and purification; process chemistry",
+      "upgrade": "Electronic grade chemical engineering specialisation; SABIC-KFUPM purification research programme; Saudi semiconductor materials engineer pipeline",
+      "timeline": "24 months",
+      "anchor": "SABIC + KFUPM"
+    },
+    {
+      "rank": 4,
+      "name": "Aramco Research Centre",
+      "track": "Track 7 — Venture Client",
+      "current": "Ultra-pure chemical research for refinery applications; analytical chemistry",
+      "upgrade": "Aramco analytical chemistry capability supporting electronic grade certification; dual-use ultra-pure chemical research",
+      "timeline": "24 months",
+      "anchor": "Aramco + SABIC + KACST"
+    }
+  ]
+}

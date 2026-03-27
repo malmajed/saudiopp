@@ -1,0 +1,91 @@
+{
+  "id": "SP-3",
+  "title": "Small Satellite Platform Integration",
+  "sector": "AD",
+  "phase": "II-III",
+  "wave": "Wave 2/3",
+  "type": "Product",
+  "investment_range": "$95M – $180M",
+  "entry_mechanism": "Saudi engineers integrating payloads on international bus platforms under PSAP Track 2",
+  "executive_summary": "Small satellite platform integration — the technical process of mating a Saudi-developed payload with an internationally supplied satellite bus, integrating the combined system, and qualifying it for launch — is the capability bridge between satellite operations sovereignty (SP-1) and full satellite design authority (Phase III aspiration). It is where Saudi engineers gain hands-on experience with flight hardware, develop system engineering competence, and demonstrate that Saudi talent can produce space-qualified hardware.\n\nThe global small satellite market was valued at $4.1 billion in 2024 and is growing at 19.8% CAGR — the fastest growth in the space sector. Saudi Arabia's participation in this market through Phase II integration capability creates an entry point into commercial small satellite manufacturing that has export potential.\n\nNode SP-3 targets the establishment of an AIT (Assembly, Integration, and Test) facility in Saudi Arabia capable of integrating payloads onto international bus platforms — initially EO cameras and communications payloads for Saudi government programmes, expanding to commercial satellite manufacturing for export in Phase III.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Airbus Defence and Space (OneWeb / small satellites)",
+      "country": "France/UK",
+      "type": "Bus Platform and Integration Partner",
+      "rationale": "Airbus has small satellite bus platforms and AIT facility design expertise. Airbus's existing Saudi Arabia programme relationships make them the natural integration partner.",
+      "contact": "Airbus Defence and Space VP Small Satellites, International"
+    },
+    {
+      "rank": 2,
+      "name": "GomSpace",
+      "country": "Denmark",
+      "type": "Small Satellite Bus Provider",
+      "rationale": "GomSpace produces CubeSat and small satellite bus platforms and has established PSAP-style partnerships internationally. Non-ITAR Danish technology.",
+      "contact": "GomSpace VP Government, International"
+    },
+    {
+      "rank": 3,
+      "name": "EnduroSat",
+      "country": "Bulgaria",
+      "type": "Small Satellite Platform",
+      "rationale": "EnduroSat produces small satellite buses and has an active international partnership model. Non-ITAR, accessible for Saudi engineering teams.",
+      "contact": "EnduroSat VP Strategic Partnerships"
+    },
+    {
+      "rank": 4,
+      "name": "Surrey Satellite Technology (SSTL)",
+      "country": "UK",
+      "type": "Small Satellite Integration Partner",
+      "rationale": "SSTL (Airbus subsidiary) has built small satellites for multiple nations and has a strong technology transfer programme. SSTL has prior Saudi Arabia engagement through KAcst.",
+      "contact": "SSTL VP International Programmes"
+    },
+    {
+      "rank": 5,
+      "name": "OHB System",
+      "country": "Germany",
+      "type": "European Small Satellite Partner",
+      "rationale": "OHB builds small satellites and has a track record of international integration partnerships. Non-ITAR German technology.",
+      "contact": "OHB VP Business Development, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SSA / National Space Centre",
+      "track": "Track 2 — JV Structuring",
+      "current": "Satellite programme oversight; some integration experience from SaudiSat programme",
+      "upgrade": "Establish Saudi National AIT Facility (clean room class 100,000; thermal vacuum chamber; vibration test); SSTL or GomSpace integration partnership; 30 Saudi satellite engineers",
+      "timeline": "36 months to first Saudi-integrated satellite",
+      "anchor": "SSA + MOD + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "KACST Space Research",
+      "track": "Track 6 — R&D",
+      "current": "Payload design research; some CubeSat development; ground station capability",
+      "upgrade": "Upgrade KACST to AIT facility standard; Saudi payload design capability; integrate KACST engineering team with national AIT facility",
+      "timeline": "30 months",
+      "anchor": "SSA + KACST"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST Space Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Aerospace engineering research; some CubeSat student projects",
+      "upgrade": "KAUST satellite engineering masters programme; AIT internship pipeline; SSTL-funded KAUST laboratory upgrade",
+      "timeline": "24 months",
+      "anchor": "SSA + KAUST + SSTL"
+    },
+    {
+      "rank": 4,
+      "name": "PIF / NEOM Technology",
+      "track": "Track 7 — Venture Client",
+      "current": "Satellite data user for NEOM development; some space technology procurement",
+      "upgrade": "NEOM-anchored EO satellite demand; NEOM-funded payload development; commercial anchor customer for Saudi AIT facility",
+      "timeline": "36 months",
+      "anchor": "PIF + SSA + NEOM"
+    }
+  ]
+}

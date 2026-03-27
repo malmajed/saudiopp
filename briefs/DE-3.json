@@ -1,0 +1,91 @@
+{
+  "id": "DE-3",
+  "title": "Communications Equipment Maintenance",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$12M – $22M",
+  "entry_mechanism": "Saudi electronics maintenance workshops upgraded to OEM-certified maintenance capability",
+  "executive_summary": "Military tactical radio and communications systems — SINCGARS, PRC-117G, Harris RF-7800, and Rohde & Schwarz MBITR equivalents across Saudi ground forces — require periodic maintenance, calibration, and component-level repair that today flows almost entirely to foreign OEM service centres. The maintenance requirement is large: Saudi Arabia operates hundreds of thousands of tactical communications devices across all service branches.\n\nCommunications equipment maintenance is the most accessible electronics service entry point in the defence sector because: the equipment is less classified than fire control or radar systems; OEM maintenance certification programmes are well-established internationally; the test equipment is commercially available; and Saudi Arabia's existing commercial communications maintenance industry provides an upgrade baseline.\n\nNode DE-3 targets OEM-certified Saudi maintenance workshops capable of depot-level repair for the priority communications equipment categories — primarily Rohde & Schwarz (German, non-ITAR) and Harris/L3Harris (US, ITAR-controlled — limited scope) systems. Phase I focus on non-ITAR European-origin systems, Phase II expansion to ITAR categories under bilateral agreement.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Rohde & Schwarz",
+      "country": "Germany",
+      "type": "OEM Maintenance Partner",
+      "rationale": "R&S is the primary supplier of non-ITAR tactical radios and communications to Saudi Arabia's forces. R&S has a structured Authorised Maintenance Centre programme that Saudi workshops can qualify for.",
+      "contact": "R&S VP Government and Defence Customer Support, Middle East"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Communications",
+      "country": "France",
+      "type": "OEM Maintenance Licensor",
+      "rationale": "Thales supplies tactical communications to Saudi Arabia and has maintenance certification programmes for allied nations.",
+      "contact": "Thales Communications VP After-Sales, Saudi Arabia"
+    },
+    {
+      "rank": 3,
+      "name": "Leonardo Communications",
+      "country": "Italy",
+      "type": "Communications MRO Partner",
+      "rationale": "Leonardo supplies communications equipment to Gulf defence forces and has Italian government support for maintenance localisation.",
+      "contact": "Leonardo VP Communications After-Sales, Middle East"
+    },
+    {
+      "rank": 4,
+      "name": "Harris / L3Harris",
+      "country": "USA",
+      "type": "ITAR-Controlled Maintenance",
+      "rationale": "L3Harris supplies SINCGARS and PRC-117G to Saudi Arabia. Maintenance in-Kingdom requires US government authorisation — engage through the US DSCA bilateral agreement process.",
+      "contact": "L3Harris VP International Customer Support"
+    },
+    {
+      "rank": 5,
+      "name": "Frequentis",
+      "country": "Austria",
+      "type": "Military Comms Systems",
+      "rationale": "Frequentis supplies military communication management systems and has active Gulf engagement. Non-ITAR Austrian technology.",
+      "contact": "Frequentis VP Defence International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SAMI Electronics / Communications Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Some communications maintenance contracts; basic radio servicing",
+      "upgrade": "Establish R&S Authorised Maintenance Centre; invest in R&S test equipment suite; hire 30 Saudi communications technicians; expand to Thales and Leonardo maintenance",
+      "timeline": "18 months to R&S certification",
+      "anchor": "SAMI + Saudi Army + Royal Saudi Air Force"
+    },
+    {
+      "rank": 2,
+      "name": "Saudi Telecom / STC",
+      "track": "Track 7 — Venture Client",
+      "current": "Large-scale communications infrastructure maintenance; extensive RF and microwave capability",
+      "upgrade": "Defence communications maintenance division; military communications security protocols; R&S certification programme",
+      "timeline": "18 months",
+      "anchor": "STC + MOD + SAMI"
+    },
+    {
+      "rank": 3,
+      "name": "National Communication Company (NCC)",
+      "track": "Track 3 — Supplier Development",
+      "current": "Communications maintenance and installation for Saudi government",
+      "upgrade": "Military communications maintenance qualification; R&S and Thales certification; NSCS clearance for classified system categories",
+      "timeline": "18 months",
+      "anchor": "MOD + SAMI"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC Electronics Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Electronics and communications technician programmes",
+      "upgrade": "Military communications maintenance specialisation; R&S factory training pathway; Saudi military technician certification programme",
+      "timeline": "12 months",
+      "anchor": "GADD + SAMI + TVTC"
+    }
+  ]
+}

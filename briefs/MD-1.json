@@ -1,0 +1,91 @@
+{
+  "id": "MD-1",
+  "title": "Examination Gloves and Basic Consumables",
+  "sector": "MD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$35M – $65M",
+  "entry_mechanism": "PSAP Track 2 — International glove manufacturer JV with Saudi industrial anchor at SABIC polymer supply",
+  "executive_summary": "Saudi Arabia consumes approximately 4–5 billion examination gloves annually across its healthcare system — hospitals, primary care centres, and laboratory facilities. All are imported. The COVID-19 pandemic demonstrated globally that medical consumables supply chains are a national security concern, not merely a procurement matter. Saudi Arabia's import dependency for basic examination gloves became acutely visible when global supply chains disrupted in 2020.\n\nThe global examination glove market was valued at $11.2 billion in 2024. Malaysia dominates global production with Top Glove, Hartalega, and Kossan controlling 60%+ of global supply. Node MD-1 targets Saudi Arabia's entry into this market: a Saudi glove manufacturing facility using SABIC's nitrile polymer supply chain as a cost and localisation advantage, targeting initial Saudi domestic demand before expanding to GCC export.\n\nSaudi Arabia's SABIC subsidiary produces nitrile rubber and polymer compounds that are direct inputs to examination glove manufacturing. This upstream materials advantage — combined with Vision 2030's healthcare localisation mandate (NIDLP targets 40% of medical device spend localised by 2030) — creates a genuinely competitive investment case.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Hartalega Holdings",
+      "country": "Malaysia",
+      "type": "Manufacturing JV Partner",
+      "rationale": "Hartalega is Malaysia's second-largest glove manufacturer with the highest technological capability and a track record of international partnerships.",
+      "contact": "Hartalega VP International Business Development"
+    },
+    {
+      "rank": 2,
+      "name": "Top Glove Corporation",
+      "country": "Malaysia",
+      "type": "Manufacturing Partner",
+      "rationale": "Top Glove is the world's largest glove manufacturer. Scale and process efficiency transfer to a Saudi JV.",
+      "contact": "Top Glove VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Ansell (Australia)",
+      "country": "Australia",
+      "type": "Technology and Brand Partner",
+      "rationale": "Ansell produces premium examination gloves and has international manufacturing partnerships. Brand recognition with Saudi hospital procurement.",
+      "contact": "Ansell VP Healthcare, International"
+    },
+    {
+      "rank": 4,
+      "name": "Sempermed (Semperit)",
+      "country": "Austria",
+      "type": "European Manufacturing Partner",
+      "rationale": "Sempermed produces examination gloves and has European quality standards and Middle East market relationships.",
+      "contact": "Sempermed VP International Manufacturing"
+    },
+    {
+      "rank": 5,
+      "name": "Kossan Rubber Industries",
+      "country": "Malaysia",
+      "type": "Manufacturing Technology",
+      "rationale": "Kossan specialises in examination gloves and has international expansion programmes.",
+      "contact": "Kossan VP International Business"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC / Nitrile Polymer Division",
+      "track": "Track 7 — Venture Client",
+      "current": "Nitrile rubber and polymer production; latex compounds",
+      "upgrade": "Establish glove-grade nitrile compound supply to Saudi manufacturer; SABIC as polymer anchor supplier; co-investment in glove manufacturing capacity",
+      "timeline": "18 months to glove-grade compound qualification",
+      "anchor": "SABIC + NIDLP + MOH"
+    },
+    {
+      "rank": 2,
+      "name": "National United Procurement Company (NUPCO)",
+      "track": "Track 7 — Venture Client",
+      "current": "Government medical supply procurement for Saudi hospitals",
+      "upgrade": "NUPCO offtake agreement for first 3 years of Saudi glove production; anchor purchase commitment that de-risks JV investment",
+      "timeline": "12 months to offtake agreement",
+      "anchor": "MOH + NUPCO + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "PIF / Health Sector Investments",
+      "track": "Track 2 — JV Structuring",
+      "current": "Healthcare sector investment portfolio",
+      "upgrade": "PIF equity in Saudi glove manufacturing JV; co-anchor with SABIC polymer supply; Vision 2030 healthcare localisation mandate investment",
+      "timeline": "18 months to JV formation",
+      "anchor": "PIF + SABIC + MOH"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC Industrial Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Industrial technician training",
+      "upgrade": "Glove manufacturing technician programme; clean room and quality control training; SFDA compliance training pipeline",
+      "timeline": "12 months",
+      "anchor": "NIDLP + TVTC + MOH"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "DT-9",
+  "title": "Commercial Brine Lithium Extraction",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product/Service",
+  "investment_range": "$280M – $500M",
+  "entry_mechanism": "Ma'aden-SWCC joint venture for commercial lithium extraction from concentrated brine streams",
+  "executive_summary": "Building on the pilot extraction programme of DT-4, Node DT-9 targets commercial-scale lithium extraction from Saudi desalination brine. If DT-4's pilot demonstrates economic viability (concentration levels, recovery rate, and purity sufficient for battery-grade lithium hydroxide), DT-9 scales to commercial production targeting 10,000–50,000 tonnes per year of lithium carbonate equivalent (LCE). Saudi Arabia's brine lithium resource — if commercialised — would position Saudi Arabia as a top-5 global lithium supplier, directly supporting Vision 2030's electric vehicle and battery storage ambitions.\n\nThe global lithium market was valued at $9.8 billion in 2024 and is expected to grow at 18.2% CAGR as EV adoption accelerates globally. Saudi Arabia's DLE-from-brine pathway, if successful, would be among the most sustainable and cost-competitive lithium production methods globally — no hard rock mining, no evaporation ponds, and a waste-to-resource conversion from existing desalination operations.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "EnergySource Minerals (DLE)",
+      "country": "USA",
+      "type": "Commercial DLE Technology",
+      "rationale": "Commercial DLE technology from DT-4 pilot scaled to production.",
+      "contact": "EnergySource VP International"
+    },
+    {
+      "rank": 2,
+      "name": "SQM (Chile)",
+      "country": "Chile",
+      "type": "Lithium Processing Technology",
+      "rationale": "SQM is the world's second-largest lithium producer with brine lithium processing technology.",
+      "contact": "SQM VP International Business"
+    },
+    {
+      "rank": 3,
+      "name": "Albemarle Corporation",
+      "country": "USA",
+      "type": "Lithium Technology Partner",
+      "rationale": "Albemarle is the world's largest lithium producer with battery-grade processing technology.",
+      "contact": "Albemarle VP International Licensing"
+    },
+    {
+      "rank": 4,
+      "name": "Livent (Arcadium Lithium)",
+      "country": "USA",
+      "type": "Lithium Processing",
+      "rationale": "Livent specialises in battery-grade lithium hydroxide production from brines.",
+      "contact": "Arcadium VP International"
+    },
+    {
+      "rank": 5,
+      "name": "POSCO Holdings",
+      "country": "South Korea",
+      "type": "Battery Materials and Lithium",
+      "rationale": "POSCO has lithium extraction and battery materials processing with active Saudi Arabia investment interest.",
+      "contact": "POSCO VP International Materials"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Ma'aden",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "DT-4 pilot partner; mining and minerals processing capability",
+      "upgrade": "Ma'aden as commercial DLE operator; $500M lithium extraction facility investment; battery-grade lithium hydroxide production; Saudi battery supply chain anchor",
+      "timeline": "48 months (dependent on DT-4 pilot success)",
+      "anchor": "Ma'aden + SWCC + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "SWCC",
+      "track": "Track 7 — Venture Client",
+      "current": "Brine access from DT-4 pilot agreement",
+      "upgrade": "Commercial brine supply agreement; co-investment in brine capture infrastructure; SWCC equity in Ma'aden-SWCC DLE JV",
+      "timeline": "36 months",
+      "anchor": "SWCC + MOE + Ma'aden"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco / Battery Materials",
+      "track": "Track 7 — Venture Client",
+      "current": "Saudi EV strategy; battery technology investments",
+      "upgrade": "Aramco as offtake partner for Saudi brine lithium; Saudi battery supply chain integration from lithium to battery cell (AU-12 connection)",
+      "timeline": "48 months",
+      "anchor": "Aramco + Ma'aden + PIF"
+    },
+    {
+      "rank": 4,
+      "name": "KAUST / KACST Lithium Research",
+      "track": "Track 6 — R&D",
+      "current": "DT-4 pilot research support",
+      "upgrade": "Commercial-scale DLE optimisation research; battery-grade lithium processing research; Saudi brine mineral economics modelling",
+      "timeline": "30 months",
+      "anchor": "Ma'aden + KAUST + KACST"
+    }
+  ]
+}

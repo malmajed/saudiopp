@@ -1,0 +1,91 @@
+{
+  "id": "MS-3",
+  "title": "Solid-Fuel Propulsion Technology Development",
+  "sector": "AD",
+  "phase": "II-III",
+  "wave": "Wave 2/3",
+  "type": "Product",
+  "investment_range": "$150M – $300M",
+  "entry_mechanism": "GADD-led R&D programme, Phase II beginning; production capability from Phase III",
+  "executive_summary": "Solid-fuel rocket propulsion — the technology that drives ballistic missiles, tactical rockets, and solid-fuel boosters for precision-guided munitions — is one of the most strategically sensitive and technically demanding capabilities in the defence industrial ecosystem. Saudi Arabia currently has zero sovereign solid-fuel propulsion capability, making it entirely dependent on imported propulsion systems for every rocket and missile in its inventory.\n\nNode MS-3 is a long-duration technology development programme, not an immediate manufacturing investment. The goal is to establish Saudi Arabia's first sovereign solid-fuel propulsion research and development capability by Phase II, transitioning to limited production capability by Phase III. The technology pathway begins with solid-fuel chemistry and motor design research, progresses through small motor production and testing, and culminates in production-scale capability for tactical rocket motors.\n\nThe strategic importance is clear: a nation that cannot produce its own propulsion systems cannot claim sovereign missile capability. Saudi Arabia's relationship with ballistic missile technology (including its existing CSS-5 inventory) makes this node particularly sensitive — engagement requires the highest-level government-to-government framework and NSCS oversight throughout.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Safran Propulsion (ArianeGroup)",
+      "country": "France",
+      "type": "Propulsion Technology Partner",
+      "rationale": "ArianeGroup / Safran has solid-fuel propulsion technology for space and tactical applications. France's historical Saudi Arabia defence relationship supports technology transfer discussions at the government level.",
+      "contact": "ArianeGroup VP Defence Propulsion, International"
+    },
+    {
+      "rank": 2,
+      "name": "MBDA",
+      "country": "France/UK/Germany/Italy",
+      "type": "Missile Propulsion Integration",
+      "rationale": "MBDA integrates solid-fuel motors into tactical missiles supplied to Saudi Arabia. MBDA has technology transfer experience in allied nations.",
+      "contact": "MBDA VP Propulsion Technology, International"
+    },
+    {
+      "rank": 3,
+      "name": "Nammo (Nordic Ammunition Company)",
+      "country": "Norway",
+      "type": "Solid Rocket Motor Technology",
+      "rationale": "Nammo develops and manufactures solid rocket motors for European tactical systems. Norwegian technology is non-ITAR and Nammo has international partnerships.",
+      "contact": "Nammo VP International Defence"
+    },
+    {
+      "rank": 4,
+      "name": "Bayern-Chemie / TDW",
+      "country": "Germany",
+      "type": "Energetic Materials Research",
+      "rationale": "Bayern-Chemie is Europe's leading solid-fuel propellant research company. A research partnership for Saudi propellant chemistry capability.",
+      "contact": "Bayern-Chemie VP International Research Partnerships"
+    },
+    {
+      "rank": 5,
+      "name": "ROXEL (French/UK)",
+      "country": "France/UK",
+      "type": "Tactical Rocket Motor Manufacturer",
+      "rationale": "Roxel manufactures solid-fuel motors for European tactical missiles including MICA and VL Mica. Technology transfer discussions are politically feasible.",
+      "contact": "Roxel VP International Industrial Cooperation"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "GADD (General Authority for Defence Development)",
+      "track": "Track 6 — R&D",
+      "current": "Defence R&D programme management; some energetic materials research through KACST",
+      "upgrade": "Establish GADD Propulsion Technology Centre; recruit 20 Saudi propulsion engineers (GADD fellowship in France, Norway); Phase II: solid-fuel chemistry research lab; Phase III: small motor production",
+      "timeline": "Phase II: 36 months to research capability; Phase III: 60+ months to production",
+      "anchor": "GADD + MOD + NSCS"
+    },
+    {
+      "rank": 2,
+      "name": "KACST / Advanced Materials Research",
+      "track": "Track 6 — R&D",
+      "current": "Energetic materials research; polymer chemistry; some combustion research",
+      "upgrade": "GADD-KACST propellant chemistry programme; solid-fuel formulation research; combustion instability research; propulsion test facility",
+      "timeline": "36 months",
+      "anchor": "GADD + KACST"
+    },
+    {
+      "rank": 3,
+      "name": "SABIC Research and Innovation",
+      "track": "Track 6 — R&D",
+      "current": "Polymer chemistry; petrochemical research; materials science",
+      "upgrade": "GADD-SABIC energetic materials precursor research; Saudi-produced propellant binder materials; oxidiser supply chain development",
+      "timeline": "36 months",
+      "anchor": "GADD + SABIC + Aramco"
+    },
+    {
+      "rank": 4,
+      "name": "KFUPM Chemical Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Chemical engineering; combustion research; some energetic materials courses",
+      "upgrade": "GADD-KFUPM propulsion engineering programme; 15 PhD students in propulsion chemistry; first Saudi propulsion engineers pipeline",
+      "timeline": "48 months",
+      "anchor": "GADD + KFUPM + KACST"
+    }
+  ]
+}

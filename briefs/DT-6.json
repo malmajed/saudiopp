@@ -1,0 +1,91 @@
+{
+  "id": "DT-6",
+  "title": "Commercial Membrane Manufacturing Scale-Up",
+  "sector": "WT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product/Service",
+  "investment_range": "$180M – $320M",
+  "entry_mechanism": "Scale-up of DT-1 Phase I pilot to full commercial production volumes with Saudi Water Company long-term offtake",
+  "executive_summary": "Node DT-6 is the commercial scale-up of DT-1's membrane manufacturing pilot. Phase I (DT-1) establishes the JV, qualification, and pilot production line. DT-6 targets full commercial scale: expanding from pilot production of 50,000 membrane elements per year to 500,000+ elements per year — sufficient to serve Saudi Arabia's annual membrane replacement demand and begin regional exports. The scale-up requires additional casting lines, drying equipment, and performance testing infrastructure, anchored by SWCC's long-term membrane supply agreement.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "DuPont Water Solutions",
+      "country": "USA",
+      "type": "Scale-Up Partner",
+      "rationale": "DuPont JV from DT-1 scale-up; technology transfer for high-volume manufacturing.",
+      "contact": "DuPont VP International Manufacturing"
+    },
+    {
+      "rank": 2,
+      "name": "Toray Water Treatment",
+      "country": "Japan",
+      "type": "Scale-Up Partner",
+      "rationale": "Toray JV alternative for commercial-scale production.",
+      "contact": "Toray VP International"
+    },
+    {
+      "rank": 3,
+      "name": "LG Chem Water",
+      "country": "South Korea",
+      "type": "Manufacturing Technology",
+      "rationale": "LG Chem scale-up technology and GCC market access.",
+      "contact": "LG Chem Water VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Nitto Hydranautics",
+      "country": "Japan",
+      "type": "Membrane Manufacturing",
+      "rationale": "Nitto scale-up technology for high-volume membrane production.",
+      "contact": "Nitto VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Koch Membrane Systems",
+      "country": "USA",
+      "type": "Specialty Membrane Scale-Up",
+      "rationale": "Koch specialty membrane scale-up for high-rejection and energy-saving grades.",
+      "contact": "Koch VP International Manufacturing"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC / Polymer Supply",
+      "track": "Track 7 — Venture Client",
+      "current": "DT-1 polymer supply established",
+      "upgrade": "Scale SABIC polymer supply to commercial membrane volumes; dedicated SABIC membrane-grade polymer production line",
+      "timeline": "24 months",
+      "anchor": "SABIC + SWCC"
+    },
+    {
+      "rank": 2,
+      "name": "SWCC",
+      "track": "Track 7 — Venture Client",
+      "current": "DT-1 pilot offtake",
+      "upgrade": "SWCC 20-year membrane supply agreement for full commercial output; price parity guarantee; Saudi membrane national standard",
+      "timeline": "24 months",
+      "anchor": "SWCC + MOE"
+    },
+    {
+      "rank": 3,
+      "name": "GCC Desalination Operators",
+      "track": "Track 7 — Venture Client",
+      "current": "UAE, Qatar, Kuwait, Bahrain operators buying foreign membranes",
+      "upgrade": "Saudi membrane export programme; GCC operator qualification; Saudi manufacturing cost advantage in Gulf market",
+      "timeline": "30 months",
+      "anchor": "SWCC + GCC utilities"
+    },
+    {
+      "rank": 4,
+      "name": "KAUST Membrane Research",
+      "track": "Track 6 — R&D",
+      "current": "Next-gen membrane materials research",
+      "upgrade": "KAUST next-generation membrane materials integration into Saudi commercial production; continuous product improvement pipeline",
+      "timeline": "36 months",
+      "anchor": "SWCC + KAUST + SABIC"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "AU-4",
+  "title": "Polymer and Plastic Body Parts",
+  "sector": "AU",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$40M – $75M",
+  "entry_mechanism": "International automotive plastics manufacturer JV using SABIC specialty polymer compounds",
+  "executive_summary": "Polymer automotive components — bumpers, fascias, fender liners, door panels, trim, and exterior body parts — are injection moulded from SABIC-produced polypropylene and engineering plastic compounds. This is arguably the most directly vertically integrated manufacturing opportunity in the entire Saudi automotive programme: SABIC produces the feedstock material, Saudi manufacturers mould it into vehicle components, and Saudi-assembled vehicles consume the components.\n\nNode AU-4 targets Saudi injection moulding of automotive polymer body parts, beginning with bumper assemblies and exterior trim for Saudi-assembled vehicles. The manufacturing processes (large-part injection moulding, painting, assembly) are well-established and the tooling investment (injection moulds, paint booth) is the primary capital barrier. SABIC's AM-3 specialty polymer compound programme provides the optimised automotive-grade material supply.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Plastic Omnium",
+      "country": "France",
+      "type": "Bumper and Exterior Parts JV",
+      "rationale": "Plastic Omnium is the world's largest automotive exterior parts manufacturer. Non-US technology with active Gulf market interest.",
+      "contact": "Plastic Omnium VP International Manufacturing"
+    },
+    {
+      "rank": 2,
+      "name": "Magna International (Exteriors)",
+      "country": "Canada",
+      "type": "Automotive Plastics Partner",
+      "rationale": "Magna Exteriors produces polymer body parts globally and has established international JVs.",
+      "contact": "Magna Exteriors VP International Manufacturing"
+    },
+    {
+      "rank": 3,
+      "name": "Flex-N-Gate",
+      "country": "USA",
+      "type": "Bumper Manufacturing",
+      "rationale": "Flex-N-Gate is a major OEM bumper system supplier with international manufacturing.",
+      "contact": "Flex-N-Gate VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Yanfeng (Exterior)",
+      "country": "China",
+      "type": "Cost-Competitive Partner",
+      "rationale": "Yanfeng produces automotive exteriors and has emerging market manufacturing JV experience.",
+      "contact": "Yanfeng VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Vibracoustic (Freudenberg)",
+      "country": "Germany",
+      "type": "NVH Polymer Parts",
+      "rationale": "Freudenberg produces automotive NVH components and has active Gulf automotive market engagement.",
+      "contact": "Freudenberg VP International Automotive"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SABIC Automotive Compounds (AM-3 link)",
+      "track": "Track 7 — Venture Client",
+      "current": "Polypropylene and engineering plastic production",
+      "upgrade": "SABIC automotive-grade PP compound for bumper moulding; Plastic Omnium-SABIC compound qualification; direct cascade from AM-3 specialty compounds to AU-4 body parts",
+      "timeline": "24 months",
+      "anchor": "SABIC + NIDLP + Saudi OEMs"
+    },
+    {
+      "rank": 2,
+      "name": "KAEC Automotive Zone",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Automotive cluster development",
+      "upgrade": "Automotive plastics manufacturing zone at KAEC; shared paint booth infrastructure; injection moulding technology centre",
+      "timeline": "18 months",
+      "anchor": "KAEC + NIDLP"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi OEM Assembly",
+      "track": "Track 7 — Venture Client",
+      "current": "Vehicle programme development",
+      "upgrade": "Saudi-assembled vehicle bumper and trim sourcing from Saudi manufacturer; IATF 16949 qualification support; localisation scorecard credit",
+      "timeline": "30 months",
+      "anchor": "NIDLP + Saudi OEMs"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC / Plastics Manufacturing Training",
+      "track": "Track 8 — Human Capital",
+      "current": "Manufacturing technician training",
+      "upgrade": "Injection moulding technician programme; automotive plastics quality training; Saudi polymer parts operator pipeline",
+      "timeline": "18 months",
+      "anchor": "NIDLP + TVTC + SABIC"
+    }
+  ]
+}

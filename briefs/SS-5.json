@@ -1,0 +1,91 @@
+{
+  "id": "SS-5",
+  "title": "Satellite Bus Integration Capability",
+  "sector": "SP",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Product",
+  "investment_range": "$90M – $170M",
+  "entry_mechanism": "Complete small satellite bus integration at Riyadh SSP AIT facility under international partnership",
+  "executive_summary": "Satellite bus integration — assembling all sub-systems (structure, power, propulsion, attitude control, communications, onboard computer) into a complete satellite bus — represents a significant step beyond component manufacturing toward full satellite production capability. Node SS-5 builds directly on SS-1 (structures), SS-2 (power), and SS-3 (ground systems) from Phase I, integrating those capabilities into a Saudi assembly, integration, and test (AIT) facility capable of producing complete small satellite buses.\n\nA satellite bus integration capability transforms Saudi Arabia from a components manufacturer into a satellite producer. The Saudi-integrated bus can be paired with Saudi payloads (EO cameras, communications transponders, quantum payloads from QT-4) to produce complete Saudi-manufactured and Saudi-owned satellites — the full-stack sovereignty model applied to space.\n\nThe global small satellite manufacturing market was valued at $2.8 billion in 2024. A Saudi AIT facility capable of producing 5–10 complete small satellites per year would represent $140–280 million in annual production value and position Saudi Arabia as a regional space manufacturing hub.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "SSTL (Surrey Satellite Technology)",
+      "country": "UK",
+      "type": "Bus Integration Partner and Trainer",
+      "rationale": "SSTL has built small satellites for 20+ nations and has the deepest international satellite integration partnership experience. SSTL's Saudi programme would be among their flagship international partnerships.",
+      "contact": "SSTL VP International Programmes"
+    },
+    {
+      "rank": 2,
+      "name": "Airbus Defence and Space",
+      "country": "France/Germany",
+      "type": "AIT Facility Design and Bus Platform",
+      "rationale": "Airbus has designed AIT facilities for multiple national space programmes and has Saudi programme relationships.",
+      "contact": "Airbus Defence and Space VP Manufacturing Partnerships"
+    },
+    {
+      "rank": 3,
+      "name": "OHB System",
+      "country": "Germany",
+      "type": "Small Satellite Bus Partner",
+      "rationale": "OHB produces small satellite buses and has international manufacturing partnerships.",
+      "contact": "OHB VP International Co-production"
+    },
+    {
+      "rank": 4,
+      "name": "GomSpace",
+      "country": "Denmark",
+      "type": "CubeSat to Small Sat Platform",
+      "rationale": "GomSpace has accessible small satellite platforms and a partnership model suitable for Saudi AIT development.",
+      "contact": "GomSpace VP International Partnerships"
+    },
+    {
+      "rank": 5,
+      "name": "Thales Alenia Space",
+      "country": "France/Italy",
+      "type": "Satellite Integration Partner",
+      "rationale": "Thales Alenia integrates satellites across size classes and has Saudi government relationships through Arabsat.",
+      "contact": "Thales Alenia VP Integration and Test, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "SSA / Riyadh Smart Parcel AIT",
+      "track": "Track 2 — JV Structuring",
+      "current": "Phase I SS-1/SS-2/SS-3 sub-system manufacturing",
+      "upgrade": "Construct Class 10,000 AIT clean room; thermal vacuum chamber; vibration test facility; SSTL integration partnership; 30 Saudi satellite systems engineers",
+      "timeline": "36 months to first integrated bus",
+      "anchor": "SSA + PIF + GAMI"
+    },
+    {
+      "rank": 2,
+      "name": "KACST Space Research",
+      "track": "Track 6 — R&D",
+      "current": "Sub-system research; some payload development",
+      "upgrade": "KACST-SSA bus integration collaboration; Saudi mission-specific payload integration; AIT training for KACST engineers",
+      "timeline": "30 months",
+      "anchor": "SSA + KACST"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco Digital",
+      "track": "Track 7 — Venture Client",
+      "current": "EO satellite data user; technology investor",
+      "upgrade": "Aramco-commissioned Saudi-manufactured EO bus as anchor satellite customer; co-fund Saudi AIT facility in exchange for priority payload slots",
+      "timeline": "36 months",
+      "anchor": "Aramco + SSA + PIF"
+    },
+    {
+      "rank": 4,
+      "name": "KAUST Engineering",
+      "track": "Track 8 — Human Capital",
+      "current": "Aerospace engineering research; CubeSat student projects",
+      "upgrade": "Satellite systems engineering masters programme; AIT internship pipeline; SSTL-KAUST faculty exchange",
+      "timeline": "24 months",
+      "anchor": "SSA + KAUST + SSTL"
+    }
+  ]
+}

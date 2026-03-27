@@ -1,0 +1,91 @@
+{
+  "id": "SS-6",
+  "title": "EO Optical Payload Sub-Assembly",
+  "sector": "SP",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$65M – $120M",
+  "entry_mechanism": "EO payload manufacturer establishing Saudi operations under PSAP with KACST optical research partnership",
+  "executive_summary": "Earth observation optical payloads — the telescope, focal plane array, and signal processing electronics that capture satellite imagery — are among the most technically demanding and commercially valuable components in the small satellite value chain. Saudi Arabia's aspiration to operate a sovereign EO constellation (for national development monitoring, border surveillance, and commercial imagery sales) requires eventual Saudi EO payload capability.\n\nNode SS-6 targets Phase I establishment of sub-assembly capability for EO optical payloads: Saudi technicians assembling and integrating optical sub-components (secondary mirrors, focal plane arrays, electronic interfaces) under the technical supervision of an international EO payload manufacturer, with the goal of progressive Saudi engineering content growth leading to independent payload design in Phase III.\n\nSaudi Arabia's geography — vast territories with consistent, cloud-free atmospheric conditions — makes EO validation testing uniquely advantageous. A Saudi EO payload assembly facility would have the world's best natural test environment immediately adjacent.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Airbus Defence and Space (EO Payloads)",
+      "country": "France/Germany",
+      "type": "EO Payload Technology Partner",
+      "rationale": "Airbus designs and manufactures EO payloads for multiple programmes. Saudi payload assembly under Airbus supervision with progressive technology transfer.",
+      "contact": "Airbus Defence VP EO Payload, International"
+    },
+    {
+      "rank": 2,
+      "name": "Thales Alenia Space (EO)",
+      "country": "France/Italy",
+      "type": "EO Payload Integration",
+      "rationale": "Thales Alenia has EO payload design and manufacturing and Saudi Arabia government relationships.",
+      "contact": "Thales Alenia VP EO Instruments"
+    },
+    {
+      "rank": 3,
+      "name": "SSTL (EO missions)",
+      "country": "UK",
+      "type": "Small Satellite EO Payload",
+      "rationale": "SSTL designs EO payloads for small satellites and has Saudi Arabia engagement.",
+      "contact": "SSTL VP EO Missions"
+    },
+    {
+      "rank": 4,
+      "name": "Spacety (China — depends on policy)",
+      "country": "China",
+      "type": "Commercial EO Payload",
+      "rationale": "Chinese EO payload manufacturers offer competitive pricing and active international partnerships. Policy and technology dependency considerations apply.",
+      "contact": "Spacety VP International"
+    },
+    {
+      "rank": 5,
+      "name": "Leonardo (EO Division)",
+      "country": "Italy",
+      "type": "EO Instruments",
+      "rationale": "Leonardo has EO instrument manufacturing and active Gulf relationships.",
+      "contact": "Leonardo VP EO Instruments, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KACST Optical Technology Research",
+      "track": "Track 6 — R&D",
+      "current": "Optical engineering research; some telescope design; remote sensing research",
+      "upgrade": "GADD-KACST EO payload research programme; focal plane array characterisation; Saudi optical engineer pipeline; KACST as Phase I test facility for Saudi EO sub-assemblies",
+      "timeline": "36 months to Saudi EO sub-assembly capability",
+      "anchor": "SSA + KACST + GADD"
+    },
+    {
+      "rank": 2,
+      "name": "SSA / Riyadh Smart Parcel",
+      "track": "Track 2 — JV Structuring",
+      "current": "No EO payload capability",
+      "upgrade": "EO payload clean room assembly facility; Airbus or SSTL supervised assembly programme; 15 Saudi optical engineers",
+      "timeline": "36 months",
+      "anchor": "SSA + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "KAUST Applied Physics",
+      "track": "Track 6 — R&D",
+      "current": "Photonics research; optical materials; imaging systems",
+      "upgrade": "Space-grade optical system research; focal plane array performance research; KAUST-KACST joint EO payload research",
+      "timeline": "30 months",
+      "anchor": "SSA + KAUST + KACST"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Aramco Geosciences",
+      "track": "Track 7 — Venture Client",
+      "current": "High-resolution EO data user; some optical systems for industrial inspection",
+      "upgrade": "Aramco-funded Saudi EO payload development; specific spectral requirements for oil field monitoring integrated into Saudi EO payload design",
+      "timeline": "36 months",
+      "anchor": "Aramco + SSA"
+    }
+  ]
+}

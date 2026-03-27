@@ -1,0 +1,91 @@
+{
+  "id": "CA-3",
+  "title": "Aircraft Interiors Manufacturing",
+  "sector": "AD",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$28M – $52M",
+  "entry_mechanism": "PSAP Track 1 — International aircraft interiors manufacturer attracted to Saudi operations for Saudi carrier market",
+  "executive_summary": "Aircraft interiors — galleys, overhead bins, passenger seating, cabin sidewall panels, lavatories, and in-flight entertainment system enclosures — are manufactured by a global supply chain that is less technically restricted (no ITAR, no Nadcap requirement for most components) and more commercially accessible than structural aerostructures. Saudi Arabia's expanding commercial aircraft fleet — over 400 aircraft on order between Saudia, Riyadh Air, and Flynas — creates a captive domestic demand for cabin components that currently flows entirely to international manufacturers.\n\nThe aircraft interiors market was valued at $16.8 billion in 2024. Saudi Arabia's domestic refurbishment and line-fit cabin components opportunity is estimated at $150–250 million over the Phase I period. More significantly, Saudi Arabia's position as a growing aviation hub creates export potential: Egyptian, Jordanian, and African carriers with limited access to European and US interior suppliers represent an accessible regional market for a Saudi interiors manufacturer.\n\nThe manufacturing processes involved — fiberglass and composite panel fabrication, aluminium machining, foam and textile assembly, electronics integration — are all accessible to Saudi Arabia's industrial base with standards upgrades. FAA/EASA supplemental type certificates (STCs) for cabin modifications and DACH certification for seat structures are the primary regulatory milestones.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Safran Cabin (formerly Zodiac)",
+      "country": "France",
+      "type": "Aircraft Interiors JV Partner",
+      "rationale": "Safran Cabin is a global leader in aircraft galleys, lavatories, and cabin components. Safran has Saudi Arabia presence and the scale to anchor a Saudi interiors manufacturing JV.",
+      "contact": "Safran Cabin VP International Industrial Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Collins Aerospace Interiors",
+      "country": "USA",
+      "type": "Seating and IFE Technology",
+      "rationale": "Collins supplies aircraft seats and IFE systems and has Saudi Arabia airline relationships. Some ITAR considerations but commercial cabin products are generally accessible.",
+      "contact": "Collins Aerospace VP Cabin Systems, International"
+    },
+    {
+      "rank": 3,
+      "name": "Recaro Aircraft Seating",
+      "country": "Germany",
+      "type": "Seat Manufacturing Partner",
+      "rationale": "Recaro is a leading independent aircraft seat manufacturer. Non-ITAR German technology; DACH certified; active Middle East airline customer relationships.",
+      "contact": "Recaro Aircraft Seating VP International Business"
+    },
+    {
+      "rank": 4,
+      "name": "JAMCO Corporation",
+      "country": "Japan",
+      "type": "Galley and Lavatory Manufacturing",
+      "rationale": "JAMCO manufactures galleys and lavatories for Boeing and has established manufacturing partnerships internationally. Non-ITAR Japanese technology.",
+      "contact": "JAMCO VP International Business Development"
+    },
+    {
+      "rank": 5,
+      "name": "Diehl Aviation",
+      "country": "Germany",
+      "type": "Cabin Components and Systems",
+      "rationale": "Diehl Aviation produces overhead bins, cabin panels, and cabin management systems. Non-ITAR; active Gulf airline relationships.",
+      "contact": "Diehl Aviation VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Saudia Technic / Engineering Division",
+      "track": "Track 2 — JV Structuring",
+      "current": "Cabin refurbishment and modification; some composite panel repair; EASA Part 145 for cabin work",
+      "upgrade": "Establish Safran Cabin JV for galley and lavatory manufacturing; STC for Saudi-designed cabin modifications; EASA DOA (Design Organisation Approval) for cabin design authority",
+      "timeline": "24 months to first Saudi-manufactured cabin component",
+      "anchor": "Saudia + GACA + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "KAEC Industrial Authority",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "Industrial zone; available manufacturing units",
+      "upgrade": "Dedicated aircraft interiors manufacturing cluster at KAEC; shared composite fabrication and finishing infrastructure; GACA/EASA regulatory facilitation",
+      "timeline": "18 months",
+      "anchor": "KAEC + GACA"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Textile and Industrial Companies",
+      "track": "Track 3 — Supplier Development",
+      "current": "Textile manufacturing; foam production; upholstery",
+      "upgrade": "Aircraft-grade flame-retardant textile qualification (FAR 25.853); seat cover and upholstery manufacturing for Saudi carrier cabin refurbishment market",
+      "timeline": "18 months to FAR 25.853 qualification",
+      "anchor": "Saudia + GACA"
+    },
+    {
+      "rank": 4,
+      "name": "TVTC Aviation Academy",
+      "track": "Track 8 — Human Capital",
+      "current": "Aviation technician training; some cabin maintenance training",
+      "upgrade": "Aircraft interiors manufacturing technician programme; fiberglass and composite fabrication training; DACH seat assembly certification",
+      "timeline": "18 months",
+      "anchor": "GACA + Saudia Technic + TVTC"
+    }
+  ]
+}

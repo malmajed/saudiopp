@@ -1,0 +1,91 @@
+{
+  "id": "QT-3",
+  "title": "Government Core QKD Network in Riyadh",
+  "sector": "QT",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Service",
+  "investment_range": "$120M – $220M",
+  "entry_mechanism": "NCA-led programme deploying QKD network connecting Saudi government headquarters in Riyadh",
+  "executive_summary": "Quantum Key Distribution (QKD) networks use quantum physics — specifically the quantum property that measuring a quantum state disturbs it — to distribute encryption keys that are physically impossible to intercept without detection. For Saudi Arabia's most sensitive government communications — royal court, intelligence services, military command, and financial system settlement — QKD offers an encryption paradigm that is secure against both current and future (quantum computer) attacks.\n\nNode QT-3 targets Saudi Arabia's first operational QKD network: a dark fibre QKD backbone connecting the 20 most sensitive Saudi government facilities in Riyadh — Ministry of Interior, Ministry of Defence, SAMA, NCA headquarters, royal palaces, and military command centres. The network uses commercially available QKD systems (ID Quantique or Toshiba) and provides quantum-secure key material for encrypting government communications.\n\nChina has deployed 4,600 km of QKD network infrastructure; South Korea, Japan, and EU nations are deploying national QKD networks. Saudi Arabia's QT-3 programme establishes the Kingdom as the first Arab country with operational government QKD, a significant quantum sovereignty milestone.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "ID Quantique",
+      "country": "Switzerland",
+      "type": "QKD Network Technology Provider",
+      "rationale": "ID Quantique is the global QKD market leader with deployed government networks in South Korea, Switzerland, and Austria. Swiss technology is non-ITAR and ID Quantique has the most mature commercial QKD product line.",
+      "contact": "ID Quantique VP Government, International"
+    },
+    {
+      "rank": 2,
+      "name": "Toshiba Quantum Technology",
+      "country": "UK/Japan",
+      "type": "QKD Technology Partner",
+      "rationale": "Toshiba has the world's highest-performance QKD technology and has deployed networks for UK government and financial sector.",
+      "contact": "Toshiba Quantum VP International Government"
+    },
+    {
+      "rank": 3,
+      "name": "ADVA Optical Networking",
+      "country": "Germany",
+      "type": "QKD Network Integration",
+      "rationale": "ADVA integrates QKD into optical networks and has government QKD network deployments in Europe.",
+      "contact": "ADVA VP Quantum Networks, International"
+    },
+    {
+      "rank": 4,
+      "name": "Rohde & Schwarz",
+      "country": "Germany",
+      "type": "QKD-Encrypted Communications",
+      "rationale": "R&S integrates QKD key material with government encrypted communications systems.",
+      "contact": "R&S VP Quantum-Safe Communications"
+    },
+    {
+      "rank": 5,
+      "name": "QuantumCTek",
+      "country": "China",
+      "type": "QKD Network Technology",
+      "rationale": "QuantumCTek operates the world's largest QKD network. Chinese technology with policy considerations.",
+      "contact": "QuantumCTek VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "NCA (National Cybersecurity Authority)",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "Government communications security; some quantum awareness programme",
+      "upgrade": "NCA leads Saudi QKD network programme; dark fibre procurement in Riyadh government district; ID Quantique deployment; 20 Saudi QKD operators trained; Phase I: Riyadh core; Phase II: Jeddah and Dammam",
+      "timeline": "30 months to operational Riyadh QKD network",
+      "anchor": "NCA + MOD + SAMA"
+    },
+    {
+      "rank": 2,
+      "name": "STC (Saudi Telecom)",
+      "track": "Track 7 — Venture Client",
+      "current": "National fibre backbone; government connectivity provider",
+      "upgrade": "STC dark fibre for QKD network; STC as QKD network operator under NCA oversight; STC quantum-secure connectivity service for government",
+      "timeline": "18 months to dark fibre provisioning",
+      "anchor": "STC + NCA + MCIT"
+    },
+    {
+      "rank": 3,
+      "name": "KACST Quantum Research",
+      "track": "Track 6 — R&D",
+      "current": "Quantum physics research; some quantum optics",
+      "upgrade": "KACST QKD protocol research; quantum channel characterisation for Saudi fibre infrastructure; Saudi quantum network management software research",
+      "timeline": "24 months",
+      "anchor": "NCA + KACST + GADD"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi MOD / Military Communications",
+      "track": "Track 7 — Venture Client",
+      "current": "Classified military communications; some crypto infrastructure",
+      "upgrade": "Military QKD extension from Riyadh government network; quantum-secure military command communications; MOD as Phase I QKD deployment site",
+      "timeline": "30 months",
+      "anchor": "MOD + NCA + GADD"
+    }
+  ]
+}

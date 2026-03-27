@@ -1,0 +1,91 @@
+{
+  "id": "DG-3",
+  "title": "Saudi OT Cybersecurity Platform",
+  "sector": "DG",
+  "phase": "I",
+  "wave": "Wave 1",
+  "type": "Product",
+  "investment_range": "$45M – $85M",
+  "entry_mechanism": "Cyberani (Aramco Digital) commercial spin-out with PSAP-supported international OT security company JV",
+  "executive_summary": "Operational Technology (OT) cybersecurity — protecting the industrial control systems, SCADA platforms, and PLCs that run Saudi Arabia's oil refineries, desalination plants, power grid, and petrochemical facilities — is a critical national security requirement. The 2012 Shamoon attack and subsequent incidents have demonstrated that Saudi Arabia's critical infrastructure is a persistent target for sophisticated adversaries. Today, OT cybersecurity is provided primarily by foreign vendors (Claroty, Dragos, Nozomi Networks) whose products process data about Saudi critical infrastructure on foreign servers.\n\nNode DG-3 targets a Saudi-developed OT cybersecurity platform: asset discovery, network monitoring, threat detection, and incident response tools specifically designed for the OT environments of Saudi Arabia's critical infrastructure sectors. The platform must operate on air-gapped Saudi infrastructure, with Saudi threat intelligence integrated from Aramco and NCA data.\n\nThe global OT cybersecurity market was valued at $20.7 billion in 2024 growing at 23.4% CAGR. Saudi Arabia's critical infrastructure — one of the world's most concentrated — creates a massive domestic market. A Saudi OT cybersecurity platform that proves itself on Aramco and SWCC (water) infrastructure has immediate GCC and MENA export potential.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "Claroty",
+      "country": "USA/Israel",
+      "type": "OT Security Technology Partner",
+      "rationale": "Claroty is the OT security market leader. A technology licensing arrangement for a Saudi-built OT platform is commercially viable.",
+      "contact": "Claroty VP International Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "Dragos",
+      "country": "USA",
+      "type": "ICS Threat Intelligence Partner",
+      "rationale": "Dragos provides ICS-specific threat intelligence. Saudi deployment with Saudi threat intelligence integration.",
+      "contact": "Dragos VP International"
+    },
+    {
+      "rank": 3,
+      "name": "Nozomi Networks",
+      "country": "USA/Switzerland",
+      "type": "OT Visibility Platform",
+      "rationale": "Nozomi provides OT asset visibility and threat detection. Technology licensing for Saudi-operated platform.",
+      "contact": "Nozomi Networks VP International"
+    },
+    {
+      "rank": 4,
+      "name": "Schneider Electric (Cybersecurity)",
+      "country": "France",
+      "type": "Industrial Control System Security",
+      "rationale": "Schneider supplies OT systems to Saudi Arabia's critical infrastructure and has OT cybersecurity capability. Non-US European technology.",
+      "contact": "Schneider Electric VP Cybersecurity, International"
+    },
+    {
+      "rank": 5,
+      "name": "Siemens Energy (OT Security)",
+      "country": "Germany",
+      "type": "Power Grid OT Security",
+      "rationale": "Siemens Energy has OT security for power generation applicable to Saudi SEC and ARAMCO power assets.",
+      "contact": "Siemens Energy VP Cybersecurity, International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "Cyberani (Aramco Digital subsidiary)",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "OT cybersecurity for Aramco infrastructure; proprietary Aramco threat intelligence; deployed across Aramco's industrial control network",
+      "upgrade": "Commercialise Cyberani OT platform; Claroty technology licensing; NCA certification for critical infrastructure; expand to SWCC, SEC, SABIC, and Maaden as national critical infrastructure customers",
+      "timeline": "18 months to commercial platform launch",
+      "anchor": "Aramco + NCA + PIF"
+    },
+    {
+      "rank": 2,
+      "name": "National Cybersecurity Authority",
+      "track": "Track 5 — Regulatory Sandbox",
+      "current": "OT security standards; critical infrastructure protection",
+      "upgrade": "NCA mandatory use policy for Saudi OT cybersecurity platform across critical infrastructure; Saudi OT threat intelligence sharing framework; NCA certification for Saudi OT platform",
+      "timeline": "18 months",
+      "anchor": "NCA + MCIT + MOE"
+    },
+    {
+      "rank": 3,
+      "name": "KACST / Cybersecurity Research",
+      "track": "Track 6 — R&D",
+      "current": "Cybersecurity research; some OT protocol research",
+      "upgrade": "GADD-KACST OT security research programme; Saudi-specific industrial protocol analysis; ICS attack simulation for Saudi critical infrastructure",
+      "timeline": "24 months",
+      "anchor": "NCA + KACST + Aramco"
+    },
+    {
+      "rank": 4,
+      "name": "Saudi Electricity Company (SEC)",
+      "track": "Track 7 — Venture Client",
+      "current": "Power grid OT systems; limited OT cybersecurity; foreign vendor dependent",
+      "upgrade": "SEC as anchor customer for Saudi OT platform; SEC-Cyberani deployment; Saudi power grid threat intelligence contribution to national OT threat database",
+      "timeline": "18 months",
+      "anchor": "SEC + NCA + Cyberani"
+    }
+  ]
+}

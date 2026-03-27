@@ -1,0 +1,91 @@
+{
+  "id": "QT-4",
+  "title": "Saudi Quantum Research Access Program",
+  "sector": "QT",
+  "phase": "II",
+  "wave": "Wave 2",
+  "type": "Service",
+  "investment_range": "$55M – $100M",
+  "entry_mechanism": "KAUST-SDAIA joint programme with IBM Quantum and AWS Braket cloud access plus domestic quantum hardware procurement",
+  "executive_summary": "Quantum computing — using quantum mechanical phenomena (superposition, entanglement) to perform certain calculations exponentially faster than classical computers — is the technology likely to have the most transformative impact on materials science, drug discovery, optimization, and cryptography over the next 10–20 years. Saudi Arabia currently has zero domestic quantum computing capability — no quantum hardware, no quantum software engineers, and no quantum research programme of significance.\n\nNode QT-4 targets Saudi Arabia's quantum computing access programme: cloud access to IBM Quantum and AWS Braket quantum systems for Saudi researchers, combined with the procurement of one small-scale domestic quantum computer (5–10 qubit trapped ion or superconducting system) as a research and training platform. The programme creates Saudi quantum computing researchers, quantum algorithm engineers, and the institutional knowledge base for Saudi Arabia to participate in the quantum computing era.\n\nThe global quantum computing market was valued at $1.3 billion in 2024 growing at 32.1% CAGR. Saudi Arabia's quantum research access programme is the necessary first step in a 10-year journey toward Saudi quantum computing capability — the alternative is importing quantum computing services as a permanent dependency.",
+  "companies": [
+    {
+      "rank": 1,
+      "name": "IBM Quantum",
+      "country": "USA",
+      "type": "Quantum Access Partner",
+      "rationale": "IBM has the world's largest gate-based quantum computing programme and an established government access partnership model.",
+      "contact": "IBM Quantum VP International Partnerships"
+    },
+    {
+      "rank": 2,
+      "name": "IonQ",
+      "country": "USA",
+      "type": "Quantum Computing Hardware",
+      "rationale": "IonQ produces the most accurate trapped-ion quantum computers and has government access programmes.",
+      "contact": "IonQ VP Government International"
+    },
+    {
+      "rank": 3,
+      "name": "Quantinuum (Honeywell/Cambridge Quantum)",
+      "country": "USA/UK",
+      "type": "Quantum Computing and Software",
+      "rationale": "Quantinuum combines hardware and software with the most capable gate-based quantum computers available.",
+      "contact": "Quantinuum VP Government International"
+    },
+    {
+      "rank": 4,
+      "name": "AWS Braket",
+      "country": "USA",
+      "type": "Quantum Cloud Access",
+      "rationale": "AWS Braket provides cloud access to multiple quantum hardware platforms with Saudi Arabia AWS region deployment.",
+      "contact": "AWS VP Quantum, International"
+    },
+    {
+      "rank": 5,
+      "name": "Alice & Bob (France)",
+      "country": "France",
+      "type": "Quantum Computing Hardware",
+      "rationale": "Alice & Bob is building fault-tolerant quantum computers using cat qubits. French non-ITAR technology with government partnership model.",
+      "contact": "Alice & Bob VP International"
+    }
+  ],
+  "partners": [
+    {
+      "rank": 1,
+      "name": "KAUST Quantum Science",
+      "track": "Track 6 — R&D",
+      "current": "Quantum physics research; some quantum algorithm research",
+      "upgrade": "KAUST IBM Quantum premium partnership; KAUST quantum algorithm research programme; 30 Saudi quantum computing researchers; first Saudi quantum computing publications",
+      "timeline": "18 months to active research programme",
+      "anchor": "KAUST + SDAIA + GADD"
+    },
+    {
+      "rank": 2,
+      "name": "SDAIA / National AI and Quantum",
+      "track": "Track 9 — National Champion Co-Creation",
+      "current": "National AI strategy; some quantum awareness",
+      "upgrade": "Saudi National Quantum Strategy implementation; quantum access programme funding; SDAIA quantum-AI convergence research programme",
+      "timeline": "18 months to programme launch",
+      "anchor": "SDAIA + KAUST + PIF"
+    },
+    {
+      "rank": 3,
+      "name": "Saudi Aramco Research",
+      "track": "Track 7 — Venture Client",
+      "current": "HPC for reservoir simulation; some quantum chemistry awareness",
+      "upgrade": "Aramco quantum chemistry research for novel catalyst discovery; quantum optimization for supply chain; Aramco as commercial anchor for Saudi quantum research",
+      "timeline": "24 months",
+      "anchor": "Aramco + KAUST + SDAIA"
+    },
+    {
+      "rank": 4,
+      "name": "KACST Quantum Research",
+      "track": "Track 6 — R&D",
+      "current": "Some quantum physics research; limited quantum computing",
+      "upgrade": "KACST domestic quantum computer procurement (IonQ or Quantinuum); Saudi quantum hardware research; quantum error correction research programme",
+      "timeline": "30 months to domestic hardware",
+      "anchor": "GADD + KACST + SDAIA"
+    }
+  ]
+}
